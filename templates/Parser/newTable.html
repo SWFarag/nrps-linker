@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block heading %} {{super()}} {% endblock %}
+
+
+{% block content %}
+
+<div class="row">
+    <div class="col-sm-12"><h2>{{title}}</h2></div>
+</div><br>
+<div class="row page">
+    <div class="col-sm-12">
+       <h4>Export Data:
+       <a href="{{ url_for('download_tab') }}" class="glyphicon-bullhorn"><img src="https://demos.w3lessons.info/assets/images/icons/csv.png" width="24"> CSV</a>
+       </h4>
+    </div>
+ </div><br>
+<div class="row">
+    <div class="col-sm-12">
+        <div class=page>
+            {{table|safe}}
+        </div>
+    </div>
+</div>
+<div class="row">
+        <div class = "col-sm-6">
+            <h2>Parsing Summary</h2>
+            <table class="table table-striped ">
+            <tr>
+                <th> Number of files processed</th>
+                <td>{{num_files }}</td>
+            </tr>
+            <tr>
+                <th>Number of linkers retrieved</th>
+                <td>{{num_linkers }}</td>
+            </tr>
+            <tr>
+                <th>Number of files with no linkers</th>
+                <td>{{num_filesNoATCA}}</td>
+            </tr>
+        </table>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block footer %} {{super()}} {% endblock %}

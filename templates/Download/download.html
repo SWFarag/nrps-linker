@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block heading %} {{super()}} {% endblock %}
+
+
+{% block content %}
+
+<div class="container-fluid">
+<div class="row">
+    <div class="col-sm-5">
+      <h2>Downloadable Files:</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+        <h4>MIBiG Data:</h4>
+        <div class="list-group">
+        <a href="{{url_for( "download_MIBiG1") }}" class="list-group-item">
+          <h4 class="list-group-item-heading">MIBiG Inter-Modular Linkers</h4>
+          <p class="list-group-item-text" style="color:blue;">MIBiG_IMLs1</p>
+        </a>
+        <a href="{{url_for( "download_MIBiG2") }}" class="list-group-item">
+          <h4 class="list-group-item-heading">MIBiG Inter-Modular Linkers (including nrp)</h4>
+          <p class="list-group-item-text" style="color:blue;">MIBiG_IMLs2</p>
+        </a>
+        <a href="{{url_for( "download_zip")}}" class="list-group-item">
+          <h4 class="list-group-item-heading">All NRP MIBiG Biosynthetic Gene clusters</h4>
+          <p class="list-group-item-text" style="color:blue;">MIBiG_BGCs</p>
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-6">
+        <h4>NCBI Data:</h4>
+        <div class="list-group">
+        <a href="{{url_for("download_NCBI1") }}" class="list-group-item">
+          <h4 class="list-group-item-heading">NCBI Bacteria RefSeq Inter-Modular Linkers</h4>
+          <p class="list-group-item-text" style="color:blue;">NCBI_IMLs1</p>
+        </a>
+        <a href="{{url_for("download_NCBI2") }}" class="list-group-item">
+          <h4 class="list-group-item-heading">NCBI Bacteria RefSeq Inter-Modular Linkers (including nrp)</h4>
+          <p class="list-group-item-text" style="color:blue;">NCBI_IMLs2</p>
+        </a>
+        <a href="{{url_for("download_NCBI3") }}" class="list-group-item">
+          <h4 class="list-group-item-heading">List of NCBI Bacterial RefSeq Genomes</h4>
+          <p class="list-group-item-text" style="color:blue;">NCBI_genomes_list</p>
+        </a>
+      </div>
+    </div>
+</div>
+</div>
+
+{% endblock %}
+
+
+
+{% block footer %} {{super()}} {% endblock %}
+
+

@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block heading %} {{super()}} {% endblock %}
+
+
+{% block content %}
+
+<div class="container-fluid">
+<div class="row">
+    <div class="col-sm-5">
+        <h2>Example of an Upload of File</h2>
+        <div class="list-group">
+            <a href="{{url_for('getDaptomycin') }}" class="list-group-item">
+      <h4 class="list-group-item-heading">Daptomycin Biosynthetic Gene Cluster</h4>
+      <p class="list-group-item-text" style="color:blue;">Daptomycin_BGC</p>
+    </a>
+            <a href="{{url_for('getVancomycin') }}" class="list-group-item">
+                <h4 class="list-group-item-heading">Vancomycin Biosynthetic Gene Cluster</h4>
+                <p class="list-group-item-text" style="color:blue;">Vancomycin_BGC</p>
+            </a>
+        </div>
+    </div>
+</div>
+</div>
+
+{% endblock %}
+
+
+
+{% block footer %} {{super()}} {% endblock %}
+
+

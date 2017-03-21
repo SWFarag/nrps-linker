@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block heading %} {{super()}} {% endblock %}
+
+
+{% block content %}
+
+<div class="row">
+    <div class="col-sm-12"><h2>{{title}}</h2></div>
+</div>
+<div class="row page">
+    <div class="col-sm-12">
+       <h6>Export Data:
+       <a href="#" class="glyphicon-bullhorn" onclick="$('table').tableExport({type:'csv',escape:'false'});"><img src="https://demos.w3lessons.info/assets/images/icons/csv.png" width="24"> CSV</a>
+       <a href="#" class="glyphicon-bullhorn" onclick="$('table').tableExport({type:'json',escape:'false'});"><img src="https://demos.w3lessons.info/assets/images/icons/json.png" width="24"> JSON</a>
+       <a href="#" class="glyphicon-bullhorn" onclick="$('table').tableExport({type:'excel',escape:'false'});"><img src="https://demos.w3lessons.info/assets/images/icons/xls.png" width="24"> XLS</a>
+       </h6>
+    </div>
+ </div><br>
+<div class="row">
+    <div class="col-sm-12">
+        <div class=page>
+            {{table|safe}}
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block footer %} {{super()}} {% endblock %}

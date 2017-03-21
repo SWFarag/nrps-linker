@@ -1,0 +1,294 @@
+
+{% extends 'base.html' %}
+
+{% block heading %} {{super()}} {% endblock %}
+
+
+
+{% block content %}
+{# ############# This is the upper Part ##############}
+<div class="row">
+
+{#             ######### The left panel ##############}
+
+   <div class="col-sm-6 header">
+        <h2 class="text-muted">1) Compare linkers within a single spieces</h2>
+        <form name="form1"  method='post' action={{ url_for('getNet1') }}>
+            <label for="db">Choose your database:</label>
+            <select required  name="db">
+                <option value="">none</option>
+                    {% for l in db_a %}
+                        <option value={{ l }}>{{l}}</option>
+                    {% endfor %}
+            </select>
+            <label for="species">Choose spieces:</label>
+            <select required name="species">
+                <option value="">none</option>
+                    {% for sp in species_a %}
+                        <option value={{ sp }}>{{sp}}</option>
+                    {% endfor %}
+            </select>
+            <div align="left"><input type="submit" onclick="loading22()"/></div>
+        </form>
+        <br>
+        <div class="warningsBlock"> {% block warning1 %} {% endblock %} </div>
+    </div>
+{#             ######### The right panel ##############}
+
+     <div class="col-sm-6 header" >
+        <h2 class="text-muted">2) Compare linkers across >= 2 spieces</h2>
+        <form name="form2"  method='post' action={{ url_for('getNet2') }}>
+            <label for="db2">Choose your database:</label>
+            <select required name="db2">
+                <option value="">none</option>
+                    {% for l in db_a %}
+                        <option value={{ l }}>{{l}}</option>
+                    {% endfor %}
+            </select>
+            <label for="species2">Choose spieces:</label>
+            <select required multiple name="species2">
+                    {% for sp in species_a %}
+                        <option value={{ sp }}>{{sp}}</option>
+                    {% endfor %}
+            </select>
+            <div align="left"><input type="submit" onclick="loading22()"/></div>
+        </form>
+        <div class="warningsBlock"> {% block warning2 %} {% endblock %} </div>
+    </div>
+
+</div>
+    <hr>
+    <hr>
+{# ############# This is the bottom Part ##############}
+<div class="row">
+
+{#             ######### The left panel ##############}
+
+     <div class="col-sm-6 header" >
+        <h2 class="text-muted">3) Compare a single linker across >= 2 spieces</h2>
+        <form name="form3"  method='post' action={{ url_for('getNet3') }}>
+            <label for="db3">Choose your database:</label>
+            <select required  name="db3">
+                <option value="">none</option>
+                    {% for l in db_a %}
+                        <option value={{ l }}>{{l}}</option>
+                    {% endfor %}
+            </select>
+
+            <label for="a1">Choose A1:</label>
+            <select required  name="a1">
+                <option value="">none</option>
+                    {% for a in a1 %}
+                        <option value={{ a }}>{{a}}</option>
+                    {% endfor %}
+            </select>
+
+            <label for="a2">Choose A2:</label>
+            <select required  name="a2">
+                <option value="">none</option>
+                    {% for a in a2 %}
+                        <option value={{ a }}>{{a}}</option>
+                    {% endfor %}
+            </select>
+
+            <label for="species3">Choose spieces:</label>
+            <select multiple required name="species3">
+                    {% for sp in species_a %}
+                        <option value={{ sp }}>{{sp}}</option>
+                    {% endfor %}
+            </select>
+            <div align="left"><input type="submit" onclick="loading22()"/></div>
+        </form>
+         <div class="warningsBlock">
+                {% block warning3 %} {% endblock %}
+         </div>
+    </div>
+{#             ######### The right panel ##############}
+
+    <div class="col-sm-6 header" >
+        <h2 class="text-muted">4) Compare >=2 linkers across >= 2 spieces</h2>
+        <form name="form4"  method='post' action={{ url_for('getNet4') }}>
+            <label for="db4">Choose your database:</label>
+            <select required  name="db4">
+                <option value="">none</option>
+                    {% for l in db_a %}
+                        <option value={{ l }}>{{l}}</option>
+                    {% endfor %}
+            </select>
+
+            <label for="a1">Choose A1:</label>
+            <select multiple required  name="a1">
+                <option value="">none</option>
+                    {% for a in a1_a %}
+                        <option value={{ a }}>{{a}}</option>
+                    {% endfor %}
+            </select>
+
+            <label for="a2">Choose A2:</label>
+            <select multiple required  name="a2">
+                <option value="">none</option>
+                    {% for a in a2_a %}
+                        <option value={{ a }}>{{a}}</option>
+                    {% endfor %}
+            </select>
+
+            <label for="species4">Choose spieces:</label>
+            <select multiple required name="species4">
+                    {% for sp in species_a %}
+                        <option value={{ sp }}>{{sp}}</option>
+                    {% endfor %}
+            </select>
+            <div align="left"><input type="submit" onclick="loading22()"/></div>
+        </form>
+         <div class="warningsBlock">
+                {% block warning4 %} {% endblock %}
+         </div>
+    </div>
+</div>
+{% endblock %}
+
+{# ####################################################################### ALternative ################################################################}
+
+{#{% block content %}
+
+     #}{# ######### Panel 1 ##############}{#
+<div class="row">
+    <div class="col-sm-12 header">
+        <h2 class="text-muted">1) Compare linkers within a single spieces</h2>
+        <form name="form1"  method='post' action={{ url_for('getNet1') }}>
+            <label for="db">Choose your database:</label>
+            <select required  name="db">
+                <option value="">none</option>
+                    {% for l in db_a %}
+                        <option value={{ l }}>{{l}}</option>
+                    {% endfor %}
+            </select>
+            <label for="species">Choose spieces:</label>
+            <select required name="species">
+                <option value="">none</option>
+                    {% for sp in species_a %}
+                        <option value={{ sp }}>{{sp}}</option>
+                    {% endfor %}
+            </select>
+            <div align="left"><input type="submit"/></div>
+        </form>
+        <br>
+        <div class="warningsBlock"> {% block warning1 %} {% endblock %} </div>
+    </div>
+</div>
+ <hr>
+    #}{# ######### Panel 2 ##############}{#
+<div class="row">
+    <div class="col-sm-12 header" >
+        <h2 class="text-muted">2) Compare linkers across >= 2 spieces</h2>
+        <form name="form2"  method='post' action={{ url_for('getNet2') }}>
+            <label for="db2">Choose your database:</label>
+            <select required name="db2">
+                <option value="">none</option>
+                    {% for l in db_a %}
+                        <option value={{ l }}>{{l}}</option>
+                    {% endfor %}
+            </select>
+            <label for="species2">Choose spieces:</label>
+            <select required multiple name="species2">
+                    {% for sp in species_a %}
+                        <option value={{ sp }}>{{sp}}</option>
+                    {% endfor %}
+            </select>
+            <div align="left"><input type="submit"/></div>
+        </form>
+        <div class="warningsBlock"> {% block warning2 %} {% endblock %} </div>
+    </div>
+</div>
+<hr>
+#}{# ######### Panel 3 ##############}{#
+<div class="row">
+    <div class="col-sm-12 header" >
+        <h2 class="text-muted">3) Compare a single linker across >= 2 spieces</h2>
+        <form name="form3"  method='post' action={{ url_for('getNet3') }}>
+            <label for="db3">Choose your database:</label>
+            <select required  name="db3">
+                <option value="">none</option>
+                    {% for l in db_a %}
+                        <option value={{ l }}>{{l}}</option>
+                    {% endfor %}
+            </select>
+
+            <label for="a1">Choose A1:</label>
+            <select required  name="a1">
+                <option value="">none</option>
+                    {% for a in a1 %}
+                        <option value={{ a }}>{{a}}</option>
+                    {% endfor %}
+            </select>
+
+            <label for="a2">Choose A2:</label>
+            <select required  name="a2">
+                <option value="">none</option>
+                    {% for a in a2 %}
+                        <option value={{ a }}>{{a}}</option>
+                    {% endfor %}
+            </select>
+
+            <label for="species3">Choose spieces:</label>
+            <select multiple required name="species3">
+                    {% for sp in species_a %}
+                        <option value={{ sp }}>{{sp}}</option>
+                    {% endfor %}
+            </select>
+            <div align="left"><input type="submit"/></div>
+        </form>
+         <div class="warningsBlock">
+                {% block warning3 %} {% endblock %}
+         </div>
+    </div>
+</div>
+ <hr>
+    #}{# ######### Panel 4 ##############}{#
+<div class="row">
+    <div class="col-sm-12 header" >
+        <h2 class="text-muted">4) Compare >=2 linkers across >= 2 spieces</h2>
+        <form name="form4"  method='post' action={{ url_for('getNet4') }}>
+            <label for="db4">Choose your database:</label>
+            <select required  name="db4">
+                <option value="">none</option>
+                    {% for l in db_a %}
+                        <option value={{ l }}>{{l}}</option>
+                    {% endfor %}
+            </select>
+
+            <label for="a1">Choose A1:</label>
+            <select multiple required  name="a1">
+                <option value="">none</option>
+                    {% for a in a1_a %}
+                        <option value={{ a }}>{{a}}</option>
+                    {% endfor %}
+            </select>
+
+            <label for="a2">Choose A2:</label>
+            <select multiple required  name="a2">
+                <option value="">none</option>
+                    {% for a in a2_a %}
+                        <option value={{ a }}>{{a}}</option>
+                    {% endfor %}
+            </select>
+
+            <label for="species4">Choose spieces:</label>
+            <select multiple required name="species4">
+                    {% for sp in species_a %}
+                        <option value={{ sp }}>{{sp}}</option>
+                    {% endfor %}
+            </select>
+            <div align="left"><input type="submit"/></div>
+        </form>
+         <div class="warningsBlock">
+                {% block warning4 %} {% endblock %}
+         </div>
+    </div>
+</div>
+{% endblock %}#}
+
+
+{% block footer %} {{super()}} {% endblock %}
+
+

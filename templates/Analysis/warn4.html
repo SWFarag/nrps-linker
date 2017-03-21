@@ -1,0 +1,7 @@
+ {% extends 'Analysis/analysis.html' %}
+
+ {% block warning4 %}
+     <div class="alert alert-warning">
+         <strong>Info!</strong> {{ "The database [ " ~ db ~ " ] does not contain the following combinations of linkers within any of the following species " ~ species }}.
+     </div>
+{% endblock %}

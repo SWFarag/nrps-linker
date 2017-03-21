@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block heading %} {{super()}} {% endblock %}
+
+
+{% block content %}
+    <div id="atca_units" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12" >
+                <div class="header">
+                    <h2 class="text-muted">Upload AntiSMASH NRP Biosynthetic Gene Cluster Files:</h2>
+                    <h5 class="text-muted"> Please make sure the uploaded file(s) are genebank files with the following extension .gbk:</h5>
+                    <h5 class="text-muted"> if not sure, please
+                        <a href="{{ url_for('getuploadExamples') }}"> check here:</a>
+                    </h5>
+                </div>
+                <br>
+            </div>
+
+            <div class="col-sm-12">
+                <form style="font-size: large" action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data">
+                    <input type="file" multiple="" name="file[]" class="span3" /><br />
+                    <input type="submit" value="Upload"  class="span2" onclick="loading22()">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}
+
+{% block footer %} {{super()}} {% endblock %}

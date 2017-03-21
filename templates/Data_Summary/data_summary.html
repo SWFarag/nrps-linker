@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block heading %} {{super()}} {% endblock %}
+
+
+{% block content %}
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class = "col-sm-6">
+            <h2>MIBiG Linkers</h2>
+            <table class="table table-striped ">
+            <tr>
+                <th>MIBiG Non-Ribosomal Peptide Biosynthetic Gene Clusters</th>
+                <td><a href="https://mibig.secondarymetabolites.org/repository.html">408</a></td>
+                <td><a href="https://mibig.secondarymetabolites.org/repository.html">408</a></td>
+            </tr>
+            <tr>
+                <th>Inter-Modular Linkers</th>
+                <td><a href="{{ url_for('getMIBiGLinkers') }}">573</a></td>
+                <td>885*</td>
+            </tr>
+            <tr>
+                <th>Unique Inter-Modular Linkers</th>
+                <td>557</td>
+                <td>868*</td>
+            </tr>
+            <tr>
+                <th>Unique Adenylation Domain Substrate Pairs</th>
+                <td>177</td>
+                <td>219*</td>
+            </tr>
+        </table>
+        </div>
+    </div>
+    <div class="row">
+         <div class = "col-sm-6">
+            <h2>NCBI Linkers</h2>
+            <table class="table table-striped ">
+                <tr>
+                    <th>NCBI RefSeq Bacterial Genomes</th>
+                    <td><a href="ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/bacteria/">39205</a></td>
+                    <td><a href="ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/bacteria/">39205</a></td>
+                </tr>
+                <tr>
+                    <th>Non-Ribosomal Peptide Biosynthetic Gene Clusters</th>
+                    <td>51810</td>
+                    <td>51810</td>
+                </tr>
+                <tr>
+                    <th>Inter-Modular Linkers</th>
+                    <td><a href="{{ url_for('getNCBILinkers') }}">16546</a></td>
+                    <td>37665*</td>
+                </tr>
+
+                <tr>
+                    <th>Unique Inter-Modular Linkers</th>
+                    <td>8040</td>
+                    <td>17265*</td>
+                </tr>
+
+                <tr>
+                    <th>Unique Adenylation Domain Substrate Pairs</th>
+                    <td>346</td>
+                    <td>392*</td>
+                </tr>
+            </table>
+         </div>
+    </div>
+    <div class="row">
+         <div class = "col-sm-6">
+             <p>
+                 * NRPS-Linker processes non-ribosomal peptide biosynthetic gene clusters after being identified using the <a href="https://antismash.secondarymetabolites.org/#!/start">AntiSMASH tool</a>.
+                 In the process of scanning and identifying NRP BGCs, AntiSMASH uses three algorithms to predict the specificities of NRPS adenylation domain
+                 (<a href="https://www.ncbi.nlm.nih.gov/pubmed/17400247">Minowa .et.al</a>, <a href="https://www.ncbi.nlm.nih.gov/pubmed/21558170">Roettig, M et.al</a>,
+                 <a href="https://www.ncbi.nlm.nih.gov/pubmed/10421756">Stachelhaus et.al</a>). If all three algorithms agree on the same predicated subtrate then it will be used as the substrate of choice by AntiSMASH,
+                 otehrwise, AntiSMASH uses the term 'nrp' for all unidentified NRPS substrates. Hence, there are two columns of IMLs one were 'nrp' containing IMLs are excluded and the other one were they are included.
+             </p>
+         </div>
+    </div>
+</div>
+
+{% endblock %}
+
+
+
+{% block footer %} {{super()}} {% endblock %}
+
+

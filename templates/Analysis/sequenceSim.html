@@ -1,0 +1,40 @@
+
+{% extends 'base.html' %}
+
+{% block heading %} {{super()}} {% endblock %}
+
+
+{% block content %}
+{#    <div class="row">
+        <div class="col-sm-12">
+            <h2 class="text-muted">Sequence Similarity search</h2>
+            <form name="formSeq"  method='post' action={{ url_for('getseqSimRes') }}>
+                <label for="querySeq"> Input your sequence</label>
+                <input required  name="querySeq" type="text" id="querySeq"> </input>
+                <label for="th">Similarity threshold</label>
+                <input required  name="th" type="text" id="th"> </input>
+                <div align="left"><input type="submit" onclick="loading22()"/></div>
+            </form>
+        </div>
+    </div>#}
+ <div class="container">
+  <h2 class="text-muted">Sequence Similarity search</h2>
+  <form name="formSeq"  method='post' action={{ url_for('getseqSimRes') }}>
+    <div class="form-group">
+        <div class="col-xs-6">
+        <label for="querySeq"> Input your sequence</label>
+        <input required  name="querySeq" type="text" class="form-control"> </input>
+      </div>
+        <div class="col-xs-2">
+            <label for="th">Similarity threshold</label>
+            <input required  name="th" type="text" class="form-control"> </input>
+        </div>
+    </div>
+      <br>
+     <button type="submit" class="btn btn-success" onclick="loading22()">Submit</button>
+  </form>
+</div>
+{% endblock %}
+
+
+{% block footer %} {{super()}} {% endblock %}

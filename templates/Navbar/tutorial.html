@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+
+{% block heading %} {{super()}} {% endblock %}
+
+
+{% block content %}
+
+<div id="tutorial" class="container-fluid">
+    <div class="row">
+        <div class = "col-lg-12" >
+            <div class="row">
+                <div class = "col-lg-12" >
+                    <h3>NRPS-Linker Workflow:</h3>
+                    <ol>
+                        <li>
+                            <p>Download all known NRP biosynthetic gene clusters from <a href="https://mibig.secondarymetabolites.org"> the MIBiG repository. </a></p>
+                        </li>
+                        <li>
+                            <p>Download the whole <a href="ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/bacteria/"> NCBI RefSeq Bacterial genomes.</a></p>
+                        </li>
+                        <li>
+                            <p>
+                                Each database was scanned for NRP gene clusters using <a href="https://antismash.secondarymetabolites.org/#!/start"> the AntiSMASH tool</a>, that
+                                allows rapid genome-wide identification, annotation and analysis of
+                                secondary metabolite biosynthesis gene clusters in bacterial and fungal genomes.
+                            </p>
+                        </li>
+                        <li>
+                            <p> Run <a href="{{ url_for('doParse') }}"> NRPS-Linker </a> on all identified NRP gene clusters, extract all possible IMLs and update our IMLs database</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+        <div class = "col-lg-10" align="center" >
+            <img src="/static/images/IML_AIMS_1.png" class="img-rounded" alt="network" height="600" width="1200" >
+        </div>
+    </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class = "col-lg-12" >
+            <div class="row">
+                <div class = "col-lg-12" >
+                    <h3> BGC Parser</h3>
+                    <p>
+                       <strong>Aim:</strong> BGC Parser is an algorithm that extracts IMLs from NRP biosynthetic gene clusters.
+                    </p>
+                    <p>
+                       <strong> Input:</strong> The user should a least upload one NRP biosynthetic gene cluster in Genbank format, please check
+                        <a href="{{ url_for('getuploadExamples') }}"> example of Uploaded files</a></li>.
+                    </p>
+                    <p>
+                       <strong> Output:</strong>
+                         <ol>
+                        <li>A table of all extracted linkers. An IML will be presented in the following format A1-Linker-A2:
+                             <ul>
+                                <br>
+                                <li><b>A1:</b> The adenylation substrate of module one.</li>
+                                <li> <b>Linker:</b> The inter-modular linker between two successive modules</li>
+                                <li><b>A2:</b> The adenylation substrate of module two</li>
+                             </ul>
+                        <br>
+                        <li>An extraction summary: which point out to how many files got processed, how many linkers were retrieved and how many clusters lack IMLs</li>
+                    </ol>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+                <div class = "col-lg-12" >
+                    <h3> IMLs Database</h3>
+                    <p>
+                       IMLs database consist of two Libraries:
+                        <ol>
+                            <li><strong>MIBiG IMLs library:</strong> which contains more than 880 inter-modular linkers retrieved from 408 non-ribosomal peptide BGCs.</li>
+                            <li><strong>NCBI IMLs library:</strong> which contains more than 37600 inter-modular linkers retrieved from 51810 non-ribosomal peptide BGCs.</li>
+                        </ol>
+                        Both libraries share the following columns:
+                        <ul>
+                            <li><b>A1:</b> The adenylation substrate of module one.</li>
+                            <li> <b>Linker:</b> The inter-modular linker between two successive modules</li>
+                            <li><b>A2:</b> The adenylation substrate of module two</li>
+                            <li><b>Length:</b> The length of the linker</li>
+                            <li><b>Organism_name:</b> The name of the organism the BGC belongs to.</li>
+                        </ul>
+                        Both libraries are <strong>searchable</strong> and the data can be <strong>sorted</strong> in multiple ways. Moreover, if user are interested in a particular section of the table, they get
+                        to export that section as a CSV file.
+                    </p>
+                </div>
+            </div>
+    <br>
+    <div class="row">
+                <div class = "col-lg-12" >
+                    <h3> Downloads</h3>
+                    <p>
+                       Users get to download the entire database locally on their machines.
+                    </p>
+                </div>
+            </div>
+</div>
+
+{% endblock %}
+
+
+
+{% block footer %} {{super()}} {% endblock %}
+
+

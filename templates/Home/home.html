@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+
+{% block heading %} {{super()}} {% endblock %}
+
+
+{% block content %}
+
+<div id="homePage" class="container-fluid">
+    <div class="row">
+        <div class = "col-lg-12" >
+            <div class="row">
+                <div class = "col-lg-12" >
+                    <h3>What is a Non-Ribosomal Peptide?</h3>
+                    <p>
+                       Non-ribosomal peptides(NRPs) are secondary metabolites produced by bacteria and fungi that could find many clinical applications,
+                        mainly antibiotics (e.g. Daptomycin, Vancomycin), but also anticancer (e.g. Bleomycin), and immunosuppressants (e.g. Ciclosporin).
+                        NRPs are synthesized by a cluster of enzymes known as non-ribosomal peptide synthetases (NRPSs). NRPSs are exceptional mega-enzymes,
+                        with multi-modular catalysts that work together to assemble highly complex, bioactive secondary metabolites of peptide origin (<a href="http://pubs.acs.org/doi/abs/10.1021/mp700137g">Elizabeth A Felnage et.al</a>).
+                        Each NRPS subunit is composed of modules. Each module incorporates one monomer into the NRP product. Each module can be subdivided into catalytic domains.
+                        The four catalytic domains that are found on most NRPSs are Adenylation (A) domain, Thiolation or peptidyl carrier protein (PCP) domain,
+                        Condensation (C) domain, Thioesterase (TE) domain. The A domain is responsible for selecting the substrate and activating it,
+                        a small peptidyl carrier protein (PCP) domain carries the activated amino acid and propagates the growing peptide chain,
+                        and a condensation (C) domain links amino acids of two adjacent modules via a condensation reaction. An example of a NRP: Tyrocidine Biosynthetic gene cluster (fig.1).
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                 <div class = "col-lg-5" >
+                     <figure>
+                         <a href="https://commons.wikimedia.org/wiki/File%3ATyrocidine_domain_organization.png">
+                         <img  width="600" alt="Tyrocidine domain organization" src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Tyrocidine_domain_organization.png"/></a>
+                         <br><br>
+                         <figcaption style="font-size: medium"><b>Fig.1</b> - Biosynthetic gene cluster of Tyrocidine.</figcaption>
+                     </figure>
+
+                 </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class = "col-lg-12" >
+            <div class="row">
+                <div class = "col-lg-12" >
+                    <h3>What is an Inter-Modular Linker?</h3>
+                    <p>
+                        An IML is the segment of amino acids linking two successive NRPSs modules.
+                        It could come between a C-domain of module 1 and PCP-domain of module 2 (most of the cases).
+                        However, it could also show up between a tailoring-domain of module 1 and PCP-domain of module 2.
+                        Tailoring domains are special domains that are responsible of modifying the amino acid substrate
+                        before it is incorporated into the peptide chain (e.g. epimerization domain (E)).
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class = "col-lg-5" >
+                    <img src="/static/images/IML_defini.png" class="img-rounded" alt="IML"  style="width: 600px" >
+                    <br><br>
+                    <figcaption style="font-size: medium"> <b>Fig.2</b> - Inter-Modular Linker(IML).</figcaption>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class = "col-lg-12" >
+            <div class="row">
+                <div class = "col-lg-12" >
+                    <h3> Importance of NRP Inter-Modular Linkers Database</h3>
+                    <p>
+                        Creating the first computational tool dedicated for extracting and analyzing of IMLs within NRPSs
+                        and establishing the first ever IMLs database, will be a big asset for researchers interested in
+                        combinatorial biosynthesis and rational design of novel NRPs. Following the outcome of our tool with a rigorous
+                        experimental validation, will certainly open the door for successful molecular engineering strategy of NRPs,
+                        that will lead not only for the synthesis of peptides with potential anti- microbial activity but also others
+                        with a wide range of activities such as anticancer, immunosuppressant, antiviral and antifungals.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class = "col-lg-8" >
+                    <img src="/static/images/impact.png" class="img-rounded" alt="impact"  style="width: 1000px">
+                    <br><br>
+                    <figcaption style="font-size: medium"> <b>Fig.3</b> - Impact of IMLs Database.</figcaption>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+
+
+{% block footer %} {{super()}} {% endblock %}
+
+

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>NRPS-Linker</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/dataTables.bootstrap.min.css">
+
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='../static/css/home.css') }}">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+        <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap.min.js"></script>
+
+               {########## Add export table based on http://demos.w3lessons.info/jquery-table-export #############}
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/tableExport.js"></script>
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/jquery.base64.js"></script>
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/html2canvas.js"></script>
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/jspdf/jspdf.js"></script>
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/jspdf/libs/base64.js"></script>
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/jspdf/libs/sprintf.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $('.table').DataTable();} );
+        </script>
+
+        <script>
+            $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+            });
+        </script>
+
+
+
+       </head>
+
+    <body>
+        <div id="content_all">
+            <div id="headerBlock"  class="container-fluid">
+            {% block heading %}
+                <nav class="navbar navbar-inverse">
+                  <div class="container-fluid">
+                    <div class="navbar-header">
+                      <a class="navbar-brand" href="{{ url_for('main') }}">NRPS-Linkers</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li><a href="{{ url_for('getTutorial') }}">Tutorial</a></li>
+                        <li><a href="{{ url_for('getuploadExamples') }}"> Example of Upload Files</a></li>
+                        <li><a href="{{ url_for('downloadLib') }}">Downloads</a></li>
+                        <li><a href="{{ url_for('getinfo') }}">Contact</a></li>
+                    </ul>
+                  </div>
+                </nav>
+                <div class= container-fluid">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <a href="{{ url_for('main') }}"><img src="/static/images/Logomakr_2uUc9P.png" style="width: 250px"></a>
+                        </div>
+                        <div class="col-lg-6 text-center">
+                            <h1 id="title" >Inter-Modular Linkers</h1>
+                            <h1 id="title" >Within Bacterial NRP Biosynthetic Pathways</h1>
+                        </div>
+                       <div class="col-lg-3" align="right">
+                                <a href="https://chembench.mml.unc.edu/"><img src="/static/images/Screenshot%202017-03-09%2022.24.02.png" style="width: 250px"></a>
+                        </div>
+                    </div>
+                    <hr style="height:3px;border:none;color:#333;background-color:#333;"/>
+                </div>
+                <div class="container-fluid">
+                  <ul class="nav nav-tabs nav-justified">
+                    <li><a href="{{ url_for('main') }}" style="font-size: medium">Home</a></li>
+                    <li> <a href="{{ url_for('doParse') }}" style="font-size: medium">Parser</a></li>
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="font-size: medium"> IMLs Database <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="{{ url_for('getMIBiGLinkers') }}" style="font-size: medium">MIBIG Inter-Modular Linkers</a></li>
+                        <li><a href="{{ url_for('getNCBILinkers') }}" style="font-size: medium" data-toggle="tooltip" title="This is a larger library so please give it up to a minute to be completely downloaded">NCBI Bacteria RefSeq Inter-Modular Linkers</a></li>
+                      </ul>
+                    </li>
+                    <li> <a href="{{ url_for('getDataSummary')}}" style="font-size: medium">Data Summary</a></li>
+                    <li> <a href="{{ url_for('downloadLib')}}" style="font-size: medium">Downloads</a></li>
+                  </ul>
+                </div>
+            {% endblock %}
+            </div>
+            <div id="contentBlock" class="container-fluid">
+
+                {% block content %} {% endblock %}
+
+            </div>
+            <div id="footerBlock" class="container-fluid">
+                {% block footer %}
+                <hr style="height:3px;border:none;color:#333;background-color:#333;"/>
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                      Copyright © mml.unc.edu
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6" align="right">
+                       <p>
+                            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                            <img style="border:0;width:88px;height:31px"
+                                src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-sm-6" align="left">
+                        <p>
+                            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                            <img style="border:0;width:88px;height:31px"
+                                src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                 <br>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="https://antismash.secondarymetabolites.org/#!/start">
+                            <img style="border:0;width:130px;height:130px"
+                                src="/static/images/antismash_logo.png" alt="antiSmash" />
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="https://mibig.secondarymetabolites.org">
+                           <img style="border:0;width:300px;height:80px"
+                                src="/static/images/Mibig_logo1.png" alt="MiBiG" />
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="https://pythonprogramming.net">
+                           <img style="border:0;width:250px;height:150px"
+                                src="/static/images/python%20logo.png" alt="Python" />
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <br>
+                        <a href="https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world">
+                            <img style="border:0;width:250px;height:100px"
+                                src="/static/images/flask.png" alt="Flask" />
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="https://pharmacy.unc.edu">
+                            <img style="border:0;width:340px;height:150px"
+                                src="/static/images/UNC.png" alt="UNC" />
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="https://www.ncbi.nlm.nih.gov/">
+                            <img style="border:0;width:250px;height:120px"
+                                src="/static/images/NCBI2.png" alt="NCBI" />
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <br>
+                        <a href="https://logomakr.com">
+                            <img style="border:0;width:250px;height:160px"
+                                src="/static/images/logoMaker.jpg" alt="logoMakr" />
+                        </a>
+                    </div>
+                </div>
+                {% endblock %}
+            </div>
+        </div>
+    </body>
+</html>

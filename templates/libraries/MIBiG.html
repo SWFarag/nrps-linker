@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block heading %} {{super()}} {% endblock %}
+
+
+{% block content %}
+
+
+<div class="row">
+    <div class="col-sm-12"><h2>{{title}}</h2></div>
+</div>
+<div class="row page">
+    <div class="col-sm-12">
+       <h6>Export Data:
+       <a href="#" class="glyphicon-bullhorn" onclick="$('table').tableExport({type:'csv',escape:'false'});"><img src="https://demos.w3lessons.info/assets/images/icons/csv.png" width="24"> CSV</a>
+       <a href="#" class="glyphicon-bullhorn" onclick="$('table').tableExport({type:'json',escape:'false'});"><img src="https://demos.w3lessons.info/assets/images/icons/json.png" width="24"> JSON</a>
+       <a href="#" class="glyphicon-bullhorn" onclick="$('table').tableExport({type:'excel',escape:'false'});"><img src="https://demos.w3lessons.info/assets/images/icons/xls.png" width="24"> XLS</a>
+
+       </h6>
+    </div>
+ </div><br>
+<div class="row">
+    <div class="col-sm-12">
+        <div class=page>
+            {{table|safe}}
+        </div>
+    </div>
+</div>
+{#<div class="row">
+    <div class="col-md-12">
+        <div colspan="7" class="ts-pager form-horizontal tablesorter-pager" data-column="0">
+				<button type="button" class="btn first disabled" tabindex="0" aria-disabled="true"><i class="icon-step-backward glyphicon glyphicon-step-backward"></i></button>
+				<button type="button" class="btn prev disabled" tabindex="0" aria-disabled="true"><i class="icon-arrow-left glyphicon glyphicon-backward"></i></button>
+				<span class="pagedisplay">1 - 10 / 50 (50)</span> <!-- this can be any element, including an input -->
+				<button type="button" class="btn next" tabindex="0" aria-disabled="false"><i class="icon-arrow-right glyphicon glyphicon-forward"></i></button>
+				<button type="button" class="btn last" tabindex="0" aria-disabled="false"><i class="icon-step-forward glyphicon glyphicon-step-forward"></i></button>
+				<select class="pagesize input-mini" title="Select page size" aria-disabled="false">
+					<option value="10">10</option>
+					<option value="20">20</option>
+					<option value="30">30</option>
+					<option value="40">40</option>
+				</select>
+				<select class="pagenum input-mini" title="Select page number" aria-disabled="false"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <div class="bootstrap_buttons">
+		Reset filter : <button type="button" class="reset btn btn-primary" data-column="0" data-filter=""><i class="icon-white icon-refresh glyphicon glyphicon-refresh"></i> Reset filters</button>
+	    </div>
+    </div>
+ </div><br>    #}
+
+{% endblock %}
+
+{% block footer %} {{super()}} {% endblock %}

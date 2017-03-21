@@ -1,0 +1,97 @@
+
+{% extends 'base.html' %}
+
+{% block heading %} {{super()}} {% endblock %}
+
+
+{% block content %}
+    <div class="row">
+        <div class="col-sm-12">
+            <h1 class="text-muted">Sequence Similarity search results</h1>
+           <h3 class="text-warning">Query seqeuence: {{ seq }}</h3>
+           <h3 class="text-warning">Threshold: >= {{ th }}</h3>
+        </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+          <h3 class="panel-title">Export HTML Table</h3>
+          <div class="pull-right">
+              <button class="btn btn-danger toggle" data-toggle="exportTable"><i class="fa fa-bars"></i> Export Data</button>
+          </div>
+      </div>
+      <div class="panel-body hidden" id="exportTable" style="display:none">
+          <div class="row">
+              <div class="col-md-3">
+                  <div class="list-group border-bottom">
+                      <a href="#" class="list-group-item" onclick="$('table').tableExport({type:'json',escape:'false'});"><img src="http://demos.w3lessons.info/assets/images/icons/json.png" width="24"> JSON</a>
+                      <a href="#" class="list-group-item" onclick="$('table').tableExport({type:'json',escape:'false',ignoreColumn:'[2,3]'});"><img src="http://demos.w3lessons.info/assets/images/icons/json.png" width="24"> JSON (ignoreColumn)</a>
+                      <a href="#" class="list-group-item" onclick="$('table').tableExport({type:'json',escape:'true'});"><img src="http://demos.w3lessons.info/assets/images/icons/json.png" width="24"> JSON (with Escape)</a>
+                  </div>
+              </div>
+              <div class="col-md-2">
+                  <div class="list-group border-bottom">
+                      <a href="#" class="list-group-item" onclick="$('table').tableExport({type:'xml',escape:'false'});"><img src="http://demos.w3lessons.info/assets/images/icons/xml.png" width="24"> XML</a>
+                      <a href="#" class="list-group-item" onclick="$('table').tableExport({type:'sql'});"><img src="http://demos.w3lessons.info/assets/images/icons/sql.png" width="24"> SQL</a>
+                  </div>
+              </div>
+              <div class="col-md-2">
+                  <div class="list-group border-bottom">
+                      <a href="#" class="list-group-item" onclick="$('table').tableExport({type:'csv',escape:'false'});"><img src="http://demos.w3lessons.info/assets/images/icons/csv.png" width="24"> CSV</a>
+                      <a href="#" class="list-group-item" onclick="$('table').tableExport({type:'txt',escape:'false'});"><img src="http://demos.w3lessons.info/assets/images/icons/txt.png" width="24"> TXT</a>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="list-group border-bottom">
+                      <a href="#" class="list-group-item" onclick="$('table').tableExport({type:'excel',escape:'false'});"><img src="http://demos.w3lessons.info/assets/images/icons/xls.png" width="24"> XLS</a>
+                      <a href="#" class="list-group-item" onclick="$('table').tableExport({type:'doc',escape:'false'});"><img src="http://demos.w3lessons.info/assets/images/icons/word.png" width="24"> Word</a>
+                      <a href="#" class="list-group-item" onclick="$('table').tableExport({type:'powerpoint',escape:'false'});"><img src="http://demos.w3lessons.info/assets/images/icons/ppt.png" width="24"> PowerPoint</a>
+                  </div>
+              </div>
+              <div class="col-md-2">
+                  <div class="list-group border-bottom">
+                      <a href="#" class="list-group-item" onclick="$('table').tableExport({type:'png',escape:'false'});"><img src="http://demos.w3lessons.info/assets/images/icons/png.png" width="24"> PNG</a>
+                      <a href="#" class="list-group-item" onclick="$('table').tableExport({type:'pdf',escape:'false'});"><img src="http://demos.w3lessons.info/assets/images/icons/pdf.png" width="24"> PDF</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="bootstrap_buttons">
+            Reset filter : <button type="button" class="reset btn btn-primary" data-column="0" data-filter=""><i class="icon-white icon-refresh glyphicon glyphicon-refresh"></i> Reset filters</button>
+            </div>
+        </div>
+     </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class=page>
+                <h2>{{title}}</h2>
+                {{table|safe}}
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div colspan="7" class="ts-pager form-horizontal tablesorter-pager" data-column="0">
+                    <button type="button" class="btn first disabled" tabindex="0" aria-disabled="true"><i class="icon-step-backward glyphicon glyphicon-step-backward"></i></button>
+                    <button type="button" class="btn prev disabled" tabindex="0" aria-disabled="true"><i class="icon-arrow-left glyphicon glyphicon-backward"></i></button>
+                    <span class="pagedisplay">1 - 10 / 50 (50)</span> <!-- this can be any element, including an input -->
+                    <button type="button" class="btn next" tabindex="0" aria-disabled="false"><i class="icon-arrow-right glyphicon glyphicon-forward"></i></button>
+                    <button type="button" class="btn last" tabindex="0" aria-disabled="false"><i class="icon-step-forward glyphicon glyphicon-step-forward"></i></button>
+                    <select class="pagesize input-mini" title="Select page size" aria-disabled="false">
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                        <option value="30">30</option>
+                        <option value="40">40</option>
+                    </select>
+                    <select class="pagenum input-mini" title="Select page number" aria-disabled="false"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
+
+{% block footer %} {{super()}} {% endblock %}

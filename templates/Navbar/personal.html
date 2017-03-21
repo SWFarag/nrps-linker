@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block heading %} {{super()}} {% endblock %}
+
+
+
+{% block content %}
+<div class="row container-fluid">
+    <div class="col-sm-4">
+       <h2>Molecular Modeling Lab</h2>
+        <p>
+           Division of Chemical Biology and Medicinal Chemistry<br>
+           Eshelman School of Pharmacy<br>
+           University of North Carolina at Chapel Hill<br>
+           Website: <a href="https://pharmacy.unc.edu/directory/tropsha/">Molecular Modeling Lab</a><br>
+           Tel: +1-(919)-9663459<br>
+           Email:<a href="mailto:farags@email.unc.edu"> farags@email.unc.edu </a>
+        </p>
+    </div>
+    <div class="col-sm-3"   >
+       <div>
+        <img style="border:0;width:300px;height:150px" src="/static/images/Screenshot%202017-03-09%2022.24.02.png" class="img-thumbnail" alt=mml">
+       </div>
+    </div>
+</div>
+{% endblock %}
+
+
+{% block footer %} {{super()}} {% endblock %}
+
+

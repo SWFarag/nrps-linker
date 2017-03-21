@@ -1,0 +1,8 @@
+ {% extends 'Analysis/analysis.html' %}
+
+
+ {% block warning1 %}
+     <div class="alert alert-warning">
+        <strong>Info!</strong> {{ "The database [ " ~ db ~ "]  does not contain [ " ~ species ~ "]  as a species" }}.
+     </div>
+{% endblock %}
