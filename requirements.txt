@@ -1,4 +1,3 @@
-Cython
 biopython>=1.67
 Flask>=0.11.1
 Flask-Mail>=0.9.1
