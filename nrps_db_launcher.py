@@ -10,7 +10,6 @@ app = Flask(__name__)
 ###### Pre-loading files #####
 path = app.root_path
 preloader = pre_loader.PreLoader(path)
-
 app.config['UPLOAD_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "uploaded/")
 app.config['EXTRACTION_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "extracted/")
 app.config['ALLOWED_EXTENSIONS'] = set(['gbk'])
@@ -163,12 +162,12 @@ def getuploadExamples():
 
 @app.route('/Uploads_Examples/Daptomycin_BGC')
 def getDaptomycin():
-    return send_file(os.path.join(path,'files2Read/daptomycin.gbk' ))
+    return send_file(os.path.join(path,'files2Read/daptomycin.gbk'),  attachment_filename="Daptomycin_BGC.gbk", as_attachment=True)
 
 
 @app.route('/Uploads_Examples/Vancomycin_BGC')
 def getVancomycin():
-    return send_file(os.path.join(path,'files2Read/vancomycin.gbk' ))
+    return send_file(os.path.join(path,'files2Read/vancomycin.gbk'), attachment_filename="Vancomycin_BGC.gbk", as_attachment=True)
 
 
 @app.route('/Tutorial')
