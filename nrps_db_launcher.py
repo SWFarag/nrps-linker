@@ -10,6 +10,7 @@ app = Flask(__name__)
 ###### Pre-loading files #####
 path = app.root_path
 preloader = pre_loader.PreLoader(path)
+
 app.config['UPLOAD_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "uploaded/")
 app.config['EXTRACTION_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "extracted/")
 app.config['ALLOWED_EXTENSIONS'] = set(['gbk'])
