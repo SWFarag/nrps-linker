@@ -12,12 +12,19 @@ path = app.root_path
 preloader = pre_loader.PreLoader(path)
 listOfEdits = []
 new_gene_list = []
-app.config['UPLOAD_FOLDER'] = os.path.join(path, "uploaded/")
-app.config['EXTRACTION_FOLDER'] = os.path.join(path, "extracted/")
-app.config['CLUSTER_FOLDER'] = os.path.join(path, "new_clusters/")
-app.config['DROPBOX_FOLDER_U'] = os.path.join(path, "dropbox_folder_u/")
+# app.config['UPLOAD_FOLDER'] = os.path.join(path, "uploaded/")
+# app.config['EXTRACTION_FOLDER'] = os.path.join(path, "extracted/")
+# app.config['CLUSTER_FOLDER'] = os.path.join(path, "new_clusters/")
+# app.config['DROPBOX_FOLDER_U'] = os.path.join(path, "dropbox_folder_u/")
+# app.config['DROPBOX_FOLDER_D'] = '/NRPS_clusters_NCBI_66K_2/'
+# app.config['PARAMS_FOLDER'] = os.path.join(path, "params/")
+
+app.config['UPLOAD_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "uploaded/")
+app.config['EXTRACTION_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "extracted/")
+app.config['CLUSTER_FOLDER']= os.path.join("/opt/app-root/src/uploads/", "new_clusters/")
+app.config['DROPBOX_FOLDER_U']= os.path.join("/opt/app-root/src/uploads/", "dropbox_folder_u/")
 app.config['DROPBOX_FOLDER_D'] = '/NRPS_clusters_NCBI_66K_2/'
-app.config['PARAMS_FOLDER'] = os.path.join(path, "params/")
+app.config['PARAMS_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "params/")
 
 app.config['ALLOWED_EXTENSIONS'] = set(['gbk'])
 if not os.path.exists(app.config['UPLOAD_FOLDER']):os.makedirs(app.config['UPLOAD_FOLDER'])
