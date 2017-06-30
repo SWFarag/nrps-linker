@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00455</id>
+            <name>halipeptin D</name>
+            <family>halipeptin</family>
+            <activities>
+                <activity>antiinflammatory</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C31H54O6N4S</formula>
+            <mw>610.8487</mw>
+            <comment>Halipeptin is a putative NRPS product (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>5</size>
+            <composition>C10:0-Me(2.2.4)-OH(3)-OMe(7), Ala, aMe-Cys, NMe-Ile, Ala</composition>
+            <graph>C10:0-Me(2.2.4)-OH(3)-OMe(7),Ala,aMe-Cys,NMe-Ile,Ala@1,4@0,2@1,3@2,4@0,3</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Leiosella cf. arenifibrosa</name>
+                <taxonomy>marine sponge</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Total synthesis of halipeptins: isolation of halipeptin D and synthesis of oxazoline halipeptin analogues</title>
+                <year>2005</year>
+                <journal>Chemistry</journal>
+                <location>Oct 21,11(21):6197-211.</location>
+                <pmid>16075448</pmid>
+                <authors>
+                    <author>
+                        <name>Nicolaou KC</name>
+                    </author>
+                    <author>
+                        <name>Schlawe D</name>
+                    </author>
+                    <author>
+                        <name>Kim DW</name>
+                    </author>
+                    <author>
+                        <name>Longbottom DA</name>
+                    </author>
+                    <author>
+                        <name>de Noronha RG</name>
+                    </author>
+                    <author>
+                        <name>Lizos DE</name>
+                    </author>
+                    <author>
+                        <name>Manam RR</name>
+                    </author>
+                    <author>
+                        <name>Faulkner DJ</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

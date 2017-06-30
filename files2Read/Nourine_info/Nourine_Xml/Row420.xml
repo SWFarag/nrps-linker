@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00428</id>
+            <name>aurilide B</name>
+            <family>aurilide</family>
+            <activities>
+                <activity>antitumor</activity>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C44H75N5O10</formula>
+            <mw>834.0939</mw>
+            <comment>Aurilide is a putative NRPS,PKS product (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>7</size>
+            <composition>C11:2(t2.t8)-Me(2.6.8)-OH(5.7), D-Hmp, Val, NMe-aIle, NMe-Gly, Val, NMe-Ala</composition>
+            <graph>C11:2(t2.t8)-Me(2.6.8)-OH(5.7),D-Hmp,Val,NMe-aIle,NMe-Gly,Val,NMe-Ala@1,6@0,2@1,3@2,4@3,5@4,6@0,5</graph>
+            <smiles>CCC=C(C)C1OC(=O)C(C)N(C)C(=O)C(NC(=O)CN(C)C(=O)C(C(C)CC)N(C)C(=O)C(NC(=O)C(OC(=O)C(C)=CCC(O)C1(C))C(C)CC)C(C)C)C(C)C</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Lyngbya majuscula</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Oscillatoriales, Lyngbya</taxonomy>
+                <gram>negative</gram>
+                <taxid>158786</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Aurilides B and C, cancer cell toxins from a Papua New Guinea collection of the marine cyanobacterium Lyngbya majuscula</title>
+                <year>2006</year>
+                <journal>Journal of natural products</journal>
+                <location>Apr,69(4):572-5.</location>
+                <pmid>16643028</pmid>
+                <authors>
+                    <author>
+                        <name>Mooberry SL</name>
+                    </author>
+                    <author>
+                        <name>Han B</name>
+                    </author>
+                    <author>
+                        <name>Gross H</name>
+                    </author>
+                    <author>
+                        <name>Goeger DE</name>
+                    </author>
+                    <author>
+                        <name>Gerwick WH</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>15939634</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

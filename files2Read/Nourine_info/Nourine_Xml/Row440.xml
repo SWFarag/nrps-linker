@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00448</id>
+            <name>discodermin E</name>
+            <family>discodermin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>toxin</activity>
+                <activity>antitumor</activity>
+            </activities>
+            <category>peptide</category>
+            <comment>Discodermin A is a putative NRPS product (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>14</size>
+            <composition>D-NFo-Ala, Phe, Pro, D-t-Leu, t-Leu, D-Kyn, Arg, D-CysA, Thr, NMe-Gln, D-Leu, Thr, Asn, NMe-Gly</composition>
+            <graph>D-NFo-Ala,Phe,Pro,D-t-Leu,t-Leu,D-Kyn,Arg,D-CysA,Thr,NMe-Gln,D-Leu,Thr,Asn,NMe-Gly@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9,13@8,10@9,11@10,12@11,13@8,12</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Discodermia kiiensis</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Tetractinomorpha, Lithistida, Triaenosina, Theonellidae, Discodermia</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Discodermins F-H, cytotoxic and antimicrobial tetradecapeptides from the marine spone Discodermia kiiensis: Structure revision of discodermins A-D </title>
+                <year>1994</year>
+                <journal>Tetrahedron</journal>
+                <location>50 (47), pp. 13409-13416</location>
+                <authors>
+                    <author>
+                        <name>Matsunaga S</name>
+                    </author>
+                    <author>
+                        <name>Fusetani N</name>
+                    </author>
+                    <author>
+                        <name>Ryu G</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

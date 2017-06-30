@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Valerie LECLERE</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01254</id>
+            <name>cepaciachelin</name>
+            <family>cepaciachelin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C24H32N4O7</formula>
+            <mw>488.53</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>branched</type>
+            <size>4</size>
+            <composition>diOH-Bz,Lys,diOH-Bz,Put</composition>
+            <graph>diOH-Bz,Lys,diOH-Bz,Put@1@0,2,3@1@1</graph>
+            <smiles>Oc1c(O)cccc1C(=O)NC(C(=O)NCCCCN)CCCCNC(=O)c2cccc(O)c2O</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Burkholderia ambifaria AMMD</name>
+                <taxonomy>cellular organisms; Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; Burkholderiaceae; Burkholderia; Burkholderia cepacia complex</taxonomy>
+                <gram>negative</gram>
+                <taxid>339670</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Cepaciachelin,  a  New  Catecholate  Siderophore  from Burkholderia  (Pseudomonas)  cepacia</title>
+                <year>1996</year>
+                <journal>Z.  Naturforsch.</journal>
+                <location>51: 627-630</location>
+                <authors>
+                    <author>
+                        <name>I. Barelmann</name>
+                    </author>
+                    <author>
+                        <name>J.-M. Meyer</name>
+                    </author>
+                    <author>
+                        <name>K. Taraz</name>
+                    </author>
+                    <author>
+                        <name>H. Budzikiewicz</name>
+                    </author>
+                </authors>
+                <doi>10.1515/znc-1996-9-1004</doi>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

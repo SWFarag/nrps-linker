@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00871</id>
+            <name>syringopeptin SC 2</name>
+            <family>syringopeptin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>toxin</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <comment>The stereoisomers (D or L form) of the amino acids are not identified.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>23</size>
+            <composition>C12:0-OH(3), dhAbu, Pro, Val, Leu, Ala, Ala, Leu, Val, dh-Ala, Ala, Val, Ala, Ala, dhAbu, aThr, Ser, Ala, dhAbu, Ala, Dab, Dab, Tyr</composition>
+            <graph>C12:0-OH(3),dhAbu,Pro,Val,Leu,Ala,Ala,Leu,Val,dh-Ala,Ala,Val,Ala,Ala,dhAbu,aThr,Ser,Ala,dhAbu,Ala,Dab,Dab,Tyr@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@11,13@12,14@13,15@14,16,22@15,17@16,18@17,19@18,20@19,21@20,22@15,21</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas syringae pv. syringae</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas syringae group, Pseudomonas syringae group genomosp. 1, Pseudomonas syringae</taxonomy>
+                <gram>negative</gram>
+                <taxid>321</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structural analysis of new syringopeptins by tandem mass spectrometry</title>
+                <year>1995</year>
+                <journal>Bioscience, biotechnology, and biochemistry</journal>
+                <location>Jul,59(7):1374-6.</location>
+                <pmid>7670202</pmid>
+                <authors>
+                    <author>
+                        <name>Takemoto JY</name>
+                    </author>
+                    <author>
+                        <name>Suzuki A</name>
+                    </author>
+                    <author>
+                        <name>Isogai A</name>
+                    </author>
+                    <author>
+                        <name>Iguchi H</name>
+                    </author>
+                    <author>
+                        <name>Nakayama J</name>
+                    </author>
+                    <author>
+                        <name>Kusai A</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

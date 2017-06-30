@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00901</id>
+            <name>azotobactin 87 -2</name>
+            <family>azotobactin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <category>chromopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>branched</type>
+            <size>11</size>
+            <composition>ChrA, Ser, D-Ser, Hse, Gly, D-OH-Asp, Hse, Hse, Hse, OH-Orn, {, C4:0-OH(3), }, HseL</composition>
+            <graph>ChrA,Ser,D-Ser,Hse,Gly,D-OH-Asp,Hse,Hse,Hse,OH-Orn,C4:0-OH(3),HseL@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10,11@9@9</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Azotobacter vinelandii</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Azotobacter group, Azotobacter</taxonomy>
+                <gram>negative</gram>
+                <synonym>Azotobacter miscellum</synonym>
+                <taxid>354</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structure elucidation of azotobactin 87, isolated from Azotobacter vinelandii ATCC 12837</title>
+                <year>1996</year>
+                <journal>Zeitschrift fur Naturforschung. Section C: Biosciences</journal>
+                <location>Mar-Apr,51(3-4):139-50.</location>
+                <pmid>8639226</pmid>
+                <authors>
+                    <author>
+                        <name>Taraz K</name>
+                    </author>
+                    <author>
+                        <name>Budzikiewicz H</name>
+                    </author>
+                    <author>
+                        <name>Hartmann R</name>
+                    </author>
+                    <author>
+                        <name>Schaffner EM</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

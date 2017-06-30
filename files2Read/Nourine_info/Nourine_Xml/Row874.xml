@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00884</id>
+            <name>massetolide G</name>
+            <family>viscosin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>surfactant</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <formula>C55H97N9O16</formula>
+            <mw>1140.4093</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>10</size>
+            <composition>C11:0-OH(3), Leu, D-Glu, D-aThr, D-Val, Leu, D-Ser, Leu, D-Ser, Ile</composition>
+            <graph>C11:0-OH(3),Leu,D-Glu,D-aThr,D-Val,Leu,D-Ser,Leu,D-Ser,Ile@1@0,2@1,3@2,4,9@3,5@4,6@5,7@6,8@7,9@3,8</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae</taxonomy>
+                <gram>negative</gram>
+                <taxid>286</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Massetolides A-H, antimycobacterial cyclic depsipeptides produced by two pseudomonads isolated from marine habitats</title>
+                <year>1997</year>
+                <journal>Journal of natural products</journal>
+                <location>Mar,60(3):223-9.</location>
+                <pmid>9157190</pmid>
+                <authors>
+                    <author>
+                        <name>Andersen RJ</name>
+                    </author>
+                    <author>
+                        <name>Gerard J</name>
+                    </author>
+                    <author>
+                        <name>Lloyd R</name>
+                    </author>
+                    <author>
+                        <name>Barsby T</name>
+                    </author>
+                    <author>
+                        <name>Haden P</name>
+                    </author>
+                    <author>
+                        <name>Kelly MT</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

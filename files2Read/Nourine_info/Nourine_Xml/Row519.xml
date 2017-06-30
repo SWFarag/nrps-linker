@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00527</id>
+            <name>phakellistatin 5</name>
+            <family>phakellistatin</family>
+            <activities>
+                <activity>antitumor</activity>
+            </activities>
+            <category>peptide</category>
+            <comment>Phakellistatins are putative NRPS products (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>7</size>
+            <composition>Pro, Phe, Asn, Ala, Met, Ala, Ile</composition>
+            <graph>Pro,Phe,Asn,Ala,Met,Ala,Ile@1,6@0,2@1,3@2,4@3,5@4,6@0,5</graph>
+            <smiles>CCC(C)C2NC(=O)C(C)NC(=O)C(CCSC)NC(=O)C(C)NC(=O)C(CC(N)=O)NC(=O)C(Cc1ccccc1)NC(=O)C3CCCN3(C2(=O))</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Phakellia sp.</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Halichondrida, Axinellidae, Phakellia</taxonomy>
+                <taxid>85814</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Synthesis of the marine sponge cycloheptapeptide phakellistatin 5</title>
+                <year>2000</year>
+                <journal>Journal of natural products</journal>
+                <location>Jan,63(1):22-8.</location>
+                <pmid>10650072</pmid>
+                <authors>
+                    <author>
+                        <name>Pettit GR</name>
+                    </author>
+                    <author>
+                        <name>Brune DC</name>
+                    </author>
+                    <author>
+                        <name>Toki BE</name>
+                    </author>
+                    <author>
+                        <name>Xu JP</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

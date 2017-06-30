@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01131</id>
+            <name>ADEP-1</name>
+            <family>enopeptin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <synonyms>acyldepsipeptide 1</synonyms>
+            <category>PK-NRP</category>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>7</size>
+            <composition>C8:3(t2.t4.t6), Phe, Ser, Pro, NMe-Ala, Ala, 4Me-Pro</composition>
+            <graph>C8:3(t2.t4.t6),Phe,Ser,Pro,NMe-Ala,Ala,4Me-Pro@1@0,2@1,3,6@2,4@3,5@4,6@2,5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces hawaiiensis</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <taxid>67305</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>New antibiotics from bacterial natural products</title>
+                <year>2006</year>
+                <journal>Nature biotechnology</journal>
+                <location>Dec,24(12):1541-50.</location>
+                <pmid>17160060</pmid>
+                <authors>
+                    <author>
+                        <name>Walsh CT</name>
+                    </author>
+                    <author>
+                        <name>Fischbach MA</name>
+                    </author>
+                    <author>
+                        <name>Clardy J</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>3kti</acc>
+                <name_db>PDB</name_db>
+            </link>
+            <link>
+                <acc>3ktj</acc>
+                <name_db>PDB</name_db>
+            </link>
+            <link>
+                <acc>3ktk</acc>
+                <name_db>PDB</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

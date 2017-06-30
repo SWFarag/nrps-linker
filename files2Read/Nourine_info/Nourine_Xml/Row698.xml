@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00707</id>
+            <name>deglucobalhimycin</name>
+            <family>balhimycin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>glycopeptide</category>
+            <formula>C60H63Cl2N9O19</formula>
+            <mw>1285.0972</mw>
+            <comment>Two bonds of the central Hpg are due to oxydative ring closure.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>other</type>
+            <size>8</size>
+            <graph>Asn,bOH-Cl-Tyr,NMe-Leu,Hpg,bOH-Cl-Tyr,4oxo-Van,Dhpg,Hpg@1,3@0,2,3@1@1,0,4,7@3,7,6,5@4@7,4@3,4,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Amycolatopsis sp.</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Pseudonocardineae, Pseudonocardiaceae, Amycolatopsis</taxonomy>
+                <gram>positive</gram>
+                <taxid>37632</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>New 4-oxovancosamine-containing glycopeptide antibiotics from Amycolatopsis sp. Y-86,21022</title>
+                <year>1996</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Jan,49(1):115-8.</location>
+                <pmid>8609078</pmid>
+                <authors>
+                    <author>
+                        <name>Vertesy L</name>
+                    </author>
+                    <author>
+                        <name>Fehlhaber HW</name>
+                    </author>
+                    <author>
+                        <name>Kogler H</name>
+                    </author>
+                    <author>
+                        <name>Limbert M</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>17753940</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00432</id>
+            <name>carmabin A</name>
+            <family>carmabin</family>
+            <activities>
+                <activity>surfactant</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <formula>C40H57N5O6</formula>
+            <mw>703.9105</mw>
+            <comment>Carmabin is a putative NRPS product (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>5</size>
+            <composition>C10:0:1(9)-Me(2.4), NMe-Phe, Ala, NMe-Ala, NMe-OMe-TyrC</composition>
+            <graph>C10:0:1(9)-Me(2.4),NMe-Phe,Ala,NMe-Ala,NMe-OMe-TyrC@1@0,2@1,3@2,4@3</graph>
+            <smiles>C#CCCCCC(C)CC(C)C(=O)N(C)C(Cc1ccccc1)C(=O)NC(C)C(=O)N(C)C(C)C(=O)N(C)C(Cc2ccc(cc2)OC)C(N)=O</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Lyngbya majuscula</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Oscillatoriales, Lyngbya</taxonomy>
+                <gram>negative</gram>
+                <taxid>158786</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Carmabins A and B, new lipopeptides from the Caribbean cyanobacterium Lyngbya majuscula</title>
+                <year>1998</year>
+                <journal>Journal of natural products</journal>
+                <location>Apr,61(4):529-33.</location>
+                <pmid>9584405</pmid>
+                <authors>
+                    <author>
+                        <name>Gerwick WH</name>
+                    </author>
+                    <author>
+                        <name>Hooper GJ</name>
+                    </author>
+                    <author>
+                        <name>Orjala J</name>
+                    </author>
+                    <author>
+                        <name>Schatzman RC</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00190</id>
+            <name>pyoverdin C-E</name>
+            <family>pyoverdin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <synonyms>pyoverdin 15692, pyoverdin PAO1, pyoverdin pvdI</synonyms>
+            <category>chromopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>9</size>
+            <composition>ChrP, D-Ser, Arg, D-Ser, Fo-OH-Orn, Lys, Fo-OH-Orn, Thr, Thr</composition>
+            <graph>ChrP,D-Ser,Arg,D-Ser,Fo-OH-Orn,Lys,Fo-OH-Orn,Thr,Thr@1@0,2@1,3@2,4@3,5@4,6,8@5,7@6,8@5,7</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas aeruginosa</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas aeruginosa group</taxonomy>
+                <gram>negative</gram>
+                <synonym>Pseudomonas polycolor,Bacterium pyocyaneum,Pseudomonas pyocyanea,Bacillus pyocyaneus,Bacillus aeruginosus,Micrococcus pyocyaneus,Bacterium aeruginosum</synonym>
+                <taxid>287</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>[Pyoverdin-type siderophores from Pseudomonas aeruginosa]</title>
+                <year>1986</year>
+                <journal>Zeitschrift fur Naturforschung. Section C: Biosciences</journal>
+                <location>May-Jun,41(5-6):497-506.</location>
+                <pmid>2944297</pmid>
+                <authors>
+                    <author>
+                        <name>Taraz K</name>
+                    </author>
+                    <author>
+                        <name>Budzikiewicz H</name>
+                    </author>
+                    <author>
+                        <name>Briskot G</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Multiple conformations of the metal-bound pyoverdine PvdI, a siderophore of Pseudomonas aeruginosa: a nuclear magnetic resonance study</title>
+                <year>2008</year>
+                <journal>Biochemistry</journal>
+                <location>Mar 18,47(11):3397-406.</location>
+                <pmid>18298082</pmid>
+                <authors>
+                    <author>
+                        <name>Abdallah MA</name>
+                    </author>
+                    <author>
+                        <name>Atkinson RA</name>
+                    </author>
+                    <author>
+                        <name>Kieffer B</name>
+                    </author>
+                    <author>
+                        <name>Wasielewski E</name>
+                    </author>
+                    <author>
+                        <name>Tzou DL</name>
+                    </author>
+                    <author>
+                        <name>Dillmann B</name>
+                    </author>
+                    <author>
+                        <name>Czaplicki J</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>Q51338</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q5DIV7</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q5DIP4</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01087</id>
+            <name>zervamicin IA</name>
+            <family>zervamicin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptaibol</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>16</size>
+            <composition>Ac-Trp, Ile, Glu, D-Ival, Val, Thr, Aib, Leu, Aib, 4OH-Pro, Gln, Aib, 4OH-Pro, Aib, Pro, Pheol</composition>
+            <graph>Ac-Trp,Ile,Glu,D-Ival,Val,Thr,Aib,Leu,Aib,4OH-Pro,Gln,Aib,4OH-Pro,Aib,Pro,Pheol@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@11,13@12,14@13,15@14</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Emericellopsis salmosynnemata</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Dikarya, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Hypocreales incertae sedis, Emericellopsis</taxonomy>
+                <taxid>118885</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structures of eleven zervamicin and two emerimicin peptide antibiotics studied by fast atom bombardment mass spectrometry</title>
+                <year>1981</year>
+                <journal>Journal of the American Chemical Society</journal>
+                <location>103 (21), pp 65176520</location>
+                <authors>
+                    <author>
+                        <name>Rinehart KL</name>
+                    </author>
+                    <author>
+                        <name>Cook JC</name>
+                    </author>
+                    <author>
+                        <name>Pandey RC</name>
+                    </author>
+                    <author>
+                        <name>Gaudioso LA</name>
+                    </author>
+                    <author>
+                        <name>Moore ML</name>
+                    </author>
+                    <author>
+                        <name>Barber M</name>
+                    </author>
+                    <author>
+                        <name>Sedgwick RD</name>
+                    </author>
+                    <author>
+                        <name>Bordoli RS</name>
+                    </author>
+                    <author>
+                        <name>Tyler AN</name>
+                    </author>
+                    <author>
+                        <name>Green BN</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

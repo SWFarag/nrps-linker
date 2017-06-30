@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00796</id>
+            <name>iturin C-2</name>
+            <family>iturin</family>
+            <activities>
+                <activity>surfactant</activity>
+            </activities>
+            <synonyms>iturin B</synonyms>
+            <category>lipopeptide</category>
+            <formula>C49H75N11O15</formula>
+            <mw>1058.1844</mw>
+            <comment>Iturins C are inactive metabolites (no antibiotic activity).</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>8</size>
+            <composition>aC15:0-NH2(3), Asp, D-Tyr, D-Asn, Gln, Pro, D-Asn, Ser</composition>
+            <graph>aC15:0-NH2(3),Asp,D-Tyr,D-Asn,Gln,Pro,D-Asn,Ser@1,7@0,2@1,3@2,4@3,5@4,6@5,7@0,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Bacillus subtilis</name>
+                <taxonomy>cellular organisms, Bacteria, Firmicutes, Bacilli, Bacillales, Bacillaceae, Bacillus</taxonomy>
+                <gram>positive</gram>
+                <synonym>Bacillus uniflagellatus,Bacillus natto,Bacillus globigii,Vibrio subtilis</synonym>
+                <taxid>1423</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Inhibition of the binding of oxidized low density lipoprotein to the macrophages by iturin C-related compounds</title>
+                <year>1995</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Mar,48(3):226-32.</location>
+                <pmid>7730157</pmid>
+                <authors>
+                    <author>
+                        <name>Park JK</name>
+                    </author>
+                    <author>
+                        <name>Hasumi K</name>
+                    </author>
+                    <author>
+                        <name>Endo A</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

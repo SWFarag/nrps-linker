@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00442</id>
+            <name>phoriospongin A</name>
+            <family>phoriospongin</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C52H82N11O15Cl</formula>
+            <mw>1136.7252</mw>
+            <comment>Phoriospongins are nematocidal depsipeptides and are putative NRPS products (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>10</size>
+            <composition>D-Nva, Gly, Phe, D-aThr, D-Asn, Cl-Ile, D-NMe-Nva, D-Ala, C6:0-OH(3.5)-NH2(4), NFo-Leu</composition>
+            <graph>D-Nva,Gly,Phe,D-aThr,D-Asn,Cl-Ile,D-NMe-Nva,D-Ala,C6:0-OH(3.5)-NH2(4),NFo-Leu@1,8@0,2@1,3@2,4@3,5@4,6@5,7@6,8@0,7,9@8</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Callyspongia bilamellata</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Haplosclerida, Callyspongiidae</taxonomy>
+            </organism>
+            <organism>
+                <name>Phoriospongia sp.</name>
+                <taxonomy>
+                </taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Phoriospongin A and B: two new nematocidal depsipeptides from the Australian marine sponges Phoriospongia sp. and Callyspongia bilamellata</title>
+                <year>2002</year>
+                <journal>Journal of natural products</journal>
+                <location>Mar,65(3):358-63.</location>
+                <pmid>11908978</pmid>
+                <authors>
+                    <author>
+                        <name>Capon RJ</name>
+                    </author>
+                    <author>
+                        <name>Ford J</name>
+                    </author>
+                    <author>
+                        <name>Lacey E</name>
+                    </author>
+                    <author>
+                        <name>Gill JH</name>
+                    </author>
+                    <author>
+                        <name>Heiland K</name>
+                    </author>
+                    <author>
+                        <name>Friedel T</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

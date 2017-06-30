@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00176</id>
+            <name>pyoverdin 2461</name>
+            <family>pyoverdin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <category>chromopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>10</size>
+            <composition>ChrP, Asp, Lys, D-OH-Asp, Ser, D-aThr, D-Ala, Thr, D-Lys, OH-cOrn</composition>
+            <graph>ChrP,Asp,Lys,D-OH-Asp,Ser,D-aThr,D-Ala,Thr,D-Lys,OH-cOrn@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas putida</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas putida group</taxonomy>
+                <gram>negative</gram>
+                <synonym>Pseudomonas ovalis,Pseudomonas arvilla,Arthrobacter siderocapsulatus,Pseudomonas striata,Pseudomonas rugosa,Pseudomonas incognita,Pseudomonas convexa,Pseudomonas eisenbergii,Bacillus putidus</synonym>
+                <taxid>303</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structure revision of several pyoverdines produced by plant-growth promoting and plant-deleterious Pseudomonas species</title>
+                <year>2003</year>
+                <journal>Monatshefte fuer Chemie</journal>
+                <location>134:1421</location>
+                <authors>
+                    <author>
+                        <name>Meyer JM</name>
+                    </author>
+                    <author>
+                        <name>Budzikiewicz H</name>
+                    </author>
+                    <author>
+                        <name>Geoffroy V</name>
+                    </author>
+                    <author>
+                        <name>Uria Fernandez D</name>
+                    </author>
+                    <author>
+                        <name>Schafer M</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

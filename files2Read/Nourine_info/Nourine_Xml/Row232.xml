@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00234</id>
+            <name>actinomycin VII</name>
+            <family>actinomycin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>antitumor</activity>
+            </activities>
+            <synonyms>actinomycin C3</synonyms>
+            <category>chromopeptide</category>
+            <formula>C64H90N12O16</formula>
+            <mw>1283.4702</mw>
+            <comment>The principal effect of D-alloisoleucine and, especially, D-isoleucine, is to bring about synthesis of two new actinomycins which contain N-methylisoleucine.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>double cyclic</type>
+            <size>11</size>
+            <composition>D-aIle, Pro, NMe-Gly, NMe-Val, Thr, ChrAct, Thr, D-aIle, Pro, NMe-Gly, NMe-Val</composition>
+            <graph>D-aIle,Pro,NMe-Gly,NMe-Val,Thr,ChrAct,Thr,D-aIle,Pro,NMe-Gly,NMe-Val@1,4@0,2@1,3@2,4@0,3,5@4,6@5,7,10@6,8@7,9@8,10@6,9</graph>
+            <smiles>CCC(C)C6NC(=O)C(NC(=O)c3ccc(C)c4OC5=C(C)C(=O)C(N)=C(C(=O)NC1C(C)OC(=O)C(C(C)C)N(C)C(=O)CN(C)C(=O)C2CCCN2(C(=O)C(NC1(=O))C(C)CC))C5(=Nc34))C(C)OC(=O)C(C(C)C)N(C)C(=O)CN(C)C(=O)C7CCCN7(C6(=O))</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces chrysomallus</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <synonym>Streptomyces anulatus,Streptomyces fluorescens,Streptomyces citreofluorescens,Actinomyces fluorescens,Actinomyces citreofluorescens,Actinomyces annulatus,Actinomyces Streptothrix annulatus</synonym>
+                <taxid>1892</taxid>
+            </organism>
+            <organism>
+                <name>Streptomyces sp.</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <taxid>1931</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Role of valine and isoleucine as regulators of actinomycin peptide formation by Streptomyces chrysomallus</title>
+                <year>1961</year>
+                <journal>Journal of bacteriology</journal>
+                <location>Oct,82:600-8.</location>
+                <pmid>14454374</pmid>
+                <authors>
+                    <author>
+                        <name>Katz E</name>
+                    </author>
+                    <author>
+                        <name>WALDRON CR</name>
+                    </author>
+                    <author>
+                        <name>MELONI ML</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>Q9S6J9</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>O68487</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q9L8H4</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>122799</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

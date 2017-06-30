@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block heading %} {{super()}} {% endblock %}
+
+
+
+{% block content %}
+
+<div class="container-fluid">
+<div class="row">
+    <div class="col-sm-12" align="center">
+        <form role="form" name="form5"  method='post' action="{{url_for('getPeptideInfo')}}">
+                <label for="Npeptide"><h3 class="text-center text-primary">Select template:</h3></label>
+                <select id="selectnp" required name="Npeptide" class="dr">
+                    <option value="">none</option>
+                    {% for np in peptide_a %}
+                        <option value="{{np}}">{{np}}</option>
+                    {% endfor %}
+                </select>
+            <div align="center"><button type="submit" class="btn btn-success btn-lg">Submit</button></div>
+        </form>
+    </div>
+</div>
+</div>
+{% endblock %}
+
+
+{% block footer %} {{super()}} {% endblock %}
+
+

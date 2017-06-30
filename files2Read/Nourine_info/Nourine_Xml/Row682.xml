@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00691</id>
+            <name>chloroorienticin E</name>
+            <family>orienticin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <synonyms>118373-84-5</synonyms>
+            <category>glycopeptide</category>
+            <formula>C67H77Cl2N9O24</formula>
+            <mw>1463.2802</mw>
+            <comment>Two bonds of the central Hpg are due to oxydative ring closure.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>other</type>
+            <size>9</size>
+            <graph>Asn,bOH-Cl-Tyr,NdMe-Leu,Hpg,D-Glc,bOH-Cl-Tyr,Ere,Dhpg,Hpg@1,3@0,3,2@1@1,0,4,5,8@3@3,7,6,8@5@8,5@3,7,5</graph>
+            <smiles>CC(C)CC(C(=O)NC2C(=O)NC(CC(N)=O)C(=O)NC7c4cc(Oc1ccc(cc1Cl)C2(O))c(OC3OC(CO)C(O)C(O)C3(O))c(c4)Oc5ccc(cc5Cl)C(OC6CC(C)(N)C(O)C(C)O6)C9NC(=O)C(NC7(=O))c8ccc(O)c(c8)c%10c(O)cc(O)cc%10(C(NC9(=O))C(=O)O))N(C)C</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Nocardia orientalis</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Pseudonocardineae, Pseudonocardiaceae, Amycolatopsis</taxonomy>
+                <gram>positive</gram>
+                <synonym>Amycolatopsis orientalis,Streptomyces orientalis,Amycolatopsis orientalis orientalis</synonym>
+                <taxid>31958</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>New glycopeptide antibiotics: II. The isolation and structures of chloroorienticins</title>
+                <year>1988</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Oct,41(10):1506-10. </location>
+                <pmid>3272137</pmid>
+                <authors>
+                    <author>
+                        <name>Kobayashi M</name>
+                    </author>
+                    <author>
+                        <name>Tsuji N</name>
+                    </author>
+                    <author>
+                        <name>Kamigauchi T</name>
+                    </author>
+                    <author>
+                        <name>Terui Y</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>3082915</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

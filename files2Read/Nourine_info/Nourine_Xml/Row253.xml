@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00255</id>
+            <name>beauvericin E</name>
+            <family>beauvericin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C41H57N3O9</formula>
+            <mw>735.9060</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>6</size>
+            <composition>Ile, D-Hiv, NMe-Phe, D-Hiv, NMe-Phe, D-Hiv</composition>
+            <graph>Ile,D-Hiv,NMe-Phe,D-Hiv,NMe-Phe,D-Hiv@1,5@0,2@1,3@2,4@3,5@0,4</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Beauveria bassiana</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Clavicipitaceae, Cordyceps</taxonomy>
+                <synonym>Cordyceps bassiana,Tritirachium shiotae</synonym>
+                <taxid>176275</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>New beauvericins, potentiators of antifungal miconazole activity, Produced by Beauveria sp. FKI-1366. I. Taxonomy, fermentation, isolation and biological properties</title>
+                <year>2004</year>
+                <journal>The Journal of antibiotics (Tokyo)</journal>
+                <location>Feb,57(2):110-6.</location>
+                <pmid>15112959</pmid>
+                <authors>
+                    <author>
+                        <name>Tomoda H</name>
+                    </author>
+                    <author>
+                        <name>Masuma R</name>
+                    </author>
+                    <author>
+                        <name>Omura S</name>
+                    </author>
+                    <author>
+                        <name>Fukuda T</name>
+                    </author>
+                    <author>
+                        <name>Arai M</name>
+                    </author>
+                    <author>
+                        <name>Yamaguchi Y</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>3007987</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

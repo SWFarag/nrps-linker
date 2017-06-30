@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00738</id>
+            <name>beauverolide VII</name>
+            <family>beauverolide</family>
+            <activities>
+                <activity>antiatherogenic</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <formula>C26H39N3O5</formula>
+            <mw>473.60498</mw>
+            <comment>Recent studies have indicated that beauverolides could potentially serve as new drugs for the treatment of atherosclerosis.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>4</size>
+            <composition>C8:0-Me(4)-OH(3), Ala, Phe, D-Val</composition>
+            <graph>C8:0-Me(4)-OH(3),Ala,Phe,D-Val@1,3@0,2@1,3@0,2</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Beauveria</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Clavicipitaceae, mitosporic Clavicipitaceae</taxonomy>
+                <taxid>5581</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>New beauveriolides produced by amino acid-supplemented fermentation of Beauveria sp. FO-6979</title>
+                <year>2004</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Jan,57(1):1-9.</location>
+                <pmid>15032479</pmid>
+                <authors>
+                    <author>
+                        <name> Tomoda H</name>
+                    </author>
+                    <author>
+                        <name> Omura S</name>
+                    </author>
+                    <author>
+                        <name>Matsuda D</name>
+                    </author>
+                    <author>
+                        <name> Namatame I</name>
+                    </author>
+                    <author>
+                        <name> Kobayashi S</name>
+                    </author>
+                    <author>
+                        <name> Zocher R</name>
+                    </author>
+                    <author>
+                        <name> Kleinkauf H</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

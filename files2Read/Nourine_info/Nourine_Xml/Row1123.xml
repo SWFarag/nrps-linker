@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01133</id>
+            <name>micropeptin B</name>
+            <family>cyanopeptolin</family>
+            <activities>
+                <activity>protease inhibitor</activity>
+            </activities>
+            <category>peptide</category>
+            <mw>958.5</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>8</size>
+            <composition>Lys, Ahp, Leu, NMe-Tyr, Val, Thr, Glu, C6:0</composition>
+            <graph>Lys,Ahp,Leu,NMe-Tyr,Val,Thr,Glu,C6:0@1,5@0,2@1,3@2,4@3,5@4,0,6@5,7@6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Microcystis</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Chroococcales</taxonomy>
+                <gram>negative</gram>
+                <taxid>1125</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Identification of peptide metabolites of Microcystis (Cyanobacteria)} that inhibit trypsin-like activity in planktonic herbivorous Daphnia (Cladocera)}</title>
+                <year>2006</year>
+                <journal>Environmental Microbiology</journal>
+                <location>vol. 8,no. 1,pp. 77-87</location>
+                <pmid>16343324</pmid>
+                <authors>
+                    <author>
+                        <name>Olaf</name>
+                    </author>
+                    <author>
+                        <name>Czarnecki</name>
+                    </author>
+                    <author>
+                        <name>Manfred</name>
+                    </author>
+                    <author>
+                        <name>Henning</name>
+                    </author>
+                    <author>
+                        <name>Indra</name>
+                    </author>
+                    <author>
+                        <name>Lippert</name>
+                    </author>
+                    <author>
+                        <name>Martin</name>
+                    </author>
+                    <author>
+                        <name>Welker</name>
+                    </author>
+                </authors>
+                <doi>10.1111/j.1462-2920.2005.00870.x</doi>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

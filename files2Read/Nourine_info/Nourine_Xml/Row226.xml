@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00228</id>
+            <name>actinomycin D</name>
+            <family>actinomycin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>antitumor</activity>
+            </activities>
+            <synonyms>Dactinomycin</synonyms>
+            <category>chromopeptide</category>
+            <formula>C62H86N12O16</formula>
+            <mw>1255.4171</mw>
+            <comment>Dactinomycin belongs to the group of medicines known as antineoplastics. It is used to treat some kinds of cancer of the bones and soft tissue, including muscles and tendons, Wilms tumor (a cancer of the kidney found primarily in children), tumors in the uterus or womb, and cancer of the testicles.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>double cyclic</type>
+            <size>11</size>
+            <composition>D-Val, Pro, NMe-Gly, NMe-Val, Thr, ChrAct, Thr, D-Val, Pro, NMe-Gly, NMe-Val</composition>
+            <graph>Thr,D-Val,Pro,NMe-Gly,NMe-Val,ChrAct,Thr,D-Val,Pro,NMe-Gly,NMe-Val@1,5,4@0,2@1,3@2,4@0,3@0,6@5,7,10@6,8@7,9@8,10@6,9</graph>
+            <smiles>CC(C)C6NC(=O)C(NC(=O)c3ccc(C)c4OC5=C(C)C(=O)C(N)=C(C(=O)NC1C(C)OC(=O)C(C(C)C)N(C)C(=O)CN(C)C(=O)C2CCCN2(C(=O)C(NC1(=O))C(C)C))C5(=Nc34))C(C)OC(=O)C(C(C)C)N(C)C(=O)CN(C)C(=O)C7CCCN7(C6(=O))</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces antibioticus</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <synonym>Actinomyces antibioticus</synonym>
+                <taxid>1890</taxid>
+            </organism>
+            <organism>
+                <name>Streptomyces chrysomallus</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <synonym>Streptomyces anulatus,Streptomyces fluorescens,Streptomyces citreofluorescens,Actinomyces fluorescens,Actinomyces citreofluorescens,Actinomyces annulatus,Actinomyces Streptothrix annulatus</synonym>
+                <taxid>1892</taxid>
+            </organism>
+            <organism>
+                <name>Streptomyces parvulus</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <taxid>146923</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Molecular characterization of the genes of actinomycin synthetase I and of a 4-methyl-3-hydroxyanthranilic acid carrier protein involved in the assembly of the acylpeptide chain of actinomycin in Streptomyces</title>
+                <year>1999</year>
+                <journal>The Journal of biological chemistry</journal>
+                <location>Apr 30,274(18):12508-16.</location>
+                <pmid>10212227</pmid>
+                <authors>
+                    <author>
+                        <name>Keller U</name>
+                    </author>
+                    <author>
+                        <name>Pfennig F</name>
+                    </author>
+                    <author>
+                        <name>Schauwecker F</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>457193</acc>
+                <name_db>PubChem</name_db>
+            </link>
+            <link>
+                <acc>Q9S6J9</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>O68487</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q9L8H4</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>173d</acc>
+                <name_db>PDB</name_db>
+            </link>
+            <link>
+                <acc>1a7y</acc>
+                <name_db>PDB</name_db>
+            </link>
+            <link>
+                <acc>1dsc</acc>
+                <name_db>PDB</name_db>
+            </link>
+            <link>
+                <acc>1dsd</acc>
+                <name_db>PDB</name_db>
+            </link>
+            <link>
+                <acc>1fja</acc>
+                <name_db>PDB</name_db>
+            </link>
+            <link>
+                <acc>1i3w</acc>
+                <name_db>PDB</name_db>
+            </link>
+            <link>
+                <acc>1l1v</acc>
+                <name_db>PDB</name_db>
+            </link>
+            <link>
+                <acc>1mnv</acc>
+                <name_db>PDB</name_db>
+            </link>
+            <link>
+                <acc>1unj</acc>
+                <name_db>PDB</name_db>
+            </link>
+            <link>
+                <acc>1unm</acc>
+                <name_db>PDB</name_db>
+            </link>
+            <link>
+                <acc>209d</acc>
+                <name_db>PDB</name_db>
+            </link>
+            <link>
+                <acc>2d55</acc>
+                <name_db>PDB</name_db>
+            </link>
+            <link>
+                <acc>316d</acc>
+                <name_db>PDB</name_db>
+            </link>
+            <link>
+                <acc>1ovf</acc>
+                <name_db>PDB</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

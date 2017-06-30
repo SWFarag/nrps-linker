@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01081</id>
+            <name>feglymycin</name>
+            <family>feglymycin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C95H97N13O30</formula>
+            <mw>1900.8558</mw>
+            <comment>As well as having weak antibacterial activity, feglymycin inhibits the replication of the human immunodeficiency virus (HIV) in vitro.</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>13</size>
+            <composition>D-Hpg, D-Dhpg, Val, D-Dhpg, Hpg, D-Dhpg, Hpg, D-Dhpg, Val, D-Dhpg, Hpg, Phe, Asp</composition>
+            <graph>D-Hpg,D-Dhpg,Val,D-Dhpg,Hpg,D-Dhpg,Hpg,D-Dhpg,Val,D-Dhpg,Hpg,Phe,Asp@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@11</graph>
+            <smiles>CC(C)C(NC(=O)C(NC(=O)C(N)c1ccc(O)cc1)c2cc(O)cc(O)c2)C(=O)NC(c3cc(O)cc(O)c3)C(=O)NC(c4ccc(O)cc4)C(=O)NC(c5cc(O)cc(O)c5)C(=O)NC(c6ccc(O)cc6)C(=O)NC(c7cc(O)cc(O)c7)C(=O)NC(C(C)C)C(=O)NC(c8cc(O)cc(O)c8)C(=O)NC(c9ccc(O)cc9)C(=O)NC(Cc%10ccccc%10)C(=O)NC(CC(=O)O)C(=O)O</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces sp. DSM 11171</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Feglymycin, a novel inhibitor of the replication of the human immunodeficiency virus. Fermentation, isolation and structure elucidation</title>
+                <year>1999</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Apr,52(4):374-82.</location>
+                <pmid>10395273</pmid>
+                <authors>
+                    <author>
+                        <name>Vertesy L</name>
+                    </author>
+                    <author>
+                        <name>Vogel M</name>
+                    </author>
+                    <author>
+                        <name>Wink J</name>
+                    </author>
+                    <author>
+                        <name>Aretz W</name>
+                    </author>
+                    <author>
+                        <name>Knauf M</name>
+                    </author>
+                    <author>
+                        <name>Markus A</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>1W7R</acc>
+                <name_db>PDB</name_db>
+            </link>
+            <link>
+                <acc>1W7Q</acc>
+                <name_db>PDB</name_db>
+            </link>
+            <link>
+                <acc>16130418</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00217</id>
+            <name>[Ile4]surfactin</name>
+            <family>surfactin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>surfactant</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>8</size>
+            <composition>aC15:0-OH(3), Glu, Leu, D-Leu, Ile, Asp, D-Leu, Leu</composition>
+            <graph>aC15:0-OH(3),Glu,Leu,D-Leu,Ile,Asp,D-Leu,Leu@1,7@0,2@1,3@2,4@3,5@4,6@5,7@0,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Bacillus subtilis</name>
+                <taxonomy>cellular organisms, Bacteria, Firmicutes, Bacilli, Bacillales, Bacillaceae, Bacillus</taxonomy>
+                <gram>positive</gram>
+                <synonym>Bacillus uniflagellatus,Bacillus natto,Bacillus globigii,Vibrio subtilis</synonym>
+                <taxid>1423</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Production, isolation and characterization of [Leu4] and [Ile4]surfactins from Bacillus subtilis</title>
+                <year>1995</year>
+                <journal>Lett. Peptide Sci</journal>
+                <location>2, 41-47.</location>
+                <authors>
+                    <author>
+                        <name>Grangemard I</name>
+                    </author>
+                    <author>
+                        <name>Peypoux F</name>
+                    </author>
+                    <author>
+                        <name>Labbe H</name>
+                    </author>
+                    <author>
+                        <name>Maget-Dana R</name>
+                    </author>
+                    <author>
+                        <name>Ptak M</name>
+                    </author>
+                    <author>
+                        <name>Bonmatin JM</name>
+                    </author>
+                    <author>
+                        <name>Michel G</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

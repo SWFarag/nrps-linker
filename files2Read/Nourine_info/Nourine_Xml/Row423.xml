@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00431</id>
+            <name>onchidin B</name>
+            <family>onchidin</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C62H96N4O16</formula>
+            <mw>1153.4429</mw>
+            <comment>onchidin B is a putative NRPS product (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>10</size>
+            <composition>Pro, Hmp, Hiv, D-NMe-Val, C8:0:1(7)-Me(2)-OH(3), D-Pro, Hmp, Hiv, D-NMe-Val, C8:0:1(7)-Me(2)-OH(3)</composition>
+            <graph>Pro,Hmp,Hiv,D-NMe-Val,C8:0:1(7)-Me(2)-OH(3),D-Pro,Hmp,Hiv,D-NMe-Val,C8:0:1(7)-Me(2)-OH(3)@1,9@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@0,8</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Onchidium sp.</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Eumetazoa, Bilateria, Coelomata, Protostomia, Mollusca, Gastropoda, Pulmonata, Systellommatophora, Onchidoidea, Onchidiidae, Onchidium</taxonomy>
+                <taxid>69682</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Onchidin B: A new cyclodepsipeptide from the mollusc Onchidium sp.</title>
+                <year>1996</year>
+                <journal>Journal of the American Chemical Society</journal>
+                <location>118 (46), pp. 11635-11643</location>
+                <authors>
+                    <author>
+                        <name>Debitus C</name>
+                    </author>
+                    <author>
+                        <name>Rodriguez J</name>
+                    </author>
+                    <author>
+                        <name>Fernandez R</name>
+                    </author>
+                    <author>
+                        <name>Riguera R</name>
+                    </author>
+                    <author>
+                        <name>Munoz L</name>
+                    </author>
+                    <author>
+                        <name>Fernandez-Suarez M</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

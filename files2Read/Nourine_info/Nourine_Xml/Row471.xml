@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00479</id>
+            <name>cyclotheonamide E5</name>
+            <family>cyclotheonamide</family>
+            <activities>
+                <activity>antithrombotic</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C41H62N10O10</formula>
+            <mw>854.99207</mw>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>7</size>
+            <composition>Pro, k-Arg, D-aIle, v-OH-Tyr, Dpr, Ala, Me-Vaa</composition>
+            <graph>Pro,k-Arg,D-aIle,v-OH-Tyr,Dpr,Ala,Me-Vaa@1,4@0,2@1,3@2,4@0,3,5@4,6@5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Ircinia</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Dictyoceratida, Ircinidae</taxonomy>
+                <taxid>275431</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Cyclotheonamide E4 and E5, new potent tryptase inhibitors from an Ircinia species of sponge</title>
+                <year>2002</year>
+                <journal>Journal of natural products</journal>
+                <location>Mar,65(3):259-61.</location>
+                <pmid>11908961</pmid>
+                <authors>
+                    <author>
+                        <name>Murakami Y</name>
+                    </author>
+                    <author>
+                        <name>Takei M</name>
+                    </author>
+                    <author>
+                        <name>Shindo K</name>
+                    </author>
+                    <author>
+                        <name>Kitazume C</name>
+                    </author>
+                    <author>
+                        <name>Tanaka J</name>
+                    </author>
+                    <author>
+                        <name>Higa T</name>
+                    </author>
+                    <author>
+                        <name>Fukamachi H</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>643737</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

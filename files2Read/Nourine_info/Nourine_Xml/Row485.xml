@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00493</id>
+            <name>halicylindramide B</name>
+            <family>halicylindramide</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C78H111BrN20O22S</formula>
+            <mw>1792.8058</mw>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>14</size>
+            <composition>D-NFo-Ala, Br-Phe, Pro, D-Val, t-Leu, D-Trp, Arg, D-CysA, Thr, NMe-Gln, D-Phe, Thr, Asn, Gly</composition>
+            <graph>D-NFo-Ala,Br-Phe,Pro,D-Val,t-Leu,D-Trp,Arg,D-CysA,Thr,NMe-Gln,D-Phe,Thr,Asn,Gly@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9,13@8,10@9,11@10,12@11,13@8,12</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Halichondria cylindrata</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Halichondrida, Halichondriidae, Halichondria</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Halicylindramides A-C, antifungal and cytotoxic depsipeptides from the marine sponge Halichondria cylindrata</title>
+                <year>1995</year>
+                <journal>Journal of medicinal chemistry</journal>
+                <location>Jan 20,38(2):338-43. </location>
+                <pmid>7830276</pmid>
+                <authors>
+                    <author>
+                        <name>Matsunaga S</name>
+                    </author>
+                    <author>
+                        <name>Fusetani N</name>
+                    </author>
+                    <author>
+                        <name>Li HY</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

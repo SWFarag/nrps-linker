@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00195</id>
+            <name>pyoverdin 18-1</name>
+            <family>pyoverdin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <category>chromopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>11</size>
+            <composition>ChrP, D-Ser, Lys, Gly, Fo-OH-Orn, Ser, D-Ser, Gly, Lys, D-Fo-OH-Orn, Ser</composition>
+            <graph>ChrP,D-Ser,Lys,Gly,Fo-OH-Orn,Ser,D-Ser,Gly,Lys,D-Fo-OH-Orn,Ser@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9,10@8,10@8,9</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas fluorescens</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas</taxonomy>
+                <gram>negative</gram>
+                <taxid>136843</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The siderophores of Pseudomonas fluorescens 18.1 and the importance of cyclopeptidic substructures for the recognition at the cell surface</title>
+                <year>2000</year>
+                <journal>Zeitschrift fur Naturforschung. Section C: Biosciences</journal>
+                <location>Sep-Oct,55(9-10):671-80.</location>
+                <pmid>11098814</pmid>
+                <authors>
+                    <author>
+                        <name>Meyer JM</name>
+                    </author>
+                    <author>
+                        <name>Taraz K</name>
+                    </author>
+                    <author>
+                        <name>Budzikiewicz H</name>
+                    </author>
+                    <author>
+                        <name>Amann C</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

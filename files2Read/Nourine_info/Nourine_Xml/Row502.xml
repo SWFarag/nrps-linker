@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00510</id>
+            <name>dysamide N</name>
+            <family>dysamide</family>
+            <activities>
+                <activity>unknown</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C14H18Cl5N2O2</formula>
+            <mw>423.56995</mw>
+            <comment>dysamides are putative NRPS products (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>2</size>
+            <composition>Cl3-NMe-Leu, Cl2-NMe-dhLeu</composition>
+            <graph>Cl3-NMe-Leu,Cl2-NMe-dhLeu@1,1@0,0</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Dysidea chlorea</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Dictyoceratida, Dysideidae, Dysidea</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>New diketopiperazines from the sponge Dysidea chlorea</title>
+                <year>1998</year>
+                <journal>Journal of natural products</journal>
+                <location>Oct,61(10):1226-31.</location>
+                <pmid>9784157</pmid>
+                <authors>
+                    <author>
+                        <name>Kelly-Borges M</name>
+                    </author>
+                    <author>
+                        <name>Fu X</name>
+                    </author>
+                    <author>
+                        <name>Ferreira ML</name>
+                    </author>
+                    <author>
+                        <name>Schmitz FJ</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

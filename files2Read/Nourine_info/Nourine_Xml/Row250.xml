@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00252</id>
+            <name>beauvericin</name>
+            <family>beauvericin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C45H57N3O9</formula>
+            <mw>783.9487</mw>
+            <comment>This antibiotic is active against Gram-positive bacteria and mycobacteria, as well against insects.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>6</size>
+            <composition>NMe-Phe, D-Hiv, NMe-Phe, D-Hiv, NMe-Phe, D-Hiv</composition>
+            <graph>NMe-Phe,D-Hiv,NMe-Phe,D-Hiv,NMe-Phe,D-Hiv@1,5@0,2@1,3@2,4@3,5@0,4</graph>
+            <smiles>CC(C)C4OC(=O)C(Cc1ccccc1)N(C)C(=O)C(OC(=O)C(Cc2ccccc2)N(C)C(=O)C(OC(=O)C(Cc3ccccc3)N(C)C4(=O))C(C)C)C(C)C</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Paecilomyces fumosoroseus</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Clavicipitaceae, mitosporic Clavicipitaceae, Paecilomyces</taxonomy>
+                <taxid>114497</taxid>
+            </organism>
+            <organism>
+                <name>Paecilomyces tenuipes</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Dikarya, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Cordycipitaceae, mitosporic Cordycipitaceae, Isaria</taxonomy>
+                <synonym>Isaria tenuipes</synonym>
+                <taxid>45847</taxid>
+            </organism>
+            <organism>
+                <name>Beauveria bassiana</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Clavicipitaceae, Cordyceps</taxonomy>
+                <synonym>Cordyceps bassiana,Tritirachium shiotae</synonym>
+                <taxid>176275</taxid>
+            </organism>
+            <organism>
+                <name>Fusarium</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Dikarya, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, mitosporic Hypocreales</taxonomy>
+                <taxid>5506</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>New beauvericins, potentiators of antifungal miconazole activity, Produced by Beauveria sp. FKI-1366. I. Taxonomy, fermentation, isolation and biological properties</title>
+                <year>2004</year>
+                <journal>The Journal of antibiotics (Tokyo)</journal>
+                <location>Feb,57(2):110-6.</location>
+                <pmid>15112959</pmid>
+                <authors>
+                    <author>
+                        <name>Tomoda H</name>
+                    </author>
+                    <author>
+                        <name>Masuma R</name>
+                    </author>
+                    <author>
+                        <name>Omura S</name>
+                    </author>
+                    <author>
+                        <name>Fukuda T</name>
+                    </author>
+                    <author>
+                        <name>Arai M</name>
+                    </author>
+                    <author>
+                        <name>Yamaguchi Y</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>105014</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

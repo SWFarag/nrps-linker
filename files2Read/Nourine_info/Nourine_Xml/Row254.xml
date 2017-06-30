@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00256</id>
+            <name>beauvericin F</name>
+            <family>beauvericin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C46H59N3O9</formula>
+            <mw>797.97534</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>6</size>
+            <composition>NMe-Phe, 4Me-D-Hva, NMe-Phe, D-Hiv, NMe-Phe, D-Hiv</composition>
+            <graph>NMe-Phe,4Me-D-Hva,NMe-Phe,D-Hiv,NMe-Phe,D-Hiv@1,5@0,2@1,3@2,4@3,5@0,4</graph>
+            <smiles>CC(C)CC4OC(=O)C(Cc1ccccc1)N(C)C(=O)C(OC(=O)C(Cc2ccccc2)N(C)C(=O)C(OC(=O)C(Cc3ccccc3)N(C)C4(=O))C(C)C)C(C)C</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Beauveria bassiana</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Clavicipitaceae, Cordyceps</taxonomy>
+                <synonym>Cordyceps bassiana,Tritirachium shiotae</synonym>
+                <taxid>176275</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>New beauvericins, potentiators of antifungal miconazole activity, Produced by Beauveria sp. FKI-1366. I. Taxonomy, fermentation, isolation and biological properties</title>
+                <year>2004</year>
+                <journal>The Journal of antibiotics (Tokyo)</journal>
+                <location>Feb,57(2):110-6.</location>
+                <pmid>15112959</pmid>
+                <authors>
+                    <author>
+                        <name>Tomoda H</name>
+                    </author>
+                    <author>
+                        <name>Masuma R</name>
+                    </author>
+                    <author>
+                        <name>Omura S</name>
+                    </author>
+                    <author>
+                        <name>Fukuda T</name>
+                    </author>
+                    <author>
+                        <name>Arai M</name>
+                    </author>
+                    <author>
+                        <name>Yamaguchi Y</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>3007988</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

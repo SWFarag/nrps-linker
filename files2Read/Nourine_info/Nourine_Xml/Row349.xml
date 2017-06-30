@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00352</id>
+            <name>syringopeptin 25A</name>
+            <family>syringopeptin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>toxin</activity>
+            </activities>
+            <synonyms>SP25A</synonyms>
+            <category>lipopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>26</size>
+            <composition>C10:0-OH(3), dhAbu, D-Pro, D-Val, Ala, D-Ala, Val, D-Leu, D-Ala, D-Ala, dhAbu, D-Val, dhAbu, D-Ala, D-Val, D-Ala, D-Ala, dhAbu, D-aThr, D-Ser, D-Ala, Val, Ala, Dab, D-Dab, Tyr</composition>
+            <graph>C10:0-OH(3),dhAbu,D-Pro,D-Val,Ala,D-Ala,Val,D-Leu,D-Ala,D-Ala,dhAbu,D-Val,dhAbu,D-Ala,D-Val,D-Ala,D-Ala,dhAbu,D-aThr,D-Ser,D-Ala,Val,Ala,Dab,D-Dab,Tyr@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@11,13@12,14@13,15@14,16@15,17@16,18@17,19,25@18,20@19,21@20,22@21,23@22,24@23,25@18,24</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas syringae pv. syringae</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas syringae group, Pseudomonas syringae group genomosp. 1, Pseudomonas syringae</taxonomy>
+                <gram>negative</gram>
+                <taxid>321</taxid>
+            </organism>
+            <organism>
+                <name>Pseudomonas syringae pv. atrofaciens</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas syringae group, Pseudomonas syringae group genomosp. 1, Pseudomonas syringae</taxonomy>
+                <gram>negative</gram>
+                <taxid>192087</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The phytotoxic lipodepsipeptide syringopeptin 25A from Pseudomonas syringae pv syringae forms ion channels in sugar beet vacuoles</title>
+                <year>2002</year>
+                <journal>The Journal of membrane biology</journal>
+                <location>Aug 1,188(3):237-48.</location>
+                <pmid>12181614</pmid>
+                <authors>
+                    <author>
+                        <name>Dalla Serra M</name>
+                    </author>
+                    <author>
+                        <name>Carpaneto A</name>
+                    </author>
+                    <author>
+                        <name>Menestrina G</name>
+                    </author>
+                    <author>
+                        <name>Fogliano V</name>
+                    </author>
+                    <author>
+                        <name>Gambale F</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

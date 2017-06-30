@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00267</id>
+            <name>anabaenopeptin G</name>
+            <family>anabaenopeptin</family>
+            <activities>
+                <activity>protease inhibitor</activity>
+            </activities>
+            <category>peptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>7</size>
+            <composition>Tyr, NMe-Leu, Hty, Ile, D-Lys, CO, Arg</composition>
+            <graph>Tyr,NMe-Leu,Hty,Ile,D-Lys,CO,Arg@1,4@0,2@1,3@2,4@0,3,5@4,6@5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Oscillatoria agardhii</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Oscillatoriales, Planktothrix</taxonomy>
+                <gram>negative</gram>
+                <synonym>Planktothrix agardhii</synonym>
+                <taxid>1160</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Anabaenopeptins G and H, potent carboxypeptidase A inhibitors from the cyanobacterium Oscillatoria agardhii (NIES-595)</title>
+                <year>1999</year>
+                <journal>Bioorganic and medicinal chemistry letters</journal>
+                <location>May 3,9(9):1243-6.</location>
+                <pmid>10340607</pmid>
+                <authors>
+                    <author>
+                        <name>Itou Y</name>
+                    </author>
+                    <author>
+                        <name>Suzuki S</name>
+                    </author>
+                    <author>
+                        <name>Ishida K</name>
+                    </author>
+                    <author>
+                        <name>Murakami M</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

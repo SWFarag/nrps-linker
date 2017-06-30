@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00909</id>
+            <name>pseudobactin A225-II</name>
+            <family>pyoverdin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <category>chromopeptide</category>
+            <formula>C46H63O23N13</formula>
+            <mw>1166.0657</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>9</size>
+            <composition>ChrP, Ser, Ala, Ac-OH-Orn, Gly, Ser, OH-Asp, Ser, Thr</composition>
+            <graph>ChrP,Ser,Ala,Ac-OH-Orn,Gly,Ser,OH-Asp,Ser,Thr@1@0,2,8@1,3@2,4@3,5@4,6@5,7@6,8@1,7</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas fluorescens</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas</taxonomy>
+                <gram>negative</gram>
+                <taxid>136843</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structures and characteristics of novel siderophores from plant deleterious Pseudomonas fluorescens A225 and Pseudomonas putida ATCC 39167</title>
+                <year>1997</year>
+                <journal>Biochemistry</journal>
+                <location>Apr 8,36(14):4163-71.</location>
+                <pmid>9100010</pmid>
+                <authors>
+                    <author>
+                        <name>Van Der Helm D</name>
+                    </author>
+                    <author>
+                        <name>Khalil-Rizvi S</name>
+                    </author>
+                    <author>
+                        <name>Toth SI</name>
+                    </author>
+                    <author>
+                        <name>Vidavsky I</name>
+                    </author>
+                    <author>
+                        <name>Gross ML</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

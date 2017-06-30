@@ -1,0 +1,1185 @@
+,ids,names,xml_file_name
+0,NOR00001,daptomycin,Row0
+1,NOR00002,A54145 A,Row1
+2,NOR00003,A54145 B,Row2
+3,NOR00004,A54145 C,Row3
+4,NOR00005,A54145 F,Row4
+5,NOR00006,ACV,Row5
+6,NOR00007,alamethicin F50,Row6
+7,NOR00008,[des(1-6).Pyr7] alamethicin F50,Row7
+8,NOR00009,[Aib6] alamethicin F30,Row8
+9,NOR00010,alamethicin F30,Row9
+10,NOR00011,[Glu19] alamethicin F30,Row10
+11,NOR00012,[Aib6.Glu19] alamethicin F30,Row11
+12,NOR00013,[des(1-6).Pyr7] alamethicin F30,Row12
+13,NOR00014,[desPheol] alamethicin F30,Row13
+14,NOR00015,[Aib6.desPheol] alamethicin F30,Row14
+15,NOR00016,[Aib6.Glu7] alamethicin F30,Row15
+16,NOR00017,[Glu7] alamethicin F30,Row16
+17,NOR00018,bacitracin A1,Row17
+18,NOR00019,bacitracin A2,Row18
+19,NOR00020,bacitracin B2,Row19
+20,NOR00021,bacitracin B3,Row20
+21,NOR00022,bacitracin C,Row21
+22,NOR00023,CDA1b,Row22
+23,NOR00024,CDA2a,Row23
+24,NOR00025,CDA2b,Row24
+25,NOR00026,CDA3a,Row25
+26,NOR00027,CDA3b,Row26
+27,NOR00028,CDA4a,Row27
+28,NOR00029,CDA4b,Row28
+29,NOR00030,CDA2d,Row29
+30,NOR00031,CDA2fa,Row30
+31,NOR00032,CDA2fb,Row31
+32,NOR00033,cyclosporin A,Row32
+33,NOR00034,cyclosporin B,Row33
+34,NOR00035,cyclosporin C,Row34
+35,NOR00036,cyclosporin D,Row35
+36,NOR00037,cyclosporin E,Row36
+37,NOR00038,cyclosporin F,Row37
+38,NOR00039,cyclosporin G,Row38
+39,NOR00040,cyclosporin H,Row39
+40,NOR00041,cyclosporin I,Row40
+41,NOR00042,cyclosporin K,Row41
+42,NOR00043,cyclosporin L,Row42
+43,NOR00044,cyclosporin M,Row43
+44,NOR00045,cyclosporin N,Row44
+45,NOR00046,cyclosporin O,Row45
+46,NOR00047,cyclosporin P,Row46
+47,NOR00048,cyclosporin Q,Row47
+48,NOR00049,cyclosporin R,Row48
+49,NOR00050,cyclosporin S,Row49
+50,NOR00051,cyclosporin U,Row50
+51,NOR00052,cyclosporin V,Row51
+52,NOR00053,cyclosporin W,Row52
+53,NOR00054,cyclosporin X,Row53
+54,NOR00055,cyclosporin Y,Row54
+55,NOR00056,cyclosporin Z,Row55
+56,NOR00057,cyclosporin 26,Row56
+57,NOR00058,cyclosporin 27,Row57
+58,NOR00059,cyclosporin 28,Row58
+59,NOR00060,cyclosporin 29,Row59
+60,NOR00061,cyclosporin 30,Row60
+61,NOR00062,cyclosporin 31,Row61
+62,NOR00063,cyclosporin 32,Row62
+63,NOR00064,destruxin A,Row63
+64,NOR00065,destruxin B,Row64
+65,NOR00066,destruxin A1,Row65
+66,NOR00067,destruxin B1,Row66
+67,NOR00068,destruxin A2,Row67
+68,NOR00069,destruxin B2,Row68
+69,NOR00070,destruxin A3,Row69
+70,NOR00071,destruxin A4,Row70
+71,NOR00072,destruxin A4 chlorohydrin,Row71
+72,NOR00073,desmethylDestruxin A,Row72
+73,NOR00074,desmethylDestruxin B2,Row73
+74,NOR00075,homoDestruxin B,Row74
+75,NOR00076,protoDestruxin,Row75
+76,NOR00077,hydroxyDestruxin B,Row76
+77,NOR00078,hydroxyhomoDestruxin B,Row77
+78,NOR00079,beta-D-Glucopyranosyl-hydroxyDestruxin B,Row78
+79,NOR00080,destruxin C,Row79
+80,NOR00081,destruxin C2,Row80
+81,NOR00082,desmethylDestruxin C,Row81
+82,NOR00083,destruxin D,Row82
+83,NOR00084,destruxin D1,Row83
+84,NOR00085,destruxin D2,Row84
+85,NOR00086,destruxin E,Row85
+86,NOR00087,destruxin E1,Row86
+87,NOR00088,destruxin E2,Row87
+88,NOR00089,destruxin E chlorohydrin,Row88
+89,NOR00090,destruxin E2 chlorohydrin,Row89
+90,NOR00091,destruxin E diol,Row90
+91,NOR00092,enniatin A,Row91
+92,NOR00093,enniatin A1,Row92
+93,NOR00094,enniatin B,Row93
+94,NOR00095,enniatin B1,Row94
+95,NOR00096,enniatin L,Row95
+96,NOR00097,enniatin N,Row96
+97,NOR00098,enniatin  H,Row97
+98,NOR00099,enniatin I,Row98
+99,NOR00100,enniatin C,Row99
+100,NOR00101,MK1688,Row100
+101,NOR00102,enniatin B4,Row101
+102,NOR00104,enniatin F,Row102
+103,NOR00105,enniatin G,Row103
+104,NOR00106,microcystin LA,Row104
+105,NOR00107,microcystin RR,Row105
+106,NOR00108,microcystin YR,Row106
+107,NOR00109,microcystin LR,Row107
+108,NOR00110,microcystin LW,Row108
+109,NOR00111,microcystin LL,Row109
+110,NOR00112,microcystin AR,Row110
+111,NOR00113,microcystin YA,Row111
+112,NOR00114,[D-Asp3.Dha7]mycrocystin-LR,Row112
+113,NOR00115,[D-Asp3.Dha7]microcystin-EE(OMe),Row113
+114,NOR00116,microcystin VF,Row114
+115,NOR00117,[D-Asp3]microcystin-LR,Row115
+116,NOR00118,[Dha7]microcystin-LR,Row116
+117,NOR00119,[Dha7]microcystin-EE(OMe),Row117
+118,NOR00120,[D-Asp3.Dha7]microcystin-E(OMe)E(OMe),Row118
+119,NOR00121,microcystin LF,Row119
+120,NOR00122,[D-Asp3.D-Glu(OCH3)6]microcystin-LR,Row120
+121,NOR00123,[Dha7]MCYST-E(OMe)E(OMe),Row121
+122,NOR00124,[L-Ser7]microcystin-LR,Row122
+123,NOR00125,microcystin LY,Row123
+124,NOR00126,[L-Ser7]microcytin-EE(OMe),Row124
+125,NOR00127,[D-Asp3.Ser7]microcystin-E(OMe)E(OMe),Row125
+126,NOR00128,microcystin HilR,Row126
+127,NOR00129,[DMAdda5]microcystin-LR,Row127
+128,NOR00130,[D-Asp3.ADMAdda5]microcystin-LR,Row128
+129,NOR00131,[D-Glu(OCH3)6]microcystin-LR,Row129
+130,NOR00132,[D-Asp3.Dha7]microcystin-RR,Row130
+131,NOR00133,[L-MeSer7]microcytin-LR,Row131
+132,NOR00134,[Dha7]microcystin-FR,Row132
+133,NOR00135,[L-Ser7]microcystin-E(OMe)E(OMe),Row133
+134,NOR00136,[ADMAdda5]microcystin-LR,Row134
+135,NOR00137,[D-Asp3.ADMAdda5]microcystin-LHar,Row135
+136,NOR00138,[D-Asp3]microcystin-RR,Row136
+137,NOR00139,[Dha7]microcystin-RR,Row137
+138,NOR00140,microcystin FR,Row138
+139,NOR00141,[Dha7]microcystin-YR,Row139
+140,NOR00142,[D-Asp3]microcystin-YR,Row140
+141,NOR00143,[ADMAdda5]microcystin-LHar,Row141
+142,NOR00144,[D-Ser1. ADMAdda5]microcystin-LR,Row142
+143,NOR00145,[ADMAdda5.MeSer7]microcystin-LR,Row143
+144,NOR00146,[L-Ser7]microcystin-RR,Row144
+145,NOR00147,[D-Asp3.MeSer7]microcystin-RR,Row145
+146,NOR00148,microcystin-WR,Row146
+147,NOR00149,[L-MeLan7]microcystin-LR,Row147
+148,NOR00150,[D-Asp3]microcystin-HtyR,Row148
+149,NOR00151,[Dha7]microcystin-HtyR,Row149
+150,NOR00152,microcystin-HtyR,Row150
+151,NOR00153,[L-Ser7]microcystin-HtyR,Row151
+152,NOR00154,[DAsp3.ADMAdda5.Dhb7]microcystin-HtyR,Row152
+153,NOR00155,microcystin-M(O)R,Row153
+154,NOR00156,microcystin-YM(O),Row154
+155,NOR00157,[D-Asp3. Dha7]microcystin-HtyR,Row155
+156,NOR00158,[Dha7]microcystin-HphR,Row156
+157,NOR00159,[D-Asp3.ADMAdda5.Dhb7]microcystin-RR,Row157
+158,NOR00160,pseudobactin,Row158
+159,NOR00161,pyoverdin 9AW,Row159
+160,NOR00162,pyoverdin 4a,Row160
+161,NOR00163,isopyoverdin BTP1,Row161
+162,NOR00164,pyoverdin PL7,Row162
+163,NOR00165,pyoverdin BTP2,Row163
+164,NOR00166,pyoverdin G4R,Row164
+165,NOR00167,pyoverdin 2908,Row165
+166,NOR00168,pyoverdin T II,Row166
+167,NOR00169,pyoverdin PL8,Row167
+168,NOR00170,pyoverdin 11370,Row168
+169,NOR00171,isopyoverdin 90-33,Row169
+170,NOR00172,pyoverdin 90-51,Row170
+171,NOR00173,pyoverdin Pau,Row171
+172,NOR00174,pyoverdin 2392,Row172
+173,NOR00175,pseudobactin 589A,Row173
+174,NOR00176,pyoverdin 2461,Row174
+175,NOR00177,pyoverdin 3b,Row175
+176,NOR00178,pyoverdin 2798,Row176
+177,NOR00179,pyoverdin 17400,Row177
+178,NOR00180,pyoverdin 1.2,Row178
+179,NOR00181,pyoverdin 1.3,Row179
+180,NOR00182,pyoverdin 2192,Row180
+181,NOR00183,isopyoverdin 90-44,Row181
+182,NOR00184,pyoverdin 51W,Row182
+183,NOR00185,pyoverdin GM,Row183
+184,NOR00186,pyoverdin 1547,Row184
+185,NOR00187,pyoverdin G173,Row185
+186,NOR00188,pyoverdin 96-312,Row186
+187,NOR00189,pyoverdin 96.188,Row187
+188,NOR00190,pyoverdin C-E,Row188
+189,NOR00191,pyoverdin 95-275,Row189
+190,NOR00192,pyoverdin 12,Row190
+191,NOR00193,pyoverdin 13525,Row191
+192,NOR00194,pyoverdin 96-318,Row192
+193,NOR00195,pyoverdin 18-1,Row193
+194,NOR00196,azoverdin,Row194
+195,NOR00197,pyoverdin R prime,Row195
+196,NOR00198,PaB,Row196
+197,NOR00199,pyoverdin 19310,Row197
+198,NOR00200,pyoverdin R,Row198
+199,NOR00201,pseudobactin A214,Row199
+200,NOR00202,pyoverdin P19,Row200
+201,NOR00203,pyoverdin D-TR133,Row201
+202,NOR00204,pyoverdin I-III,Row202
+203,NOR00205,pyoverdin C,Row203
+204,NOR00206,pyoverdin BTP16,Row204
+205,NOR00207,azotobactin 87 -1,Row205
+206,NOR00208,azotobactin D,Row206
+207,NOR00209,bacilysin,Row207
+208,NOR00210,chrysobactin,Row208
+209,NOR00211,surfactin aC15,Row209
+210,NOR00212,[Gln1]surfactin,Row210
+211,NOR00213,[Val7]surfactin,Row211
+212,NOR00214,[Ile7]surfactin,Row212
+213,NOR00215,[Ala4]surfactin iC14,Row213
+214,NOR00216,[Leu4]surfactin,Row214
+215,NOR00217,[Ile4]surfactin,Row215
+216,NOR00218,[Ile4.7]surfactin,Row216
+217,NOR00219,[Ile2.4.7]surfactin,Row217
+218,NOR00220,iturin A-2,Row218
+219,NOR00221,iturin C-1,Row219
+220,NOR00222,mycosubtilin 4,Row220
+221,NOR00223,bacillomycin L-1,Row221
+222,NOR00224,bacillomycin F-6,Row222
+223,NOR00225,bacillomycin D-1,Row223
+224,NOR00226,fengycin A,Row224
+225,NOR00227,fengycin B,Row225
+226,NOR00228,actinomycin D,Row226
+227,NOR00229,actinomycin I,Row227
+228,NOR00230,actinomycin II,Row228
+229,NOR00231,actinomycin III,Row229
+230,NOR00232,actinomycin V,Row230
+231,NOR00233,actinomycin VI,Row231
+232,NOR00234,actinomycin VII,Row232
+233,NOR00235,actinomycin Z1,Row233
+234,NOR00236,actinomycin Z2,Row234
+235,NOR00237,actinomycin Z3,Row235
+236,NOR00238,actinomycin Z4,Row236
+237,NOR00239,actinomycin Z5,Row237
+238,NOR00240,actinomycin pip1-alpha,Row238
+239,NOR00241,actinomycin pip1-beta,Row239
+240,NOR00242,actinomycin pip2,Row240
+241,NOR00243,Val-gramicidin A,Row241
+242,NOR00244,Val-gramicidin B,Row242
+243,NOR00245,Val-gramicidin C,Row243
+244,NOR00246,Ile-gramicidin A,Row244
+245,NOR00247,Ile-gramicidin B,Row245
+246,NOR00248,Ile-gramicidin C,Row246
+247,NOR00249,gramicidin S,Row247
+248,NOR00250,vibriobactin,Row248
+249,NOR00251,enterobactin,Row249
+250,NOR00252,beauvericin,Row250
+251,NOR00253,beauvericin A,Row251
+252,NOR00254,beauvericin D,Row252
+253,NOR00255,beauvericin E,Row253
+254,NOR00256,beauvericin F,Row254
+255,NOR00257,anabaenopeptilide 90A,Row255
+256,NOR00258,anabaenopeptilide 90B,Row256
+257,NOR00259,anabaenopeptilide 202A,Row257
+258,NOR00260,anabaenopeptilide 202B,Row258
+259,NOR00261,anabaenopeptin A,Row259
+260,NOR00262,anabaenopeptin B,Row260
+261,NOR00263,anabaenopeptin C,Row261
+262,NOR00264,anabaenopeptin D,Row262
+263,NOR00265,anabaenopeptin E,Row263
+264,NOR00266,anabaenopeptin F,Row264
+265,NOR00267,anabaenopeptin G,Row265
+266,NOR00268,anabaenopeptin H,Row266
+267,NOR00269,anabaenopeptin I,Row267
+268,NOR00270,anabaenopeptin J,Row268
+269,NOR00271,anabaenopeptin T,Row269
+270,NOR00272,ferintoic acid A,Row270
+271,NOR00273,ferintoic acid B,Row271
+272,NOR00274,nodulapeptin A,Row272
+273,NOR00275,nodulapeptin B,Row273
+274,NOR00276,oscillamide B,Row274
+275,NOR00277,oscillamide C,Row275
+276,NOR00278,oscillamide Y,Row276
+277,NOR00279,nodularin R,Row277
+278,NOR00280,anguibactin,Row278
+279,NOR00281,aureobasidin A,Row279
+280,NOR00282,aureobasidin B,Row280
+281,NOR00283,aureobasidin C,Row281
+282,NOR00284,aureobasidin D,Row282
+283,NOR00285,aureobasidin E,Row283
+284,NOR00286,aureobasidin F,Row284
+285,NOR00287,aureobasidin G,Row285
+286,NOR00288,aureobasidin R,Row286
+287,NOR00289,PF1022A,Row287
+288,NOR00290,PF1022B,Row288
+289,NOR00291,PF1022C,Row289
+290,NOR00292,PF1022D,Row290
+291,NOR00293,PF1022E,Row291
+292,NOR00294,coronatine,Row292
+293,NOR00295,norcoronatine,Row293
+294,NOR00296,friulimicin A,Row294
+295,NOR00297,amphomycin A1437 A,Row295
+296,NOR00298,tyrocidine A,Row296
+297,NOR00299,tyrocidine B,Row297
+298,NOR00300,tyrocidine C,Row298
+299,NOR00301,tyrocidine D,Row299
+300,NOR00303,brevianamide F,Row300
+301,NOR00304,HC-toxin,Row301
+302,NOR00305,AM-toxin I,Row302
+303,NOR00306,AM-toxin II,Row303
+304,NOR00307,AM-toxin III,Row304
+305,NOR00308,beauverolide A,Row305
+306,NOR00309,beauverolide B,Row306
+307,NOR00310,beauverolide Ba,Row307
+308,NOR00311,beauverolide C,Row308
+309,NOR00312,beauverolide Ca,Row309
+310,NOR00313,beauverolide D,Row310
+311,NOR00314,beauverolide E,Row311
+312,NOR00315,beauverolide Ea,Row312
+313,NOR00316,beauverolide F,Row313
+314,NOR00317,beauverolide Fa,Row314
+315,NOR00318,beauverolide i,Row315
+316,NOR00319,beauverolide H,Row316
+317,NOR00320,beauverolide Ja,Row317
+318,NOR00321,beauverolide Ka,Row318
+319,NOR00322,beauverolide L,Row319
+320,NOR00323,beauverolide La,Row320
+321,NOR00324,beauverolide M,Row321
+322,NOR00325,beauverolide N,Row322
+323,NOR00326,beauverolide I,Row323
+324,NOR00327,beauverolide II,Row324
+325,NOR00328,beauverolide III,Row325
+326,NOR00329,jaspamide,Row326
+327,NOR00330,bacillibactin,Row327
+328,NOR00331,viscosin,Row328
+329,NOR00332,viscosinamide,Row329
+330,NOR00333,massetolide A,Row330
+331,NOR00334,massetolide D,Row331
+332,NOR00335,massetolide E,Row332
+333,NOR00336,massetolide F,Row333
+334,NOR00337,White Line Inducing Principle,Row334
+335,NOR00338,pseudophomin A,Row335
+336,NOR00339,amphisin,Row336
+337,NOR00340,tensin,Row337
+338,NOR00341,pholipeptin,Row338
+339,NOR00342,lokisin,Row339
+340,NOR00343,arthrofactin,Row340
+341,NOR00344,tolaasin I,Row341
+342,NOR00345,tolaasin II,Row342
+343,NOR00346,tolaasin B,Row343
+344,NOR00347,tolaasin D,Row344
+345,NOR00348,tolaasin E,Row345
+346,NOR00349,fuscopeptin A,Row346
+347,NOR00350,corpeptin A,Row347
+348,NOR00351,syringopeptin 22A,Row348
+349,NOR00352,syringopeptin 25A,Row349
+350,NOR00353,syringopeptin SC 1,Row350
+351,NOR00354,syringopeptin 22 PhvA,Row351
+352,NOR00355,[Phe25]syringopeptin 25A,Row352
+353,NOR00356,syringomycin E,Row353
+354,NOR00357,syringostatin A,Row354
+355,NOR00358,syringotoxin B,Row355
+356,NOR00359,pseudomycin A,Row356
+357,NOR00360,cormycin A,Row357
+358,NOR00361,putisolvin I,Row358
+359,NOR00362,putisolvin II,Row359
+360,NOR00364,lichenysin A iC12,Row360
+361,NOR00369,dolastatin 10,Row361
+362,NOR00370,dolastatin 15,Row362
+363,NOR00371,dolastatin 11,Row363
+364,NOR00372,dolastatin 12,Row364
+365,NOR00373,dehydrodidemnin B,Row365
+366,NOR00374,didemnin B,Row366
+367,NOR00375,didemnin A,Row367
+368,NOR00376,didemnin C,Row368
+369,NOR00377,nordidemnin B,Row369
+370,NOR00378,nordidemnin A,Row370
+371,NOR00379,nordidemnin C,Row371
+372,NOR00380,didemnin M,Row372
+373,NOR00381,didemnin N,Row373
+374,NOR00382,didemnin X,Row374
+375,NOR00383,didemnin Y,Row375
+376,NOR00384,nordidemnin N,Row376
+377,NOR00385,acyclodidemnin A,Row377
+378,NOR00386,[Hysp2]didemnin B,Row378
+379,NOR00387,[Hap2]didemnin B,Row379
+380,NOR00388,tamandarin A,Row380
+381,NOR00389,tamandarin B,Row381
+382,NOR00390,kahalalide F,Row382
+383,NOR00391,kahalalide A,Row383
+384,NOR00392,kahalalide B,Row384
+385,NOR00393,kahalalide C,Row385
+386,NOR00394,kahalalide D,Row386
+387,NOR00395,kahalalide E,Row387
+388,NOR00396,kahalalide G,Row388
+389,NOR00397,kahalalide H,Row389
+390,NOR00398,kahalalide J,Row390
+391,NOR00399,kahalalide K,Row391
+392,NOR00400,marinobactin A,Row392
+393,NOR00401,aquachelin A,Row393
+394,NOR00402,amphibactin B,Row394
+395,NOR00403,ornibactin C4,Row395
+396,NOR00404,serrawettin W2,Row396
+397,NOR00405,serrawettin W1,Row397
+398,NOR00406,petrosifungin A,Row398
+399,NOR00407,petrosifungin B,Row399
+400,NOR00408,micromide,Row400
+401,NOR00409,apramide A,Row401
+402,NOR00410,apramide D,Row402
+403,NOR00411,apramide G,Row403
+404,NOR00412,oscillarin,Row404
+405,NOR00413,callynormine A,Row405
+406,NOR00414,corrugatin,Row406
+407,NOR00415,cyclonellin,Row407
+408,NOR00416,neamphamide A,Row408
+409,NOR00417,callipeltin A,Row409
+410,NOR00418,callipeltin B,Row410
+411,NOR00419,callipeltin C,Row411
+412,NOR00420,callipeltin D,Row412
+413,NOR00421,callipeltin E,Row413
+414,NOR00422,papuamide A,Row414
+415,NOR00423,papuamide B,Row415
+416,NOR00424,papuamide C,Row416
+417,NOR00425,papuamide D,Row417
+418,NOR00426,gymnangiamide,Row418
+419,NOR00427,aurilide,Row419
+420,NOR00428,aurilide B,Row420
+421,NOR00429,aurilide C,Row421
+422,NOR00430,onchidin,Row422
+423,NOR00431,onchidin B,Row423
+424,NOR00432,carmabin A,Row424
+425,NOR00433,carmabin B,Row425
+426,NOR00434,guineamide A,Row426
+427,NOR00435,guineamide B,Row427
+428,NOR00436,guineamide C,Row428
+429,NOR00437,guineamide D,Row429
+430,NOR00438,guineamide E,Row430
+431,NOR00439,guineamide F,Row431
+432,NOR00440,obyanamide,Row432
+433,NOR00441,nagahamide A,Row433
+434,NOR00442,phoriospongin A,Row434
+435,NOR00443,phoriospongin B,Row435
+436,NOR00444,cyclolithistide A,Row436
+437,NOR00445,microspinosamide,Row437
+438,NOR00446,polydiscamide A,Row438
+439,NOR00447,discodermin A,Row439
+440,NOR00448,discodermin E,Row440
+441,NOR00449,discodermin F,Row441
+442,NOR00450,discodermin G,Row442
+443,NOR00451,discodermin H,Row443
+444,NOR00452,halipeptin A,Row444
+445,NOR00453,halipeptin B,Row445
+446,NOR00454,halipeptin C,Row446
+447,NOR00455,halipeptin D,Row447
+448,NOR00456,hemiasterlin,Row448
+449,NOR00457,hemiasterlin A,Row449
+450,NOR00458,hemiasterlin B,Row450
+451,NOR00459,hemiasterlin C,Row451
+452,NOR00460,criamide A,Row452
+453,NOR00461,criamide B,Row453
+454,NOR00462,eurypamide A,Row454
+455,NOR00463,eurypamide B,Row455
+456,NOR00464,eurypamide C,Row456
+457,NOR00465,eurypamide D,Row457
+458,NOR00466,renieramide,Row458
+459,NOR00467,pseudotheonamide A1,Row459
+460,NOR00468,pseudotheonamide C,Row460
+461,NOR00469,pseudotheonamide D,Row461
+462,NOR00470,dihydrocyclotheonamide A,Row462
+463,NOR00471,cyclotheonamide A,Row463
+464,NOR00472,cyclotheonamide B,Row464
+465,NOR00473,cyclotheonamide C,Row465
+466,NOR00474,cyclotheonamide D,Row466
+467,NOR00475,cyclotheonamide E,Row467
+468,NOR00476,cyclotheonamide E2,Row468
+469,NOR00477,cyclotheonamide E3,Row469
+470,NOR00478,cyclotheonamide E4,Row470
+471,NOR00479,cyclotheonamide E5,Row471
+472,NOR00480,kapakahine A,Row472
+473,NOR00481,kapakahine B,Row473
+474,NOR00482,kapakahine E,Row474
+475,NOR00483,kapakahine F,Row475
+476,NOR00484,kapakahine G,Row476
+477,NOR00485,andrimid,Row477
+478,NOR00486,tokaramide A,Row478
+479,NOR00487,leupeptin,Row479
+480,NOR00488,miraziridine A,Row480
+481,NOR00489,nazumamide A,Row481
+482,NOR00490,koshikamide A1,Row482
+483,NOR00491,koshikamide A2,Row483
+484,NOR00492,halicylindramide A,Row484
+485,NOR00493,halicylindramide B,Row485
+486,NOR00494,halicylindramide C,Row486
+487,NOR00495,halicylindramide D,Row487
+488,NOR00496,halicylindramide E,Row488
+489,NOR00497,theonellapeptolide Ia,Row489
+490,NOR00498,theonellapeptolide Id,Row490
+491,NOR00499,theonellapeptolide Ie,Row491
+492,NOR00500,theonellapeptolide IId,Row492
+493,NOR00501,theonellapeptolide IIe,Row493
+494,NOR00502,theonellapeptolide IIIe,Row494
+495,NOR00503,dysamide A,Row495
+496,NOR00504,dysamide B,Row496
+497,NOR00505,dysamide C,Row497
+498,NOR00506,dyhydrodysamide C,Row498
+499,NOR00507,dysamide D,Row499
+500,NOR00508,dysamide K,Row500
+501,NOR00509,dysamide M,Row501
+502,NOR00510,dysamide N,Row502
+503,NOR00511,dysamide O,Row503
+504,NOR00512,dysamide P,Row504
+505,NOR00513,dysamide Q,Row505
+506,NOR00514,pallidin,Row506
+507,NOR00515,axinastatin 1,Row507
+508,NOR00516,axinastatin 2,Row508
+509,NOR00517,axinastatin 3,Row509
+510,NOR00518,axinastatin 4,Row510
+511,NOR00519,axinastatin 5,Row511
+512,NOR00520,axinellin A,Row512
+513,NOR00521,axinellin B,Row513
+514,NOR00522,axinellin C,Row514
+515,NOR00523,phakellistatin 1,Row515
+516,NOR00524,phakellistatin 2,Row516
+517,NOR00525,phakellistatin 3,Row517
+518,NOR00526,phakellistatin 4,Row518
+519,NOR00527,phakellistatin 5,Row519
+520,NOR00528,phakellistatin 6,Row520
+521,NOR00529,phakellistatin 7,Row521
+522,NOR00530,phakellistatin 8,Row522
+523,NOR00531,phakellistatin 9,Row523
+524,NOR00532,phakellistatin 10,Row524
+525,NOR00533,phakellistatin 11,Row525
+526,NOR00534,phakellistatin 12,Row526
+527,NOR00535,phakellistatin 13,Row527
+528,NOR00536,phakellistatin 14,Row528
+529,NOR00537,hymenamide A,Row529
+530,NOR00538,hymenamide B,Row530
+531,NOR00539,hymenamide C,Row531
+532,NOR00540,hymenamide D,Row532
+533,NOR00541,hymenamide E,Row533
+534,NOR00542,hymenamide F,Row534
+535,NOR00543,hymenamide G,Row535
+536,NOR00544,hymenamide H,Row536
+537,NOR00545,hymenamide J,Row537
+538,NOR00546,hymenamide K,Row538
+539,NOR00547,hymenistatin I,Row539
+540,NOR00548,stylopeptide I,Row540
+541,NOR00549,stylostatin 1,Row541
+542,NOR00550,wainunuamide,Row542
+543,NOR00551,microsclerodermin A,Row543
+544,NOR00552,microsclerodermin B,Row544
+545,NOR00553,microsclerodermin C,Row545
+546,NOR00554,microsclerodermin D,Row546
+547,NOR00555,microsclerodermin E,Row547
+548,NOR00556,microsclerodermin F,Row548
+549,NOR00557,microsclerodermin G,Row549
+550,NOR00558,microsclerodermin H,Row550
+551,NOR00559,microsclerodermin I,Row551
+552,NOR00560,cyclolinopeptide A,Row552
+553,NOR00561,barangamide A,Row553
+554,NOR00562,barangamide B,Row554
+555,NOR00563,barangamide C,Row555
+556,NOR00564,barangamide D,Row556
+557,NOR00565,theonellamide A,Row557
+558,NOR00566,theonellamide B,Row558
+559,NOR00567,theonellamide C,Row559
+560,NOR00568,theonellamide D,Row560
+561,NOR00569,theonellamide E,Row561
+562,NOR00570,theonellamide F,Row562
+563,NOR00571,theonegramide,Row563
+564,NOR00572,theopalauamide,Row564
+565,NOR00573,perthamide B,Row565
+566,NOR00574,cupolamide A,Row566
+567,NOR00575,waiakeamide,Row567
+568,NOR00576,haligramide A,Row568
+569,NOR00577,haligramide B,Row569
+570,NOR00578,ceratospongamide,Row570
+571,NOR00579,konbamide,Row571
+572,NOR00580,mozamide A,Row572
+573,NOR00581,mozamide B,Row573
+574,NOR00582,keramamide A,Row574
+575,NOR00583,keramamide L,Row575
+576,NOR00584,keramamide K,Row576
+577,NOR00585,keramamide F,Row577
+578,NOR00586,keramamide G,Row578
+579,NOR00587,keramamide H,Row579
+580,NOR00588,keramamide J,Row580
+581,NOR00589,keramamide E,Row581
+582,NOR00590,keramamide B,Row582
+583,NOR00591,keramamide C,Row583
+584,NOR00592,keramamide D,Row584
+585,NOR00593,keramamide M,Row585
+586,NOR00594,keramamide N,Row586
+587,NOR00595,orbiculamide A,Row587
+588,NOR00596,discobahamin A,Row588
+589,NOR00597,discobahamin B,Row589
+590,NOR00598,oriamide,Row590
+591,NOR00599,cyclocinamide A,Row591
+592,NOR00600,aciculitin A,Row592
+593,NOR00601,geodiamolide H,Row593
+594,NOR00602,geodiamolide I,Row594
+595,NOR00603,geodiamolide A,Row595
+596,NOR00604,geodiamolide B,Row596
+597,NOR00605,geodiamolide C,Row597
+598,NOR00606,geodiamolide D,Row598
+599,NOR00607,geodiamolide E,Row599
+600,NOR00608,geodiamolide F,Row600
+601,NOR00609,geodiamolide L,Row601
+602,NOR00610,geodiamolide M,Row602
+603,NOR00611,geodiamolide N,Row603
+604,NOR00612,geodiamolide O,Row604
+605,NOR00613,geodiamolide P,Row605
+606,NOR00614,geodiamolide Q,Row606
+607,NOR00615,geodiamolide R,Row607
+608,NOR00616,geodiamolide TA,Row608
+609,NOR00617,neosiphoniamolide A,Row609
+610,NOR00618,geodiamolide G,Row610
+611,NOR00619,geodiamolide J,Row611
+612,NOR00620,geodiamolide K,Row612
+613,NOR00621,majusculamide C,Row613
+614,NOR00622,foroxymithine,Row614
+615,NOR00623,chlamydocin,Row615
+616,NOR00624,tentoxin,Row616
+617,NOR00625,bottromycin A2,Row617
+618,NOR00626,cyclochlorotine,Row618
+619,NOR00627,malformin A1,Row619
+620,NOR00628,malformin A2,Row620
+621,NOR00629,malformin B1,Row621
+622,NOR00630,malformin C,Row622
+623,NOR00631,malformin B2,Row623
+624,NOR00632,allomalformin,Row624
+625,NOR00633,viomycin,Row625
+626,NOR00634,tuberactinomycin A,Row626
+627,NOR00635,tuberactinomycin N,Row627
+628,NOR00636,tuberactinomycin O,Row628
+629,NOR00637,tuberactinamine,Row629
+630,NOR00638,capreomycin IA,Row630
+631,NOR00639,capreomycin IB,Row631
+632,NOR00640,capreomycin IIA,Row632
+633,NOR00641,capreomycin IIB,Row633
+634,NOR00642,kulolide 1,Row634
+635,NOR00643,kulokainalide,Row635
+636,NOR00644,pupukeamide,Row636
+637,NOR00645,kulomo opunalide 1,Row637
+638,NOR00646,globomycin,Row638
+639,NOR00647,SF-1902 A3,Row639
+640,NOR00648,isariin,Row640
+641,NOR00649,isaridin B,Row641
+642,NOR00650,isaridin A,Row642
+643,NOR00651,empedopeptin,Row643
+644,NOR00652,tripropeptin A,Row644
+645,NOR00653,plusbacin A1,Row645
+646,NOR00654,plusbacin B1,Row646
+647,NOR00655,lysobactin,Row647
+648,NOR00656,cereulide,Row648
+649,NOR00657,gratisin,Row649
+650,NOR00658,valinomycin,Row650
+651,NOR00659,montanastatin,Row651
+652,NOR00660,mycobacillin,Row652
+653,NOR00661,enduracidin A,Row653
+654,NOR00662,ramoplanin A1,Row654
+655,NOR00663,nocardicin A,Row655
+656,NOR00664,antipain,Row656
+657,NOR00665,edeine A,Row657
+658,NOR00666,edeine B,Row658
+659,NOR00667,edeine D,Row659
+660,NOR00668,edeine F,Row660
+661,NOR00669,polytheonamide B,Row661
+662,NOR00670,phosphinothricin tripeptide,Row662
+663,NOR00672,viridogrisein,Row663
+664,NOR00673,neoviridogrisein I,Row664
+665,NOR00674,neoviridogrisein II,Row665
+666,NOR00675,neoviridogrisein III,Row666
+667,NOR00676,pristinamycin IA,Row667
+668,NOR00677,pristinamycin IB,Row668
+669,NOR00678,pristinamycin IC,Row669
+670,NOR00679,virginiamycin S,Row670
+671,NOR00680,BT1583,Row671
+672,NOR00681,vancomycin,Row672
+673,NOR00682,A42867,Row673
+674,NOR00683,A51568,Row674
+675,NOR00684,A83850,Row675
+676,NOR00685,balhimycin,Row676
+677,NOR00686,balhimycin V,Row677
+678,NOR00687,chloroorienticin A,Row678
+679,NOR00688,chloroorienticin B,Row679
+680,NOR00689,chloroorienticin C,Row680
+681,NOR00690,chloroorienticin D,Row681
+682,NOR00691,chloroorienticin E,Row682
+683,NOR00692,decaplanin,Row683
+684,NOR00693,eremomycin,Row684
+685,NOR00694,M43A,Row685
+686,NOR00695,M43B,Row686
+687,NOR00696,M43C,Row687
+688,NOR00697,M43D,Row688
+689,NOR00698,M43F,Row689
+690,NOR00699,MM47761,Row690
+691,NOR00700,MM49721,Row691
+692,NOR00701,OA7653,Row692
+693,NOR00702,orienticin A,Row693
+694,NOR00703,orienticin B,Row694
+695,NOR00704,orienticin C,Row695
+696,NOR00705,orienticin D,Row696
+697,NOR00706,dechloro-balhimycin V,Row697
+698,NOR00707,deglucobalhimycin,Row698
+699,NOR00708,demethylbalhimycin,Row699
+700,NOR00709,methylbalhimycin,Row700
+701,NOR00710,rhamnosyl-balhimycin,Row701
+702,NOR00711,ureido-balhimycin,Row702
+703,NOR00712,beauvericin B,Row703
+704,NOR00713,beauvericin C,Row704
+705,NOR00714,A54145 A1,Row705
+706,NOR00715,A54145 D,Row706
+707,NOR00716,A54145 B1,Row707
+708,NOR00717,A54145 E,Row708
+709,NOR00718,aciculitin B,Row709
+710,NOR00719,aciculitin C,Row710
+711,NOR00720,amphibactin C,Row711
+712,NOR00721,amphibactin D,Row712
+713,NOR00722,amphibactin E,Row713
+714,NOR00723,amphibactin F,Row714
+715,NOR00724,amphibactin G,Row715
+716,NOR00725,amphibactin H,Row716
+717,NOR00726,amphibactin I,Row717
+718,NOR00727,moiramide B,Row718
+719,NOR00728,apramide B,Row719
+720,NOR00729,apramide C,Row720
+721,NOR00730,apramide E,Row721
+722,NOR00731,apramide F,Row722
+723,NOR00732,aquachelin B,Row723
+724,NOR00733,aquachelin C,Row724
+725,NOR00734,aquachelin D,Row725
+726,NOR00735,beauverolide IV,Row726
+727,NOR00736,beauverolide V,Row727
+728,NOR00737,beauverolide VI,Row728
+729,NOR00738,beauverolide VII,Row729
+730,NOR00739,beauverolide VIII,Row730
+731,NOR00740,callipeltin F,Row731
+732,NOR00741,callipeltin G,Row732
+733,NOR00742,callipeltin H,Row733
+734,NOR00743,callipeltin I,Row734
+735,NOR00744,callipeltin J,Row735
+736,NOR00745,callipeltin K,Row736
+737,NOR00746,callipeltin L,Row737
+738,NOR00747,callipeltin M,Row738
+739,NOR00748,N-coronafacoyl-L-valine,Row739
+740,NOR00749,N-coronafacoyl-L-isoleucine,Row740
+741,NOR00750,N-coronafacoyl-L-alloisoleucine,Row741
+742,NOR00751,N-coronafacoyl-L-serine,Row742
+743,NOR00752,N-coronafacoyl-L-threonine,Row743
+744,NOR00753,hydroxycyclochlorotine,Row744
+745,NOR00754,astin B,Row745
+746,NOR00755,cyclocinamide B,Row746
+747,NOR00756,corticiamide A,Row747
+748,NOR00757,A21978C1,Row748
+749,NOR00758,A21978C2,Row749
+750,NOR00759,A21978C3,Row750
+751,NOR00760,desmethylDestruxin B,Row751
+752,NOR00761,destruxin F,Row752
+753,NOR00762,enduracidin B,Row753
+754,NOR00763,amphomycin A1437 B,Row754
+755,NOR00764,amphomycin A1437 E,Row755
+756,NOR00765,amphomycin A1437 D,Row756
+757,NOR00766,friulimicin B,Row757
+758,NOR00767,friulimicin C,Row758
+759,NOR00768,friulimicin D,Row759
+760,NOR00769,SF-1902 A2,Row760
+761,NOR00770,SF-1902 A4a,Row761
+762,NOR00771,SF-1902 A4b,Row762
+763,NOR00772,SF-1902 A5,Row763
+764,NOR00773,isariin B,Row764
+765,NOR00774,isariin C,Row765
+766,NOR00775,isariin D,Row766
+767,NOR00776,bacillomycin D-2,Row767
+768,NOR00777,bacillomycin D-3,Row768
+769,NOR00778,bacillomycin D-4,Row769
+770,NOR00779,bacillomycin D-5,Row770
+771,NOR00780,bacillomycin L-2,Row771
+772,NOR00781,bacillomycin L-3,Row772
+773,NOR00782,bacillomycin L-4,Row773
+774,NOR00783,bacillomycin L-5,Row774
+775,NOR00784,bacillomycin F-1,Row775
+776,NOR00785,bacillomycin F-2,Row776
+777,NOR00786,bacillomycin F-3,Row777
+778,NOR00787,bacillomycin F-4,Row778
+779,NOR00788,bacillomycin F-5,Row779
+780,NOR00789,iturin A-1,Row780
+781,NOR00790,iturin A-3,Row781
+782,NOR00791,iturin A-4,Row782
+783,NOR00792,iturin A-5,Row783
+784,NOR00793,iturin A-6,Row784
+785,NOR00794,iturin A-7,Row785
+786,NOR00795,iturin A-8,Row786
+787,NOR00796,iturin C-2,Row787
+788,NOR00797,iturin C-3,Row788
+789,NOR00798,iturin C-4,Row789
+790,NOR00799,mycosubtilin 1,Row790
+791,NOR00800,mycosubtilin 2,Row791
+792,NOR00801,mycosubtilin 3,Row792
+793,NOR00802,kahalalide R,Row793
+794,NOR00803,kahalalide S,Row794
+795,NOR00804,kahalalide V,Row795
+796,NOR00805,kahalalide W,Row796
+797,NOR00806,kahalalide X,Row797
+798,NOR00807,kahalalide Y,Row798
+799,NOR00808,kulolide 2,Row799
+800,NOR00809,kulolide 3,Row800
+801,NOR00810,kulomo opunalide 2,Row801
+802,NOR00811,marinobactin B,Row802
+803,NOR00812,marinobactin C,Row803
+804,NOR00813,marinobactin D1,Row804
+805,NOR00814,marinobactin D2,Row805
+806,NOR00815,marinobactin E,Row806
+807,NOR00816,microcystin LAib,Row807
+808,NOR00817,[D-Asp3.ADMAdda5.Dhb7]microcystin-LR,Row808
+809,NOR00818,nocardicin B,Row809
+810,NOR00819,nocardicin C,Row810
+811,NOR00820,nocardicin D,Row811
+812,NOR00821,nocardicin E,Row812
+813,NOR00822,nocardicin F,Row813
+814,NOR00823,nocardicin G,Row814
+815,NOR00824,nodularin-Har,Row815
+816,NOR00825,motuporin,Row816
+817,NOR00826,linear nodularin,Row817
+818,NOR00827,[D-Asp1]nodularin,Row818
+819,NOR00828,[DMAdda3]nodularin,Row819
+820,NOR00829,[Dhb5]nodularin,Row820
+821,NOR00830,[MeO-Glu4]nodularin,Row821
+822,NOR00832,ornibactin C6,Row822
+823,NOR00833,ornibactin C8,Row823
+824,NOR00834,plusbacin A2,Row824
+825,NOR00835,plusbacin A3,Row825
+826,NOR00836,plusbacin A4,Row826
+827,NOR00837,plusbacin B2,Row827
+828,NOR00838,plusbacin B3,Row828
+829,NOR00839,plusbacin B4,Row829
+830,NOR00840,polydiscamide B,Row830
+831,NOR00841,polydiscamide C,Row831
+832,NOR00842,polydiscamide D,Row832
+833,NOR00843,pseudotheonamide B2,Row833
+834,NOR00844,ramoplanin A2,Row834
+835,NOR00845,ramoplanin A3,Row835
+836,NOR00846,stylopeptide II,Row836
+837,NOR00847,[Ala4]surfactin nC14,Row837
+838,NOR00848,[Ala4]surfactin iC15,Row838
+839,NOR00849,[Ala4]surfactin aC15,Row839
+840,NOR00850,[Ala4]surfactin nC15,Row840
+841,NOR00851,[Gln1]surfactin iC15,Row841
+842,NOR00852,[Gln1]surfactin aC15,Row842
+843,NOR00853,surfactin nC14,Row843
+844,NOR00854,surfactin iC14,Row844
+845,NOR00855,surfactin nC15,Row845
+846,NOR00856,surfactin iC15,Row846
+847,NOR00857,surfactin aC13,Row847
+848,NOR00858,surfactin nC13,Row848
+849,NOR00859,surfactin iC16,Row849
+850,NOR00860,surfactin iC12,Row850
+851,NOR00861,pseudomycin B,Row851
+852,NOR00862,pseudomycin C,Row852
+853,NOR00863,pseudomycin C2,Row853
+854,NOR00864,syringomycin A1,Row854
+855,NOR00865,syringomycin G,Row855
+856,NOR00866,syringostatin B,Row856
+857,NOR00867,corpeptin B,Row857
+858,NOR00868,fuscopeptin B,Row858
+859,NOR00869,syringopeptin 22B,Row859
+860,NOR00870,syringopeptin 22 PhvB,Row860
+861,NOR00871,syringopeptin SC 2,Row861
+862,NOR00872,syringopeptin 25B,Row862
+863,NOR00873,syringopeptin 508A,Row863
+864,NOR00874,syringopeptin 508B,Row864
+865,NOR00875,tolaasin A,Row865
+866,NOR00876,tolaasin C,Row866
+867,NOR00877,tripropeptin B,Row867
+868,NOR00878,tripropeptin C,Row868
+869,NOR00879,tripropeptin D,Row869
+870,NOR00880,tripropeptin E,Row870
+871,NOR00881,tripropeptin Z,Row871
+872,NOR00882,massetolide B,Row872
+873,NOR00883,massetolide C,Row873
+874,NOR00884,massetolide G,Row874
+875,NOR00885,massetolide H,Row875
+876,NOR00886,pseudophomin B,Row876
+877,NOR00887,massetolide L,Row877
+878,NOR00888,lichenysin A nC12,Row878
+879,NOR00889,lichenysin A iC13,Row879
+880,NOR00890,lichenysin A aC13,Row880
+881,NOR00891,lichenysin A nC13,Row881
+882,NOR00892,lichenysin A iC14,Row882
+883,NOR00893,lichenysin A nC14,Row883
+884,NOR00894,lichenysin A iC15,Row884
+885,NOR00895,lichenysin A aC15,Row885
+886,NOR00896,lichenysin A nC15,Row886
+887,NOR00897,lichenysin A iC16,Row887
+888,NOR00898,lichenysin A nC16,Row888
+889,NOR00899,lichenysin A iC17,Row889
+890,NOR00900,lichenysin A aC17,Row890
+891,NOR00901,azotobactin 87 -2,Row891
+892,NOR00902,azotobactin delta,Row892
+893,NOR00903,pseudobactin A,Row893
+894,NOR00904,pyoverdin 1.2 dihydro,Row894
+895,NOR00905,pyoverdin CHAO,Row895
+896,NOR00906,pseudobactin 36167-I,Row896
+897,NOR00907,pseudobactin 36167-II,Row897
+898,NOR00908,pseudobactin A225-I,Row898
+899,NOR00909,pseudobactin A225-II,Row899
+900,NOR00910,pyoverdin Thai,Row900
+901,NOR00911,pyoverdin 6-10,Row901
+902,NOR00912,pyoverdin D47,Row902
+903,NOR00913,bacitracin E,Row903
+904,NOR00914,bacitracin D1,Row904
+905,NOR00915,bacitracin D2,Row905
+906,NOR00916,bacitracin B1,Row906
+907,NOR00917,bacitracin I1,Row907
+908,NOR00918,bacitracin I2,Row908
+909,NOR00919,bacitracin H1,Row909
+910,NOR00920,bacitracin I3,Row910
+911,NOR00921,bacitracin H2,Row911
+912,NOR00922,bacitracin H3,Row912
+913,NOR00923,bacitracin F,Row913
+914,NOR00924,putisolvin III,Row914
+915,NOR00925,actinoidin A,Row915
+916,NOR00926,actinoidin A2,Row916
+917,NOR00927,actinoidin B,Row917
+918,NOR00928,avoparcin-alpha,Row918
+919,NOR00929,avoparcin-beta,Row919
+920,NOR00930,avoparcin-epsilon,Row920
+921,NOR00931,chloropolysporin C,Row921
+922,NOR00932,chloropolysporin B,Row922
+923,NOR00933,galacardin A,Row923
+924,NOR00934,galacardin B,Row924
+925,NOR00935,helvecardin A,Row925
+926,NOR00936,helvecardin B,Row926
+927,NOR00937,ampullosporin A,Row927
+928,NOR00938,ampullosporin B,Row928
+929,NOR00939,ampullosporin C,Row929
+930,NOR00940,ampullosporin D,Row930
+931,NOR00941,ampullosporin E1,Row931
+932,NOR00942,ampullosporin E2,Row932
+933,NOR00943,ampullosporin E3,Row933
+934,NOR00944,ampullosporin E4,Row934
+935,NOR00945,antiamoebin I,Row935
+936,NOR00946,antiamoebin II,Row936
+937,NOR00947,antiamoebin III,Row937
+938,NOR00948,antiamoebin IV,Row938
+939,NOR00949,antiamoebin V,Row939
+940,NOR00950,antiamoebin VI,Row940
+941,NOR00951,antiamoebin VII,Row941
+942,NOR00952,antiamoebin VIII,Row942
+943,NOR00953,antiamoebin IX,Row943
+944,NOR00954,antiamoebin X,Row944
+945,NOR00955,antiamoebin XI,Row945
+946,NOR00956,antiamoebin XII,Row946
+947,NOR00957,antiamoebin XIII,Row947
+948,NOR00958,antiamoebin XIV,Row948
+949,NOR00959,antiamoebin XV,Row949
+950,NOR00960,antiamoebin XVI,Row950
+951,NOR00961,atroviridin A,Row951
+952,NOR00962,atroviridin B,Row952
+953,NOR00963,atroviridin C,Row953
+954,NOR00964,bergofungin A,Row954
+955,NOR00965,bergofungin B,Row955
+956,NOR00966,bergofungin C,Row956
+957,NOR00967,bergofungin D,Row957
+958,NOR00968,boletusin,Row958
+959,NOR00969,cephaibol A,Row959
+960,NOR00970,cephaibol A2,Row960
+961,NOR00971,cephaibol B,Row961
+962,NOR00972,cephaibol C,Row962
+963,NOR00973,cephaibol D,Row963
+964,NOR00974,cephaibol E,Row964
+965,NOR00975,cephaibol P,Row965
+966,NOR00976,cephaibol Q,Row966
+967,NOR00977,cervinin 1,Row967
+968,NOR00978,cervinin 2,Row968
+969,NOR00979,chrysospermin A,Row969
+970,NOR00980,chrysospermin B,Row970
+971,NOR00981,chrysospermin C,Row971
+972,NOR00982,chrysospermin D,Row972
+973,NOR00983,emerimicin IIA,Row973
+974,NOR00984,emerimicin IIB,Row974
+975,NOR00985,emerimicin III,Row975
+976,NOR00986,emerimicin IV,Row976
+977,NOR00987,harzianin HB I,Row977
+978,NOR00988,harzianin HC I,Row978
+979,NOR00989,harzianin HC III,Row979
+980,NOR00990,harzianin HC VI,Row980
+981,NOR00991,harzianin HC VIII,Row981
+982,NOR00992,harzianin HC IX,Row982
+983,NOR00993,harzianin HC X,Row983
+984,NOR00994,harzianin HC XII,Row984
+985,NOR00995,harzianin HC XV,Row985
+986,NOR00996,harzianin HC XI,Row986
+987,NOR00997,harzianin HC XIII,Row987
+988,NOR00998,harzianin HC XIV,Row988
+989,NOR00999,harzianin HK VI,Row989
+990,NOR01000,harzianin PCU4,Row990
+991,NOR01001,heptaibin,Row991
+992,NOR01002,hypomurocin A1,Row992
+993,NOR01003,hypomurocin A2,Row993
+994,NOR01004,hypomurocin A3,Row994
+995,NOR01005,hypomurocin A4,Row995
+996,NOR01006,hypomurocin A5,Row996
+997,NOR01007,hypomurocin A5a,Row997
+998,NOR01008,hypomurocin B1,Row998
+999,NOR01009,hypomurocin B2,Row999
+1000,NOR01010,hypomurocin B3a,Row1000
+1001,NOR01011,hypomurocin B3b,Row1001
+1002,NOR01012,hypomurocin B4,Row1002
+1003,NOR01013,hypomurocin B5,Row1003
+1004,NOR01014,longibrachin A1,Row1004
+1005,NOR01015,longibrachin A2,Row1005
+1006,NOR01016,longibrachin A3,Row1006
+1007,NOR01017,longibrachin A4,Row1007
+1008,NOR01018,longibrachin B1,Row1008
+1009,NOR01019,longibrachin B2,Row1009
+1010,NOR01020,LP237 F8,Row1010
+1011,NOR01021,LP237 F5,Row1011
+1012,NOR01022,LP237 F7,Row1012
+1013,NOR01023,paracelsin A,Row1013
+1014,NOR01024,paracelsin B,Row1014
+1015,NOR01025,paracelsin C,Row1015
+1016,NOR01026,paracelsin D,Row1016
+1017,NOR01027,paracelsin E,Row1017
+1018,NOR01028,peptaibolin,Row1018
+1019,NOR01029,peptaivirin A,Row1019
+1020,NOR01030,peptaivirin B,Row1020
+1021,NOR01031,stilboflavin A1,Row1021
+1022,NOR01032,stilboflavin A2,Row1022
+1023,NOR01033,stilboflavin A3,Row1023
+1024,NOR01034,stilboflavin A4,Row1024
+1025,NOR01035,stilboflavin A5,Row1025
+1026,NOR01036,stilboflavin A6,Row1026
+1027,NOR01037,stilboflavin A7,Row1027
+1028,NOR01038,stilboflavin B1,Row1028
+1029,NOR01039,stilboflavin B2,Row1029
+1030,NOR01040,stilboflavin B3,Row1030
+1031,NOR01041,stilboflavin B4,Row1031
+1032,NOR01042,stilboflavin B5,Row1032
+1033,NOR01043,stilboflavin B6,Row1033
+1034,NOR01044,stilboflavin B7,Row1034
+1035,NOR01045,stilboflavin B8,Row1035
+1036,NOR01046,stilboflavin B9,Row1036
+1037,NOR01047,stilboflavin B10,Row1037
+1038,NOR01048,trichobrachin A1,Row1038
+1039,NOR01049,trichobrachin A2,Row1039
+1040,NOR01050,trichobrachin A3,Row1040
+1041,NOR01051,trichobrachin A4,Row1041
+1042,NOR01052,trichobrachin B1,Row1042
+1043,NOR01053,trichobrachin B2,Row1043
+1044,NOR01054,trichobrachin B3,Row1044
+1045,NOR01055,trichobrachin B4,Row1045
+1046,NOR01056,polymyxin B1,Row1046
+1047,NOR01057,Ile-polymyxin B1,Row1047
+1048,NOR01058,polymyxin E1,Row1048
+1049,NOR01059,Ile-polymyxin E1,Row1049
+1050,NOR01060,Val-polymyxin E1,Row1050
+1051,NOR01061,Nva-polymyxin E1,Row1051
+1052,NOR01062,polymyxin M,Row1052
+1053,NOR01063,polymyxin B2,Row1053
+1054,NOR01064,polymyxin B3,Row1054
+1055,NOR01065,polymyxin B4,Row1055
+1056,NOR01066,polymyxin B5,Row1056
+1057,NOR01067,polymyxin B6,Row1057
+1058,NOR01068,polymyxin E2,Row1058
+1059,NOR01069,Ile-polymyxin E2,Row1059
+1060,NOR01070,Val-polymyxin E2,Row1060
+1061,NOR01071,polymyxin E3,Row1061
+1062,NOR01072,polymyxin E4,Row1062
+1063,NOR01073,polymyxin E7,Row1063
+1064,NOR01074,Ile-polymyxin E8,Row1064
+1065,NOR01075,syringafactin A,Row1065
+1066,NOR01076,syringafactin B,Row1066
+1067,NOR01077,syringafactin C,Row1067
+1068,NOR01078,syringafactin D,Row1068
+1069,NOR01079,syringafactin E,Row1069
+1070,NOR01080,syringafactin F,Row1070
+1071,NOR01081,feglymycin,Row1071
+1072,NOR01082,zervamicin II-1,Row1072
+1073,NOR01083,zervamicin II-2,Row1073
+1074,NOR01084,zervamicin II-3,Row1074
+1075,NOR01085,zervamicin II-4,Row1075
+1076,NOR01086,zervamicin II-5,Row1076
+1077,NOR01087,zervamicin IA,Row1077
+1078,NOR01088,zervamicin IB,Row1078
+1079,NOR01089,zervamicin IB prime,Row1079
+1080,NOR01090,zervamicin IC,Row1080
+1081,NOR01091,zervamicin IIA,Row1081
+1082,NOR01092,zervamicin IIB,Row1082
+1083,NOR01093,Leu1-zervamicin,Row1083
+1084,NOR01094,trichotoxin A-40,Row1084
+1085,NOR01095,trichotoxin A-40 I,Row1085
+1086,NOR01096,trichotoxin A-40 II,Row1086
+1087,NOR01097,trichotoxin A-40 III,Row1087
+1088,NOR01098,trichotoxin A-40 IV,Row1088
+1089,NOR01099,trichotoxin A-40 V,Row1089
+1090,NOR01100,trichotoxin A-40 Va,Row1090
+1091,NOR01101,trichotoxin A-50 E,Row1091
+1092,NOR01102,trichotoxin A-50 F,Row1092
+1093,NOR01103,trichotoxin A-50 G,Row1093
+1094,NOR01104,trichotoxin A-50 H,Row1094
+1095,NOR01105,trichotoxin A-50 I,Row1095
+1096,NOR01106,trichotoxin A-50 J,Row1096
+1097,NOR01107,apicidin,Row1097
+1098,NOR01108,apicidin A,Row1098
+1099,NOR01109,apicidin D2,Row1099
+1100,NOR01110,apicidin D1,Row1100
+1101,NOR01111,apicidin D3,Row1101
+1102,NOR01112,apicidin C,Row1102
+1103,NOR01113,apicidin B,Row1103
+1104,NOR01114,arylomycin A1,Row1104
+1105,NOR01115,arylomycin A2,Row1105
+1106,NOR01116,arylomycin A3,Row1106
+1107,NOR01117,arylomycin A4,Row1107
+1108,NOR01118,arylomycin A5,Row1108
+1109,NOR01119,arylomycin B1,Row1109
+1110,NOR01120,arylomycin B2,Row1110
+1111,NOR01121,arylomycin B3,Row1111
+1112,NOR01122,arylomycin B4,Row1112
+1113,NOR01123,arylomycin B5,Row1113
+1114,NOR01124,arylomycin B6,Row1114
+1115,NOR01125,arylomycin B7,Row1115
+1116,NOR01126,echinomycin,Row1116
+1117,NOR01127,quinomycin B,Row1117
+1118,NOR01128,quinomycin C,Row1118
+1119,NOR01129,triostin A,Row1119
+1120,NOR01130,triostin C,Row1120
+1121,NOR01131,ADEP-1,Row1121
+1122,NOR01132,micropeptin A,Row1122
+1123,NOR01133,micropeptin B,Row1123
+1124,NOR01134,cyanostatin A,Row1124
+1125,NOR01135,cyanostatin B,Row1125
+1126,NOR01136,microginin T2,Row1126
+1127,NOR01137,microginin 711,Row1127
+1128,NOR01138,microginin FR5,Row1128
+1129,NOR01139,microginin FR3,Row1129
+1130,NOR01140,microginin FR9,Row1130
+1131,NOR01141,coelichelin,Row1131
+1132,NOR01142,scytalidamide A,Row1132
+1133,NOR01143,scytalidamide B,Row1133
+1134,NOR01144,somamide A,Row1134
+1135,NOR01145,somamide B,Row1135
+1136,NOR01146,TVB I,Row1136
+1137,NOR01147,TVB II,Row1137
+1138,NOR01148,TVB IV,Row1138
+1139,NOR01149,PAU4,Row1139
+1140,NOR01150,PA II,Row1140
+1141,NOR01151,PA IV,Row1141
+1142,NOR01152,PA V,Row1142
+1143,NOR01153,PA VI,Row1143
+1144,NOR01154,PA VIII,Row1144
+1145,NOR01155,PA IX,Row1145
+1146,NOR01156,tiglicamide A,Row1146
+1147,NOR01157,tiglicamide B,Row1147
+1148,NOR01158,tiglicamide C,Row1148
+1149,NOR01159,largamide A,Row1149
+1150,NOR01160,Methyl ester largamide A,Row1150
+1151,NOR01161,HM A1,Row1151
+1152,NOR01162,HM A2,Row1152
+1153,NOR01163,HM A3,Row1153
+1154,NOR01164,HM A4,Row1154
+1155,NOR01165,HM A5,Row1155
+1156,NOR01166,HM A5a,Row1156
+1157,NOR01167,HM B1,Row1157
+1158,NOR01168,HM B2,Row1158
+1159,NOR01169,HM B3a,Row1159
+1160,NOR01170,HM B3b,Row1160
+1161,NOR01171,HM B4,Row1161
+1162,NOR01172,HM B5,Row1162
+1163,NOR01173,kempopeptin A,Row1163
+1164,NOR01251,malformin B3,Row1164
+1165,NOR01252,malformin B4,Row1165
+1166,NOR01253,malformin B5,Row1166
+1167,NOR01254,cepaciachelin,Row1167
+1168,NOR01255,Orfamide A,Row1168
+1169,NOR01256,Orfamide B,Row1169
+1170,NOR01257,Orfamide C,Row1170
+1171,NOR01258,kurstakin C12:0-OH(3),Row1171
+1172,NOR01259,kurstakin iC11,Row1172
+1173,NOR01260,kurstakin iC13:0-OH(3),Row1173
+1174,NOR01261,kurstakin iC13,Row1174
+1175,NOR01262,kurstakin C12,Row1175
+1176,NOR01263,kurstakin C14:0-OH(3),Row1176
+1177,NOR01264,kurstakin iC12,Row1177
+1178,NOR01265,fengycin A iC17,Row1178
+1179,NOR01267,pseudacyclin A,Row1179
+1180,NOR01268,pseudacyclin B,Row1180
+1181,NOR01269,pseudacyclin D,Row1181
+1182,NOR01270,pseudacyclin E,Row1182
+1183,NOR01271,roseotoxin A,Row1183

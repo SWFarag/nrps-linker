@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00463</id>
+            <name>eurypamide B</name>
+            <family>eurypamide</family>
+            <activities>
+                <activity>unknown</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C22H26N3O7</formula>
+            <mw>444.45776</mw>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>3</size>
+            <composition>diOH-Phe, Tyr, Thr</composition>
+            <graph>diOH-Phe,Tyr,Thr@1,2@0,2@0,1</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Microciona eurypa</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Poecilosclerida, Microcionina, Microcionidae, Microciona</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Eurypamide A, a cyclic tripepride from the Palauan sponge Microciona eurypa</title>
+                <year>1998</year>
+                <journal>Tetrahedron</journal>
+                <location>54 (36), pp. 10649-10656</location>
+                <authors>
+                    <author>
+                        <name>Faulkner DJ</name>
+                    </author>
+                    <author>
+                        <name>Harper MK</name>
+                    </author>
+                    <author>
+                        <name>Reddy MVR</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

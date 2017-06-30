@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00487</id>
+            <name>leupeptin</name>
+            <family>leupeptin</family>
+            <activities>
+                <activity>protease inhibitor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C20H38N6O4</formula>
+            <mw>426.55353</mw>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>3</size>
+            <composition>NAc-Leu, Leu, Argal</composition>
+            <graph>NAc-Leu,Leu,Argal@1@0,2@1</graph>
+            <smiles>CC(C)CC(NC(C)=O)C(=O)NC(CC(C)C)C(=O)NC(C=O)CCCN=C(N)N</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces sp.</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <taxid>1931</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Leupeptin and E-64, inhibitors of cysteine proteinases, prevent gentamicin-induced lysosomal phospholipidosis in cultured rat fibroblasts</title>
+                <year>1994</year>
+                <journal>Toxicology letters</journal>
+                <location>Sep,73(3):201-8.</location>
+                <pmid>8091428</pmid>
+                <authors>
+                    <author>
+                        <name>Montenez JP</name>
+                    </author>
+                    <author>
+                        <name>Kishore BK</name>
+                    </author>
+                    <author>
+                        <name>Maldague P</name>
+                    </author>
+                    <author>
+                        <name>Tulkens PM</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>3033938</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

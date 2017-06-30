@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00274</id>
+            <name>nodulapeptin A</name>
+            <family>nodulapeptin</family>
+            <activities>
+                <activity>unknown</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C44H63N7O14S</formula>
+            <mw>946.0745</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>7</size>
+            <composition>Ac-Ser, NMe-Hty, Hph, O2-Met, D-Lys, CO, Ile</composition>
+            <graph>Ac-Ser,NMe-Hty,Hph,O2-Met,D-Lys,CO,Ile@1,4@0,2@1,3@2,4@0,3,5@4,6@5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Nodularia spumigena AV1</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Nostocales, Nostocaceae, Nodularia, Nodularia spumigena</taxonomy>
+                <gram>negative</gram>
+                <taxid>284707</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Comparative study of toxic and non-toxic cyanobacterial products: Novel peptides from toxic Nodularia spumigena AV1</title>
+                <year>1997</year>
+                <journal>Tetrahedron Letters</journal>
+                <location>38 (31), pp. 5525-5528</location>
+                <authors>
+                    <author>
+                        <name>Harada K</name>
+                    </author>
+                    <author>
+                        <name>Suzuki M</name>
+                    </author>
+                    <author>
+                        <name>Sivonen K</name>
+                    </author>
+                    <author>
+                        <name>Fujii K</name>
+                    </author>
+                    <author>
+                        <name>Adachi K</name>
+                    </author>
+                    <author>
+                        <name>Noguchi K</name>
+                    </author>
+                    <author>
+                        <name>Sano H</name>
+                    </author>
+                    <author>
+                        <name>Hirayama K</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

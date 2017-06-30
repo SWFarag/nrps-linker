@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00430</id>
+            <name>onchidin</name>
+            <family>onchidin</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C60H99N6O14</formula>
+            <mw>1128.4598</mw>
+            <comment>onchidin is a putative NRPS product (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>10</size>
+            <composition>NMe-Val, C8:0:1(7)-Me(2)-NH2(3), Val, Hiv, Hiv, NMe-Val, C8:0:1(7)-Me(2)-NH2(3), Val, Hiv, Hiv</composition>
+            <graph>NMe-Val,C8:0:1(7)-Me(2)-NH2(3),Val,Hiv,Hiv,NMe-Val,C8:0:1(7)-Me(2)-NH2(3),Val,Hiv,Hiv@1,9@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@0,8</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Onchidium sp.</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Eumetazoa, Bilateria, Coelomata, Protostomia, Mollusca, Gastropoda, Pulmonata, Systellommatophora, Onchidoidea, Onchidiidae, Onchidium</taxonomy>
+                <taxid>69682</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Onchidin: a cytotoxic depsipeptide with C2 symmetry from a marine mollusc</title>
+                <year>1994</year>
+                <journal>Tetrahedron Letters</journal>
+                <location>35 (49), pp. 9239-9242</location>
+                <authors>
+                    <author>
+                        <name>Debitus C</name>
+                    </author>
+                    <author>
+                        <name>Rodriguez J</name>
+                    </author>
+                    <author>
+                        <name>Fernandez R</name>
+                    </author>
+                    <author>
+                        <name>Quinoa E</name>
+                    </author>
+                    <author>
+                        <name>Riguera R</name>
+                    </author>
+                    <author>
+                        <name>Bouchet P</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Toward the total synthesis of onchidin, a cytotoxic cyclic depsipeptide from a mollusc</title>
+                <year>2007</year>
+                <journal>Chemistry, an Asian journal</journal>
+                <location>Jan 8,2(1):135-44.</location>
+                <pmid>17441146</pmid>
+                <authors>
+                    <author>
+                        <name>Kobayashi S</name>
+                    </author>
+                    <author>
+                        <name>Kobayashi J</name>
+                    </author>
+                    <author>
+                        <name>Yazaki R</name>
+                    </author>
+                    <author>
+                        <name>Ueno M</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Berti AD</name>
+            <affiliations>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01078</id>
+            <name>syringafactin D</name>
+            <family>syringafactin</family>
+            <activities>
+                <activity>surfactant</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <comment>Components of biosurfactant complex produced by some isolates of P. syringae. A bioinformatics analysis of the C/E domains of the synthetase
+has predicted that Leu2, Leu3, Gln4, Thr6 and Leu8 probably have a D-isomery but it has
+not yet been evidenced by structural determination.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>9</size>
+            <composition>C12:0-OH(3), Leu, Leu, Gln, Leu, Thr, Val, Leu, Leu</composition>
+            <graph>C12:0-OH(3),Leu,Leu,Gln,Leu,Thr,Val,Leu,Leu@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas syringae pv. tomato</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas syringae group, Pseudomonas syringae group genomosp. 3</taxonomy>
+                <gram>negative</gram>
+                <taxid>323</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Identification of a biosynthetic gene cluster and the six associated lipopeptides involved in swarming motility of Pseudomonas syringae pv. tomato DC3000</title>
+                <year>2007</year>
+                <journal>Journal of bacteriology</journal>
+                <location>Sep,189(17):6312-23.</location>
+                <pmid>17601782</pmid>
+                <authors>
+                    <author>
+                        <name>Thomas MG</name>
+                    </author>
+                    <author>
+                        <name>Berti AD</name>
+                    </author>
+                    <author>
+                        <name>Greve NJ</name>
+                    </author>
+                    <author>
+                        <name>Christensen QH</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>Q881Q4</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q881Q3</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

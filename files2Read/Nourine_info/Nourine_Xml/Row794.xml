@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00803</id>
+            <name>kahalalide S</name>
+            <family>kahalalide</family>
+            <activities>
+                <activity>unknown</activity>
+            </activities>
+            <category>peptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>14</size>
+            <composition>iC7:0, D-Val, Thr, Val, D-Val, D-Pro, Lys, D-aIle, D-aThr, D-aIle, D-Val, Phe, dhAbu, Val</composition>
+            <graph>iC7:0,D-Val,Thr,Val,D-Val,D-Pro,Lys,D-aIle,D-aThr,D-aIle,D-Val,Phe,dhAbu,Val@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9,13@8,10@9,11@10,12@11,13@8,12</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Elysia grandifolia</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Eumetazoa, Bilateria, Coelomata, Protostomia, Mollusca, Gastropoda, Orthogastropoda, Apogastropoda, Heterobranchia, Euthyneura, Opisthobranchia, Sacoglossa, Placobranchoidea, Placobranchidae, Elysia</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Tandem mass spectrometry of kahalalides: identification of two new cyclic depsipeptides, kahalalide R and S from Elysia grandifolia</title>
+                <year>2007</year>
+                <journal>Journal of mass spectrometry</journal>
+                <location>Jan,42(1):70-80.</location>
+                <pmid>17149796</pmid>
+                <authors>
+                    <author>
+                        <name>Tilvi S</name>
+                    </author>
+                    <author>
+                        <name>Naik CG</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

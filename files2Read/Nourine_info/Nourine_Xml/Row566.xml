@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00574</id>
+            <name>cupolamide A</name>
+            <family>cupolamide</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C42H68N11O11</formula>
+            <mw>903.0564</mw>
+            <comment>Cupolamide A is a putative NRPS product (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>8</size>
+            <composition>Val, D-Ser, D-Leu, D-Har, Val, 4OH-Pro, Dab, pOH-Bz</composition>
+            <graph>Val,D-Ser,D-Leu,D-Har,Val,4OH-Pro,Dab,pOH-Bz@1,6@0,2@1,3@2,4@3,5@4,6@0,5,7@6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Theonella cupola</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Tetractinomorpha, Lithistida, Triaenosina, Theonellidae, Theonella</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Cupolamide A: A Cytotoxic Cyclic Heptapeptide from Two Samples of the Sponge Theonella cupola</title>
+                <year>1997</year>
+                <journal>Journal of Organic Chemistry</journal>
+                <location>62 (22), pp. 7765-7767</location>
+                <authors>
+                    <author>
+                        <name>Scheuer PJ</name>
+                    </author>
+                    <author>
+                        <name>Nakao Y</name>
+                    </author>
+                    <author>
+                        <name>Yoshida WY</name>
+                    </author>
+                    <author>
+                        <name>Tanaka J</name>
+                    </author>
+                    <author>
+                        <name>Higa T</name>
+                    </author>
+                    <author>
+                        <name>Bonnington LS</name>
+                    </author>
+                    <author>
+                        <name>Kimura J</name>
+                    </author>
+                    <author>
+                        <name>Yoshimura Y</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00643</id>
+            <name>kulokainalide</name>
+            <family>kulokainalide</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C48H70N6O10</formula>
+            <mw>891.10364</mw>
+            <comment>kulokainalide is a putative NRPS product (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>8</size>
+            <composition>Phe, Val, Pro, Pro, Lac, D-NMe-Val, Val, C8:0:1(7)-Me(2.2)-OH(3)</composition>
+            <graph>Phe,Val,Pro,Pro,Lac,D-NMe-Val,Val,C8:0:1(7)-Me(2.2)-OH(3)@1,7@0,2@1,3@2,4@3,5@4,6@5,7@0,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Philinopsis speciosa</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Eumetazoa, Bilateria, Coelomata, Protostomia, Mollusca, Gastropoda, Orthogastropoda, Apogastropoda, Heterobranchia, Euthyneura, Opisthobranchia, Cephalaspidea, Philinoidea, Aglajidae, Philinopsis</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>More Peptides and Other Diverse Constituents of the Marine Mollusk Philinopsis speciosa</title>
+                <year>1998</year>
+                <journal>Journal of Organic Chemistry</journal>
+                <location>63 (10), pp. 3272-3280</location>
+                <authors>
+                    <author>
+                        <name>Scheuer PJ</name>
+                    </author>
+                    <author>
+                        <name>Nakao Y</name>
+                    </author>
+                    <author>
+                        <name>Yoshida WY</name>
+                    </author>
+                    <author>
+                        <name>Szabo CM</name>
+                    </author>
+                    <author>
+                        <name>Baker BJ</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

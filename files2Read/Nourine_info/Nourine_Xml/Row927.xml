@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00937</id>
+            <name>ampullosporin A</name>
+            <family>ampullosporin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptaibol</category>
+            <formula>C77H127N19O19</formula>
+            <mw>1622.9482</mw>
+            <comment>Ampullosporin displays narrow-spectrum antibacterial and antifungal activity, induces pigment formation by Phoma destructiva, causes hypothermia and decreased spontaneous locomotor activity in mice.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>15</size>
+            <composition>Ac-Trp, Ala, Aib, Aib, Leu, Aib, Gln, Aib, Aib, Aib, Gln, Leu, Aib, Gln, Leuol</composition>
+            <graph>Ac-Trp,Ala,Aib,Aib,Leu,Aib,Gln,Aib,Aib,Aib,Gln,Leu,Aib,Gln,Leuol@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@11,13@12,14@13</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Sepedonium ampullosporum</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Dikarya, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Hypocreaceae, mitosporic Hypocreaceae, Sepedonium</taxonomy>
+                <taxid>74838</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>A nonribosomal peptide synthetase involved in the biosynthesis of ampullosporins in Sepedonium ampullosporum</title>
+                <year>2003</year>
+                <journal>Journal of peptide science</journal>
+                <location>Nov-Dec,9(11-12):701-13.</location>
+                <pmid>14658790</pmid>
+                <authors>
+                    <author>
+                        <name>Reiber K</name>
+                    </author>
+                    <author>
+                        <name>Neuhof T</name>
+                    </author>
+                    <author>
+                        <name>Ozegowski JH</name>
+                    </author>
+                    <author>
+                        <name>von Dohrend H</name>
+                    </author>
+                    <author>
+                        <name>Schwecke T</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Ampullosporin, a new peptaibol-type antibiotic from Sepedonium ampullosporum HKI-0053 with neuroleptic activity in mice</title>
+                <year>1997</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Sep,50(9):722-8.</location>
+                <pmid>9360615</pmid>
+                <authors>
+                    <author>
+                        <name>Ritzau M</name>
+                    </author>
+                    <author>
+                        <name>Heinze S</name>
+                    </author>
+                    <author>
+                        <name>Dornberger K</name>
+                    </author>
+                    <author>
+                        <name>Berg A</name>
+                    </author>
+                    <author>
+                        <name>Fleck W</name>
+                    </author>
+                    <author>
+                        <name>Schlegel B</name>
+                    </author>
+                    <author>
+                        <name>Hartl A</name>
+                    </author>
+                    <author>
+                        <name>Grafe U</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

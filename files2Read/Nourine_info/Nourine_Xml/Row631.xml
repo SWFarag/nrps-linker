@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00639</id>
+            <name>capreomycin IB</name>
+            <family>capreomycin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C25H44N14O7</formula>
+            <mw>652.7065</mw>
+            <comment>The tuberactinomycin antibiotics are essential components in the drug arsenal against Mycobacterium tuberculosis infections and are specifically used for the treatment of multidrug-resistant tuberculosis.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>6</size>
+            <composition>bLys, Dpr, bU-dAla, Cap, Dpr, Ala</composition>
+            <graph>bLys,Dpr,bU-dAla,Cap,Dpr,Ala@1@0,2,5@1,3@2,4@3,5@1,4</graph>
+            <smiles>CC1NC(=O)C(N)CNC(=O)C(NC(=O)C(=CNC(N)=O)NC(=O)C(CNC(=O)CC(N)CCCN)NC1(=O))C2CCN=C(N)N2</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae</taxonomy>
+                <gram>positive</gram>
+                <synonym>Chainia</synonym>
+                <taxid>1883</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Deciphering tuberactinomycin biosynthesis: isolation, sequencing, and annotation of the viomycin biosynthetic gene cluster</title>
+                <year>2003</year>
+                <journal>Antimicrobial agents and chemotherapy</journal>
+                <location>Sep,47(9):2823-30.</location>
+                <pmid>12936980</pmid>
+                <authors>
+                    <author>
+                        <name>Thomas MG</name>
+                    </author>
+                    <author>
+                        <name>Chan YA</name>
+                    </author>
+                    <author>
+                        <name>Ozanick SG</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Identification of the biosynthetic gene cluster and an additional gene for resistance to the antituberculosis drug capreomycin</title>
+                <year>2007</year>
+                <journal>Applied and environmental microbiology</journal>
+                <location> Jul,73(13):4162-70. Epub 2007 May 11.</location>
+                <pmid>17496129</pmid>
+                <authors>
+                    <author>
+                        <name>Thomas MG</name>
+                    </author>
+                    <author>
+                        <name>Berti AD</name>
+                    </author>
+                    <author>
+                        <name>Felnagle EA</name>
+                    </author>
+                    <author>
+                        <name>Rondon MR</name>
+                    </author>
+                    <author>
+                        <name>Crosby HA</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>3034057</acc>
+                <name_db>PubChem</name_db>
+            </link>
+            <link>
+                <acc>A6YEH2</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>A6YEH7</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>A6YEH8</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>A6YEI6</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>A6YEI0</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>A6YEI4</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00683</id>
+            <name>A51568</name>
+            <family>A51568</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <synonyms>N-Demethylvancomycin</synonyms>
+            <category>glycopeptide</category>
+            <formula>C65H73Cl2N9O24</formula>
+            <mw>1435.227</mw>
+            <comment>Two bonds of the central Hpg are due to oxydative ring closure.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>other</type>
+            <size>9</size>
+            <graph>Asn,bOH-Cl-Tyr,Leu,Hpg,D-Glc,Van,bOH-Cl-Tyr,Dhpg,Hpg@1,3@0,2,3@1@1,0,4,6,8@3,5@4@3,7,8@6,8@3,7,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Nocardia orientalis</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Pseudonocardineae, Pseudonocardiaceae, Amycolatopsis</taxonomy>
+                <gram>positive</gram>
+                <synonym>Amycolatopsis orientalis,Streptomyces orientalis,Amycolatopsis orientalis orientalis</synonym>
+                <taxid>31958</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>N-demethylvancomycin, a novel antibiotic produced by a strain of Nocardia orientalis. Taxonomy and fermentation</title>
+                <year>1984</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>May,37(5):446-53.</location>
+                <pmid>6547432</pmid>
+                <authors>
+                    <author>
+                        <name>Boeck LD</name>
+                    </author>
+                    <author>
+                        <name>Mertz FP</name>
+                    </author>
+                    <author>
+                        <name>Wolter RK</name>
+                    </author>
+                    <author>
+                        <name>Higgens CE</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>124741</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

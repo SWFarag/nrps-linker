@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01042</id>
+            <name>stilboflavin B5</name>
+            <family>stilboflavin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptaibol</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>20</size>
+            <composition>Ac-Aib, Pro, Aib, Ala, Aib, Aib, Gln, Aib, Leu, Aib, Gly, Aib, Aib, Pro, Val, Aib, Aib, Gln, Gln, Valol</composition>
+            <graph>Ac-Aib,Pro,Aib,Ala,Aib,Aib,Gln,Aib,Leu,Aib,Gly,Aib,Aib,Pro,Val,Aib,Aib,Gln,Gln,Valol@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@11,13@12,14@13,15@14,16@15,17@16,18@17,19@18</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Stilbella flavipes</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Sequences of polypeptide antibiotics stilboflavins, natural peptaibol libraries of the mold Stilbella flavipes</title>
+                <year>2001</year>
+                <journal>Journal of peptide science</journal>
+                <location>Aug</location>
+                <pmid>11548059</pmid>
+                <authors>
+                    <author>
+                        <name>Jaworski A</name>
+                    </author>
+                    <author>
+                        <name>Bruckner H</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

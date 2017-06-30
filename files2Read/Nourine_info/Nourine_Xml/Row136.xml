@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00138</id>
+            <name>[D-Asp3]microcystin-RR</name>
+            <family>microcystin</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>PK-NRP</category>
+            <formula>C48H73N13O12</formula>
+            <mw>1024.1731</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>7</size>
+            <composition>D-Ala, Arg, D-Asp, Arg, Adda, D-Glu, NMe-Dha</composition>
+            <graph>D-Ala,Arg,D-Asp,Arg,Adda,D-Glu,NMe-Dha@1,6@0,2@1,3@2,4@3,5@4,6@0,5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Anabaena</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Nostocales, Nostocaceae</taxonomy>
+                <gram>negative</gram>
+                <taxid>1163</taxid>
+            </organism>
+            <organism>
+                <name>Microcystis aeruginosa</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Chroococcales, Microcystis</taxonomy>
+                <taxid>1126</taxid>
+            </organism>
+            <organism>
+                <name>Oscillatoria agardhii</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Oscillatoriales, Planktothrix</taxonomy>
+                <gram>negative</gram>
+                <synonym>Planktothrix agardhii</synonym>
+                <taxid>1160</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structure and toxicity of a peptide hepatotoxin from the cyanobacterium Oscillatoria agardhii</title>
+                <year>1989</year>
+                <journal>Toxicon</journal>
+                <location>27(9):1021-34.</location>
+                <pmid>2508270</pmid>
+                <authors>
+                    <author>
+                        <name>Meriluoto JA</name>
+                    </author>
+                    <author>
+                        <name>Sandstrom A</name>
+                    </author>
+                    <author>
+                        <name>Eriksson JE</name>
+                    </author>
+                    <author>
+                        <name>Remaud G</name>
+                    </author>
+                    <author>
+                        <name>Craig AG</name>
+                    </author>
+                    <author>
+                        <name>Chattopadhyaya J</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Isolation and identification of 12 microcystins from four strains and two bloom samples of Microcystis spp.: structure of a new hepatotoxin</title>
+                <year>1994</year>
+                <journal>Toxicon</journal>
+                <location>Jan,32(1):133-9.</location>
+                <pmid>9237346</pmid>
+                <authors>
+                    <author>
+                        <name>Sivonen K</name>
+                    </author>
+                    <author>
+                        <name>Namikoshi M</name>
+                    </author>
+                    <author>
+                        <name>Luukkainen R</name>
+                    </author>
+                    <author>
+                        <name>Rinehart KL</name>
+                    </author>
+                    <author>
+                        <name>Niemela SI</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>Q9RNB1</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q9RNB0</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q9RNA9</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q9RNB3</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q9RNB5</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q7WRX9</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q7WRQ4</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q7WRJ5</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q7WRI6</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q7WRJ0</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q8G983</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q8G982</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q8G981</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q8G986</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q8G985</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

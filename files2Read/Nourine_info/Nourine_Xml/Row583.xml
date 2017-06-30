@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00591</id>
+            <name>keramamide C</name>
+            <family>keramamide</family>
+            <activities>
+                <activity>immunomodulating</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C53H75O12N10Br</formula>
+            <mw>1124.1265</mw>
+            <comment>Keramamides are putative NRPS products (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>8</size>
+            <composition>Hmp, Ile, Abu, Orn, Pro, k-Leu, PAOA, Br-OH-Trp</composition>
+            <graph>Hmp,Ile,Abu,Orn,Pro,k-Leu,PAOA,Br-OH-Trp@1@0,2@1,3@2,4,7@3,5@4,6@5,7@3,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Theonella sp.</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Tetractinomorpha, Lithistida, Triaenosina, Theonellidae, Theonella</taxonomy>
+                <taxid>73791</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Keramamides B-D: Novel peptides from the Okinawan marine sponge Theonella sp.</title>
+                <year>1991</year>
+                <journal>Journal of the American Chemical Society</journal>
+                <location>113 (20), pp. 7812-7813</location>
+                <authors>
+                    <author>
+                        <name>Kobayashi JI</name>
+                    </author>
+                    <author>
+                        <name>Shigemori H</name>
+                    </author>
+                    <author>
+                        <name>Ishibashi M</name>
+                    </author>
+                    <author>
+                        <name>Itagaki F</name>
+                    </author>
+                    <author>
+                        <name>Takahashi K</name>
+                    </author>
+                    <author>
+                        <name>Ogura M</name>
+                    </author>
+                    <author>
+                        <name>Nagasawa S</name>
+                    </author>
+                    <author>
+                        <name>Nozoe S</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

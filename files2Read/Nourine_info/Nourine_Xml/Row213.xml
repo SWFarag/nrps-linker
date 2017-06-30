@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00215</id>
+            <name>[Ala4]surfactin iC14</name>
+            <family>surfactin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>surfactant</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <comment>The substitution of L-valine by L-alanine led to a decrease of the surfactant power of surfactin. The iC14 isoform represents 11% of  total isoforms.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>8</size>
+            <composition>iC14:0-OH(3), Glu, Leu, D-Leu, Ala, Asp, D-Leu, Leu</composition>
+            <graph>iC14:0-OH(3),Glu,Leu,D-Leu,Ala,Asp,D-Leu,Leu@1,7@0,2@1,3@2,4@3,5@4,6@5,7@0,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Bacillus subtilis</name>
+                <taxonomy>cellular organisms, Bacteria, Firmicutes, Bacilli, Bacillales, Bacillaceae, Bacillus</taxonomy>
+                <gram>positive</gram>
+                <synonym>Bacillus uniflagellatus,Bacillus natto,Bacillus globigii,Vibrio subtilis</synonym>
+                <taxid>1423</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>[Ala4]surfactin, a novel isoform from Bacillus subtilis studied by mass and NMR spectroscopies</title>
+                <year>1994</year>
+                <journal>European journal of biochemistry</journal>
+                <location>Aug 15,224(1):89-96.</location>
+                <pmid>8076655</pmid>
+                <authors>
+                    <author>
+                        <name>Grangemard I</name>
+                    </author>
+                    <author>
+                        <name>Peypoux F</name>
+                    </author>
+                    <author>
+                        <name>Wallach J</name>
+                    </author>
+                    <author>
+                        <name>Das BC</name>
+                    </author>
+                    <author>
+                        <name>Labbe H</name>
+                    </author>
+                    <author>
+                        <name>Ptak M</name>
+                    </author>
+                    <author>
+                        <name>Bonmatin JM</name>
+                    </author>
+                    <author>
+                        <name>Michel G</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00330</id>
+            <name>bacillibactin</name>
+            <family>bacillibactin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <synonyms>Corynebactin, 9-Gln-beta-lipotropin</synonyms>
+            <category>peptide</category>
+            <formula>C39H42N6O18</formula>
+            <mw>882.7802</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>9</size>
+            <composition>diOH-Bz, Gly, Thr, Thr, {, Gly, diOH-Bz, }, Thr, Gly, diOH-Bz</composition>
+            <graph>diOH-Bz,Gly,Thr,Thr,Gly,diOH-Bz,Thr,Gly,diOH-Bz@1@0,2@1,3,6@2,4,6@3,5@4@2,3,7@6,8@7</graph>
+            <smiles>CC4OC(=O)C(NC(=O)CNC(=O)c1cccc(O)c1(O))C(C)OC(=O)C(NC(=O)CNC(=O)c2cccc(O)c2(O))C(C)OC(=O)C4(NC(=O)CNC(=O)c3cccc(O)c3(O))</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Bacillus subtilis</name>
+                <taxonomy>cellular organisms, Bacteria, Firmicutes, Bacilli, Bacillales, Bacillaceae, Bacillus</taxonomy>
+                <gram>positive</gram>
+                <synonym>Bacillus uniflagellatus,Bacillus natto,Bacillus globigii,Vibrio subtilis</synonym>
+                <taxid>1423</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The dhb operon of Bacillus subtilis encodes the biosynthetic template for the catecholic siderophore 2,3-dihydroxybenzoate-glycine-threonine trimeric ester bacillibactin</title>
+                <year>2001</year>
+                <journal>The Journal of biological chemistry</journal>
+                <location>Mar 9,276(10):7209-17. Epub 2000 Dec 8.</location>
+                <pmid>11112781</pmid>
+                <authors>
+                    <author>
+                        <name>Marahiel MA</name>
+                    </author>
+                    <author>
+                        <name>May JJ</name>
+                    </author>
+                    <author>
+                        <name>Wendrich TM</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>125349</acc>
+                <name_db>PubChem</name_db>
+            </link>
+            <link>
+                <acc>P40871</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>P45745</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>2why</acc>
+                <name_db>PDB</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

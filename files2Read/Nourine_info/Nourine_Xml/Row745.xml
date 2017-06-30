@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00754</id>
+            <name>astin B</name>
+            <family>cyclochlorotine</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <synonyms>chloropeptide</synonyms>
+            <category>peptide</category>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>5</size>
+            <composition>bPhe, Abu, Cl2-Pro, aThr, Ser</composition>
+            <graph>bPhe,Abu,Cl2-Pro,aThr,Ser@1,4@0,2@1,3@2,4@0,3</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Aster tataricus</name>
+                <taxonomy>cellular organisms, Eukaryota, Viridiplantae, Streptophyta, Streptophytina, Embryophyta, Tracheophyta, Euphyllophyta, Spermatophyta, Magnoliophyta, eudicotyledon, core eudicotyledons, asterids, campanulids, Asterales, Asteraceae, Asteroideae, Astereae</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structural and conformational analysis of hydroxycyclochlorotine and cyclochlorotine, chlorinated cyclic peptides from Penicillium islandicum</title>
+                <year>2008</year>
+                <journal>Journal of natural products</journal>
+                <location>Jul,71(7):1297-300.</location>
+                <pmid>18558744</pmid>
+                <authors>
+                    <author>
+                        <name>Mizutani K</name>
+                    </author>
+                    <author>
+                        <name>Hirasawa Y</name>
+                    </author>
+                    <author>
+                        <name>Sugita-Konishi Y</name>
+                    </author>
+                    <author>
+                        <name>Mochizuki N</name>
+                    </author>
+                    <author>
+                        <name>Morita H</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

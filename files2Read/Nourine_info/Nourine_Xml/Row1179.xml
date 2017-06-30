@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Jiri Novak</name>
+            <affiliations>
+                <affiliation>Institute of Microbiology, ASCR</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01267</id>
+            <name>pseudacyclin A</name>
+            <family>pseudacyclin</family>
+            <activities>
+                <activity>unknown</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C39H61N7O7</formula>
+            <mw>739.463247</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>6</size>
+            <composition>Ile,Ile,Pro,Phe,Orn,NAc-Ile</composition>
+            <graph>Ile,Ile,Pro,Phe,Orn,NAc-Ile@1,4@0,2@1,3@2,4@3,0,5@4</graph>
+            <smiles>C1CCC(NC(=O)C(NC(=O)C)C(C)CC)C(=O)NC(CC2=CC=CC=C2)C(=O)N2CCCC2C(=O)NC(C(CC)C)C(=O)NC(C(CC)C)C(=O)N1</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Scedosporium boydii</name>
+                <taxonomy>cellular organisms; Eukaryota; Opisthokonta; Fungi; Dikarya; Ascomycota; saccharomyceta; Pezizomycotina; leotiomyceta; sordariomyceta; Sordariomycetes; Hypocreomycetidae; Microascales; Microascaceae; Scedosporium</taxonomy>
+                <gram>n/a</gram>
+                <synonym>Pseudallescheria boydii, Petriellidium boydii, Allescheria boydii</synonym>
+                <taxid>5597</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Characterization of Pseudacyclins
+A-E, a Suite of cyclic peptides produced by Pseudallescheria boydii</title>
+                <year>2010</year>
+                <journal>J. Nat. Prod.</journal>
+                <location>73:1027-1032</location>
+                <pmid>20509707</pmid>
+                <authors>
+                    <author>
+                        <name>Kuzma M</name>
+                    </author>
+                    <author>
+                        <name>Jegorov A</name>
+                    </author>
+                    <author>
+                        <name>Havlicek V</name>
+                    </author>
+                    <author>
+                        <name>Zabka M</name>
+                    </author>
+                    <author>
+                        <name>Sulc M</name>
+                    </author>
+                    <author>
+                        <name>Pavlaskova K</name>
+                    </author>
+                    <author>
+                        <name>Nedved J</name>
+                    </author>
+                    <author>
+                        <name>Sklenar
+J</name>
+                    </author>
+                    <author>
+                        <name>Novak P</name>
+                    </author>
+                    <author>
+                        <name>Benada O</name>
+                    </author>
+                    <author>
+                        <name>Kofronova O</name>
+                    </author>
+                    <author>
+                        <name>Hajduch M</name>
+                    </author>
+                    <author>
+                        <name>Derrick PJ</name>
+                    </author>
+                    <author>
+                        <name>Lemr K</name>
+                    </author>
+                </authors>
+                <doi>10.1021/np900472c</doi>
+            </reference>
+            <reference>
+                <title>CycloBranch: De Novo Sequencing of Nonribosomal Peptides from Accurate Product Ion Mass Spectra</title>
+                <year>2015</year>
+                <journal>J. Am. Soc. Mass Spectrom.</journal>
+                <location>26:1780-1786</location>
+                <pmid>26195308</pmid>
+                <authors>
+                    <author>
+                        <name>Havlicek V</name>
+                    </author>
+                    <author>
+                        <name>Novak J</name>
+                    </author>
+                    <author>
+                        <name>Lemr K</name>
+                    </author>
+                    <author>
+                        <name>Schug KA</name>
+                    </author>
+                </authors>
+                <doi>10.1007/s13361-015-1211-1</doi>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>46848855</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

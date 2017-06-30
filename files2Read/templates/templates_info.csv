@@ -1,0 +1,12 @@
+TemplateName,Composition,#NRPS
+Daptomycin,"Trp,D-Asn,Asp,Thr,Gly--Orn,Asp,D-Ala,Asp,Gly,Ser--3Me-Glu,Kyn",3
+Vancomycin,"leu-bht-asn---hpg,hpg,bht---dhpg",3
+Tyrocidine A,"D-Phe--Pro,Phe,D-Phe--Asn,Gln,Tyr,Val,Orn,Leu",3
+Ile-polymyxin B1,"D-Phe,Ile,Orn,Orn--Orn,Thr,Orn,Orn,Orn--Thr",3
+Bacitracin A1,"Ile,Cys,Leu,D-Glu,Ile--Lys,D-Orn--Ile,D-Phe,His,D-Asp,Asn",3
+Bacillamide C,"Ala,Cys",1
+Bacilysin,"Ala,Aca",1
+Pro_Glu,"Pro,glu",1
+Glu_Leu,"Glu,Leu",1
+Val_Asp,"Val,Asp",1
+Tyr_Thr,"Tyr,Thr",1

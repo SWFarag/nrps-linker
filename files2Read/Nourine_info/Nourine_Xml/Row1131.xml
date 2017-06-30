@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01141</id>
+            <name>coelichelin</name>
+            <family>coelichelin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C21H39N7O11</formula>
+            <mw>565.58</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>4</size>
+            <composition>D-Fo-OH-Orn, D-aThr, OH-Orn, D-Fo-OH-Orn</composition>
+            <graph>D-Fo-OH-Orn,D-aThr,OH-Orn,D-Fo-OH-Orn@1@0,2@1,3@2</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces coelicolor</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria, Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <synonym>Actinomyces coelicolor,Nocardia coelicolor,Cladothrix coelicolor,Streptothrix coelicolor</synonym>
+                <taxid>1902</taxid>
+            </organism>
+        </organisms>
+        <references>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

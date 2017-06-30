@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00701</id>
+            <name>OA7653</name>
+            <family>OA7653</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>glycopeptide</category>
+            <formula>C58H61N8O21Cl2</formula>
+            <mw>1277.052</mw>
+            <comment>Two bonds of the central Hpg are due to oxydative ring closure.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>other</type>
+            <size>8</size>
+            <graph>NdMe-Ala,Cl-Tyr,Gln,Hpg,bOH-Cl-Tyr,Glc,Dhpg,Hpg@1@2,3,0@1,3@1,2,4,7@3,6,7,5@4@7,4@3,6,4</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces hygroscopicus</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <synonym>Actinomyces hygroscopicus</synonym>
+                <taxid>1912</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structure of the antibiotic OA-7653</title>
+                <year>1988</year>
+                <journal>Journal of Organic Chemistry</journal>
+                <location>53 (3), pp. 471-477</location>
+                <authors>
+                    <author>
+                        <name>Jeffs PW</name>
+                    </author>
+                    <author>
+                        <name>Yellin B</name>
+                    </author>
+                    <author>
+                        <name>Mueller L</name>
+                    </author>
+                    <author>
+                        <name>Heald SL</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

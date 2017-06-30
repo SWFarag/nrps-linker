@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00466</id>
+            <name>renieramide</name>
+            <family>eurypamide</family>
+            <activities>
+                <activity>immunomodulating</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C24H29N3O6</formula>
+            <mw>455.50357</mw>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>3</size>
+            <composition>diOH-Phe, Tyr, Leu</composition>
+            <graph>diOH-Phe,Tyr,Leu@1,2@0,2@0,1</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Reniera</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Haplosclerida, Chalinidae</taxonomy>
+                <taxid>72734</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Renieramide, a cyclic tripeptide from the Vanuatu sponge Reniera n. sp.</title>
+                <year>2002</year>
+                <journal>Journal of natural products</journal>
+                <location>Mar,65(3):407-10.</location>
+                <pmid>11908992</pmid>
+                <authors>
+                    <author>
+                        <name>Bifulco G</name>
+                    </author>
+                    <author>
+                        <name>Riccio R</name>
+                    </author>
+                    <author>
+                        <name>Gomez-Paloma L</name>
+                    </author>
+                    <author>
+                        <name>Debitus C</name>
+                    </author>
+                    <author>
+                        <name>Ciasullo L</name>
+                    </author>
+                    <author>
+                        <name>Casapullo A</name>
+                    </author>
+                    <author>
+                        <name>Cutignano A</name>
+                    </author>
+                    <author>
+                        <name>Hooper J</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>636895</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

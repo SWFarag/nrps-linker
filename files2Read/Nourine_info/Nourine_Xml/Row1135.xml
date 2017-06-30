@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01145</id>
+            <name>somamide B</name>
+            <family>somamide</family>
+            <activities>
+                <activity>protease inhibitor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C46H61N8O11</formula>
+            <mw>901.446</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>8</size>
+            <composition>Val, NMe-Tyr, Phe, Ahp, Abu, Thr, Gln, C4:0</composition>
+            <graph>Val,NMe-Tyr,Phe,Ahp,Abu,Thr,Gln,C4:0@1,5@0,2@1,3@2,4@3,5@4,0,6@5,7@6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Schizothrix</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Oscillatoriales</taxonomy>
+                <synonym>Dictyothrix</synonym>
+                <taxid>240294</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Somamides A and B, two new depsipeptide analogues of dolastatin 13 from a Fijian cyanobacterial assemblage of Lyngbya majuscula and Schizothrix species</title>
+                <year>2001</year>
+                <journal>Journal of Natural Products</journal>
+                <location>vol. 64,no. 6,pp. 716-719</location>
+                <pmid>11421730</pmid>
+                <authors>
+                    <author>
+                        <name>L</name>
+                    </author>
+                    <author>
+                        <name>M</name>
+                    </author>
+                    <author>
+                        <name>Nogle</name>
+                    </author>
+                    <author>
+                        <name>R</name>
+                    </author>
+                    <author>
+                        <name>T</name>
+                    </author>
+                    <author>
+                        <name>Williamson</name>
+                    </author>
+                    <author>
+                        <name>W</name>
+                    </author>
+                    <author>
+                        <name>H</name>
+                    </author>
+                    <author>
+                        <name>Gerwick</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

@@ -1,27 +1,54 @@
 {% extends "base.html" %}
 
+ {% block javascript %}
+
+
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/dataTables.bootstrap.min.css">
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='../static/css/home.css') }}">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+
+        <script src="https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap.min.js"></script>
+
+               {########## Add export table based on http://demos.w3lessons.info/jquery-table-export #############}
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/tableExport.js"></script>
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/jquery.base64.js"></script>
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/html2canvas.js"></script>
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/jspdf/jspdf.js"></script>
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/jspdf/libs/base64.js"></script>
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/jspdf/libs/sprintf.js"></script>
+
+        <script>
+            $(document).ready(function() {
+            // Setup - add a text input to each footer cell
+            $('#extracted_linkers tfoot th').each( function () {
+            var title = $(this).text();
+            $(this).html( '<input type="text" placeholder="'+title+'" />' );
+            } );
+
+            // DataTable
+            var table = $('#extracted_linkers').DataTable({});
+
+            // Apply the search
+            table.columns().every( function () {
+            var that = this;
+
+            $( 'input', this.footer() ).on( 'keyup change', function () {
+                if ( that.search() !== this.value ) {that.search( this.value ).draw();}
+            } );
+            } );
+            } );
+        </script>
+
+
+ {% endblock %}
+
 {% block heading %} {{super()}} {% endblock %}
 
 
 {% block content %}
 
-<div class="row">
-    <div class="col-sm-12"><h2>{{title}}</h2></div>
-</div><br>
-<div class="row page">
-    <div class="col-sm-12">
-       <h4>Export Data:
-       <a href="{{ url_for('download_tab') }}" class="glyphicon-bullhorn"><img src="https://demos.w3lessons.info/assets/images/icons/csv.png" width="24"> CSV</a>
-       </h4>
-    </div>
- </div><br>
-<div class="row">
-    <div class="col-sm-12">
-        <div class=page>
-            {{table|safe}}
-        </div>
-    </div>
-</div>
 <div class="row">
         <div class = "col-sm-6">
             <h2>Parsing Summary</h2>
@@ -41,6 +68,24 @@
         </table>
         </div>
     </div>
+<div class="row">
+    <div class="col-sm-12"><h2>{{title}}</h2></div>
+</div><br>
+<div class="row page">
+    <div class="col-sm-12">
+       <h4>Export Data:
+       <a href="{{ url_for('download_tab') }}" class="glyphicon-bullhorn"><img src="https://demos.w3lessons.info/assets/images/icons/csv.png" width="24"> CSV</a>
+       </h4>
+    </div>
+ </div><br>
+<div class="row">
+    <div class="col-sm-12">
+        <div class=page>
+            {{table|safe}}
+        </div>
+    </div>
+</div>
+
 
 {% endblock %}
 

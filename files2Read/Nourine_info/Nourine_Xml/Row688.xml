@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00697</id>
+            <name>M43D</name>
+            <family>M43</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>glycopeptide</category>
+            <comment>Two bonds of the central Hpg are due to oxydative ring closure.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>other</type>
+            <size>9</size>
+            <graph>Asn,bOH-Cl-Tyr,NdMe-Leu,Hpg,D-Glc,Van,bOH-Cl-Tyr,Dhpg,Hpg@1,3@0,2,3@1@1,0,4,6,8@3,5@4@3,7,8@6,8@3,7,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Nocardia orientalis</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Pseudonocardineae, Pseudonocardiaceae, Amycolatopsis</taxonomy>
+                <gram>positive</gram>
+                <synonym>Amycolatopsis orientalis,Streptomyces orientalis,Amycolatopsis orientalis orientalis</synonym>
+                <taxid>31958</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>M43 antibiotics: Methylated vancomycins and unrearranged CDP-I analogues</title>
+                <year>1988</year>
+                <journal>Journal of the American Chemical Society</journal>
+                <location>110 (23), pp. 7896-7897</location>
+                <authors>
+                    <author>
+                        <name>Nagarajan R</name>
+                    </author>
+                    <author>
+                        <name>Merkel KE</name>
+                    </author>
+                    <author>
+                        <name>Michel KH</name>
+                    </author>
+                    <author>
+                        <name>Higgins Jr. HM</name>
+                    </author>
+                    <author>
+                        <name>Hoehn MM</name>
+                    </author>
+                    <author>
+                        <name>Hunt AH</name>
+                    </author>
+                    <author>
+                        <name>Jones ND</name>
+                    </author>
+                    <author>
+                        <name>Swartzendruber JK</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

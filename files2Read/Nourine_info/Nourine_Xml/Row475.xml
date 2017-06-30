@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00483</id>
+            <name>kapakahine F</name>
+            <family>kapakahine</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C40H43N7O5</formula>
+            <mw>701.8133</mw>
+            <comment>Kapakahines share a unique structural feature: two tryptophan residues (Trp-1 and -2) are not linked by an amide bond but by a N-C bond from the indole nitrogen of Trp-1 to the indole carbon of Trp-2.</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>other</type>
+            <size>5</size>
+            <graph>Phe,Trp,Leu,Ala,Trp@1,1@0,0,2,4@1,3@2,4@1,3</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Cribrochalina olemda</name>
+                <taxonomy>marine sponge</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>More kapakahines from the marine sponge Cribrochalina olemda</title>
+                <year>2003</year>
+                <journal>Organic letters</journal>
+                <location>May 1,5(9):1387-90.</location>
+                <pmid>12713280</pmid>
+                <authors>
+                    <author>
+                        <name>Kelly MT</name>
+                    </author>
+                    <author>
+                        <name>Scheuer PJ</name>
+                    </author>
+                    <author>
+                        <name>Nakao Y</name>
+                    </author>
+                    <author>
+                        <name>Yoshida WY</name>
+                    </author>
+                    <author>
+                        <name>Kuo J</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

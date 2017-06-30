@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00655</id>
+            <name>lysobactin</name>
+            <family>lysobactin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C58H97N15O17</formula>
+            <mw>1276.4811</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>11</size>
+            <composition>D-Leu, Leu, Ph-Ser, 3OH-Leu, Leu, D-Arg, Ile, D-aThr, Gly, OH-Asn, Ser</composition>
+            <graph>D-Leu,Leu,Ph-Ser,3OH-Leu,Leu,D-Arg,Ile,D-aThr,Gly,OH-Asn,Ser@1@0,2@1,3,10@2,4@3,5@4,6@5,7@6,8@7,9@8,10@2,9</graph>
+            <smiles>CCC(C)C1NC(=O)C(CCCN=C(N)N)NC(=O)C(CC(C)C)NC(=O)C(NC(=O)C(NC(=O)C(CC(C)C)NC(=O)C(N)CC(C)C)C(OC(=O)C(CO)NC(=O)C(NC(=O)CNC(=O)C(NC1(=O))C(C)O)C(O)C(N)=O)c2ccccc2)C(O)C(C)C</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Lysobacter</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Xanthomonadales, Xanthomonadaceae</taxonomy>
+                <gram>negative</gram>
+                <taxid>68</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Lysobactin, a novel antibacterial agent produced by Lysobacter sp. I. Taxonomy, isolation and partial characterization</title>
+                <year>1988</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Dec,41(12):1740-4.</location>
+                <pmid>3209465</pmid>
+                <authors>
+                    <author>
+                        <name>O Sullivan J</name>
+                    </author>
+                    <author>
+                        <name>McCullough JE</name>
+                    </author>
+                    <author>
+                        <name>Tymiak AA</name>
+                    </author>
+                    <author>
+                        <name>Kirsch DR</name>
+                    </author>
+                    <author>
+                        <name>Trejo WH</name>
+                    </author>
+                    <author>
+                        <name>Principe PA</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>P94904</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>197270</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

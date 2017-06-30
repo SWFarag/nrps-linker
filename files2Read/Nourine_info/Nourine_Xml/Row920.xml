@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00930</id>
+            <name>avoparcin-epsilon</name>
+            <family>avoparcin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>glycopeptide</category>
+            <comment>Avoparcin consists of a mixture of several structurally similar glycopeptide analogs, of which alpha and beta avoparcin are the major components. Two bonds of the central Hpg are due to oxydative ring closure reactions.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>other</type>
+            <size>11</size>
+            <graph>Rha,NMe-Hpg,Tyr,D-Man,Cl-Hpg,Hpg,Ria,D-Glc,bOH-Cl-Tyr,Hpg,Dhpg@1@2,0@3,4,5,1@2@2,5@4,2,6,8,9@7,5@6@5,10,9@10,5,8@8,9</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces candidus</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <synonym>Actinomyces candidus</synonym>
+                <taxid>67283</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Avoparcin, a new macrocyclic antibiotic chiral run buffer additive for capillary electrophoresis</title>
+                <year>1999</year>
+                <journal>Electrophoresis</journal>
+                <location>Sep,20(12):2438-57.</location>
+                <pmid>10499337</pmid>
+                <authors>
+                    <author>
+                        <name>Ekborg-Ott KH</name>
+                    </author>
+                    <author>
+                        <name>Zientara GA</name>
+                    </author>
+                    <author>
+                        <name>Schneiderheinze JM</name>
+                    </author>
+                    <author>
+                        <name>Gahm K</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00677</id>
+            <name>pristinamycin IB</name>
+            <family>pristinamycin I</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <synonyms>Vernamycin B beta</synonyms>
+            <category>peptide</category>
+            <formula>C44H52N8O10</formula>
+            <mw>852.93134</mw>
+            <comment>Pristinamycins I are members of the streptogramin B group.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>7</size>
+            <composition>Hpa, Thr, D-Abu, Pro, NMe-MeA-Phe, 4oxo-Hpr, Ph-Gly</composition>
+            <graph>Hpa,Thr,D-Abu,Pro,NMe-MeA-Phe,4oxo-Hpr,Ph-Gly@1@0,2,6@1,3@2,4@3,5@4,6@1,5</graph>
+            <smiles>CCC3NC(=O)C(NC(=O)c1ncccc1(O))C(C)OC(=O)C(NC(=O)C5CC(=O)CCN5(C(=O)C(Cc2ccc(cc2)NC)N(C)C(=O)C4CCCN4(C3(=O))))c6ccccc6</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae</taxonomy>
+                <gram>positive</gram>
+                <synonym>Chainia</synonym>
+                <taxid>1883</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Streptogramin B biosynthesis in Streptomyces pristinaespiralis and Streptomyces virginiae: molecular characterization of the last structural peptide synthetase gene</title>
+                <year>1997</year>
+                <journal>Antimicrobial agents and chemotherapy</journal>
+                <location>Sep,41(9):1904-9.</location>
+                <pmid>9303382</pmid>
+                <authors>
+                    <author>
+                        <name>de Crecy-Lagard V</name>
+                    </author>
+                    <author>
+                        <name>Saurin W</name>
+                    </author>
+                    <author>
+                        <name>Thibaut D</name>
+                    </author>
+                    <author>
+                        <name>Gil P</name>
+                    </author>
+                    <author>
+                        <name>Naudin L</name>
+                    </author>
+                    <author>
+                        <name>Crouzet J</name>
+                    </author>
+                    <author>
+                        <name>Blanc V</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>P95819</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q54959</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>O07944</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>443309</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

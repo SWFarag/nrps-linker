@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00863</id>
+            <name>pseudomycin C2</name>
+            <family>syringomycin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>surfactant</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <formula>C53H91ClN12O19</formula>
+            <mw>1235.8118</mw>
+            <comment>The pseudomycin A is the major pseudomycin.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>10</size>
+            <composition>C16:0-OH(3), Ser, D-Dab, Asp, Lys, Dab, aThr, dhAbu, OH-Asp, 4Cl-Thr</composition>
+            <graph>C16:0-OH(3),Ser,D-Dab,Asp,Lys,Dab,aThr,dhAbu,OH-Asp,4Cl-Thr@1@0,2,9@1,3@2,4@3,5@4,6@5,7@6,8@7,9@1,8</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas syringae</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas syringae group, Pseudomonas syringae group genomosp. 1</taxonomy>
+                <gram>negative</gram>
+                <taxid>317</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Novel bioactive lipodepsipeptides from Pseudomonas syringae: the pseudomycins</title>
+                <year>1994</year>
+                <journal>FEBS letters</journal>
+                <location>Nov 21,355(1):96-100.</location>
+                <pmid>7957970</pmid>
+                <authors>
+                    <author>
+                        <name>Ballio A</name>
+                    </author>
+                    <author>
+                        <name>Bossa F</name>
+                    </author>
+                    <author>
+                        <name>Di Giorgio D</name>
+                    </author>
+                    <author>
+                        <name>Pucci P</name>
+                    </author>
+                    <author>
+                        <name>Scaloni A</name>
+                    </author>
+                    <author>
+                        <name>Paci M</name>
+                    </author>
+                    <author>
+                        <name>Segre AL</name>
+                    </author>
+                    <author>
+                        <name>Ferranti P</name>
+                    </author>
+                    <author>
+                        <name>Strobel GA</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

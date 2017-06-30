@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00378</id>
+            <name>nordidemnin A</name>
+            <family>didemnin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>antitumor</activity>
+                <activity>immunomodulating</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C48H76N6O12</formula>
+            <mw>929.1501</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>7</size>
+            <composition>Nst, Hip, Leu, Pro, NMe-OMe-Tyr, Thr, D-NMe-Leu</composition>
+            <graph>Nst,Hip,Leu,Pro,NMe-OMe-Tyr,Thr,D-NMe-Leu@1,5@0,2@1,3@2,4@3,5@0,4,6@5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Trididemnum solidum</name>
+                <taxonomy>caribbean tunicate</taxonomy>
+            </organism>
+            <organism>
+                <name>Didemnum sp.</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Eumetazoa, Bilateria, Coelomata, Deuterostomia, Chordata, Urochordata, Ascidiacea, Enterogona, Aplousobranchia, Didemnidae, Didemnum</taxonomy>
+                <taxid>107395</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Didemnin and nordidemnin antibiotics from trididemnum, their extraction, virucidal action, and compositions containing them</title>
+                <year>1981</year>
+                <journal>European Patent Applied</journal>
+                <location>48149</location>
+                <authors>
+                    <author>
+                        <name>Rinehart KL</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

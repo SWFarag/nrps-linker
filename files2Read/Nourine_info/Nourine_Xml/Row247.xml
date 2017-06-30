@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00249</id>
+            <name>gramicidin S</name>
+            <family>gramicidin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C60H92N12O10</formula>
+            <mw>1141.4469</mw>
+            <comment>It is a decapeptide which forms a cylic beta-sheet conformation , consisting of two antiparallel beta-strands connected by type II-turns.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>10</size>
+            <composition>Val, Orn, Leu, D-Phe, Pro, Val, Orn, Leu, D-Phe, Pro</composition>
+            <graph>Val,Orn,Leu,D-Phe,Pro,Val,Orn,Leu,D-Phe,Pro@1,9@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@0,8</graph>
+            <smiles>CC(C)CC3NC(=O)C(CCCN)NC(=O)C(NC(=O)C5CCCN5(C(=O)C(Cc1ccccc1)NC(=O)C(CC(C)C)NC(=O)C(CCCN)NC(=O)C(NC(=O)C4CCCN4(C(=O)C(Cc2ccccc2)NC3(=O)))C(C)C))C(C)C</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Bacillus brevis</name>
+                <taxonomy>cellular organisms, Bacteria, Firmicutes, Bacilli, Bacillales, Paenibacillaceae, Brevibacillus</taxonomy>
+                <gram>positive</gram>
+                <synonym>Brevibacillus brevis</synonym>
+                <taxid>1393</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Substrate recognition and selection by the initiation module PheATE of gramicidin S synthetase</title>
+                <year>2001</year>
+                <journal>Journal of the American Chemical Society</journal>
+                <location>Nov 14,123(45):11208-18.</location>
+                <pmid>11697963</pmid>
+                <authors>
+                    <author>
+                        <name>Luo L</name>
+                    </author>
+                    <author>
+                        <name>Burkart MD</name>
+                    </author>
+                    <author>
+                        <name>Stachelhaus T</name>
+                    </author>
+                    <author>
+                        <name>Walsh CT</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>73357</acc>
+                <name_db>PubChem</name_db>
+            </link>
+            <link>
+                <acc>P0C062</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>P0C064</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

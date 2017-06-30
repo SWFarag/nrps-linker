@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00438</id>
+            <name>guineamide E</name>
+            <family>guineamide</family>
+            <activities>
+                <activity>unknown</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C39H59N5O9</formula>
+            <mw>741.9138</mw>
+            <comment>Guineamide is a putative NRPS product (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>7</size>
+            <composition>NMe-Val, Pro, D-NMe-Phe, Gly, C6:0-Me(2.2)-OH(3), Hiv, Ala</composition>
+            <graph>NMe-Val,Pro,D-NMe-Phe,Gly,C6:0-Me(2.2)-OH(3),Hiv,Ala@1,6@0,2@1,3@2,4@3,5@4,6@0,5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Lyngbya majuscula</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Oscillatoriales, Lyngbya</taxonomy>
+                <gram>negative</gram>
+                <taxid>158786</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The guineamides, novel cyclic depsipeptides from a Papua New Guinea collection of the marine cyanobacterium Lyngbya majuscula</title>
+                <year>2003</year>
+                <journal>Journal of natural products</journal>
+                <location>Jun,66(6):764-71.</location>
+                <pmid>12828459</pmid>
+                <authors>
+                    <author>
+                        <name>Gerwick WH</name>
+                    </author>
+                    <author>
+                        <name>Tan LT</name>
+                    </author>
+                    <author>
+                        <name>Sitachitta N</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

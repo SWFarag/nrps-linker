@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NORXX5</id>
+            <name>Tyr-Thr</name>
+            <family>Tyr-Thr</family>
+            <activities>
+                <activity>Unknown</activity>
+            </activities>
+            <category>peptide</category>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>2</size>
+            <composition>Tyr,Thr</composition>
+            <graph>Tyr,Thr@1@0</graph>
+            <smiles>unknow</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Bacillus atrophaeus C89</name>
+                <taxonomy>cellular organisms; Bacteria; Terrabacteria group; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus subtilis group; Bacillus atrophaeus</taxonomy>
+                <gram>n/a</gram>
+                <synonym>Bacillus sp. C89</synonym>
+                <taxid>334727</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The role of aromatic L-amino acid decarboxylase in bacillamide C biosynthesis by Bacillus atrophaeus C89</title>
+                <year>2013</year>
+                <journal>Scientific Report</journal>
+                <location>2013;3:1753</location>
+                <pmid>23628927</pmid>
+                <authors>
+                    <author>
+                        <name>Yuwen L et.al.</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>P27742</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

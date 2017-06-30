@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00441</id>
+            <name>nagahamide A</name>
+            <family>nagahamide</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C39H64N8O14</formula>
+            <mw>868.9707</mw>
+            <comment>Nagahamide A is a putative NRPS product (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>7</size>
+            <composition>Ser, Gly, bMe-Asn, OH-Asn, Val, DHMDA, OH-4Abu</composition>
+            <graph>Ser,Gly,bMe-Asn,OH-Asn,Val,DHMDA,OH-4Abu@1,6@0,2@1,3@2,4@3,5@4,6@0,5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Theonella swinhoei</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Tetractinomorpha, Lithistida, Triaenosina, Theonellidae, Theonella</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Nagahamide A, an antibacterial depsipeptide from the marine sponge Theonella swinhoei</title>
+                <year>2002</year>
+                <journal>Organic letters</journal>
+                <location>Sep 5,4(18):3039-42.</location>
+                <pmid>12201711</pmid>
+                <authors>
+                    <author>
+                        <name>Okada Y</name>
+                    </author>
+                    <author>
+                        <name>Matsunaga S</name>
+                    </author>
+                    <author>
+                        <name>van Soest RW</name>
+                    </author>
+                    <author>
+                        <name>Fusetani N</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

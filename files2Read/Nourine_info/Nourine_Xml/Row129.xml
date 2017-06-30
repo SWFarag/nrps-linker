@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00131</id>
+            <name>[D-Glu(OCH3)6]microcystin-LR</name>
+            <family>microcystin</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <synonyms>
+            </synonyms>
+            <category>PK-NRP</category>
+            <formula>C52H80N10O13</formula>
+            <mw>1053.2509</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>7</size>
+            <composition>D-Ala,Leu,D-bMe-Asp,Arg,Adda,D-MeO-Glu,NMe-Dha</composition>
+            <graph>D-Ala,Leu,D-bMe-Asp,Arg,Adda,D-MeO-Glu,NMe-Dha@1,6@0,2@1,3@2,4@3,5@4,6@0,5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Microcystis</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Chroococcales</taxonomy>
+                <gram>negative</gram>
+                <taxid>1125</taxid>
+            </organism>
+            <organism>
+                <name>Aphanizomenon flos-aquae</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Nostocales, Nostocaceae, Aphanizomenon</taxonomy>
+                <gram>negative</gram>
+                <taxid>1176</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Mass spectral analyses of microcystins from toxic cyanobacteria using on-line chromatographic and electrophoretic separations</title>
+                <year>1995</year>
+                <journal>Journal of chromatography</journal>
+                <location>Sep 29,712(1):253-68.</location>
+                <pmid>8556152</pmid>
+                <authors>
+                    <author>
+                        <name>Bateman KP</name>
+                    </author>
+                    <author>
+                        <name>Thibault P</name>
+                    </author>
+                    <author>
+                        <name>Douglas DJ</name>
+                    </author>
+                    <author>
+                        <name>White RL</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>Q9RNB1</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q9RNB0</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q9RNA9</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q9RNB3</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q9RNB5</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

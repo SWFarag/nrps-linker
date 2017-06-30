@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00524</id>
+            <name>phakellistatin 2</name>
+            <family>phakellistatin</family>
+            <activities>
+                <activity>antitumor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C45H62N7O8</formula>
+            <mw>829.01587</mw>
+            <comment>Phakellistatins are putative NRPS products (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>7</size>
+            <composition>Pro, Phe, Pro, Ile, Ile, Pro, Tyr</composition>
+            <graph>Pro,Phe,Pro,Ile,Ile,Pro,Tyr@1,6@0,2@1,3@2,4@3,5@4,6@0,5</graph>
+            <smiles>CCC(C)C3NC(=O)C6CCCN6(C(=O)C(Cc1ccccc1)NC(=O)C5CCCN5(C(=O)C(Cc2ccc(O)cc2)NC(=O)C4CCCN4(C(=O)C(NC3(=O))C(C)CC)))</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Stylotella aurantium</name>
+                <taxonomy>marine sponge</taxonomy>
+            </organism>
+            <organism>
+                <name>Phakellia sp.</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Halichondrida, Axinellidae, Phakellia</taxonomy>
+                <taxid>85814</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Two distinct conformers of the cyclic heptapeptide phakellistatin 2 isolated from the fijian marine sponge stylotellaaurantium</title>
+                <year>2002</year>
+                <journal>The Journal of organic chemistry</journal>
+                <location>Nov 29,67(24):8593-601.</location>
+                <pmid>12444643</pmid>
+                <authors>
+                    <author>
+                        <name>Tabudravu JN</name>
+                    </author>
+                    <author>
+                        <name>Morris LA</name>
+                    </author>
+                    <author>
+                        <name>Kettenes-van den Bosch JJ</name>
+                    </author>
+                    <author>
+                        <name>Jaspars M</name>
+                    </author>
+                    <author>
+                        <name>Smith N</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

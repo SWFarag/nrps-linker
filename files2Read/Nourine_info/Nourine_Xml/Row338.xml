@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00341</id>
+            <name>pholipeptin</name>
+            <family>amphisin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>surfactant</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <comment>Pholipeptin inhibited PI-PLC of human carcinoma A431 cells.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>12</size>
+            <composition>C10:0-OH(3), D-Leu, Asp, Thr, D-Leu, D-Leu, D-Ser, D-Leu, D-Ser, D-Leu, Ile, D-Asp</composition>
+            <graph>C10:0-OH(3),D-Leu,Asp,Thr,D-Leu,D-Leu,D-Ser,D-Leu,D-Ser,D-Leu,Ile,D-Asp@1@0,2@1,3@2,4,11@3,5@4,6@5,7@6,8@7,9@8,10@9,11@3,10</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas fluorescens</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas</taxonomy>
+                <gram>negative</gram>
+                <taxid>136843</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Pholipeptin, a Novel Cyclic Lipoundecapeptide fromPseudomonas fluorescens</title>
+                <year>1997</year>
+                <journal>The Journal of organic chemistry</journal>
+                <location>Jan 10,62(1):103-108.</location>
+                <pmid>11671369</pmid>
+                <authors>
+                    <author>
+                        <name>Ui H</name>
+                    </author>
+                    <author>
+                        <name>Miyake T</name>
+                    </author>
+                    <author>
+                        <name>Iinuma H</name>
+                    </author>
+                    <author>
+                        <name>Imoto M</name>
+                    </author>
+                    <author>
+                        <name>Naganawa H</name>
+                    </author>
+                    <author>
+                        <name>Hattori S</name>
+                    </author>
+                    <author>
+                        <name>Hamada M</name>
+                    </author>
+                    <author>
+                        <name>Takeuchi T</name>
+                    </author>
+                    <author>
+                        <name>Umezawa S</name>
+                    </author>
+                    <author>
+                        <name>Umezawa K</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

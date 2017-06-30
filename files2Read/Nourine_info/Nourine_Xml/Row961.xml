@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00971</id>
+            <name>cephaibol B</name>
+            <family>cephaibol</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptaibol</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>16</size>
+            <composition>Ac-Phe, Aib, Aib, Aib, D-Ival, Gly, Leu, D-Ival, Aib, 4OH-Pro, Gln, D-Ival, 4OH-Pro, Aib, Pro, Pheol</composition>
+            <graph>Ac-Phe,Aib,Aib,Aib,D-Ival,Gly,Leu,D-Ival,Aib,4OH-Pro,Gln,D-Ival,4OH-Pro,Aib,Pro,Pheol@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@11,13@12,14@13,15@14</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Acremonium tubakii</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Dikarya, Ascomycota, mitosporic Ascomycota, Acremonium</taxonomy>
+                <taxid>146077</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Cephaibols, new peptaibol antibiotics with anthelmintic properties from Acremonium tubakii DSM 12774</title>
+                <year>2001</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Mar,54(3):220-33.</location>
+                <pmid>11372779</pmid>
+                <authors>
+                    <author>
+                        <name>Kim JH</name>
+                    </author>
+                    <author>
+                        <name>Schiell M</name>
+                    </author>
+                    <author>
+                        <name>Hofmann J</name>
+                    </author>
+                    <author>
+                        <name>Kurz M</name>
+                    </author>
+                    <author>
+                        <name>Schmidt FR</name>
+                    </author>
+                    <author>
+                        <name>Vogel M</name>
+                    </author>
+                    <author>
+                        <name>Wink J</name>
+                    </author>
+                    <author>
+                        <name>Seibert G</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>1ob6</acc>
+                <name_db>PDB</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

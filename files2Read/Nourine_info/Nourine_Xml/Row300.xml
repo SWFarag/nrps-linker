@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00303</id>
+            <name>brevianamide F</name>
+            <family>brevianamide</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <comment>Brevianamide F is the precursor of a variety of fungal prenylated alkaloids with biological activity, including fumitremorgins A, B and C and tryprostatin B.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>2</size>
+            <composition>Trp, Pro</composition>
+            <graph>Trp,Pro@1,1@0,0</graph>
+            <smiles>O=C3NC(Cc1c[nH]c2ccccc12)C(=O)N4CCCC34</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Aspergillus fumigatus</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Eurotiomycetes, Eurotiales, Trichocomaceae, mitosporic Trichocomaceae, Aspergillus</taxonomy>
+                <taxid>5085</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The Fumitremorgin Gene Cluster of Aspergillus fumigatus: Identification of a Gene Encoding Brevianamide F Synthetase</title>
+                <year>2006</year>
+                <journal>Chembiochem : a European journal of chemical biology</journal>
+                <location>Jul 3,7(7):1062-1069.</location>
+                <pmid>16755625</pmid>
+                <authors>
+                    <author>
+                        <name>Maiya S</name>
+                    </author>
+                    <author>
+                        <name>Grundmann A</name>
+                    </author>
+                    <author>
+                        <name>Li SM</name>
+                    </author>
+                    <author>
+                        <name>Turner G</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

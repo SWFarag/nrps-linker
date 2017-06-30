@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00337</id>
+            <name>White Line Inducing Principle</name>
+            <family>viscosin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>surfactant</activity>
+            </activities>
+            <synonyms>WLIP</synonyms>
+            <category>lipopeptide</category>
+            <formula>C54H95N9O16</formula>
+            <mw>1126.3828</mw>
+            <comment>WLIP is structurally similar to viscosin, except for the chirality of leucine in position 5 which has D configuration in WLIP and L configuration in viscosin.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>10</size>
+            <composition>C10:0-OH(3), Leu, D-Glu, D-aThr, D-Val, D-Leu, D-Ser, Leu, D-Ser, Ile</composition>
+            <graph>C10:0-OH(3),Leu,D-Glu,D-aThr,D-Val,D-Leu,D-Ser,Leu,D-Ser,Ile@1@0,2@1,3@2,4,9@3,5@4,6@5,7@6,8@7,9@3,8</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas reactans</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas</taxonomy>
+                <gram>negative</gram>
+                <taxid>117680</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>WLIP and tolaasin I, lipodepsipeptides from Pseudomonas reactans and Pseudomonas tolaasii, permeabilise model membranes</title>
+                <year>2006</year>
+                <journal>Biochimica et biophysica acta</journal>
+                <location>Jul 14, [Epub ahead of print]</location>
+                <pmid>16925979</pmid>
+                <authors>
+                    <author>
+                        <name>Coraiola M</name>
+                    </author>
+                    <author>
+                        <name>Lo Cantore P</name>
+                    </author>
+                    <author>
+                        <name>Lazzaroni S</name>
+                    </author>
+                    <author>
+                        <name>Evidente A</name>
+                    </author>
+                    <author>
+                        <name>Iacobellis NS</name>
+                    </author>
+                    <author>
+                        <name>Dalla Serra M</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

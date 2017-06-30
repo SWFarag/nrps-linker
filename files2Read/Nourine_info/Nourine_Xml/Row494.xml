@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00502</id>
+            <name>theonellapeptolide IIIe</name>
+            <family>theonellapeptolide</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C71H127N13O16</formula>
+            <mw>1418.8456</mw>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>13</size>
+            <composition>NOMe-Ac-Val, D-NMe-Leu, Thr, NMe-bAla, D-Val, NMe-Ile, bAla, D-aIle, NMe-Ile, NMe-Ala, Ala, D-Leu, D-NMe-Leu</composition>
+            <graph>NOMe-Ac-Val,D-NMe-Leu,Thr,NMe-bAla,D-Val,NMe-Ile,bAla,D-aIle,NMe-Ile,NMe-Ala,Ala,D-Leu,D-NMe-Leu@1@0,2@1,3,12@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@2,11</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Lamellomorpha strongylata</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Tetractinomorpha, Astrophorida, Pachastrellidae, Lamellomorpha</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Theonellapeptolide IIIe, a new cyclic peptolide from the New Zealand deep water sponge, Lamellomorpha strongylata</title>
+                <year>1998</year>
+                <journal>Journal of natural products</journal>
+                <location>Jun 26,61(6):724-8.</location>
+                <pmid>9644054</pmid>
+                <authors>
+                    <author>
+                        <name>Pannell LK</name>
+                    </author>
+                    <author>
+                        <name>Li S</name>
+                    </author>
+                    <author>
+                        <name>Dumdei EJ</name>
+                    </author>
+                    <author>
+                        <name>Blunt JW</name>
+                    </author>
+                    <author>
+                        <name>Munro MH</name>
+                    </author>
+                    <author>
+                        <name>Robinson WT</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00226</id>
+            <name>fengycin A</name>
+            <family>fengycin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>surfactant</activity>
+            </activities>
+            <synonyms>
+            </synonyms>
+            <category>lipopeptide</category>
+            <formula>C72H110N12O20</formula>
+            <mw>1463.7123</mw>
+            <comment>The lipid moiety of both analogs is more variable, as fatty acids have been identified as anteiso-pentadecanoic acid (ai-C15), iso-hexadecanoic acid (i-C16), n-hexadecanoic acid (n-C16), and there is evidence for further saturated and unsaturated residues up to C18.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>11</size>
+            <composition>C16:0-OH(3),Glu,D-Orn,Tyr,D-aThr,Glu,D-Ala,Pro,Gln,D-Tyr,Ile</composition>
+            <graph>C16:0-OH(3),Glu,D-Orn,Tyr,D-aThr,Glu,D-Ala,Pro,Gln,D-Tyr,Ile@1@0,2@1,3@2,4,10@3,5@4,6@5,7@6,8@7,9@8,10@3,9</graph>
+            <smiles>CCCCCCCCCCCCCC(CC(=O)NC(CCC(=O)O)C(=O)NC(CCCN)C(=O)NC1CC2=CC=C(C=C2)OC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C3CCCN3C(=O)C(NC(=O)C(NC(=O)C(NC1=O)C(C)O)CCC(=O)O)C)CCC(=O)N)CC4=CC=C(C=C4)O)C(C)CC)O</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Bacillus subtilis</name>
+                <taxonomy>cellular organisms, Bacteria, Firmicutes, Bacilli, Bacillales, Bacillaceae, Bacillus</taxonomy>
+                <gram>positive</gram>
+                <synonym>Bacillus uniflagellatus,Bacillus natto,Bacillus globigii,Vibrio subtilis</synonym>
+                <taxid>1423</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Fengycin, a novel antifungal lipopeptide antibiotic produced by Bacillus subtilis F-29-3</title>
+                <year>1986</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Jul,39(7):888-901.</location>
+                <pmid>3093430</pmid>
+                <authors>
+                    <author>
+                        <name>Vanittanakom N</name>
+                    </author>
+                    <author>
+                        <name>Loeffler W</name>
+                    </author>
+                    <author>
+                        <name>Koch U</name>
+                    </author>
+                    <author>
+                        <name>Jung G</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Nonribosomal synthesis of fengycin on an enzyme complex formed by fengycin synthetases</title>
+                <year>2007</year>
+                <journal>The Journal of biological chemistry</journal>
+                <location>Feb 23,282(8):5608-16.</location>
+                <pmid>17182617</pmid>
+                <authors>
+                    <author>
+                        <name>Wu CY</name>
+                    </author>
+                    <author>
+                        <name>Chen CL</name>
+                    </author>
+                    <author>
+                        <name>Lee YH</name>
+                    </author>
+                    <author>
+                        <name>Cheng YC</name>
+                    </author>
+                    <author>
+                        <name>Wu YC</name>
+                    </author>
+                    <author>
+                        <name>Shu HY</name>
+                    </author>
+                    <author>
+                        <name>Gotz F</name>
+                    </author>
+                    <author>
+                        <name>Liu ST</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>O30980</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q45563</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>O87704</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>O30981</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>443591</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00866</id>
+            <name>syringostatin B</name>
+            <family>syringomycin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>surfactant</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>10</size>
+            <composition>C14:0-OH(3.4), Ser, D-Dab, Dab, D-Hse, Orn, aThr, dhAbu, OH-Asp, 4Cl-Thr</composition>
+            <graph>C14:0-OH(3.4),Ser,D-Dab,Dab,D-Hse,Orn,aThr,dhAbu,OH-Asp,4Cl-Thr@1@0,2,9@1,3@2,4@3,5@4,6@5,7@6,8@7,9@1,8</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas syringae pv. syringae</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas syringae group, Pseudomonas syringae group genomosp. 1, Pseudomonas syringae</taxonomy>
+                <gram>negative</gram>
+                <taxid>321</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>In vitro antifungal and fungicidal activities and erythrocyte toxicities of cyclic lipodepsinonapeptides produced by Pseudomonas syringae pv. Syringae</title>
+                <year>1996</year>
+                <journal>Antimicrobial agents and chemotherapy</journal>
+                <location>Dec,40(12):2710-3.</location>
+                <pmid>9124827</pmid>
+                <authors>
+                    <author>
+                        <name>Takemoto JY</name>
+                    </author>
+                    <author>
+                        <name>Sorensen KN</name>
+                    </author>
+                    <author>
+                        <name>Kim KH</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

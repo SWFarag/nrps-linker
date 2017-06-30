@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00546</id>
+            <name>hymenamide K</name>
+            <family>hymenamide</family>
+            <activities>
+                <activity>unknown</activity>
+            </activities>
+            <category>peptide</category>
+            <comment>Hymenamides are putative NRPS products (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>8</size>
+            <composition>Pro, Tyr, Asp, Phe, Trp, Lys, Ala, Val</composition>
+            <graph>Pro,Tyr,Asp,Phe,Trp,Lys,Ala,Val@1,7@0,2@1,3@2,4@3,5@4,6@5,7@0,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Hymeniacidon sp.</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Halichondrida, Hymeniacidonidae, Hymeniacidon</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Hymenamides G, H, J, and K, four new cyclic octapeptides from the Okinawan marine sponge Hymeniacidon sp</title>
+                <year>1994</year>
+                <journal>Tetrahedron</journal>
+                <location>50 (16), pp. 4667-4680</location>
+                <authors>
+                    <author>
+                        <name>Kobayashi JI</name>
+                    </author>
+                    <author>
+                        <name>Tsuda M</name>
+                    </author>
+                    <author>
+                        <name>Sasaki T</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

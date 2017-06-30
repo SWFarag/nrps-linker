@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00065</id>
+            <name>destruxin B</name>
+            <family>destruxin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C30H51N5O7</formula>
+            <mw>593.7553</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>6</size>
+            <composition>Pro, Ile, NMe-Val, NMe-Ala, bAla, Hiv</composition>
+            <graph>Pro,Ile,NMe-Val,NMe-Ala,bAla,Hiv@1,5@0,2@1,3@2,4@3,5@0,4</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Trichothecium roseum</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, mitosporic Ascomycota, Trichothecium</taxonomy>
+                <taxid>47278</taxid>
+            </organism>
+            <organism>
+                <name>Alternaria brassicae</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Dothideomycetes, Pleosporales, Pleosporaceae, mitosporic Pleosporaceae, Alternaria</taxonomy>
+                <taxid>29911</taxid>
+            </organism>
+            <organism>
+                <name>Metarhizium anisopliae</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Clavicipitaceae, mitosporic Clavicipitaceae, Metarhizium</taxonomy>
+                <taxid>5530</taxid>
+            </organism>
+            <organism>
+                <name>OS-F68576</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The destruxins: synthesis, biosynthesis, biotransformation, and biological activity</title>
+                <year>2002</year>
+                <journal>Phytochemistry</journal>
+                <location>Mar,59(6):579-96.</location>
+                <pmid>11867090</pmid>
+                <authors>
+                    <author>
+                        <name>Pedras MS</name>
+                    </author>
+                    <author>
+                        <name>Irina Zaharia L</name>
+                    </author>
+                    <author>
+                        <name>Ward DE</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>5458450</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

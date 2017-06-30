@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00504</id>
+            <name>dysamide B</name>
+            <family>dysamide</family>
+            <activities>
+                <activity>unknown</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C14H22Cl4N2O2</formula>
+            <mw>392.14868</mw>
+            <comment>dysamides are putative NRPS products (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>2</size>
+            <composition>Cl2-NMe-Leu, Cl2-NMe-Leu</composition>
+            <graph>Cl2-NMe-Leu,Cl2-NMe-Leu@1,1@0,0</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Dysidea chlorea</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Dictyoceratida, Dysideidae, Dysidea</taxonomy>
+            </organism>
+            <organism>
+                <name>Dysidea fragilis</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Dictyoceratida, Dysideidae, Dysidea</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Three new diketopiperazines from a marine sponge Dysidea fragilis</title>
+                <year>1993</year>
+                <journal>Journal of Natural Products</journal>
+                <location>56 (4), pp. 637-642</location>
+                <authors>
+                    <author>
+                        <name>Su JY</name>
+                    </author>
+                    <author>
+                        <name>Zhong YL</name>
+                    </author>
+                    <author>
+                        <name>Zeng LM</name>
+                    </author>
+                    <author>
+                        <name>Wei S</name>
+                    </author>
+                    <author>
+                        <name>Wang QW</name>
+                    </author>
+                    <author>
+                        <name>Mak TCW</name>
+                    </author>
+                    <author>
+                        <name>Zhou ZY</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

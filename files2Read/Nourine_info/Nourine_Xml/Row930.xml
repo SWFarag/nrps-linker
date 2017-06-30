@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00940</id>
+            <name>ampullosporin D</name>
+            <family>ampullosporin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptaibol</category>
+            <comment>Peptaibol-type ampullosporins B and D are capable of forming ion-conducting pores in planar lipid bilayer membrane prepared from soybean phosphatidylcholine in a similar manner as it was shown for ampullosporin A.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>15</size>
+            <composition>Ac-Trp, Ala, Aib, Aib, Leu, Aib, Gln, Aib, Aib, Ala, Gln, Leu, Aib, Gln, Leuol</composition>
+            <graph>Ac-Trp,Ala,Aib,Aib,Leu,Aib,Gln,Aib,Aib,Ala,Gln,Leu,Aib,Gln,Leuol@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@11,13@12,14@13</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Sepedonium ampullosporum</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Dikarya, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Hypocreaceae, mitosporic Hypocreaceae, Sepedonium</taxonomy>
+                <taxid>74838</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>A nonribosomal peptide synthetase involved in the biosynthesis of ampullosporins in Sepedonium ampullosporum</title>
+                <year>2003</year>
+                <journal>Journal of peptide science</journal>
+                <location>Nov-Dec,9(11-12):701-13.</location>
+                <pmid>14658790</pmid>
+                <authors>
+                    <author>
+                        <name>Reiber K</name>
+                    </author>
+                    <author>
+                        <name>Neuhof T</name>
+                    </author>
+                    <author>
+                        <name>Ozegowski JH</name>
+                    </author>
+                    <author>
+                        <name>von Dohrend H</name>
+                    </author>
+                    <author>
+                        <name>Schwecke T</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Ampullosporins B, C, D, E[1], E[2], E[3] and E[4] from Sepedonium ampullosporum HKI-0053 : Structures and biological activities</title>
+                <year>2001</year>
+                <journal>Journal of antibiotics</journal>
+                <location>vol. 54, no2, pp. 175-178</location>
+                <authors>
+                    <author>
+                        <name>Schlegel B</name>
+                    </author>
+                    <author>
+                        <name>Hartl A</name>
+                    </author>
+                    <author>
+                        <name>Grafe U</name>
+                    </author>
+                    <author>
+                        <name>Kronen M</name>
+                    </author>
+                    <author>
+                        <name>Kleinwachter P</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00651</id>
+            <name>empedopeptin</name>
+            <family>empedopeptin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <synonyms>BMY-28117</synonyms>
+            <category>peptide</category>
+            <formula>C49H79N11O19</formula>
+            <mw>1126.214</mw>
+            <comment>empedopeptin is a putative NRPS product (no synthetase genes identified). Isariin B, C and D exist which differ on the number of carbons.</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>9</size>
+            <composition>OH-Asp, 3OH-Pro, D-Ser, D-OH-Asp, Arg, Pro, D-Ser, D-Pro, C14:0-OH(3)</composition>
+            <graph>OH-Asp,3OH-Pro,D-Ser,D-OH-Asp,Arg,Pro,D-Ser,D-Pro,C14:0-OH(3)@1,8@0,2@1,3@2,4@3,5@4,6@5,7@6,8@0,7</graph>
+            <smiles>CCCCCCCCCCCC1CC(=O)N4CCCC4(C(=O)NC(CO)C(=O)N3CCCC3(C(=O)NC(CCCN=C(N)N)C(=O)NC(C(=O)NC(CO)C(=O)N2CCC(O)C2(C(=O)NC(C(=O)O1)C(O)C(=O)O))C(O)C(=O)O))</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Empedobacter</name>
+                <taxonomy>cellular organisms, Bacteria, Bacteroidetes/Chlorobi group, Bacteroidetes, Flavobacteria, Flavobacteriales, Flavobacteriaceae</taxonomy>
+                <gram>negative</gram>
+                <taxid>59734</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Empedopeptin (BMY-28117), a new depsipeptide antibiotic. II. Structure determination</title>
+                <year>1984</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Sep,37(9):958-64.</location>
+                <pmid>6501109</pmid>
+                <authors>
+                    <author>
+                        <name>Sugawara K</name>
+                    </author>
+                    <author>
+                        <name>Numata K</name>
+                    </author>
+                    <author>
+                        <name>Konishi M</name>
+                    </author>
+                    <author>
+                        <name>Kawaguchi H</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>160292</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

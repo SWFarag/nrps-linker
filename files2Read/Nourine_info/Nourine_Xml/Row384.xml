@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00392</id>
+            <name>kahalalide B</name>
+            <family>kahalalide</family>
+            <activities>
+                <activity>unknown</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C45H63N7O11</formula>
+            <mw>878.02203</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>8</size>
+            <composition>iC7:0, Tyr, D-Ser, Phe, D-Leu, Pro, Thr, Gly</composition>
+            <graph>iC7:0,Tyr,D-Ser,Phe,D-Leu,Pro,Thr,Gly@1@0,2@1,3,7@2,4@3,5@4,6@5,7@2,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Elysia rufescens</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Eumetazoa, Bilateria, Coelomata, Protostomia, Mollusca, Gastropoda, Orthogastropoda, Apogastropoda, Heterobranchia, Euthyneura, Opisthobranchia, Sacoglossa, Placobranchoidea, Placobranchidae, Elysia</taxonomy>
+                <taxid>380559</taxid>
+            </organism>
+            <organism>
+                <name>Bryopsis pennata</name>
+                <taxonomy>cellular organisms, Eukaryota, Viridiplantae, Chlorophyta, Ulvophyceae, Bryopsidales, Bryopsidaceae, Bryopsis</taxonomy>
+                <taxid>381411</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Kahalalide B. synthesis of a natural cyclodepsipeptide</title>
+                <year>2000</year>
+                <journal>Tetrahedron Letters</journal>
+                <location>41 (50), pp. 9765-9769</location>
+                <authors>
+                    <author>
+                        <name>Giralt E</name>
+                    </author>
+                    <author>
+                        <name>Lopez-Macia A</name>
+                    </author>
+                    <author>
+                        <name>Jimenez JC</name>
+                    </author>
+                    <author>
+                        <name>Royo M</name>
+                    </author>
+                    <author>
+                        <name>Albericio F</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

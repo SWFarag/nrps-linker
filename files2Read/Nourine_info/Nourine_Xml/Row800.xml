@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00809</id>
+            <name>kulolide 3</name>
+            <family>kulolide</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <comment>kulolides are putative NRPS products (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>7</size>
+            <composition>Ala, Val, Pro, Ph-Lac, D-NMe-Val, Val, C8:0-Me(2.2)-OH(3)</composition>
+            <graph>Ala,Val,Pro,Ph-Lac,D-NMe-Val,Val,C8:0-Me(2.2)-OH(3)@1,6@0,2@1,3@2,4@3,5@4,6@0,5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Philinopsis speciosa</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Eumetazoa, Bilateria, Coelomata, Protostomia, Mollusca, Gastropoda, Orthogastropoda, Apogastropoda, Heterobranchia, Euthyneura, Opisthobranchia, Cephalaspidea, Philinoidea, Aglajidae, Philinopsis</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Kulolide: A cytotoxic depsipeptide from a cephalaspidean mollusk, Philinopsis speciosa</title>
+                <year>1996</year>
+                <journal>Journal of the American Chemical Society</journal>
+                <location>118 (45), pp. 11081-11084</location>
+                <authors>
+                    <author>
+                        <name>Hamann MT</name>
+                    </author>
+                    <author>
+                        <name>Scheuer PJ</name>
+                    </author>
+                    <author>
+                        <name>Nakao Y</name>
+                    </author>
+                    <author>
+                        <name>Yoshida WY</name>
+                    </author>
+                    <author>
+                        <name>Gulavita NK</name>
+                    </author>
+                    <author>
+                        <name>Reese MT</name>
+                    </author>
+                    <author>
+                        <name>Coval SJ</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>More Peptides and Other Diverse Constituents of the Marine Mollusk Philinopsis speciosa</title>
+                <year>1998</year>
+                <journal>Journal of Organic Chemistry</journal>
+                <location>63 (10), pp. 3272-3280</location>
+                <authors>
+                    <author>
+                        <name>Scheuer PJ</name>
+                    </author>
+                    <author>
+                        <name>Nakao Y</name>
+                    </author>
+                    <author>
+                        <name>Yoshida WY</name>
+                    </author>
+                    <author>
+                        <name>Szabo CM</name>
+                    </author>
+                    <author>
+                        <name>Baker BJ</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

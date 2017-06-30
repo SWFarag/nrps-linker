@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00225</id>
+            <name>bacillomycin D-1</name>
+            <family>iturin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>surfactant</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <formula>C48H74N10O15</formula>
+            <mw>1031.1592</mw>
+            <comment>C14  and C15  beta-amino acids were the major components with a lower percentage of C16 components.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>8</size>
+            <composition>C14:0-NH2(3), Asn, D-Tyr, D-Asn, Pro, Glu, D-Ser, Thr</composition>
+            <graph>C14:0-NH2(3),Asn,D-Tyr,D-Asn,Pro,Glu,D-Ser,Thr@1,7@0,2@1,3@2,4@3,5@4,6@5,7@0,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Bacillus subtilis</name>
+                <taxonomy>cellular organisms, Bacteria, Firmicutes, Bacilli, Bacillales, Bacillaceae, Bacillus</taxonomy>
+                <gram>positive</gram>
+                <synonym>Bacillus uniflagellatus,Bacillus natto,Bacillus globigii,Vibrio subtilis</synonym>
+                <taxid>1423</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structures of bacillomycin D and bacillomycin L peptidolipid antibiotics from Bacillus subtilis</title>
+                <year>1984</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Dec,37(12):1600-4.</location>
+                <pmid>6441791</pmid>
+                <authors>
+                    <author>
+                        <name>Peypoux F</name>
+                    </author>
+                    <author>
+                        <name>Das BC</name>
+                    </author>
+                    <author>
+                        <name>Michel G</name>
+                    </author>
+                    <author>
+                        <name>Besson F</name>
+                    </author>
+                    <author>
+                        <name>Pommier MT</name>
+                    </author>
+                    <author>
+                        <name>Delcambe L</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Molecular characterization and analysis of the operon encoding the antifungal lipopeptide bacillomycin D</title>
+                <year>2004</year>
+                <journal>FEMS microbiology letters</journal>
+                <location>May 1,234(1):43-9.</location>
+                <pmid>15109718</pmid>
+                <authors>
+                    <author>
+                        <name>Moyne AL</name>
+                    </author>
+                    <author>
+                        <name>Cleveland TE</name>
+                    </author>
+                    <author>
+                        <name>Tuzun S</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>Q6YK41</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q6YK40</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q6YK39</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

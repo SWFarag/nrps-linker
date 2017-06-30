@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01051</id>
+            <name>trichobrachin A4</name>
+            <family>trichobrachin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptaibol</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>11</size>
+            <composition>Ac-Aib, Asn, Leu, Val, Aib, Pro, Leu, Leu, Aib, Pro, Valol</composition>
+            <graph>Ac-Aib,Asn,Leu,Val,Aib,Pro,Leu,Leu,Aib,Pro,Valol@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Trichoderma longibrachiatum</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Dikarya,  Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Hypocreaceae, mitosporic Hypocreaceae, Trichoderma</taxonomy>
+                <taxid>5548</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>New short peptaibols from a marine Trichoderma strain</title>
+                <year>2006</year>
+                <journal>Rapid communications in mass spectrometry</journal>
+                <location>20(8):1176-80.</location>
+                <pmid>16541408</pmid>
+                <authors>
+                    <author>
+                        <name>Mohamed-Benkada M</name>
+                    </author>
+                    <author>
+                        <name>Montagu M</name>
+                    </author>
+                    <author>
+                        <name>Biard JF</name>
+                    </author>
+                    <author>
+                        <name>Mondeguer F</name>
+                    </author>
+                    <author>
+                        <name>Verite P</name>
+                    </author>
+                    <author>
+                        <name>Dalgalarrondo M</name>
+                    </author>
+                    <author>
+                        <name>Bissett J</name>
+                    </author>
+                    <author>
+                        <name>Pouchus YF</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

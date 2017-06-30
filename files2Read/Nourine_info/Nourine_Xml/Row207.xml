@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00209</id>
+            <name>bacilysin</name>
+            <family>bacilysin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C12H18N2O5</formula>
+            <mw>270.2817</mw>
+            <comment>Some experimental results indicated that the mechanism of bacilysin biosynthesis is not typical of the general multicarrier thiotemplate model.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>2</size>
+            <composition>Ala, Aca</composition>
+            <graph>Ala,Aca@1@0</graph>
+            <smiles>CC(N)C(=O)NC(CC1CCC(=O)C2OC12)C(=O)O</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Bacillus subtilis</name>
+                <taxonomy>cellular organisms, Bacteria, Firmicutes, Bacilli, Bacillales, Bacillaceae, Bacillus</taxonomy>
+                <gram>positive</gram>
+                <synonym>Bacillus uniflagellatus,Bacillus natto,Bacillus globigii,Vibrio subtilis</synonym>
+                <taxid>1423</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Identification of bacilysin, chlorotetaine, and iturin a produced by Bacillus sp. strain CS93 isolated from pozol, a Mexican fermented maize dough</title>
+                <year>2004</year>
+                <journal>Applied and environmental microbiology</journal>
+                <location>Jan,70(1):631-4.</location>
+                <pmid>14711701</pmid>
+                <authors>
+                    <author>
+                        <name>Phister TG</name>
+                    </author>
+                    <author>
+                        <name>O Sullivan DJ</name>
+                    </author>
+                    <author>
+                        <name>McKay LL</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Bacilysin biosynthesis by a partially-purified enzyme fraction from Bacillus subtilis</title>
+                <year>2001</year>
+                <journal>Enzyme and Microbial Technology</journal>
+                <location>Volume 29, Issues 6-7, 4 October 2001, Pages 400-406</location>
+                <authors>
+                    <author>
+                        <name>Marahiel MA</name>
+                    </author>
+                    <author>
+                        <name>Yazgan A</name>
+                    </author>
+                    <author>
+                        <name>Ozcengiz G</name>
+                    </author>
+                    <author>
+                        <name>Ozcengiz E</name>
+                    </author>
+                    <author>
+                        <name>K?l?nc K</name>
+                    </author>
+                    <author>
+                        <name>AlaeddinoImagelu G</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>160175</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

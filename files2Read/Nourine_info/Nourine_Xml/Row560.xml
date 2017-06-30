@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00568</id>
+            <name>theonellamide D</name>
+            <family>theonellamide</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>glycopeptide</category>
+            <formula>C74H95Br2N16O26</formula>
+            <mw>1784.4457</mw>
+            <comment>Theonellamides are putative NRPS products (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>double cyclic</type>
+            <size>13</size>
+            <graph>Ser,C8:2(5.7)-Me(6)-OH(4)-NH2(3)-brPh(8),Phe,Ser,aThr,His,Ahad,bAla,Br-Phe,OH-Asn,Asn,Ala,Ara@11,1@0,2@1,3@2,4@3,5@4,6,11,12@5,7@6,8@7,9@8,10@9,11@0,10,5@5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Theonella sp.</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Tetractinomorpha, Lithistida, Triaenosina, Theonellidae, Theonella</taxonomy>
+                <taxid>73791</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Theonellamides A-E, cytotoxic bicyclic peptides, from a marine sponge Theonella sp.</title>
+                <year>1995</year>
+                <journal>Journal of Organic Chemistry</journal>
+                <location>60 (5), pp. 1177-1181</location>
+                <authors>
+                    <author>
+                        <name>Matsunaga S</name>
+                    </author>
+                    <author>
+                        <name>Fusetani N</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

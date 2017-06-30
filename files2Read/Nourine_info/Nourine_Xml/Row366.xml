@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00374</id>
+            <name>didemnin B</name>
+            <family>didemnin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>antitumor</activity>
+                <activity>immunomodulating</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C57H89N7O15</formula>
+            <mw>1112.3545</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>9</size>
+            <composition>Ist, Hip, Leu, Pro, NMe-OMe-Tyr, Thr, D-NMe-Leu, Pro, Lac</composition>
+            <graph>Ist,Hip,Leu,Pro,NMe-OMe-Tyr,Thr,D-NMe-Leu,Pro,Lac@1,5@0,2@1,3@2,4@3,5@0,4,6@5,7@6,8@7</graph>
+            <smiles>CCC(C)C3NC(=O)C(NC(=O)C(CC(C)C)N(C)C(=O)C1CCCN1(C(=O)C(C)O))C(C)OC(=O)C(Cc2ccc(cc2)OC)N(C)C(=O)C4CCCN4(C(=O)C(CC(C)C)NC(=O)C(C)C(=O)C(OC(=O)CC3(O))C(C)C)</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Trididemnum solidum</name>
+                <taxonomy>caribbean tunicate</taxonomy>
+            </organism>
+            <organism>
+                <name>Didemnum sp.</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Eumetazoa, Bilateria, Coelomata, Deuterostomia, Chordata, Urochordata, Ascidiacea, Enterogona, Aplousobranchia, Didemnidae, Didemnum</taxonomy>
+                <taxid>107395</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Didemnin B induces apoptosis in proliferating but not resting peripheral blood mononuclear cells</title>
+                <year>2002</year>
+                <journal>Apoptosis : an international journal on programmed cell death</journal>
+                <location>Oct,7(5):407-12.</location>
+                <pmid>12207173</pmid>
+                <authors>
+                    <author>
+                        <name>Baker MA</name>
+                    </author>
+                    <author>
+                        <name>Grubb DR</name>
+                    </author>
+                    <author>
+                        <name>Lawen A</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Natural products as probes of cell biology: 20 years of didemnin research</title>
+                <year>2002</year>
+                <journal>Medicinal research reviews</journal>
+                <location>Mar,22(2):102-45.</location>
+                <pmid>11857636</pmid>
+                <authors>
+                    <author>
+                        <name>Vera MD</name>
+                    </author>
+                    <author>
+                        <name>Joullie MM</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>122651</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

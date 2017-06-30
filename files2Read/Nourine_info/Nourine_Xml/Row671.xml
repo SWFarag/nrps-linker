@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00680</id>
+            <name>BT1583</name>
+            <family>BT antibiotic</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <synonyms>TAMUS 2032</synonyms>
+            <category>peptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>13</size>
+            <composition>Me2-Bmt, Leu, D-Orn, Ile, Val, Val, D-Lys, Val, D-Leu, Lys, D-Tyr, Leu, Valol</composition>
+            <graph>Me2-Bmt,Leu,D-Orn,Ile,Val,Val,D-Lys,Val,D-Leu,Lys,D-Tyr,Leu,Valol@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@11</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Brevibacillus texasporus</name>
+                <taxonomy>cellular organisms, Bacteria, Firmicutes, Bacilli, Bacillales, Paenibacillaceae, Brevibacillus</taxonomy>
+                <gram>positive</gram>
+                <taxid>327382</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structure and biosynthesis of the BT peptide antibiotic from Brevibacillus texasporus</title>
+                <year>2005</year>
+                <journal>Applied and environmental microbiology</journal>
+                <location>Dec,71(12):8519-30.</location>
+                <pmid>16332843</pmid>
+                <authors>
+                    <author>
+                        <name>Wu X</name>
+                    </author>
+                    <author>
+                        <name>Ballard J</name>
+                    </author>
+                    <author>
+                        <name>Jiang YW</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00329</id>
+            <name>jaspamide</name>
+            <family>jaspamide</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>antitumor</activity>
+            </activities>
+            <synonyms>jasplakinolide</synonyms>
+            <category>peptide</category>
+            <formula>C36H45BrN4O6</formula>
+            <mw>709.6697</mw>
+            <comment>Jaspamide showed ability to interact with actin filaments and in particular to produce structural and biophysical changes of cytoskeletal dynamics, resulting in a potent antiproliferative activity.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>4</size>
+            <composition>C9:1(4)-Me(2.4.6)-OH(8), Ala, NMe-Br-Trp, bTyr</composition>
+            <graph>C9:1(4)-Me(2.4.6)-OH(8),Ala,NMe-Br-Trp,bTyr@1,3@0,2@1,3@0,2</graph>
+            <smiles>CC3C=C(C)CC(C)C(=O)NC(C)C(=O)N(C)C(Cc1c2ccccc2([nH]c1Br))C(=O)NC(CC(=O)OC(C)C3)c4ccc(O)cc4</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>jaspis sp.</name>
+                <taxonomy>sponge</taxonomy>
+            </organism>
+            <organism>
+                <name>hemiasterella minor</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Tetractinomorpha, Hadromerida, Hemiasterellidae, Hemiasterella</taxonomy>
+            </organism>
+            <organism>
+                <name>Auletta sp.</name>
+                <taxonomy>marine sponge</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Jaspamide, a modified peptide from a Jaspis sponge, with insecticidal and antifungal activity </title>
+                <year>1986</year>
+                <journal>Journal of the American Chemical Society</journal>
+                <location>108 (11), pp. 3123-3124</location>
+                <authors>
+                    <author>
+                        <name>Zabriskie TM</name>
+                    </author>
+                    <author>
+                        <name>Klocke JA</name>
+                    </author>
+                    <author>
+                        <name>Ireland CM</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>5351343</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

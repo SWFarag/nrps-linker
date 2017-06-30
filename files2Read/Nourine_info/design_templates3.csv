@@ -1,0 +1,11 @@
+ids,Antibiotic,xml_file_name,BGC,Status,family,organism,Composition,A_Domain,#Monomers,Species,Species_taxid,First(Cluster_file)
+NOR00001,Daptomycin,Row0,BGC0000336,Partial,NRP,Streptomyces roseosporus NRRL 11379,"-, nrp, asn, asp, thr, gly, -, nrp, asp, ala, asp, gly, ser, -, nrp, nrp, -","-, A, A, A, A, A, -, A, A, A, A, A, A, -, A, A, -",13,STREPTOMYCES_ROSEOSPORUS,67294,NZ_ABYX02000001.1.cluster009.gbk
+NOR00018,Bacitracin A1,Row17,BGC0000310,Partial,NRP,Bacillus licheniformis,"ile, cys, leu, glu, ile, -, lys, orn, -, ile, phe, his, asp, asn, -","A, A, A, A, A, -, A, A, -, A, A, A, A, A, -",12,BACILLUS_LICHENIFORMIS,1402,NZ_LWKD01000001.1.cluster005.gbk
+NOR00298,Tyrocidine A,Row296,BGC0000452,Partial,NRP,Brevibacillus brevis NBRC 100599,"phe, -, pro, phe, phe, -, asn, gln, tyr, val, orn, leu, -, -","A, -, A, A, A, -, A, A, A, A, A, A, -, -",10,BREVIBACILLUS_BREVIS,1393,NC_012491.1.cluster001.gbk
+NOR00681,Vancomycin,Row672,BGC0000455,Partial,NRP,Amycolatopsis orientalis HCCB10007,"nrp, bht, asn, -, hpg, hpg, bht, -, hpg, -, tyr, -","A, A, A, -, A, A, A, -, A, -, A, -",8,AMYCOLATOPSIS_ORIENTALIS,31958,NC_021252.1.cluster001.gbk
+NOR01057,Ile-polymyxin B1,Row1047,BGC0001153,Full,NRP,Paenibacillus polymyxa,"phe, ile, orn, orn, -, thr, -, orn, thr, orn, orn, orn, -","A, A, A, A, -, A, -, A, A, A, A, A, -",10,PAENIBACILLUS_POLYMYXA,1406,NZ_CP017968.2.cluster002.gbk
+NORXX1,Bacillamide C,RowBacillamide_C,NZ_AJRJ01000049,Partial,NRP,Bacillus atrophaeus C89,"ala,cys","A,A",2,BACILLUS_ATROPHAEUS,1452,Bacellamide.gbk
+NORXX2,Pro_Glu,Rowpro_glu,NZ_AJRJ01000047,Partial,NRP,Bacillus atrophaeus C89,"pro,glu","A,A",2,BACILLUS_ATROPHAEUS,1452,pro_glu.gbk
+NORXX3,Glu_Leu,Rowglu_leu,NZ_AJRJ01000053,Partial,NRP,Bacillus atrophaeus C89,"glu,leu","A,A",2,BACILLUS_ATROPHAEUS,1452,glu_leu.gbk
+NORXX4,Val_Asp,Rowval_asp,NZ_AJRJ01000063,Partial,NRP,Bacillus atrophaeus C89,"val,asp","A,A",2,BACILLUS_ATROPHAEUS,1452,val_asp.gbk
+NORXX5,Tyr_Thr,Rowtyr_thr,NZ_AJRJ01000084,Partial,NRP,Bacillus atrophaeus C89,"tyr,thr","A,A",2,BACILLUS_ATROPHAEUS,1452,tyr_thr.gbk

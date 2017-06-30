@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00548</id>
+            <name>stylopeptide I</name>
+            <family>stylopeptide</family>
+            <activities>
+                <activity>antitumor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C40H61N7O8</formula>
+            <mw>767.95447</mw>
+            <comment>Stylopeptide is a putative NRPS product (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>7</size>
+            <composition>Pro, Ile, Pro, Leu, Ile, Phe, Ser</composition>
+            <graph>Pro,Ile,Pro,Leu,Ile,Phe,Ser@1,6@0,2@1,3@2,4@3,5@4,6@0,5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Phakellia sp.</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Halichondrida, Axinellidae, Phakellia</taxonomy>
+                <taxid>85814</taxid>
+            </organism>
+            <organism>
+                <name>Stylotella sp.</name>
+                <taxonomy>marine sponge</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Isolation and crystal structure of stylopeptide 1, a new marine porifera cycloheptapeptide</title>
+                <year>1995</year>
+                <journal>Journal of Organic Chemistry</journal>
+                <location>60 (25), pp. 8257-8261</location>
+                <authors>
+                    <author>
+                        <name>Pettit GR</name>
+                    </author>
+                    <author>
+                        <name>Boyd MR</name>
+                    </author>
+                    <author>
+                        <name>Cichacz Z</name>
+                    </author>
+                    <author>
+                        <name>Herald DL</name>
+                    </author>
+                    <author>
+                        <name>Xu JP</name>
+                    </author>
+                    <author>
+                        <name>Srirangam JK</name>
+                    </author>
+                    <author>
+                        <name>Kamano Y</name>
+                    </author>
+                    <author>
+                        <name>Erickson KL</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

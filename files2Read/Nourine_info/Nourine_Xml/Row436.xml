@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00444</id>
+            <name>cyclolithistide A</name>
+            <family>cyclolithistide</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C54H86N11O15Cl</formula>
+            <mw>1164.7784</mw>
+            <comment>Cyclolithistide A is a putative NRPS product (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>10</size>
+            <composition>Nva, Gly, Phe, aThr, Gln, Cl-Ile, NMe-Leu, Ala, C6:0-OH(3.5)-NH2(4), NFo-Leu</composition>
+            <graph>Nva,Gly,Phe,aThr,Gln,Cl-Ile,NMe-Leu,Ala,C6:0-OH(3.5)-NH2(4),NFo-Leu@1,8@0,2@1,3@2,4@3,5@4,6@5,7@6,8@0,7,9@8</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Theonella swinhoei</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Tetractinomorpha, Lithistida, Triaenosina, Theonellidae, Theonella</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>An antifungal cyclodepsipeptide, cyclolithistide A, from the sponge Theonella swinhoei</title>
+                <year>1998</year>
+                <journal>Journal of Organic Chemistry</journal>
+                <location>63 (24), pp. 8757-8764</location>
+                <authors>
+                    <author>
+                        <name>Clark DP</name>
+                    </author>
+                    <author>
+                        <name>Carroll J</name>
+                    </author>
+                    <author>
+                        <name>Naylor S</name>
+                    </author>
+                    <author>
+                        <name>Crews P</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

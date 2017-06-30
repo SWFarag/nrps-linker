@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00258</id>
+            <name>anabaenopeptilide 90B</name>
+            <family>anabaenopeptilide</family>
+            <activities>
+                <activity>unknown</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C45H61ClN8O14</formula>
+            <mw>973.4641</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>7</size>
+            <composition>NFo-Gln, Thr, Hty, Ahp, Thr, Cl-NMe-Tyr, Ile</composition>
+            <graph>NFo-Gln,Thr,Hty,Ahp,Thr,Cl-NMe-Tyr,Ile@1@0,2,6@1,3@2,4@3,5@4,6@1,5</graph>
+            <smiles>CCC(C)C3NC(=O)C(Cc1ccc(O)c(c1)Cl)N(C)C(=O)C(C(C)O)N4C(O)CCC(NC(=O)C(CCc2ccc(O)cc2)NC(=O)C(NC(=O)C(CCC(N)=O)NC=O)C(C)OC3(=O))C4(=O)</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Anabaena sp. strain 90</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Nostocales, Nostocaceae, Anabaena, Anabaena circinalis</taxonomy>
+                <gram>negative</gram>
+                <synonym>Anabaena circinalis 90, Anabaena 90</synonym>
+                <taxid>46234</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Genes encoding synthetases of cyclic depsipeptides, anabaenopeptilides, in Anabaena strain 90</title>
+                <year>2000</year>
+                <journal>Molecular microbiology</journal>
+                <location>Jul,37(1):156-67.</location>
+                <pmid>10931313</pmid>
+                <authors>
+                    <author>
+                        <name>Sivonen K</name>
+                    </author>
+                    <author>
+                        <name>Rouhiainen L</name>
+                    </author>
+                    <author>
+                        <name>Paulin L</name>
+                    </author>
+                    <author>
+                        <name>Suomalainen S</name>
+                    </author>
+                    <author>
+                        <name>Hyytiainen H</name>
+                    </author>
+                    <author>
+                        <name>Buikema W</name>
+                    </author>
+                    <author>
+                        <name>Haselkorn R</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>23724541</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

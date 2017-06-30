@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00851</id>
+            <name>[Gln1]surfactin iC15</name>
+            <family>surfactin</family>
+            <activities>
+                <activity>antitumor</activity>
+                <activity>surfactant</activity>
+            </activities>
+            <synonyms>isohalobacillin</synonyms>
+            <category>lipopeptide</category>
+            <comment>Isohalobacillin is a mixture of iso and anteiso C15 hydroxy fatty acid.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>8</size>
+            <composition>iC15:0-OH(3), Gln, Leu, D-Leu, Val, Asp, D-Leu, Ile</composition>
+            <graph>iC15:0-OH(3),Gln,Leu,D-Leu,Val,Asp,D-Leu,Ile@1,7@0,2@1,3@2,4@3,5@4,6@5,7@0,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Bacillus subtilis</name>
+                <taxonomy>cellular organisms, Bacteria, Firmicutes, Bacilli, Bacillales, Bacillaceae, Bacillus</taxonomy>
+                <gram>positive</gram>
+                <synonym>Bacillus uniflagellatus,Bacillus natto,Bacillus globigii,Vibrio subtilis</synonym>
+                <taxid>1423</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Inhibition of acyl-CoA: cholesterol acyltransferase by isohalobacillin, a complex of novel cyclic acylpeptides produced by Bacillus sp. A1238</title>
+                <year>1995</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Dec,48(12):1419-24.</location>
+                <pmid>8557597</pmid>
+                <authors>
+                    <author>
+                        <name>Park JK</name>
+                    </author>
+                    <author>
+                        <name>Hasumi K</name>
+                    </author>
+                    <author>
+                        <name>Endo A</name>
+                    </author>
+                    <author>
+                        <name>Takizawa K</name>
+                    </author>
+                    <author>
+                        <name>Takahashi F</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

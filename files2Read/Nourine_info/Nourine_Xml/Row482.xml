@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00490</id>
+            <name>koshikamide A1</name>
+            <family>koshikamide</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C66H100N12O15</formula>
+            <mw>1301.5718</mw>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>10</size>
+            <composition>NOMe-Ac-D-Phe, NMe-Val, NMe-Asn, NMe-aIle, NMe-Val, NMe-Leu, Asn, D-Phe, Pro, Pro</composition>
+            <graph>NOMe-Ac-D-Phe,NMe-Val,NMe-Asn,NMe-aIle,NMe-Val,NMe-Leu,Asn,D-Phe,Pro,Pro@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Theonella sp.</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Tetractinomorpha, Lithistida, Triaenosina, Theonellidae, Theonella</taxonomy>
+                <taxid>73791</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Koshikamide A1, a new cytotoxic linear peptide isolated from a marine sponge, Theonella sp</title>
+                <year>1999</year>
+                <journal>Tetrahedron Letters</journal>
+                <location>40 (25), pp. 4687-4690</location>
+                <authors>
+                    <author>
+                        <name>Nakao Y</name>
+                    </author>
+                    <author>
+                        <name>Matsunaga S</name>
+                    </author>
+                    <author>
+                        <name>van Soest RW</name>
+                    </author>
+                    <author>
+                        <name>Fusetani N</name>
+                    </author>
+                    <author>
+                        <name>Warabi K</name>
+                    </author>
+                    <author>
+                        <name>Nogata Y</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

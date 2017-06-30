@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00993</id>
+            <name>harzianin HC X</name>
+            <family>harzianin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptaibol</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>14</size>
+            <composition>Ac-Aib, Gln, Leu, Aib, Pro, Ala, Val, Aib, Pro, Ival, Leu, Aib, Pro, Leuol</composition>
+            <graph>Ac-Aib,Gln,Leu,Aib,Pro,Ala,Val,Aib,Pro,Ival,Leu,Aib,Pro,Leuol@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@11,13@12</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Trichoderma harzianum</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Dikarya, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Hypocreaceae, Hypocrea</taxonomy>
+                <synonym>Hypocrea lixii</synonym>
+                <taxid>5544</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Interaction of the 14-residue peptaibols, harzianins HC, with lipid bilayers: permeability modifications and conductance properties</title>
+                <year>1997</year>
+                <journal>Biochimica et biophysica acta</journal>
+                <location>Jan 14,1323(1):85-96.</location>
+                <pmid>9030215</pmid>
+                <authors>
+                    <author>
+                        <name>Rebuffat S</name>
+                    </author>
+                    <author>
+                        <name>Goulard C</name>
+                    </author>
+                    <author>
+                        <name>Bodo B</name>
+                    </author>
+                    <author>
+                        <name>Lucaciu M</name>
+                    </author>
+                    <author>
+                        <name>Duclohier H</name>
+                    </author>
+                    <author>
+                        <name>Molle G</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>ANTIBIOTIC PEPTIDES FROM TRICHODERMA HARZIANUM: HARZIANINS HC, PROLINE-RICH 14-RESIDUE PEPTAIBOLS</title>
+                <year>1995</year>
+                <journal>Journal of the Chemical Society. Perkin transactions</journal>
+                <location>no14,??pp.??1849-1855</location>
+                <authors>
+                    <author>
+                        <name>Rebuffat S</name>
+                    </author>
+                    <author>
+                        <name>Goulard C</name>
+                    </author>
+                    <author>
+                        <name>Bodo B</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

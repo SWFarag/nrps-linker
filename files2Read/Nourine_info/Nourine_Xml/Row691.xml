@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00700</id>
+            <name>MM49721</name>
+            <family>MM</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>glycopeptide</category>
+            <formula>C72H87N9O28</formula>
+            <mw>1526.5048</mw>
+            <comment>Two bonds of the central Hpg are due to oxydative ring closure.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>other</type>
+            <size>10</size>
+            <graph>Asn,bOH-Tyr,NMe-Leu,Hpg,D-Glc,Rha,bOH-Tyr,Ere,Dhpg,Hpg@1,3@0,2,3@1@1,0,4,6,9@3,5@4@3,8,7,9@6@6,9@8,3,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Nocardia orientalis</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Pseudonocardineae, Pseudonocardiaceae, Amycolatopsis</taxonomy>
+                <gram>positive</gram>
+                <synonym>Amycolatopsis orientalis,Streptomyces orientalis,Amycolatopsis orientalis orientalis</synonym>
+                <taxid>31958</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>MM 47761 and MM 49721, glycopeptide antibiotics produced by a new strain of Amycolatopsis orientalis. Isolation, purification and structure determination</title>
+                <year>1990</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Aug,43(8):931-7.</location>
+                <pmid>2120168</pmid>
+                <authors>
+                    <author>
+                        <name>Box SJ</name>
+                    </author>
+                    <author>
+                        <name>Elson AL</name>
+                    </author>
+                    <author>
+                        <name>Gilpin ML</name>
+                    </author>
+                    <author>
+                        <name>Winstanley DJ</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

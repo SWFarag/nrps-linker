@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00079</id>
+            <name>beta-D-Glucopyranosyl-hydroxyDestruxin B</name>
+            <family>destruxin</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>glycopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>7</size>
+            <composition>Pro, Ile, NMe-Val, NMe-Ala, bAla, Hiv, D-Glc</composition>
+            <graph>Pro,Ile,NMe-Val,NMe-Ala,bAla,Hiv,D-Glc@1,5@0,2@1,3@2,4@3,5@0,4,6@5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Alternaria brassicae</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Dothideomycetes, Pleosporales, Pleosporaceae, mitosporic Pleosporaceae, Alternaria</taxonomy>
+                <taxid>29911</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The destruxins: synthesis, biosynthesis, biotransformation, and biological activity</title>
+                <year>2002</year>
+                <journal>Phytochemistry</journal>
+                <location>Mar,59(6):579-96.</location>
+                <pmid>11867090</pmid>
+                <authors>
+                    <author>
+                        <name>Pedras MS</name>
+                    </author>
+                    <author>
+                        <name>Irina Zaharia L</name>
+                    </author>
+                    <author>
+                        <name>Ward DE</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>In planta sequential hydroxylation and glycosylation of a fungal phytotoxin: Avoiding cell death and overcoming the fungal invader</title>
+                <year>2001</year>
+                <journal>Proceedings of the National Academy of Sciences of the United States of America</journal>
+                <location>Vol. 98, No. 2 (Jan. 16, 2001), pp. 747-752.</location>
+                <authors>
+                    <author>
+                        <name>Ward DE</name>
+                    </author>
+                    <author>
+                        <name>Pedras MSC</name>
+                    </author>
+                    <author>
+                        <name>Zaharia IL</name>
+                    </author>
+                    <author>
+                        <name>Gai Y</name>
+                    </author>
+                    <author>
+                        <name>Zhou Y</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

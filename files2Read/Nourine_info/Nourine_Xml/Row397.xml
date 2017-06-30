@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00405</id>
+            <name>serrawettin W1</name>
+            <family>serrawettin</family>
+            <activities>
+                <activity>surfactant</activity>
+            </activities>
+            <synonyms>serratamolide</synonyms>
+            <category>lipopeptide</category>
+            <formula>C26H46N2O8</formula>
+            <mw>514.65204</mw>
+            <comment>Serrawettin W1 is produced by strain 274 and ATCC 13880.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>4</size>
+            <composition>C10:0-OH(3), Ser, C10:0-OH(3), Ser</composition>
+            <graph>C10:0-OH(3),Ser,C10:0-OH(3),Ser@1,3@0,2@1,3@0,2</graph>
+            <smiles>CCCCCCCC1CC(=O)NC(CO)C(=O)OC(CCCCCCC)CC(=O)NC(CO)C(=O)O1</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Serratia marcescens</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Enterobacteriales, Enterobacteriaceae, Serratia</taxonomy>
+                <gram>negative</gram>
+                <synonym>Bacillus marcescens</synonym>
+                <taxid>615</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Identification and characterization of the pswP gene required for the parallel production of prodigiosin and serrawettin W1 in Serratia marcescens</title>
+                <year>2004</year>
+                <journal>Microbiology and immunology</journal>
+                <location>48(10):723-8.</location>
+                <pmid>15502404</pmid>
+                <authors>
+                    <author>
+                        <name>Matsuyama T</name>
+                    </author>
+                    <author>
+                        <name>Nakagawa Y</name>
+                    </author>
+                    <author>
+                        <name>Sunaga S</name>
+                    </author>
+                    <author>
+                        <name>Li H</name>
+                    </author>
+                    <author>
+                        <name>Sato Y</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>168994</acc>
+                <name_db>PubChem</name_db>
+            </link>
+            <link>
+                <acc>A1ECA1</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

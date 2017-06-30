@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01160</id>
+            <name>Methyl ester largamide A</name>
+            <family>largamide </family>
+            <activities>
+                <activity>protease inhibitor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C42H61N7O12</formula>
+            <mw>855.4477</mw>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>8</size>
+            <composition>Tig, Val, Tyr, Thr, Ala, Abu, MeO-Glu, Leu</composition>
+            <graph>Tig,Val,Tyr,Thr,Ala,Abu,MeO-Glu,Leu@1@0,2@1,3@2,4,7@3,5@4,6@5,7@6,3</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Lyngbya confervoides</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Oscillatoriales, Lyngbya</taxonomy>
+                <taxid>207921</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Tiglicamides A-C, cyclodepsipeptides from the marine cyanobacterium Lyngbya confervoides.</title>
+                <year>2009</year>
+                <journal>Phytochemistry</journal>
+                <location>vol. 70,no. {17-18},pp. 2058-2063</location>
+                <pmid>19815244</pmid>
+                <authors>
+                    <author>
+                        <name>Susan</name>
+                    </author>
+                    <author>
+                        <name>Matthew</name>
+                    </author>
+                    <author>
+                        <name>Valerie</name>
+                    </author>
+                    <author>
+                        <name>J</name>
+                    </author>
+                    <author>
+                        <name>Paul</name>
+                    </author>
+                    <author>
+                        <name>Hendrik</name>
+                    </author>
+                    <author>
+                        <name>Luesch</name>
+                    </author>
+                </authors>
+                <doi>10.1016/j.phytochem.2009.09.010</doi>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

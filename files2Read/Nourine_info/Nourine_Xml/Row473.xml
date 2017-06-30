@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00481</id>
+            <name>kapakahine B</name>
+            <family>kapakahine</family>
+            <activities>
+                <activity>antitumor</activity>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C49H52N8O6</formula>
+            <mw>848.9872</mw>
+            <comment>Kapakahines share a unique structural feature: two tryptophan residues (Trp-1 and -2) are not linked by an amide bond but by a N-C bond from the indole nitrogen of Trp-1 to the indole carbon of Trp-2.</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>other</type>
+            <size>6</size>
+            <graph>Phe,Trp,Ala,Leu,Trp,Phe@1,1@0,0,2,4@1,3@2,4@1,3,5@4</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Cribrochalina olemda</name>
+                <taxonomy>marine sponge</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The Kapakahines, Cyclic Peptides from the Marine Sponge Cribrochalina olemda</title>
+                <year>1996</year>
+                <journal>The Journal of organic chemistry</journal>
+                <location>Oct 4,61(20):7168-7173.</location>
+                <pmid>11667621</pmid>
+                <authors>
+                    <author>
+                        <name>Scheuer PJ</name>
+                    </author>
+                    <author>
+                        <name>Nakao Y</name>
+                    </author>
+                    <author>
+                        <name>Yoshida WY</name>
+                    </author>
+                    <author>
+                        <name>Yeung BK</name>
+                    </author>
+                    <author>
+                        <name>Kinnel RB</name>
+                    </author>
+                    <author>
+                        <name>Carney JR</name>
+                    </author>
+                    <author>
+                        <name>Kelly-Borges M</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01135</id>
+            <name>cyanostatin B</name>
+            <family>microginin</family>
+            <activities>
+                <activity>protease inhibitor</activity>
+            </activities>
+            <category>PK-NRP</category>
+            <formula>C40H59N5O9</formula>
+            <mw>753.4364</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>5</size>
+            <composition>Adda, Tyr, NMe-Ile, Pro, Tyr</composition>
+            <graph>Adda,Tyr,NMe-Ile,Pro,Tyr@1@0,2@1,3@2,4@3</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Microcystis</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Chroococcales</taxonomy>
+                <gram>negative</gram>
+                <taxid>1125</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Leucine aminopeptidase M inhibitors, cyanostatin A and B, isolated from cyanobacterial water blooms in Scotland</title>
+                <year>2005</year>
+                <journal>Phytochemistry</journal>
+                <location>vol. 66,no. 5,pp. 543-548</location>
+                <pmid>15721946</pmid>
+                <authors>
+                    <author>
+                        <name>Tomoharu</name>
+                    </author>
+                    <author>
+                        <name>Sano</name>
+                    </author>
+                    <author>
+                        <name>Hiroo</name>
+                    </author>
+                    <author>
+                        <name>Takagi</name>
+                    </author>
+                    <author>
+                        <name>Louise</name>
+                    </author>
+                    <author>
+                        <name>F</name>
+                    </author>
+                    <author>
+                        <name>Morrison</name>
+                    </author>
+                    <author>
+                        <name>James</name>
+                    </author>
+                    <author>
+                        <name>S</name>
+                    </author>
+                    <author>
+                        <name>Metcalf</name>
+                    </author>
+                    <author>
+                        <name>Geoffrey</name>
+                    </author>
+                    <author>
+                        <name>A</name>
+                    </author>
+                    <author>
+                        <name>Codd</name>
+                    </author>
+                    <author>
+                        <name>Kunimitsu</name>
+                    </author>
+                    <author>
+                        <name>Kaya</name>
+                    </author>
+                </authors>
+                <doi>10.1016/j.phytochem.2005.01.001</doi>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

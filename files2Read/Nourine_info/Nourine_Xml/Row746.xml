@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00755</id>
+            <name>cyclocinamide B</name>
+            <family>cyclocinamide</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <comment>Cyclocinamide is a putative NRPS product (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>6</size>
+            <composition>MdCP, Gly, Dpr, Asn, Iser, Br-Trp</composition>
+            <graph>MdCP,Gly,Dpr,Asn,Iser,Br-Trp@1@0,2@1,3,5@2,4@3,5@2,4</graph>
+            <smiles>Cn1c(cc(c1Cl)Cl)C(=O)NCC(=O)NC4CNC(=O)C(Cc2c[nH]c3ccc(cc23)Br)NC(=O)C(O)CNC(=O)C(CC(N)=O)NC4(=O)</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Corticium</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Homoscleromorpha, Homosclerophorida, Plakinidae</taxonomy>
+                <taxid>121491</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Halogenated cyclic peptides isolated from the sponge Corticium sp.</title>
+                <year>2007</year>
+                <journal>Journal of natural products</journal>
+                <location>May,70(5):741-6.</location>
+                <pmid>17391049</pmid>
+                <authors>
+                    <author>
+                        <name>Ireland CM</name>
+                    </author>
+                    <author>
+                        <name>Harper MK</name>
+                    </author>
+                    <author>
+                        <name>Laird DW</name>
+                    </author>
+                    <author>
+                        <name>LaBarbera DV</name>
+                    </author>
+                    <author>
+                        <name>Feng X</name>
+                    </author>
+                    <author>
+                        <name>Bugni TS</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

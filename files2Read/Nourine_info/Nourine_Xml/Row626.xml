@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00634</id>
+            <name>tuberactinomycin A</name>
+            <family>tuberactinomycin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C25H43N13O11</formula>
+            <mw>701.68945</mw>
+            <comment>The tuberactinomycin antibiotics are essential components in the drug arsenal against Mycobacterium tuberculosis infections and are specifically used for the treatment of multidrug-resistant tuberculosis.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>6</size>
+            <composition>OH-bLys, Dpr, Ser, Ser, bU-dAla, 5OH-Cap</composition>
+            <graph>OH-bLys,Dpr,Ser,Ser,bU-dAla,5OH-Cap@1@0,2,5@1,3@2,4@3,5@1,4</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae</taxonomy>
+                <gram>positive</gram>
+                <synonym>Chainia</synonym>
+                <taxid>1883</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Deciphering tuberactinomycin biosynthesis: isolation, sequencing, and annotation of the viomycin biosynthetic gene cluster</title>
+                <year>2003</year>
+                <journal>Antimicrobial agents and chemotherapy</journal>
+                <location>Sep,47(9):2823-30.</location>
+                <pmid>12936980</pmid>
+                <authors>
+                    <author>
+                        <name>Thomas MG</name>
+                    </author>
+                    <author>
+                        <name>Chan YA</name>
+                    </author>
+                    <author>
+                        <name>Ozanick SG</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>3038340</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

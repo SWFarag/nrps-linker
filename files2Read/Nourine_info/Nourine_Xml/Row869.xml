@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00879</id>
+            <name>tripropeptin D</name>
+            <family>tripropeptin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <comment>Tripropeptins are putative NRPS products (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>9</size>
+            <composition>OH-Asp, 3OH-Pro, Ser, OH-Asp, Arg, Pro, Pro, Thr, iC16:0-OH(3)</composition>
+            <graph>OH-Asp,3OH-Pro,Ser,OH-Asp,Arg,Pro,Pro,Thr,iC16:0-OH(3)@1,8@0,2@1,3@2,4@3,5@4,6@5,7@6,8@0,7</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Lysobacter</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Xanthomonadales, Xanthomonadaceae</taxonomy>
+                <gram>negative</gram>
+                <taxid>68</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Tripropeptins, novel antimicrobial agents produced by Lysobacter sp.</title>
+                <year>2004</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Jan,57(1):52-8.</location>
+                <pmid>15032486</pmid>
+                <authors>
+                    <author>
+                        <name>Naganawa H</name>
+                    </author>
+                    <author>
+                        <name>Hashizume H</name>
+                    </author>
+                    <author>
+                        <name>Hirosawa S</name>
+                    </author>
+                    <author>
+                        <name>Sawa R</name>
+                    </author>
+                    <author>
+                        <name>Muraoka Y</name>
+                    </author>
+                    <author>
+                        <name>Ikeda D</name>
+                    </author>
+                    <author>
+                        <name>Igarashi M</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

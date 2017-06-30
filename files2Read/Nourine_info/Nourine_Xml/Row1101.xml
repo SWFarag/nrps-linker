@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01111</id>
+            <name>apicidin D3</name>
+            <family>apicidin</family>
+            <activities>
+                <activity>antitumor</activity>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>625.79865</formula>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>4</size>
+            <composition>C10:0-OH(9)-NH2(2), D-Hpr, Ile, OMe-Trp</composition>
+            <graph>C10:0-OH(9)-NH2(2),D-Hpr,Ile,OMe-Trp@1,3@0,2@1,3@0,2</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Fusarium</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Dikarya, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, mitosporic Hypocreales</taxonomy>
+                <taxid>5506</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structure and chemistry of apicidins, a class of novel cyclic tetrapeptides without a terminal alpha-keto epoxide as inhibitors of histone deacetylase with potent antiprotozoal activities</title>
+                <year>2002</year>
+                <journal>The Journal of organic chemistry</journal>
+                <location>Feb 8,67(3):815-25.</location>
+                <pmid>11856024</pmid>
+                <authors>
+                    <author>
+                        <name>Singh SB</name>
+                    </author>
+                    <author>
+                        <name>Zink DL</name>
+                    </author>
+                    <author>
+                        <name>Liesch JM</name>
+                    </author>
+                    <author>
+                        <name>Mosley RT</name>
+                    </author>
+                    <author>
+                        <name>Dombrowski AW</name>
+                    </author>
+                    <author>
+                        <name>Bills GF</name>
+                    </author>
+                    <author>
+                        <name>Darkin-Rattray SJ</name>
+                    </author>
+                    <author>
+                        <name>Schmatz DM</name>
+                    </author>
+                    <author>
+                        <name>Goetz MA</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

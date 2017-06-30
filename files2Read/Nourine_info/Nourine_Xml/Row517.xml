@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00525</id>
+            <name>phakellistatin 3</name>
+            <family>phakellistatin</family>
+            <activities>
+                <activity>antitumor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C42H54N8O9</formula>
+            <mw>814.92633</mw>
+            <comment>Phakellistatins are putative NRPS products (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>7</size>
+            <composition>Pro, Phe, Gly, Pro, Thr, Leu, pTrp</composition>
+            <graph>Pro,Phe,Gly,Pro,Thr,Leu,pTrp@1,6@0,2@1,3@2,4@3,5@4,6@0,5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Phakellia sp.</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Halichondrida, Axinellidae, Phakellia</taxonomy>
+                <taxid>85814</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Antineoplastic agents. 277. Isolation and structure of phakellistatin 3 and isophakellistatin 3 from a Republic of Comoros marine sponge</title>
+                <year>1994</year>
+                <journal>Journal of Organic Chemistry</journal>
+                <location>59 (7), pp. 1593-1595</location>
+                <authors>
+                    <author>
+                        <name>Pettit GR</name>
+                    </author>
+                    <author>
+                        <name>Cerny RL</name>
+                    </author>
+                    <author>
+                        <name>Herald DL</name>
+                    </author>
+                    <author>
+                        <name>Williams MD</name>
+                    </author>
+                    <author>
+                        <name>Tan R</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

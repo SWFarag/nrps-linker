@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00664</id>
+            <name>antipain</name>
+            <family>antipain</family>
+            <activities>
+                <activity>protease inhibitor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C27H44N10O6</formula>
+            <mw>604.70166</mw>
+            <comment>Antipain is a putative NRPS product (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>5</size>
+            <composition>Phe, CO, Arg, Val, Argal</composition>
+            <graph>Phe,CO,Arg,Val,Argal@1@0,2@1,3@2,4@3</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Actinobacteria</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria</taxonomy>
+                <gram>positive</gram>
+                <synonym>Actinomycetes</synonym>
+                <taxid>1760</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structure of antipain, a new Sakaguchi-positive product of streptomyces</title>
+                <year>1972</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Apr,25(4):267-70.</location>
+                <pmid>5052959</pmid>
+                <authors>
+                    <author>
+                        <name>Umezawa S</name>
+                    </author>
+                    <author>
+                        <name>Umezawa H</name>
+                    </author>
+                    <author>
+                        <name>Tatsuta K</name>
+                    </author>
+                    <author>
+                        <name>Fujimoto K</name>
+                    </author>
+                    <author>
+                        <name>Tsuchiya T</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>37817</acc>
+                <name_db>PubChem</name_db>
+            </link>
+            <link>
+                <acc>2xe4</acc>
+                <name_db>PDB</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

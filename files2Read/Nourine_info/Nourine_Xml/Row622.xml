@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00630</id>
+            <name>malformin C</name>
+            <family>malformin</family>
+            <activities>
+                <activity>antitumor</activity>
+                <activity>toxin</activity>
+            </activities>
+            <synonyms>malformin B1b</synonyms>
+            <category>peptide</category>
+            <formula>
+            </formula>
+            <comment>The two cysteins have a disulfide bridge between them.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>other</type>
+            <size>5</size>
+            <composition>D-Cys,D-Cys,Val,D-Leu,Leu</composition>
+            <graph>D-Cys,D-Cys,Val,D-Leu,Leu@1,1,4@0,0,2@1,3@2,4@0,3</graph>
+            <smiles>CC(C)CC1C(=O)NC2CSSCC(C(=O)NC(C(=O)NC(C(=O)N1)CC(C)C)C(C)C)NC2=O</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Aspergillus niger</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Eurotiomycetes, Eurotiales, Trichocomaceae, mitosporic Trichocomaceae, Aspergillus</taxonomy>
+                <taxid>5061</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structure of malformin B, a phytotoxic metabolite produced by Aspergillus niger</title>
+                <year>1993</year>
+                <journal>Bioscience, biotechnology, and biochemistry</journal>
+                <location>May,57(5):787-91.</location>
+                <pmid>7763777</pmid>
+                <authors>
+                    <author>
+                        <name>Sugawara F</name>
+                    </author>
+                    <author>
+                        <name>Kim KW</name>
+                    </author>
+                    <author>
+                        <name>Yoshida S</name>
+                    </author>
+                    <author>
+                        <name>Takahashi N</name>
+                    </author>
+                    <author>
+                        <name>Curtis RW</name>
+                    </author>
+                    <author>
+                        <name>Murofushi N</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Malformin C, a new metabolite of Aspergillus niger</title>
+                <year>1976</year>
+                <journal>Journal of the American Chemical Society</journal>
+                <location>May 26,98(11):3365-70.</location>
+                <pmid>1262650</pmid>
+                <authors>
+                    <author>
+                        <name>Biemann K</name>
+                    </author>
+                    <author>
+                        <name>Anderegg RJ</name>
+                    </author>
+                    <author>
+                        <name>Buchi G</name>
+                    </author>
+                    <author>
+                        <name>Cushman M</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Fungal malformins inhibit bleomycin-induced G2 checkpoint in Jurkat cells</title>
+                <year>2007</year>
+                <journal>Biological and pharmaceutical bulletin</journal>
+                <location>Aug,30(8):1379-83.</location>
+                <pmid>17666789</pmid>
+                <authors>
+                    <author>
+                        <name>Tomoda H</name>
+                    </author>
+                    <author>
+                        <name>Omura S</name>
+                    </author>
+                    <author>
+                        <name>Fukuda T</name>
+                    </author>
+                    <author>
+                        <name>Hagimori K</name>
+                    </author>
+                    <author>
+                        <name>Hasegawa Y</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

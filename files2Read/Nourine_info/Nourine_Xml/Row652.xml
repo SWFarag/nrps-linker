@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00660</id>
+            <name>mycobacillin</name>
+            <family>mycobacillin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C65H85N13O30</formula>
+            <mw>1528.4396</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>13</size>
+            <composition>Pro, D-Asp, D-Glu, Tyr, Asp, Tyr, Ser, D-Asp, Leu, D-Glu, D-Asp, Ala, D-Asp</composition>
+            <graph>Pro,D-Asp,D-Glu,Tyr,Asp,Tyr,Ser,D-Asp,Leu,D-Glu,D-Asp,Ala,D-Asp@1,12@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@0,11</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Bacillus subtilis</name>
+                <taxonomy>cellular organisms, Bacteria, Firmicutes, Bacilli, Bacillales, Bacillaceae, Bacillus</taxonomy>
+                <gram>positive</gram>
+                <synonym>Bacillus uniflagellatus,Bacillus natto,Bacillus globigii,Vibrio subtilis</synonym>
+                <taxid>1423</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Gamma-glutamyl and D- or L-peptide linkages in mycobacillin, a cyclic peptide antibiotic</title>
+                <year>1971</year>
+                <journal>The Biochemical journal</journal>
+                <location>Mar,121(5):839-46.</location>
+                <pmid>4398825</pmid>
+                <authors>
+                    <author>
+                        <name>Sengupta S</name>
+                    </author>
+                    <author>
+                        <name>Banerjee AB</name>
+                    </author>
+                    <author>
+                        <name>Bose SK</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>16129676</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

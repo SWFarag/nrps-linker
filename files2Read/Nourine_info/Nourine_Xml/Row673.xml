@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00682</id>
+            <name>A42867</name>
+            <family>A42867</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>glycopeptide</category>
+            <comment>Two bonds of the central Hpg are due to oxydative ring closure.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>other</type>
+            <size>10</size>
+            <graph>Asn,bOH-Cl-Tyr,NMe-Leu,Hpg,D-Glc,Rha,bOH-Tyr,Van,Dhpg,Hpg@1,3@0,2,3@1@1,0,4,6,9@3,5@4@3,8,7,9@6@6,9@8,3,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Nocardia nov. sp. ATCC 53492</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Corynebacterineae, Nocardiaceae, Nocardia</taxonomy>
+                <gram>positive</gram>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>A42867, a novel glycopeptide antibiotic</title>
+                <year>1989</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Apr,42(4):497-505.</location>
+                <pmid>2722670</pmid>
+                <authors>
+                    <author>
+                        <name>Cassani G</name>
+                    </author>
+                    <author>
+                        <name>Riva E</name>
+                    </author>
+                    <author>
+                        <name>Gastaldo L</name>
+                    </author>
+                    <author>
+                        <name>Beretta MG</name>
+                    </author>
+                    <author>
+                        <name>Ferrari P</name>
+                    </author>
+                    <author>
+                        <name>Zerilli LF</name>
+                    </author>
+                    <author>
+                        <name>Selva E</name>
+                    </author>
+                    <author>
+                        <name>Goldstein BP</name>
+                    </author>
+                    <author>
+                        <name>Berti M</name>
+                    </author>
+                    <author>
+                        <name>Parenti F</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

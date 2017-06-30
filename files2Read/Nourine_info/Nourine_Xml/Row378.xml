@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00386</id>
+            <name>[Hysp2]didemnin B</name>
+            <family>didemnin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>antitumor</activity>
+                <activity>immunomodulating</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C58H91N7O15</formula>
+            <mw>1126.381</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>9</size>
+            <composition>Ist, Hysp, Leu, Pro, NMe-OMe-Tyr, Thr, D-NMe-Leu, Pro, Lac</composition>
+            <graph>Ist,Hysp,Leu,Pro,NMe-OMe-Tyr,Thr,D-NMe-Leu,Pro,Lac@1,5@0,2@1,3@2,4@3,5@0,4,6@5,7@6,8@7</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Trididemnum cyanophorum</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Eumetazoa, Bilateria, Coelomata, Deuterostomia, Chordata, Urochordata, Ascidiacea, Enterogona, Aplousobranchia</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>[Hysp2] and [Hap2]didemnin B, two new [Hip2]-modified Didemnin B from the tunicate Trididemnum cyanophorum</title>
+                <year>1999</year>
+                <journal>Tetrahedron</journal>
+                <location>55 (31), pp. 9559-9574</location>
+                <authors>
+                    <author>
+                        <name>Banaigs B</name>
+                    </author>
+                    <author>
+                        <name>Mansour EA</name>
+                    </author>
+                    <author>
+                        <name>Bonnard I</name>
+                    </author>
+                    <author>
+                        <name>Boulanger A</name>
+                    </author>
+                    <author>
+                        <name>Francisco, C</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

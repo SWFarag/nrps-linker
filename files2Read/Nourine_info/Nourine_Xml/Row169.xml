@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00171</id>
+            <name>isopyoverdin 90-33</name>
+            <family>pyoverdin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <category>chromopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>9</size>
+            <composition>Glu, ChrI, Asp, Lys, Thr, D-OH-Asp, Thr, D-aThr, OH-cOrn</composition>
+            <graph>Glu,ChrI,Asp,Lys,Thr,D-OH-Asp,Thr,D-aThr,OH-cOrn@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas putida</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas putida group</taxonomy>
+                <gram>negative</gram>
+                <synonym>Pseudomonas ovalis,Pseudomonas arvilla,Arthrobacter siderocapsulatus,Pseudomonas striata,Pseudomonas rugosa,Pseudomonas incognita,Pseudomonas convexa,Pseudomonas eisenbergii,Bacillus putidus</synonym>
+                <taxid>303</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>An isopyoverdin from Pseudomonas putida CFML 90-33</title>
+                <year>2001</year>
+                <journal>Tetrahedron letters</journal>
+                <location>57: 1019</location>
+                <authors>
+                    <author>
+                        <name>Meyer JM</name>
+                    </author>
+                    <author>
+                        <name>Taraz K</name>
+                    </author>
+                    <author>
+                        <name>Budzikiewicz H</name>
+                    </author>
+                    <author>
+                        <name>Sultana R</name>
+                    </author>
+                    <author>
+                        <name>Siddiqui BS</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

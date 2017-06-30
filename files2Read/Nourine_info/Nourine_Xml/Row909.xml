@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00919</id>
+            <name>bacitracin H1</name>
+            <family>bacitracin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptide</category>
+            <comment>Bacitracin is a mixture a many similar compounds. The major compound is the bacitracin A1.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>other</type>
+            <size>12</size>
+            <composition>Val, dhCys, Leu, D-Glu, Ile, Lys, D-Orn, Ile, D-Phe, His, D-Asp, Asn</composition>
+            <graph>Val,dhCys,Leu,D-Glu,Ile,Lys,D-Orn,Ile,D-Phe,His,D-Asp,Asn@1,1@0,0,2@1,3@2,4@3,5@4,6,11@5,7@6,8@7,9@8,10@9,11@5,10</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Bacillus subtilis</name>
+                <taxonomy>cellular organisms, Bacteria, Firmicutes, Bacilli, Bacillales, Bacillaceae, Bacillus</taxonomy>
+                <gram>positive</gram>
+                <synonym>Bacillus uniflagellatus,Bacillus natto,Bacillus globigii,Vibrio subtilis</synonym>
+                <taxid>1423</taxid>
+            </organism>
+            <organism>
+                <name>Bacillus licheniformis</name>
+                <taxonomy>cellular organisms, Bacteria, Firmicutes, Bacilli, Bacillales, Bacillaceae, Bacillus</taxonomy>
+                <gram>positive</gram>
+                <synonym>Denitrobacillus licheniformis,Clostridium licheniforme</synonym>
+                <taxid>1402</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The bacitracin biosynthesis operon of Bacillus licheniformis ATCC 10716: molecular characterization of three multi-modular peptide synthetases</title>
+                <year>1997</year>
+                <journal>Chemistry and biology</journal>
+                <location>Dec,4(12):927-37.</location>
+                <pmid>9427658</pmid>
+                <authors>
+                    <author>
+                        <name>Marahiel MA</name>
+                    </author>
+                    <author>
+                        <name>Konz D</name>
+                    </author>
+                    <author>
+                        <name>Klens A</name>
+                    </author>
+                    <author>
+                        <name>Schorgendorfer K</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Total structures and antimicrobial activity of bacitracin minor components</title>
+                <year>1995</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Mar,48(3):233-42.</location>
+                <pmid>7730158</pmid>
+                <authors>
+                    <author>
+                        <name>Harada K</name>
+                    </author>
+                    <author>
+                        <name>Suzuki M</name>
+                    </author>
+                    <author>
+                        <name>Ikai Y</name>
+                    </author>
+                    <author>
+                        <name>Oka H</name>
+                    </author>
+                    <author>
+                        <name>Hayakawa J</name>
+                    </author>
+                    <author>
+                        <name>Matsumoto M</name>
+                    </author>
+                    <author>
+                        <name>Saito M</name>
+                    </author>
+                    <author>
+                        <name>Mayumi Y</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>O68006</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>O68007</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>O68008</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

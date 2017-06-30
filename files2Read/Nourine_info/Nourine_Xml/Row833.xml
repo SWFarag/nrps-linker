@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00843</id>
+            <name>pseudotheonamide B2</name>
+            <family>pseudotheonamide</family>
+            <activities>
+                <activity>protease inhibitor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C37H45N9O8</formula>
+            <mw>743.8087</mw>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>other</type>
+            <size>5</size>
+            <graph>D-Phe,e-Tyr,NFo-Dpr,Pro,ck-Arg@1,1@0,0,2,2@1,1,3@2,4@3</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Theonella swinhoei</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Tetractinomorpha, Lithistida, Triaenosina, Theonellidae, Theonella</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Pseudotheonamides, serine protease inhibitors from the marine sponge Theonella swinhoei</title>
+                <year>1999</year>
+                <journal>Journal of the American Chemical Society</journal>
+                <location>121 (11), pp. 2425-2431</location>
+                <authors>
+                    <author>
+                        <name>Nakao Y</name>
+                    </author>
+                    <author>
+                        <name>Matsunaga S</name>
+                    </author>
+                    <author>
+                        <name>Fusetani N</name>
+                    </author>
+                    <author>
+                        <name>Masuda A</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

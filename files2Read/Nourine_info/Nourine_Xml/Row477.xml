@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00485</id>
+            <name>andrimid</name>
+            <family>andrimid</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>PK-NRP</category>
+            <formula>C27H33N3O5</formula>
+            <mw>479.56805</mw>
+            <comment>andrimid is a NRPS-PKS product. Moiramide differs on the fatty acid moiety.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>4</size>
+            <composition>C8:3(t2.t4.t6), D-bPhe, Val, Me-Suc</composition>
+            <graph>C8:3(t2.t4.t6),D-bPhe,Val,Me-Suc@1@0,2@1,3@2</graph>
+            <smiles>CC=CC=CC=CC(=O)NC(CC(=O)NC(C(C)C)C(=O)C1C(=O)NC(=O)C1(C))c2ccccc2</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae</taxonomy>
+                <gram>negative</gram>
+                <taxid>286</taxid>
+            </organism>
+            <organism>
+                <name>Enterobacter</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Enterobacteriales, Enterobacteriaceae</taxonomy>
+                <synonym>Aerobacter,Cloaca</synonym>
+                <taxid>547</taxid>
+            </organism>
+            <organism>
+                <name>Vibrio</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Vibrionales, Vibrionaceae</taxonomy>
+                <synonym>Microspira,Pacinia</synonym>
+                <taxid>662</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>A biosynthetic gene cluster for the acetyl-CoA carboxylase inhibitor andrimid</title>
+                <year>2006</year>
+                <journal>Journal of the American Chemical Society</journal>
+                <location>Aug 23,128(33):10660-1.</location>
+                <pmid>16910643</pmid>
+                <authors>
+                    <author>
+                        <name>Jin M</name>
+                    </author>
+                    <author>
+                        <name>Fischbach MA</name>
+                    </author>
+                    <author>
+                        <name>Clardy J</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>636857</acc>
+                <name_db>PubChem</name_db>
+            </link>
+            <link>
+                <acc>Q84FL2</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q84FK7</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q84FL3</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

@@ -1,8 +1,6 @@
 from Bio import SeqIO
 import re
 import csv
-from cStringIO import StringIO
-import os
 from os import listdir
 from os.path import isfile, join
 
@@ -21,7 +19,7 @@ class NrpParser:
         self.sec_met.append(sec_met_list)
         domains_list = []
         subDomains = ["NRPS/PKS Domain: Condensation_Starter", "NRPS/PKS Domain: AMP-binding", "NRPS/PKS Domain: PCP","NRPS/PKS Domain: ACP",
-                      "NRPS/PKS Domain: Condensation_", "NRPS/PKS Domain: Epimerization", "NRPS/PKS Domain: Cglyc", "NRPS/PKS Domain: PKS_AT"]
+                      "NRPS/PKS Domain: Condensation_", "NRPS/PKS Domain: Epimerization", "NRPS/PKS Domain: Cglyc", "NRPS/PKS Domain: PKS_AT","NRPS/PKS Domain: Heterocyclization"]
         for domain in sec_met_list:
             if (any(sub_domain in domain for sub_domain in subDomains)):
                 domains_list.append(domain)
@@ -51,42 +49,73 @@ class NrpParser:
         trans = re.search('[A-Z]+', Trans_domain, re.M | re.I)
         return trans.group()
 
+    def purfiyPos(self, domain):
+        aa1 = re.search('\d+', domain, re.M | re.I)
+        aa2 = re.search('-\d+', domain, re.M | re.I)
+        return aa1.group() + aa2.group()
+
+    def purfiyPos2(self, domain):
+        aa1 = re.search('\d+', domain, re.M | re.I)
+        aa2 = re.search(':\d+', domain, re.M | re.I)
+        return aa1.group() + aa2.group()
 
     def purification1(self, domains):
         chunk_list = []
         for domain in domains:
             if ("AMP-binding" in domain):
                 aa = self.purfiyA_domain(domain)
-                chunk_list.append(aa)
+                pos_a = self.purfiyPos(domain)
+                tu = (aa,pos_a)
+                chunk_list.append(tu)
                 continue
 
             if ("PKS_AT" in domain):
                 aa = self.purfiyA_domain(domain)
-                chunk_list.append(aa)
+                pos_as = self.purfiyPos(domain)
+                tu = (aa, pos_as)
+                chunk_list.append(tu)
                 continue
 
             if ("PCP" in domain):
                 t_site = self.purfiyT_domain(domain)
-                chunk_list.append(t_site)
+                pos_t = self.purfiyPos(domain)
+                tu = (t_site, pos_t)
+                chunk_list.append(tu)
                 continue
 
             if ("ACP" in domain):
                 t_site = self.purfiyT_domain(domain)
-                chunk_list.append(t_site)
+                pos_ts = self.purfiyPos(domain)
+                tu = (t_site, pos_ts)
+                chunk_list.append(tu)
                 continue
 
             if ("Condensation" in domain):
                 c_site = self.purfiyC_domain(domain)
-                chunk_list.append(c_site)
+                pos_c = self.purfiyPos(domain)
+                tu = (c_site, pos_c)
+                chunk_list.append(tu)
                 continue
+
             if ("Cglyc" in domain):
                 c_site = self.purfiyC_domain(domain)
-                chunk_list.append(c_site)
+                pos_cg = self.purfiyPos(domain)
+                tu = (c_site, pos_cg)
+                chunk_list.append(tu)
+                continue
+
+            if ("Heterocyclization" in domain):
+                c_site = self.purfiyC_domain(domain)
+                pos_cg = self.purfiyPos(domain)
+                tu = (c_site, pos_cg)
+                chunk_list.append(tu)
                 continue
 
             if ("Epimerization" in domain):
-                E_site = self.purfiyE_domain(domain)
-                chunk_list.append(E_site)
+                e_site = self.purfiyE_domain(domain)
+                pos_e = self.purfiyPos(domain)
+                tu = (e_site, pos_e)
+                chunk_list.append(tu)
                 continue
 
         return chunk_list
@@ -125,6 +154,10 @@ class NrpParser:
                 continue
 
             if ("Cglyc" in domain):
+                chunk_list.append('C')
+                continue
+
+            if ("Heterocyclization" in domain):
                 chunk_list.append('C')
                 continue
 
@@ -270,11 +303,11 @@ class NrpParser:
                     continue
         return ATCA_block_list
 
-    def readFiles(self,path):
+    def readFiles(self, path):
         onlyfiles = [f for f in listdir(path) if isfile(join(path, f))]
         return onlyfiles
-        
-    def NRPS_extractor(self,path):
+
+    def NRPS_extractor(self, path):
         cluster_NRPS_blocks = {}
         cluster_All_domains = {}
         cluster_A_domains = {}
@@ -317,12 +350,17 @@ class NrpParser:
 
                         NRPS_list1.append(self.purification1(domains))
                         NRPS_list2.append(self.purification2(domains))
+                        #print NRPS_list1
+                        #print NRPS_list2
+
                         NRPS_list3.append(self.purification2(domains))
                         NRPS_list3.append("-")
 
                         flattened1 = self.flatten(NRPS_list1)
                         flattened2 = self.flatten(NRPS_list2)
                         flattened3 = self.flatten(NRPS_list3)
+                        #print flattened1
+                        #print flattened2
 
                         ######## for A domains ########
 
@@ -338,6 +376,8 @@ class NrpParser:
                         ATCA_blocks = self.flatten(ATCA_blocks)
                         NRPS_block.append(ATCA_blocks)
                         NRPS_block.append(trans)
+                        NRPS_block.append(feat.location)
+                        NRPS_block.append(feat.strand)
                         NRPS_blocks.append(NRPS_block)
             counter += 1
             description = genome.description
@@ -366,15 +406,26 @@ class NrpParser:
                 if(isinstance(NRPS_block, str)):
                    continue
                 trans = NRPS_block[1]
+                gene_loc = NRPS_block[2]
+                gene_loc = str(gene_loc.start.position) + "-" + str(gene_loc.end.position)
+                print gene_loc
+                gene_strand = NRPS_block[3]
                 ATCA_blocks = NRPS_block[0]
                 for ATCA_block in ATCA_blocks:
-                    aa1 = ATCA_block[0]
-                    t_index = ATCA_block[1]
-                    c_index = ATCA_block[2]
-                    aa2 = ATCA_block[3]
+                    aa1 = ATCA_block[0][0]
+                    aa1_pos = ATCA_block[0][1]
+
+                    t_index = ATCA_block[1][0]
+                    t_pos = ATCA_block[1][1]
+
+                    c_index = ATCA_block[2][0]
+                    c_pos = ATCA_block[2][1]
+
+                    aa2 = ATCA_block[3][0]
+                    aa2_pos = ATCA_block[3][1]
+
                     linker = trans[int(t_index):(int(c_index)-1)]
-                    new_ATCA = [aa1, linker, aa2, NRPS_blocks[-2], NRPS_blocks[-1], len(linker), f]
-                    print new_ATCA
+                    new_ATCA = [aa1, linker, aa2, NRPS_blocks[-2], NRPS_blocks[-1], len(linker), f, aa1_pos, aa2_pos, t_pos, c_pos, trans, gene_loc,  gene_strand]
                     all_linkers.append(new_ATCA)
                     files_linkers.append(new_ATCA)
             cluster_linkers_dic[f] = files_linkers
@@ -392,14 +443,26 @@ class NrpParser:
                 if (isinstance(NRPS_block, str)):
                     continue
                 trans = NRPS_block[1]
+                gene_loc = NRPS_block[2]
+                gene_loc = str(gene_loc.start.position) + "-" + str(gene_loc.end.position)
+                print gene_loc
+                gene_strand = NRPS_block[3]
                 ATCA_blocks = NRPS_block[0]
                 for ATCA_block in ATCA_blocks:
-                    aa1 = ATCA_block[0]
-                    t_index = ATCA_block[1]
-                    c_index = ATCA_block[2]
-                    aa2 = ATCA_block[3]
-                    linker = trans[int(t_index):(int(c_index)-1)]
-                    new_ATCA = [aa1, linker, aa2, NRPS_blocks[-2], NRPS_blocks[-1], len(linker), f]
+                    aa1 = ATCA_block[0][0]
+                    aa1_pos = ATCA_block[0][1]
+
+                    t_index = ATCA_block[1][0]
+                    t_pos = ATCA_block[1][1]
+
+                    c_index = ATCA_block[2][0]
+                    c_pos = ATCA_block[2][1]
+
+                    aa2 = ATCA_block[3][0]
+                    aa2_pos = ATCA_block[3][1]
+
+                    linker = trans[int(t_index):(int(c_index) - 1)]
+                    new_ATCA = [aa1, linker, aa2, NRPS_blocks[-2], NRPS_blocks[-1], len(linker), f, aa1_pos, aa2_pos,t_pos, c_pos, trans, gene_loc, gene_strand]
                     all_linkers.append(new_ATCA)
                     files_linkers.append(new_ATCA)
             cluster_linkers_dic[f] = files_linkers
@@ -437,6 +500,6 @@ class NrpParser:
 
     def writeFinalRes(self,results,path_out):
        temp=self.filesNoNRPS(results[0])
-       num_filesNoATCA=temp[0]
+       self.num_filesNoATCA = temp[0]
        self.linkers_writer(results,path_out)
        print "Total number of files processed:", len(results[0]),"\n", "Total number of linkers retrieved:", len(results[1]),"\n", "Total number of files with no linkers: ",self.num_filesNoATCA

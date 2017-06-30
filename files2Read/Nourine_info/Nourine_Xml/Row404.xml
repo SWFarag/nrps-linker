@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00412</id>
+            <name>oscillarin</name>
+            <family>aeruginosin</family>
+            <activities>
+                <activity>antithrombotic</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C34H44N6O5</formula>
+            <mw>616.75037</mw>
+            <comment>Oscillarin is a putative NRPS product (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>3</size>
+            <composition>D-Ph-Lac, D-Phe, Choi</composition>
+            <graph>D-Ph-Lac,D-Phe,Choi@1@0,2@1</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Oscillatoria agardhii</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Oscillatoriales, Planktothrix</taxonomy>
+                <gram>negative</gram>
+                <synonym>Planktothrix agardhii</synonym>
+                <taxid>1160</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The N-acyloxyiminium ion aza-Prins route to octahydroindoles: total synthesis and structural confirmation of the antithrombotic marine natural product oscillarin</title>
+                <year>2004</year>
+                <journal>Journal of the American Chemical Society</journal>
+                <location>May 19,126(19):6064-71.</location>
+                <pmid>15137772</pmid>
+                <authors>
+                    <author>
+                        <name>Hanessian S</name>
+                    </author>
+                    <author>
+                        <name>Tremblay M</name>
+                    </author>
+                    <author>
+                        <name>Petersen JF</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>5289082</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00714</id>
+            <name>A54145 A1</name>
+            <family>A54145</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <comment>A54145 products are antibiotics for the traitment of infections caused by gram-positive pathogens.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>14</size>
+            <composition>C10:0, Trp, D-Glu, OH-Asn, Thr, NMe-Gly, Ala, Asp, D-Lys, OMe-Asp, Gly, D-Asn, Glu, Ile</composition>
+            <graph>C10:0,Trp,D-Glu,OH-Asn,Thr,NMe-Gly,Ala,Asp,D-Lys,OMe-Asp,Gly,D-Asn,Glu,Ile@1@0,2@1,3@2,4@3,5,13@4,6@5,7@6,8@7,9@8,10@9,11@10,12@11,13@4,12</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces fradiae</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria, Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <synonym>Streptomyces roseoflavus,Streptomyces fradii,Actinomyces fradii,Streptomyces roseiflavus</synonym>
+                <taxid>1906</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Natural products to drugs: daptomycin and related lipopeptide antibiotics</title>
+                <year>2005</year>
+                <journal>Natural product reports</journal>
+                <location>Dec,22(6):717-41. Epub 2005 Nov 4.</location>
+                <pmid>16311632</pmid>
+                <authors>
+                    <author>
+                        <name>Baltz RH</name>
+                    </author>
+                    <author>
+                        <name>Miao V</name>
+                    </author>
+                    <author>
+                        <name>Wrigley SK</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>The lipopeptide antibiotic A54145 biosynthetic gene cluster from Streptomyces fradiae</title>
+                <year>2006</year>
+                <journal>Journal of industrial microbiology and biotechnology</journal>
+                <location>Feb,33(2):129-40. Epub 2005 Oct 6.</location>
+                <pmid>16208464</pmid>
+                <authors>
+                    <author>
+                        <name>Baltz RH</name>
+                    </author>
+                    <author>
+                        <name>Miao V</name>
+                    </author>
+                    <author>
+                        <name>Brost R</name>
+                    </author>
+                    <author>
+                        <name>Chapple J</name>
+                    </author>
+                    <author>
+                        <name>She K</name>
+                    </author>
+                    <author>
+                        <name>Gal MF</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Biosynthesis and genetic engineering of lipopeptide antibiotics related to daptomycin</title>
+                <year>2008</year>
+                <journal>Current topics in medicinal chemistry</journal>
+                <location>8(8):618-38</location>
+                <pmid>18473888</pmid>
+                <authors>
+                    <author>
+                        <name>Baltz RH</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>Q45R82</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q45R83</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q45R84</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q45R85</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00250</id>
+            <name>vibriobactin</name>
+            <family>vibriobactin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <synonyms>
+            </synonyms>
+            <category>peptide</category>
+            <formula>C35H39N5O11</formula>
+            <mw>705.71106</mw>
+            <comment>
+            </comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>branched</type>
+            <size>4</size>
+            <composition>diOH-Bz,NSpd,DMOG,DMOG</composition>
+            <graph>diOH-Bz,NSpd,DMOG,DMOG@1@0,2,3@1@1</graph>
+            <smiles>CC4OC(NC4(C(=O)NCCCN(CCCNC(=O)c1cccc(O)c1(O))C(=O)C2NC(OC2(C))=C3C=CC=C(O)C3(=O)))=C5C=CC=C(O)C5(=O)</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Vibrio cholerae</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Vibrionales, Vibrionaceae, Vibrio</taxonomy>
+                <gram>negative</gram>
+                <synonym>Liquidivibrio cholerae,Vibrio comma,Vibrio cholerae-asiaticae,Spirillum cholerae,Microspira comma,Spirillum cholerae-asiaticae,Pacinia cholerae-asiaticae,Bacillus cholerae-asiaticae,Bacillus cholerae,Kommabacillus,Vibrio cholerae Pacini 1854</synonym>
+                <taxid>666</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Reconstitution and characterization of the Vibrio cholerae vibriobactin synthetase from VibB, VibE, VibF, and VibH</title>
+                <year>2000</year>
+                <journal>Biochemistry</journal>
+                <location>Dec 19,39(50):15522-30.</location>
+                <pmid>11112538</pmid>
+                <authors>
+                    <author>
+                        <name>Walsh CT</name>
+                    </author>
+                    <author>
+                        <name>Keating TA</name>
+                    </author>
+                    <author>
+                        <name>Marshall CG</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Vibriobactin, a siderophore from Vibrio cholerae</title>
+                <year>1984</year>
+                <journal>The Journal of biological chemistry</journal>
+                <location>Jan 10,259(1):383-5.</location>
+                <pmid>6706943</pmid>
+                <authors>
+                    <author>
+                        <name>Neilands JB</name>
+                    </author>
+                    <author>
+                        <name>Griffiths GL</name>
+                    </author>
+                    <author>
+                        <name>Sigel SP</name>
+                    </author>
+                    <author>
+                        <name>Payne SM</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>5462333</acc>
+                <name_db>PubChem</name_db>
+            </link>
+            <link>
+                <acc>Q9FDB0</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

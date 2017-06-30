@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00670</id>
+            <name>phosphinothricin tripeptide</name>
+            <family>phosphinothricin tripeptide</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <synonyms>PTT, bialaphos</synonyms>
+            <category>peptide</category>
+            <formula>C11H22N3O6P</formula>
+            <mw>323.28265</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>3</size>
+            <composition>PT, Ala, Ala</composition>
+            <graph>PT,Ala,Ala@1@0,2@1</graph>
+            <smiles>CC(NC(=O)C(C)NC(=O)C(N)CCP(C)(=O)O)C(=O)O</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces viridochromogenes</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <synonym>Actinomyces viridochromogenes</synonym>
+                <taxid>1938</taxid>
+            </organism>
+            <organism>
+                <name>Streptomyces hygroscopicus</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <synonym>Actinomyces hygroscopicus</synonym>
+                <taxid>1912</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Phosphinothricin tripeptide synthetases in Streptomyces viridochromogenes Tu494</title>
+                <year>2005</year>
+                <journal>Antimicrobial agents and chemotherapy</journal>
+                <location>Nov,49(11):4598-607.</location>
+                <pmid>16251301</pmid>
+                <authors>
+                    <author>
+                        <name>Keller U</name>
+                    </author>
+                    <author>
+                        <name>Heinzelmann E</name>
+                    </author>
+                    <author>
+                        <name>Wohlleben W</name>
+                    </author>
+                    <author>
+                        <name>Schwartz D</name>
+                    </author>
+                    <author>
+                        <name>Grammel N</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Three thioesterases are involved in the biosynthesis of phosphinothricin tripeptide in Streptomyces viridochromogenes Tu494</title>
+                <year>2008</year>
+                <journal>Antimicrobial agents and chemotherapy</journal>
+                <location>May,52(5):1686-96.</location>
+                <pmid>18285472</pmid>
+                <authors>
+                    <author>
+                        <name>Wohlleben W</name>
+                    </author>
+                    <author>
+                        <name>Schwartz D</name>
+                    </author>
+                    <author>
+                        <name>Eys S</name>
+                    </author>
+                    <author>
+                        <name>Schinko E</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>5462314</acc>
+                <name_db>PubChem</name_db>
+            </link>
+            <link>
+                <acc>Q56170</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q4JFF4</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q4JFF2</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

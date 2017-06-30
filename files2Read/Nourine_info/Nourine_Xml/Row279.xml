@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00281</id>
+            <name>aureobasidin A</name>
+            <family>aureobasidin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C60H92N8O11</formula>
+            <mw>1101.4196</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>9</size>
+            <composition>D-Hmp, NMe-Val, Phe, NMe-Phe, Pro, aIle, NMe-Val, Leu, bOH-NMe-Val</composition>
+            <graph>D-Hmp,NMe-Val,Phe,NMe-Phe,Pro,aIle,NMe-Val,Leu,bOH-NMe-Val@1,8@0,2@1,3@2,4@3,5@4,6@5,7@6,8@0,7</graph>
+            <smiles>CCC(C)C3NC(=O)C4CCCN4(C(=O)C(Cc1ccccc1)N(C)C(=O)C(Cc2ccccc2)NC(=O)C(C(C)C)N(C)C(=O)C(OC(=O)C(N(C)C(=O)C(CC(C)C)NC(=O)C(C(C)C)N(C)C3(=O))C(C)(C)O)C(C)CC)</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Aureobasidium pullulans</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Dothideomycetes et Chaetothyriomycetes incertae sedis, Dothioraceae, mitosporic Dothioraceae, Aureobasidium</taxonomy>
+                <taxid>5580</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Aureobasidins: structure-activity relationships for the inhibition of the human MDR1 P-glycoprotein ABC-transporter</title>
+                <year>2000</year>
+                <journal>Journal of medicinal chemistry</journal>
+                <location>Jun 29,43(13):2547-56.</location>
+                <pmid>10891114</pmid>
+                <authors>
+                    <author>
+                        <name>Tiberghien F</name>
+                    </author>
+                    <author>
+                        <name>Kurome T</name>
+                    </author>
+                    <author>
+                        <name>Takesako K</name>
+                    </author>
+                    <author>
+                        <name>Didier A</name>
+                    </author>
+                    <author>
+                        <name>Wenandy T</name>
+                    </author>
+                    <author>
+                        <name>Loor F</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>72050</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

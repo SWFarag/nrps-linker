@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01069</id>
+            <name>Ile-polymyxin E2</name>
+            <family>polymyxin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <synonyms>colistin</synonyms>
+            <category>lipopeptide</category>
+            <comment>Polymyxin E is a mixture of several components.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>11</size>
+            <composition>iC8:0, Dab, Thr, Dab, Dab, Dab, D-Leu, Ile, Dab, Dab, Thr</composition>
+            <graph>iC8:0,Dab,Thr,Dab,Dab,Dab,D-Leu,Ile,Dab,Dab,Thr@1@0,2@1,3@2,4@3,5,10@4,6@5,7@6,8@7,9@8,10@4,9</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Bacillus polymyxa</name>
+                <taxonomy>cellular organisms, Bacteria, Firmicutes, Bacilli, Bacillales, Paenibacillaceae, Paenibacillus</taxonomy>
+                <gram>positive</gram>
+                <synonym>Paenibacillus polymyxa,Aerobacillus polymyxa,Granulobacter polymyxa,Clostridium polymyxa</synonym>
+                <taxid>1406</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>THE CHEMICAL STRUCTURE OF POLYMYXIN E: THE IDENTITIES OF POLYMYXIN E1 WITH COLISTIN A AND OF POLYMYXIN E2 WITH COLISTIN B</title>
+                <year>1965</year>
+                <journal>Journal of biochemistry</journal>
+                <location>Feb,57:226-7.</location>
+                <pmid>14299599</pmid>
+                <authors>
+                    <author>
+                        <name>SUZUKI T</name>
+                    </author>
+                    <author>
+                        <name>HAYASHI K</name>
+                    </author>
+                    <author>
+                        <name>FUJIKAWA K</name>
+                    </author>
+                    <author>
+                        <name>TSUKAMOTO K</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

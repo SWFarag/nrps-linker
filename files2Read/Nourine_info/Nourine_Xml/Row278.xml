@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00280</id>
+            <name>anguibactin</name>
+            <family>anguibactin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C15H16N4O4S</formula>
+            <mw>348.37695</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>2</size>
+            <composition>DHPT, N-OH-Hta</composition>
+            <graph>DHPT,N-OH-Hta@1@0</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Vibrio anguillarum</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Vibrionales, Vibrionaceae, Listonella</taxonomy>
+                <gram>negative</gram>
+                <synonym>Listonella anguillarum,Vibrio ichthyodermis,Vibrio piscium var. japonicus,Pseudomonas ichthyodermis,Achromobacter ichthyodermis,Vibrio piscium</synonym>
+                <taxid>55601</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>A nonribosomal peptide synthetase with a novel domain organization is essential for siderophore biosynthesis in Vibrio anguillarum</title>
+                <year>2004</year>
+                <journal>Journal of bacteriology</journal>
+                <location>Nov,186(21):7327-36.</location>
+                <pmid>15489444</pmid>
+                <authors>
+                    <author>
+                        <name>Di Lorenzo M</name>
+                    </author>
+                    <author>
+                        <name>Poppelaars S</name>
+                    </author>
+                    <author>
+                        <name>Stork M</name>
+                    </author>
+                    <author>
+                        <name>Nagasawa M</name>
+                    </author>
+                    <author>
+                        <name>Tolmasky ME</name>
+                    </author>
+                    <author>
+                        <name>Crosa JH</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>5487148</acc>
+                <name_db>PubChem</name_db>
+            </link>
+            <link>
+                <acc>Q6W4T0</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q6W4T3</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

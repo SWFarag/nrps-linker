@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00059</id>
+            <name>cyclosporin 28</name>
+            <family>cyclosporin</family>
+            <activities>
+                <activity>unknown</activity>
+            </activities>
+            <synonyms>cyclosporine, ciclosporin, ciclosporine</synonyms>
+            <category>peptide</category>
+            <comment>Natural analogs of cyclosporin A are obtain in different nutrient broths</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>11</size>
+            <composition>D-Ala, NMe-Leu, NMe-Leu, NMe-Val, NMe-Leu, Abu, NMe-Gly, NMe-Leu, Val, NMe-Leu, Ala</composition>
+            <graph>D-Ala,NMe-Leu,NMe-Leu,NMe-Val,NMe-Leu,Abu,NMe-Gly,NMe-Leu,Val,NMe-Leu,Ala@1,10@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@0,9</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Tolypocladium inflatum</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Clavicipitaceae, mitosporic Clavicipitaceae,  Tolypocladium</taxonomy>
+                <synonym>Tolypocladium niveum,Beauveria nivea</synonym>
+                <taxid>29910</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Multifunctional Peptide Synthetases</title>
+                <year>1997</year>
+                <journal>Chemical reviews</journal>
+                <location>Nov 10,97(7):2675-2706.</location>
+                <pmid>11851477</pmid>
+                <authors>
+                    <author>
+                        <name>von Dohren H</name>
+                    </author>
+                    <author>
+                        <name>Keller U</name>
+                    </author>
+                    <author>
+                        <name>Vater J</name>
+                    </author>
+                    <author>
+                        <name>Zocher R</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>Q09164</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

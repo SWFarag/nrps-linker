@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01132</id>
+            <name>micropeptin A</name>
+            <family>cyanopeptolin</family>
+            <activities>
+                <activity>protease inhibitor</activity>
+            </activities>
+            <category>peptide</category>
+            <mw>986.57</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>8</size>
+            <composition>Lys, Ahp, Leu, NMe-Tyr, Val, Thr, Glu, C8:0</composition>
+            <graph>Lys,Ahp,Leu,NMe-Tyr,Val,Tyr,Glu,C8:0@1,5@0,2@3,1@2,4@3,5@4,0,6@5,7@6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Microcystis</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Chroococcales</taxonomy>
+                <gram>negative</gram>
+                <taxid>1125</taxid>
+            </organism>
+        </organisms>
+        <references>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

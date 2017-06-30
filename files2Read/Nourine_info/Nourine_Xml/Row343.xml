@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00346</id>
+            <name>tolaasin B</name>
+            <family>tolaasin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>toxin</activity>
+                <activity>surfactant</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <formula>C93H161N21O25</formula>
+            <mw>1973.3992</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>19</size>
+            <composition>C8:0-OH(3), dhAbu, D-Pro, D-Ser, D-Leu, D-Val, D-Ser, D-Leu, D-Val, Val, D-Gln, Leu, D-Val, dhAbu, D-aThr, Val, D-Hse, D-Dab, Lys</composition>
+            <graph>C8:0-OH(3),dhAbu,D-Pro,D-Ser,D-Leu,D-Val,D-Ser,D-Leu,D-Val,Val,D-Gln,Leu,D-Val,dhAbu,D-aThr,Val,D-Hse,D-Dab,Lys@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@11,13@12,14@13,15,18@14,16@15,17@16,18@14,17</graph>
+            <smiles>CCCCCC(O)CC(=O)NC(=CC)C(=O)N2CCCC2(C(=O)NC(CO)C(=O)NC(CC(C)C)C(=O)NC(C(C)C)C(=O)NC(CO)C(=O)NC(CC(C)C)C(=O)NC(C(C)C)C(=O)NC(C(C)C)C(=O)NC(CCC(N)=O)C(=O)NC(CC(C)C)C(=O)NC(C(C)C)C(=O)NC(=CC)C(=O)NC1C(C)OC(=O)C(CCCCN)NC(=O)C(CCN)NC(=O)C(CCO)NC(=O)C(NC1(=O))C(C)C)</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas tolaasii</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas fluorescens group</taxonomy>
+                <gram>negative</gram>
+                <synonym>Pseudomonas tolaasii Paine 1919</synonym>
+                <taxid>29442</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Tolaasins A--E, five new lipodepsipeptides produced by Pseudomonas tolaasii</title>
+                <year>2004</year>
+                <journal>Journal of natural products</journal>
+                <location>May,67(5):811-6.</location>
+                <pmid>15165142</pmid>
+                <authors>
+                    <author>
+                        <name>Lo Cantore P</name>
+                    </author>
+                    <author>
+                        <name>Lazzaroni S</name>
+                    </author>
+                    <author>
+                        <name>Evidente A</name>
+                    </author>
+                    <author>
+                        <name>Iacobellis NS</name>
+                    </author>
+                    <author>
+                        <name>Bassarello C</name>
+                    </author>
+                    <author>
+                        <name>Bifulco G</name>
+                    </author>
+                    <author>
+                        <name>Riccio R</name>
+                    </author>
+                    <author>
+                        <name>Gomez-Paloma L</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

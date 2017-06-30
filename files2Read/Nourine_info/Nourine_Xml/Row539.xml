@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00547</id>
+            <name>hymenistatin I</name>
+            <family>hymenistatin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>immunomodulating</activity>
+            </activities>
+            <category>peptide</category>
+            <comment>Hymenistatin is a putative NRPS product (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>8</size>
+            <composition>Pro, Tyr, Val, Pro, Leu, Ile, Ile, Pro</composition>
+            <graph>Pro,Tyr,Val,Pro,Leu,Ile,Ile,Pro@1,7@0,2@1,3@2,4@3,5@4,6@5,7@0,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Hymeniacidon sp.</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Halichondrida, Hymeniacidonidae, Hymeniacidon</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Immunosuppressive activity of hymenistatin I</title>
+                <year>1996</year>
+                <journal>Peptides</journal>
+                <location>17(2):191-6.</location>
+                <pmid>8801520</pmid>
+                <authors>
+                    <author>
+                        <name>Cebrat M</name>
+                    </author>
+                    <author>
+                        <name>Wieczorek Z</name>
+                    </author>
+                    <author>
+                        <name>Siemion IZ</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

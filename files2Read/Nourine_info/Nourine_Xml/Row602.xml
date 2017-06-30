@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00610</id>
+            <name>geodiamolide M</name>
+            <family>geodiamolide</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C28H39O7N3Br</formula>
+            <mw>609.5292</mw>
+            <comment>Geodiamolides are putative NRPS products (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>4</size>
+            <composition>C9:1(4)-Me(2.4.6)-OH(8), Ala, D-Br-NMe-Tyr, Ser</composition>
+            <graph>C9:1(4)-Me(2.4.6)-OH(8),Ala,D-Br-NMe-Tyr,Ser@1,3@0,2@1,3@0,2</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Cymbastela</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Halichondrida, Axinellidae</taxonomy>
+                <taxid>85785</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>New geodiamolides from the sponge Cymbastela sp. collected in Papua New Guinea</title>
+                <year>1999</year>
+                <journal>Journal of natural products</journal>
+                <location>Aug,62(8):1137-41.</location>
+                <pmid>10479320</pmid>
+                <authors>
+                    <author>
+                        <name>Andersen RJ</name>
+                    </author>
+                    <author>
+                        <name>van Soest RW</name>
+                    </author>
+                    <author>
+                        <name>Coleman JE</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00339</id>
+            <name>amphisin</name>
+            <family>amphisin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>surfactant</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <formula>C66H114N12O20</formula>
+            <mw>1395.6798</mw>
+            <comment>Amphisin is a close analogue of the cyclic lipopeptides tensin and pholipeptin produced by Pseudomonas fluorescens.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>12</size>
+            <composition>C10:0-OH(3), D-Leu, D-Asp, D-aThr, D-Leu, D-Leu, D-Ser, Leu, D-Gln, Leu, Ile, Asp</composition>
+            <graph>C10:0-OH(3),D-Leu,D-Asp,D-aThr,D-Leu,D-Leu,D-Ser,Leu,D-Gln,Leu,Ile,Asp@1@0,2@1,3@2,4,11@3,5@4,6@5,7@6,8@7,9@8,10@9,11@3,10</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas sp. DSS73</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas</taxonomy>
+                <gram>negative</gram>
+                <taxid>173677</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Cyclic lipoundecapeptide amphisin from Pseudomonas sp. strain DSS73</title>
+                <year>2001</year>
+                <journal>Acta crystallographica. Section C, Crystal structure communications</journal>
+                <location>Sep,57(Pt 9):1123-4. Epub 2001 Sep 11</location>
+                <pmid>11588392</pmid>
+                <authors>
+                    <author>
+                        <name>Nielsen TH</name>
+                    </author>
+                    <author>
+                        <name>Christophersen C</name>
+                    </author>
+                    <author>
+                        <name>Sorensen J</name>
+                    </author>
+                    <author>
+                        <name>Sorensen D</name>
+                    </author>
+                    <author>
+                        <name>Gajhede M</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Genes involved in cyclic lipopeptide production are important for seed and straw colonization by Pseudomonas sp. strain DSS73</title>
+                <year>2005</year>
+                <journal>Applied and environmental microbiology</journal>
+                <location>Jul,71(7):4112-6.</location>
+                <pmid>16000829</pmid>
+                <authors>
+                    <author>
+                        <name>Nielsen TH</name>
+                    </author>
+                    <author>
+                        <name> Nybroe O</name>
+                    </author>
+                    <author>
+                        <name> Koch B</name>
+                    </author>
+                    <author>
+                        <name> Hansen M</name>
+                    </author>
+                    <author>
+                        <name> Sorensen J</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>Q936V0</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

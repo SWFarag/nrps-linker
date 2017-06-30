@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00277</id>
+            <name>oscillamide C</name>
+            <family>oscillamide</family>
+            <activities>
+                <activity>protease inhibitor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C49H68O10N10</formula>
+            <mw>957.12524</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>7</size>
+            <composition>Phe, NMe-Hty, Hty, Ile, D-Lys, CO, Arg</composition>
+            <graph>Phe,NMe-Hty,Hty,Ile,D-Lys,CO,Arg@1,4@0,2@1,3@2,4@0,3,5@4,6@5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Oscillatoria agardhii</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Oscillatoriales, Planktothrix</taxonomy>
+                <gram>negative</gram>
+                <synonym>Planktothrix agardhii</synonym>
+                <taxid>1160</taxid>
+            </organism>
+            <organism>
+                <name>Nodularia spumigena</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Nostocales, Nostocaceae, Nodularia</taxonomy>
+                <gram>negative</gram>
+                <synonym>Nodularia sp. NSOR-12</synonym>
+                <taxid>70799</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Isolation of new protein phosphatase inhibitors from two cyanobacteria species, Planktothrix spp.</title>
+                <year>2001</year>
+                <journal>Journal of natural products</journal>
+                <location>Aug,64(8):1052-5.</location>
+                <pmid>11520225</pmid>
+                <authors>
+                    <author>
+                        <name>Kaya K</name>
+                    </author>
+                    <author>
+                        <name>Sano T</name>
+                    </author>
+                    <author>
+                        <name>Usui T</name>
+                    </author>
+                    <author>
+                        <name>Ueda K</name>
+                    </author>
+                    <author>
+                        <name>Osada H</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00456</id>
+            <name>hemiasterlin</name>
+            <family>hemiasterlin</family>
+            <activities>
+                <activity>antitumor</activity>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C30H46N4O4</formula>
+            <mw>526.71063</mw>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>3</size>
+            <composition>bbNMe-NMe-Trp, t-Leu, NMe-hv-Val</composition>
+            <graph>bbNMe-NMe-Trp,t-Leu,NMe-hv-Val@1@0,2@1</graph>
+            <smiles>CNC(C(=O)NC(C(=O)N(C)C(C=C(C)C(=O)O)C(C)C)C(C)(C)C)C(C)(C)c2cn(C)c1ccccc12</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Hemiasterella</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Tetractinomorpha, Hadromerida, Hemiasterellidae</taxonomy>
+                <taxid>283521</taxid>
+            </organism>
+            <organism>
+                <name>Cymbastela</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Halichondrida, Axinellidae</taxonomy>
+                <taxid>85785</taxid>
+            </organism>
+            <organism>
+                <name>Auletta sp.</name>
+                <taxonomy>marine sponge</taxonomy>
+            </organism>
+            <organism>
+                <name>Siphonochalina spp.</name>
+                <taxonomy>marine sponge</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Cytotoxic peptides hemiasterlin, hemiasterlin A and hemiasterlin B induce mitotic arrest and abnormal spindle formation</title>
+                <year>1997</year>
+                <journal>Cancer chemotherapy and pharmacology</journal>
+                <location>39(3):223-6.</location>
+                <pmid>8996524</pmid>
+                <authors>
+                    <author>
+                        <name>Andersen RJ</name>
+                    </author>
+                    <author>
+                        <name>Anderson HJ</name>
+                    </author>
+                    <author>
+                        <name>Coleman JE</name>
+                    </author>
+                    <author>
+                        <name>Roberge M</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Cytotoxic and tubulin-interactive hemiasterlins from Auletta sp. and Siphonochalina spp. sponges</title>
+                <year>1999</year>
+                <journal>Bioorganic and medicinal chemistry</journal>
+                <location>Aug,7(8):1611-5.</location>
+                <pmid>10482453</pmid>
+                <authors>
+                    <author>
+                        <name>Hamel E</name>
+                    </author>
+                    <author>
+                        <name>Boyd MR</name>
+                    </author>
+                    <author>
+                        <name>Gamble WR</name>
+                    </author>
+                    <author>
+                        <name>Durso NA</name>
+                    </author>
+                    <author>
+                        <name>Fuller RW</name>
+                    </author>
+                    <author>
+                        <name>Westergaard CK</name>
+                    </author>
+                    <author>
+                        <name>Johnson TR</name>
+                    </author>
+                    <author>
+                        <name>Sackett DL</name>
+                    </author>
+                    <author>
+                        <name>Cardellina JH</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>5352092</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

@@ -1,9 +1,52 @@
 {% extends "base.html" %}
 
+ {% block javascript %}
+
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/dataTables.bootstrap.min.css">
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='../static/css/home.css') }}">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+
+        <script src="https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap.min.js"></script>
+
+               {########## Add export table based on http://demos.w3lessons.info/jquery-table-export #############}
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/tableExport.js"></script>
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/jquery.base64.js"></script>
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/html2canvas.js"></script>
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/jspdf/jspdf.js"></script>
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/jspdf/libs/base64.js"></script>
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/jspdf/libs/sprintf.js"></script>
+
+        <script>
+            $(document).ready(function() {
+            // Setup - add a text input to each footer cell
+            $('#ncbi tfoot th').each( function () {
+            var title = $(this).text();
+            $(this).html( '<input type="text" placeholder="'+title+'" />' );
+            } );
+
+            // DataTable
+            var table = $('#ncbi').DataTable({});
+
+            // Apply the search
+            table.columns().every( function () {
+            var that = this;
+
+            $( 'input', this.footer() ).on( 'keyup change', function () {
+                if ( that.search() !== this.value ) {that.search( this.value ).draw();}
+            } );
+            } );
+            } );
+        </script>
+
+ {% endblock %}
+
 {% block heading %} {{super()}} {% endblock %}
 
 
 {% block content %}
+
 
 <div class="row">
     <div class="col-sm-12"><h2>{{title}}</h2></div>
@@ -14,6 +57,7 @@
        <a href="#" class="glyphicon-bullhorn" onclick="$('table').tableExport({type:'csv',escape:'false'});"><img src="https://demos.w3lessons.info/assets/images/icons/csv.png" width="24"> CSV</a>
        <a href="#" class="glyphicon-bullhorn" onclick="$('table').tableExport({type:'json',escape:'false'});"><img src="https://demos.w3lessons.info/assets/images/icons/json.png" width="24"> JSON</a>
        <a href="#" class="glyphicon-bullhorn" onclick="$('table').tableExport({type:'excel',escape:'false'});"><img src="https://demos.w3lessons.info/assets/images/icons/xls.png" width="24"> XLS</a>
+
        </h6>
     </div>
  </div><br>

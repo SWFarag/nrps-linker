@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00647</id>
+            <name>SF-1902 A3</name>
+            <family>globomycin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C31H55N5O9</formula>
+            <mw>641.7965</mw>
+            <comment>SF-1902 are putative NRPS products (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>6</size>
+            <composition>Gly, aThr, Ser, Val, NMe-Leu, C9:0-Me(2)-OH(3)</composition>
+            <graph>Gly,aThr,Ser,Val,NMe-Leu,C9:0-Me(2)-OH(3)@1,5@0,2@1,3@2,4@3,5@0,4</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces sp.</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <taxid>1931</taxid>
+            </organism>
+            <organism>
+                <name>Streptomyces cinnamoneus</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <synonym>Streptoverticillium cinnamoneum,Verticillomyces cinnamomeus forma cinnamomeus,</synonym>
+                <taxid>53446</taxid>
+            </organism>
+            <organism>
+                <name>Streptomyces halstedii</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <taxid>1944</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Synthesis and antimicrobial activity of novel globomycin analogues</title>
+                <year>2003</year>
+                <journal>Bioorganic and medicinal chemistry letters</journal>
+                <location>Jul 21,13(14):2315-8.</location>
+                <pmid>12824025</pmid>
+                <authors>
+                    <author>
+                        <name>Kogen H</name>
+                    </author>
+                    <author>
+                        <name>Kiho T</name>
+                    </author>
+                    <author>
+                        <name>Nakayama M</name>
+                    </author>
+                    <author>
+                        <name>Inukai M</name>
+                    </author>
+                    <author>
+                        <name>Yasuda K</name>
+                    </author>
+                    <author>
+                        <name>Miyakoshi S</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

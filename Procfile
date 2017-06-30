@@ -1,1 +1,1 @@
-web gunicorn NRPS_analyst2:app
+web gunicorn nrps_db_launcher:app

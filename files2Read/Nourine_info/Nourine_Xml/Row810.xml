@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00819</id>
+            <name>nocardicin C</name>
+            <family>nocardicin</family>
+            <activities>
+                <activity>unknown</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C23H26N4O8</formula>
+            <mw>486.47455</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>4</size>
+            <composition>Hse, Hpg, Ser, Hpg</composition>
+            <graph>Hse,Hpg,Ser,Hpg@1@0,2@1,3,3@2,2</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Nocardia uniformis subsp. tsuyamanensis</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Corynebacterineae, Nocardiaceae, Nocardia, Nocardia uniformis</taxonomy>
+                <gram>positive</gram>
+                <taxid>96045</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The biosynthetic gene cluster for a monocyclic beta-lactam antibiotic, nocardicin A</title>
+                <year>2004</year>
+                <journal>Chemistry and biology</journal>
+                <location>Jul,11(7):927-38.</location>
+                <pmid>15271351</pmid>
+                <authors>
+                    <author>
+                        <name>Ravel J</name>
+                    </author>
+                    <author>
+                        <name>Gunsior M</name>
+                    </author>
+                    <author>
+                        <name>Breazeale SD</name>
+                    </author>
+                    <author>
+                        <name>Lind AJ</name>
+                    </author>
+                    <author>
+                        <name>Janc JW</name>
+                    </author>
+                    <author>
+                        <name>Townsend CA</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>3042313</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

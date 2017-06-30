@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01102</id>
+            <name>trichotoxin A-50 F</name>
+            <family>trichotoxin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptaibol</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>18</size>
+            <composition>Ac-Aib, Gly, Aib, Leu, Aib, Gln, Aib, Aib, Ala, Ala, Ala, Aib, Pro, Leu, Aib, D-Ival, Gln, Valol</composition>
+            <graph>Ac-Aib,Gly,Aib,Leu,Aib,Gln,Aib,Aib,Ala,Ala,Ala,Aib,Pro,Leu,Aib,D-Ival,Gln,Valol@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@11,13@12,14@13,15@14,16@15,17@16</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Trichoderma viride</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, mitosporicHypocreales, Trichoderma, Tricoderma viride species complex</taxonomy>
+                <synonym>Trichoderma lignorum</synonym>
+                <taxid>5547</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Isolation and structural characterization of polypeptide antibiotics of the peptaibol class by high performance liquid chromatography with field desorption and fast atom bombardment mass spectrometry</title>
+                <year>1984</year>
+                <journal>Journal of chromatography</journal>
+                <location>Vol 296, Pages 263-275.</location>
+                <authors>
+                    <author>
+                        <name>Bruckner H</name>
+                    </author>
+                    <author>
+                        <name>Przybylski M</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

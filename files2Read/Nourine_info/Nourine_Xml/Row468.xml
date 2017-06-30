@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00476</id>
+            <name>cyclotheonamide E2</name>
+            <family>cyclotheonamide</family>
+            <activities>
+                <activity>antithrombotic</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C42H56N10O9</formula>
+            <mw>844.9556</mw>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>7</size>
+            <composition>Pro, k-Arg, D-aIle, v-Tyr, Dpr, Ala, Bz</composition>
+            <graph>Pro,k-Arg,D-aIle,v-Tyr,Dpr,Ala,Bz@1,4@0,2@1,3@2,4@0,3,5@4,6@5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Theonella swinhoei</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Tetractinomorpha, Lithistida, Triaenosina, Theonellidae, Theonella</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Cyclotheonamides E2 and E3, new potent serine protease inhibitors from the marine sponge of the genus Theonella</title>
+                <year>1998</year>
+                <journal>Journal of natural products</journal>
+                <location>May,61(5):667-70.</location>
+                <pmid>9599274</pmid>
+                <authors>
+                    <author>
+                        <name>Nakao Y</name>
+                    </author>
+                    <author>
+                        <name>Oku N</name>
+                    </author>
+                    <author>
+                        <name>Matsunaga S</name>
+                    </author>
+                    <author>
+                        <name>Fusetani N</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

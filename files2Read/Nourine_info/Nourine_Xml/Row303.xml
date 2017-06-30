@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00306</id>
+            <name>AM-toxin II</name>
+            <family>AM-toxin</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C22H29N3O5</formula>
+            <mw>415.4828</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>4</size>
+            <composition>Apv, Hiv, Ala, dh-Ala</composition>
+            <graph>Apv,Hiv,Ala,dh-Ala@1,3@0,2@1,3@0,2</graph>
+            <smiles>CC(C)C2OC(=O)C(C)NC(=O)C(=C)NC(=O)C(CCCc1ccccc1)NC2(=O)</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Alternaria alternata</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Dothideomycetes, Pleosporales, Pleosporaceae, mitosporic Pleosporaceae, Alternaria, Alternaria alternata group</taxonomy>
+                <taxid>5599</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Cloning and characterization of a cyclic peptide synthetase gene from Alternaria alternata apple pathotype whose product is involved in AM-toxin synthesis and pathogenicity</title>
+                <year>2000</year>
+                <journal>Molecular plant-microbe interactions : MPMI</journal>
+                <location>Jul,13(7):742-53. </location>
+                <pmid>10875335</pmid>
+                <authors>
+                    <author>
+                        <name>Johnson RD</name>
+                    </author>
+                    <author>
+                        <name>Johnson L</name>
+                    </author>
+                    <author>
+                        <name>Itoh Y</name>
+                    </author>
+                    <author>
+                        <name>Kodama M</name>
+                    </author>
+                    <author>
+                        <name>Otani H</name>
+                    </author>
+                    <author>
+                        <name>Kohmoto K</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>162789</acc>
+                <name_db>PubChem</name_db>
+            </link>
+            <link>
+                <acc>Q9UVN5</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

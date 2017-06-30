@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Valerie LECLERE</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01255</id>
+            <name>Orfamide A</name>
+            <family>Orfamide</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>surfactant</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <mw>1295</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>11</size>
+            <composition>Leu,Leu,Leu,D-Glu,D-aThr,D-aIle,C14:0-OH(3),D-Ser,Leu,D-Ser,Val</composition>
+            <graph>Leu,Leu,Leu,D-Glu,D-aThr,D-aIle,C14:0-OH(3),D-Ser,Leu,D-Ser,Val@3,6@7,8@5,7@0,4@3,5,10@2,4@0@1,2@1,9@8,10@4,9</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas fluorescens Pf-5</name>
+                <taxonomy>cellular organisms; Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas fluorescens group; Pseudomonas protegens</taxonomy>
+                <gram>negative</gram>
+                <taxid>220664</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The genomisotopic approach: a systematic method to isolate products of orphan biosynthetic gene clusters</title>
+                <year>2007</year>
+                <journal>ChemBiol</journal>
+                <location>14; 53-63</location>
+                <pmid>17254952</pmid>
+                <authors>
+                    <author>
+                        <name>Loper JE</name>
+                    </author>
+                    <author>
+                        <name>Gross H</name>
+                    </author>
+                    <author>
+                        <name>Stockwell VO</name>
+                    </author>
+                    <author>
+                        <name>Henkels MD</name>
+                    </author>
+                    <author>
+                        <name>Nowak-Thompson</name>
+                    </author>
+                </authors>
+                <doi>
+                </doi>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>Q4KET1</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q4KET0</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q4KES9</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

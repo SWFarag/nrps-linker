@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>MICKAEL CHEVALIER</name>
+            <affiliations>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01265</id>
+            <name>fengycin A iC17</name>
+            <family>fengycin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>surfactant</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <formula>C73H112N12O20</formula>
+            <mw>1476.8115432</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>11</size>
+            <composition>iC17:0-OH(3),Glu,D-Orn,Tyr,D-aThr,Glu,D-Ala,Pro,Gln,D-Tyr,Ile</composition>
+            <graph>iC17:0-OH(3),Glu,D-Orn,Tyr,D-aThr,Glu,D-Ala,Pro,Gln,D-Tyr,Ile@1@0,2@1,3@2,4,10@3,5@4,6@5,7@6,8@7,9@8,10@3,9</graph>
+            <smiles>CC(C)CCCCCCCCCCCC(CC(=O)NC(CCC(=O)O)C(=O)NC(CCCN)C(=O)NC1CC2=CC=C(C=C2)OC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C3CCCN3C(=O)C(NC(=O)C(NC(=O)C(NC1=O)C(C)O)CCC(=O)O)C)CCC(=O)N)CC4=CC=C(C=C4)O)C(C)CC)O</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Bacillus subtilis</name>
+                <taxonomy>cellular organisms, Bacteria, Firmicutes, Bacilli, Bacillales, Bacillaceae, Bacillus</taxonomy>
+                <gram>positive</gram>
+                <synonym>Bacillus uniflagellatus,Bacillus natto,Bacillus globigii,Vibrio subtilis</synonym>
+                <taxid>1423</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Identification of lipopeptide isoforms by MALDI-TOF-MS/MS based on the simultaneous purification of iturin, fengycin, and surfactin by RP-HPLC.</title>
+                <year>2015</year>
+                <journal>Analytical and bioanalytical chemistry</journal>
+                <location>407:2529–2542</location>
+                <pmid>25662934</pmid>
+                <authors>
+                    <author>
+                        <name>Huan Yang &amp; Xu Li &amp; Xue Li &amp; Huimin Yu &amp; Zhongyao Shen</name>
+                    </author>
+                </authors>
+                <doi>10.1007</doi>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>Q45563</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>O87704</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>O30981</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc> O30980</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

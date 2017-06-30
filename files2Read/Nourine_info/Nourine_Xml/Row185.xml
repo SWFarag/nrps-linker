@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00187</id>
+            <name>pyoverdin G173</name>
+            <family>pyoverdin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <category>chromopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>8</size>
+            <composition>ChrP, D-Ser, Ala, Ac-OH-Orn, Orn, D-Asp, Ac-OH-Orn, Ser</composition>
+            <graph>ChrP,D-Ser,Ala,Ac-OH-Orn,Orn,D-Asp,Ac-OH-Orn,Ser@1@0,2@1,3@2,4@3,5,7@4,6@5,7@4,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas fluorescens</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas</taxonomy>
+                <gram>negative</gram>
+                <taxid>136843</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The pyoverdin of Pseudomonas fluorescens G173, a novel structural type accompanied by unexpected natural derivatives of the corresponding ferribactin</title>
+                <year>2003</year>
+                <journal>Zeitschrift fur Naturforschung. Section C: Biosciences</journal>
+                <location>Jan-Feb,58(1-2):1-10.</location>
+                <pmid>12622218</pmid>
+                <authors>
+                    <author>
+                        <name>Meyer JM</name>
+                    </author>
+                    <author>
+                        <name>Budzikiewicz H</name>
+                    </author>
+                    <author>
+                        <name>Uria Fernandez D</name>
+                    </author>
+                    <author>
+                        <name>Schafer M</name>
+                    </author>
+                    <author>
+                        <name>Fuchs R</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

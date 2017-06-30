@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00775</id>
+            <name>isariin D</name>
+            <family>isariin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptide</category>
+            <comment>Isariins are putative NRPS products (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>6</size>
+            <composition>Gly, Val, D-Leu, Ala, Ala, C7:0-OH(3)</composition>
+            <graph>Gly,Val,D-Leu,Ala,Ala,C7:0-OH(3)@1,5@0,2@1,3@2,4@3,5@0,4</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Isaria felina</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Clavicipitaceae, mitosporic Clavicipitaceae, Isaria</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>New insecticidal cyclodepsipeptides from the fungus Isaria felina. II. Structure elucidation of isariins B, C and D</title>
+                <year>1981</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Oct,34(10):1266-70.</location>
+                <pmid>7198112</pmid>
+                <authors>
+                    <author>
+                        <name>Deffieux G</name>
+                    </author>
+                    <author>
+                        <name>Merlet D</name>
+                    </author>
+                    <author>
+                        <name>Baute R</name>
+                    </author>
+                    <author>
+                        <name>Bourgeois G</name>
+                    </author>
+                    <author>
+                        <name>Baute MA</name>
+                    </author>
+                    <author>
+                        <name>Neveu A</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

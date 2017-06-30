@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01127</id>
+            <name>quinomycin B</name>
+            <family>quinomycin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>antitumor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C53H68N12O12S2</formula>
+            <mw>1129.3102</mw>
+            <comment>Quinomycins contain a thioacetal cross bridge. In the tiostin analogues, a disulfide bond replaces the thioacetal cross-link.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>10</size>
+            <graph>COOH-Qui,D-Ser,Ala,diMe-Cys,NMe-aIle,D-Ser,COOH-Qui,Ala,NMe-Cys,NMe-aIle@1@0,2,9@1,3@2,4,8@3,5@4,6,7@5@5,8@3,7,9@1,8</graph>
+            <smiles>CCC(C)C6C(=O)OCC(NC(=O)c1cnc2ccccc2(n1))C(=O)NC(C)C(=O)N(C)C5C(=O)N(C)C(C(C)CC)C(=O)OCC(NC(=O)c3cnc4ccccc4(n3))C(=O)NC(C)C(=O)N(C)C(CSC5SC)C(=O)N6(C)</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces sp.</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <taxid>1931</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structure of quinomycin antibiotics</title>
+                <year>1975</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Apr,28(4):332-6.</location>
+                <pmid>1150534</pmid>
+                <authors>
+                    <author>
+                        <name>Martin DG</name>
+                    </author>
+                    <author>
+                        <name>Mizsak SA</name>
+                    </author>
+                    <author>
+                        <name>Biles C</name>
+                    </author>
+                    <author>
+                        <name>Stewart JC</name>
+                    </author>
+                    <author>
+                        <name>Bacynsky L</name>
+                    </author>
+                    <author>
+                        <name>Meulman PA</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>437746</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

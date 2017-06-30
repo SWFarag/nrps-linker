@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00762</id>
+            <name>enduracidin B</name>
+            <family>enduracidin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <synonyms>enramycin</synonyms>
+            <category>lipopeptide</category>
+            <formula>C108H140Cl2N26O31</formula>
+            <mw>2369.3289</mw>
+            <comment>Ramoplanin is known to show a similar primary structure than enduracidins.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>18</size>
+            <composition>aC13:2(2.t4), Asp, Thr, D-Hpg, D-Orn, D-aThr, Hpg, D-Hpg, aThr, Cit, D-End, Hpg, D-Ser, Cl2-Hpg, Gly, End, D-Ala, Hpg</composition>
+            <graph>aC13:2(2.t4),Asp,Thr,D-Hpg,D-Orn,D-aThr,Hpg,D-Hpg,aThr,Cit,D-End,Hpg,D-Ser,Cl2-Hpg,Gly,End,D-Ala,Hpg@1@0,2@1,3,17@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@11,13@12,14@13,15@14,16@15,17@2,16</graph>
+            <smiles>CCC(C)CCCCC=CC=CC(=O)NC(CC(=O)O)C(=O)NC3C(C)OC(=O)C(NC(=O)C(C)NC(=O)C(CC1CNC(N)=N1)NC(=O)CNC(=O)C(NC(=O)C(CO)NC(=O)C(NC(=O)C(CC2CNC(N)=N2)NC(=O)C(CCCNC(N)=O)NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(CCCN)NC(=O)C(NC3(=O))c4ccc(O)cc4)C(C)O)c5ccc(O)cc5)c6ccc(O)cc6)C(C)O)c7ccc(O)cc7)c8cc(c(O)c(c8)Cl)Cl)c9ccc(O)cc9</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces fungicidicus</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <taxid>68203</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The enduracidin biosynthetic gene cluster from Streptomyces fungicidicus</title>
+                <year>2006</year>
+                <journal>Microbiology</journal>
+                <location>Oct,152(Pt 10):2969-83.</location>
+                <pmid>17005978</pmid>
+                <authors>
+                    <author>
+                        <name>Zabriskie TM</name>
+                    </author>
+                    <author>
+                        <name>Yin X</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>Q06YZ3</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q06YZ2</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q06YZ1</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q06YY9</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>16132291</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

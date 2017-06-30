@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00629</id>
+            <name>malformin B1</name>
+            <family>malformin</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <synonyms>
+            </synonyms>
+            <category>peptide</category>
+            <formula>
+            </formula>
+            <comment>The two cysteins have a disulfide bridge between them.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>other</type>
+            <size>5</size>
+            <composition>D-Cys,D-Cys,Val,D-Leu,aIle</composition>
+            <graph>D-Cys,D-Cys,Val,D-Leu,aIle@1,1,4@0,0,2@1,3@2,4@0,3</graph>
+            <smiles>CCC(C)C1C(=O)NC2CSSCC(C(=O)NC(C(=O)NC(C(=O)N1)CC(C)C)C(C)C)NC2=O</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Aspergillus niger</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Eurotiomycetes, Eurotiales, Trichocomaceae, mitosporic Trichocomaceae, Aspergillus</taxonomy>
+                <taxid>5061</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structure of malformin B, a phytotoxic metabolite produced by Aspergillus niger</title>
+                <year>1993</year>
+                <journal>Bioscience, biotechnology, and biochemistry</journal>
+                <location>May,57(5):787-91.</location>
+                <pmid>7763777</pmid>
+                <authors>
+                    <author>
+                        <name>Sugawara F</name>
+                    </author>
+                    <author>
+                        <name>Kim KW</name>
+                    </author>
+                    <author>
+                        <name>Yoshida S</name>
+                    </author>
+                    <author>
+                        <name>Takahashi N</name>
+                    </author>
+                    <author>
+                        <name>Curtis RW</name>
+                    </author>
+                    <author>
+                        <name>Murofushi N</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

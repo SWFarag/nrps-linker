@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00355</id>
+            <name>[Phe25]syringopeptin 25A</name>
+            <family>syringopeptin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>toxin</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>26</size>
+            <composition>C10:0-OH(3), dhAbu, D-Pro, D-Val, Ala, D-Ala, Val, D-Leu, D-Ala, D-Ala, dhAbu, D-Val, dhAbu, D-Ala, D-Val, D-Ala, D-Ala, dhAbu, D-aThr, D-Ser, D-Ala, Val, Ala, Dab, D-Dab, Phe</composition>
+            <graph>C10:0-OH(3),dhAbu,D-Pro,D-Val,Ala,D-Ala,Val,D-Leu,D-Ala,D-Ala,dhAbu,D-Val,dhAbu,D-Ala,D-Val,D-Ala,D-Ala,dhAbu,D-aThr,D-Ser,D-Ala,Val,Ala,Dab,D-Dab,Phe@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@11,13@12,14@13,15@14,16@15,17@16,18@17,19,25@18,20@19,21@20,22@21,23@22,24@23,25@18,24</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas syringae pv. syringae</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas syringae group, Pseudomonas syringae group genomosp. 1, Pseudomonas syringae</taxonomy>
+                <gram>negative</gram>
+                <taxid>321</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>A new syringopeptin produced by aPseudomonas syringaepv.syringaestrain isolated from diseased twigs of laurel</title>
+                <year>1997</year>
+                <journal>Physiological and Molecular Plant Pathology</journal>
+                <location>Volume 51, Issue 4, October 1997, Pages 259-264</location>
+                <authors>
+                    <author>
+                        <name>Ballio A</name>
+                    </author>
+                    <author>
+                        <name>Camoni L</name>
+                    </author>
+                    <author>
+                        <name>Di Giorgio D</name>
+                    </author>
+                    <author>
+                        <name>Scaloni A</name>
+                    </author>
+                    <author>
+                        <name>Scortichini M</name>
+                    </author>
+                    <author>
+                        <name>Cozzolino R</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

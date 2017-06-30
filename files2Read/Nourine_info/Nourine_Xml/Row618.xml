@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00626</id>
+            <name>cyclochlorotine</name>
+            <family>cyclochlorotine</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <synonyms>chloropeptide</synonyms>
+            <category>peptide</category>
+            <formula>C24H31N5O7Cl2</formula>
+            <mw>572.4383</mw>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>5</size>
+            <composition>bPhe, Ser, Cl2-Pro, Abu, Ser</composition>
+            <graph>bPhe,Ser,Cl2-Pro,Abu,Ser@1,4@0,2@1,3@2,4@0,3</graph>
+            <smiles>CCC1NC(=O)C3C(C(CN3(C(=O)C(CO)NC(=O)CC(NC(=O)C(CO)NC1(=O))c2ccccc2))Cl)Cl</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Penicillium islandicum</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Eurotiomycetes, Eurotiales, Trichocomaceae, mitosporic Trichocomaceae, Penicillium</taxonomy>
+                <taxid>28573</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Production of cyclochlorotine and a new metabolite, simatoxin, by Penicillium islandicum Sopp</title>
+                <year>1978</year>
+                <journal>Applied and environmental microbiology</journal>
+                <location>Jun,35(6):1074-8.</location>
+                <pmid>677874</pmid>
+                <authors>
+                    <author>
+                        <name>Ghosh AC</name>
+                    </author>
+                    <author>
+                        <name>Manmade A</name>
+                    </author>
+                    <author>
+                        <name>Townsend JM</name>
+                    </author>
+                    <author>
+                        <name>Bousquet A</name>
+                    </author>
+                    <author>
+                        <name>Howes JF</name>
+                    </author>
+                    <author>
+                        <name>Demain AL</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Structural and conformational analysis of hydroxycyclochlorotine and cyclochlorotine, chlorinated cyclic peptides from Penicillium islandicum</title>
+                <year>2008</year>
+                <journal>Journal of natural products</journal>
+                <location>Jul,71(7):1297-300.</location>
+                <pmid>18558744</pmid>
+                <authors>
+                    <author>
+                        <name>Mizutani K</name>
+                    </author>
+                    <author>
+                        <name>Hirasawa Y</name>
+                    </author>
+                    <author>
+                        <name>Sugita-Konishi Y</name>
+                    </author>
+                    <author>
+                        <name>Mochizuki N</name>
+                    </author>
+                    <author>
+                        <name>Morita H</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>5458420</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00230</id>
+            <name>actinomycin II</name>
+            <family>actinomycin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <synonyms>actinomycin A2, actinomycin B2, actinomycin  F8</synonyms>
+            <category>chromopeptide</category>
+            <formula>C58H82N12O16</formula>
+            <mw>1203.3425</mw>
+            <comment>If sarcosine is added to the medium, the micro-organism produces, in addition to actinomycins D and I, actinomycin II and actinomycin III, characterized by the substitution by sarcosine of one or both the proline molecules present in actinomycin D.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>double cyclic</type>
+            <size>11</size>
+            <composition>D-Val, NMe-Gly, NMe-Gly, NMe-Val, Thr, ChrAct, Thr, D-Val, NMe-Gly, NMe-Gly, NMe-Val</composition>
+            <graph>D-Val,NMe-Gly,NMe-Gly,NMe-Val,Thr,ChrAct,Thr,D-Val,NMe-Gly,NMe-Gly,NMe-Val@1,4@0,2@1,3@2,4@0,3,5@4,6@5,7,10@6,8@7,9@8,10@6,9</graph>
+            <smiles>CC(C)C5NC(=O)C(NC(=O)c2ccc(C)c3OC4=C(C)C(=O)C(N)=C(C(=O)NC1C(C)OC(=O)C(C(C)C)N(C)C(=O)CN(C)C(=O)CN(C)C(=O)C(NC1(=O))C(C)C)C4(=Nc23))C(C)OC(=O)C(C(C)C)N(C)C(=O)CN(C)C(=O)CN(C)C5(=O)</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces antibioticus</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <synonym>Actinomyces antibioticus</synonym>
+                <taxid>1890</taxid>
+            </organism>
+            <organism>
+                <name>Streptomyces chrysomallus</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <synonym>Streptomyces anulatus,Streptomyces fluorescens,Streptomyces citreofluorescens,Actinomyces fluorescens,Actinomyces citreofluorescens,Actinomyces annulatus,Actinomyces Streptothrix annulatus</synonym>
+                <taxid>1892</taxid>
+            </organism>
+            <organism>
+                <name>Streptomyces sp.</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <taxid>1931</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The isolation and structure of actinomycins II and III</title>
+                <year>1959</year>
+                <journal>The Biochemical journal</journal>
+                <location>Nov,73:535-8.</location>
+                <pmid>14407419</pmid>
+                <authors>
+                    <author>
+                        <name>JOHNSON AW</name>
+                    </author>
+                    <author>
+                        <name>MAUGER AB</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>Q9S6J9</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>O68487</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q9L8H4</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>200754</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

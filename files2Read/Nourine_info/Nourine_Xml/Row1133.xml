@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01143</id>
+            <name>scytalidamide B</name>
+            <family>scytalidamide </family>
+            <activities>
+                <activity>antitumor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C51H69N7O7</formula>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>7</size>
+            <composition>Phe, NMe-Phe, Phe, Aib, NMe-Leu, 3Me-Pro, Leu</composition>
+            <graph>Phe,NMe-Phe,Phe,Aib,NMe-Leu,3Me-Pro,Leu@1,6@0,2@1,3@2,4@3,5@4,6@5,0</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Scytalidium</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi/Metazoa group, Fungi, Dikarya, Ascomycota, mitosporic Ascomycota</taxonomy>
+                <taxid>5538</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Scytalidamides A and B, new cytotoxic cyclic heptapeptides from a marine fungus of the genus Scytalidium</title>
+                <year>2003</year>
+                <journal>The Journal of Organic Chemistry</journal>
+                <location>vol. 68,no. 23,pp. 8767-8773</location>
+                <pmid>14604342</pmid>
+                <authors>
+                    <author>
+                        <name>Lik</name>
+                    </author>
+                    <author>
+                        <name>Tong</name>
+                    </author>
+                    <author>
+                        <name>Tan</name>
+                    </author>
+                    <author>
+                        <name>Xing</name>
+                    </author>
+                    <author>
+                        <name>C</name>
+                    </author>
+                    <author>
+                        <name>Cheng</name>
+                    </author>
+                    <author>
+                        <name>Paul</name>
+                    </author>
+                    <author>
+                        <name>R</name>
+                    </author>
+                    <author>
+                        <name>Jensen</name>
+                    </author>
+                    <author>
+                        <name>William</name>
+                    </author>
+                    <author>
+                        <name>Fenical</name>
+                    </author>
+                </authors>
+                <doi>10.1021/jo030191z</doi>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00767</id>
+            <name>friulimicin C</name>
+            <family>friulimicin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <comment>The acyl residue is essential for antibiotic activity.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>12</size>
+            <composition>aC13:1(3), Asn, L-Dbu, Hpr, bMe-Asp, Asp, Gly, Asp, Gly, D-Dbu, Val, Pro</composition>
+            <graph>aC13:1(3),Asn,L-Dbu,Hpr,bMe-Asp,Asp,Gly,Asp,Gly,D-Dbu,Val,Pro@1@0,2@1,3,11@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@2,10</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Actinoplanes friuliensis</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Micromonosporineae, Micromonosporaceae,  Actinoplanes</taxonomy>
+                <gram>positive</gram>
+                <taxid>196914</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>An acyl-CoA dehydrogenase is involved in the formation of the Delta cis3 double bond in the acyl residue of the lipopeptide antibiotic friulimicin in Actinoplanes friuliensis</title>
+                <year>2005</year>
+                <journal>Microbiology</journal>
+                <location>Jun,151(Pt 6):1963-74.</location>
+                <pmid>15942003</pmid>
+                <authors>
+                    <author>
+                        <name>Heinzelmann E</name>
+                    </author>
+                    <author>
+                        <name>Berger S</name>
+                    </author>
+                    <author>
+                        <name>Muller C</name>
+                    </author>
+                    <author>
+                        <name>Hartner T</name>
+                    </author>
+                    <author>
+                        <name>Poralla K</name>
+                    </author>
+                    <author>
+                        <name>Wohlleben W</name>
+                    </author>
+                    <author>
+                        <name>Schwartz D</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Sequencing and analysis of the biosynthetic gene cluster of the lipopeptide antibiotic Friulimicin in Actinoplanes friuliensis</title>
+                <year>2007</year>
+                <journal>Antimicrobial agents and chemotherapy</journal>
+                <location>Mar,51(3):1028-37.</location>
+                <pmid>17220414</pmid>
+                <authors>
+                    <author>
+                        <name>Heinzelmann E</name>
+                    </author>
+                    <author>
+                        <name>Muller C</name>
+                    </author>
+                    <author>
+                        <name>Wohlleben W</name>
+                    </author>
+                    <author>
+                        <name>Schwartz D</name>
+                    </author>
+                    <author>
+                        <name>Puk O</name>
+                    </author>
+                    <author>
+                        <name>Nolden S</name>
+                    </author>
+                    <author>
+                        <name>Gebhardt P</name>
+                    </author>
+                    <author>
+                        <name>Lange C</name>
+                    </author>
+                    <author>
+                        <name>Welzel K</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>Q7X547</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q4H1C8</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>A3KFG5</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

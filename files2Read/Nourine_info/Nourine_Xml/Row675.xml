@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00684</id>
+            <name>A83850</name>
+            <family>A83850</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>glycopeptide</category>
+            <formula>C67H75N9O24Cl2</formula>
+            <mw>1461.2643</mw>
+            <comment>Two bonds of the central Hpg are due to oxydative ring closure.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>other</type>
+            <size>9</size>
+            <graph>Asn,bOH-Cl-Tyr,NdMe-Leu,Hpg,D-Glc,Leu,bOH-Cl-Tyr,Dhpg,Hpg@1,3@0,2,3@1@1,0,4,6,8@3,5@4@3,7,8@6,8@3,7,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Amycolatopsis alba</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Pseudonocardineae, Pseudonocardiaceae, Amycolatopsis</taxonomy>
+                <gram>positive</gram>
+                <taxid>76020</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Amycolatopsis alba sp. nov., isolated from soil</title>
+                <year>1993</year>
+                <journal>International journal of systematic bacteriology</journal>
+                <location>Oct,43(4):715-20.</location>
+                <pmid>8240953</pmid>
+                <authors>
+                    <author>
+                        <name>Mertz FP</name>
+                    </author>
+                    <author>
+                        <name>Yao RC</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

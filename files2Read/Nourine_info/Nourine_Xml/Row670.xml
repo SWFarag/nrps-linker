@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00679</id>
+            <name>virginiamycin S</name>
+            <family>virginiamycin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <synonyms>virginiamycin factor S1, Virginiamycin S1</synonyms>
+            <category>peptide</category>
+            <formula>C43H49N7O10</formula>
+            <mw>823.89</mw>
+            <comment>Virginiamycin S is a member of the streptogramin B group.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>7</size>
+            <composition>Hpa, Thr, D-Abu, Pro, NMe-Phe, 4oxo-Hpr, Ph-Gly</composition>
+            <graph>Hpa,Thr,D-Abu,Pro,NMe-Phe,4oxo-Hpr,Ph-Gly@1@0,2,6@1,3@2,4@3,5@4,6@1,5</graph>
+            <smiles>CCC3NC(=O)C(NC(=O)c1ncccc1(O))C(C)OC(=O)C(NC(=O)C5CC(=O)CCN5(C(=O)C(Cc2ccccc2)N(C)C(=O)C4CCCN4(C3(=O))))c6ccccc6</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces virginiae</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <synonym>Streptomyces virginiensis</synonym>
+                <taxid>1961</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Characterization of virginiamycin S biosynthetic genes from Streptomyces virginiae</title>
+                <year>2002</year>
+                <journal>Gene</journal>
+                <location>Mar 20,286(2):283-90.</location>
+                <pmid>11943483</pmid>
+                <authors>
+                    <author>
+                        <name>Namwat W</name>
+                    </author>
+                    <author>
+                        <name>Kamioka Y</name>
+                    </author>
+                    <author>
+                        <name>Kinoshita H</name>
+                    </author>
+                    <author>
+                        <name>Yamada Y</name>
+                    </author>
+                    <author>
+                        <name>Nihira T</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>122731</acc>
+                <name_db>PubChem</name_db>
+            </link>
+            <link>
+                <acc>Q8RR23</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>A4PHL4</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>A4PHL3</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

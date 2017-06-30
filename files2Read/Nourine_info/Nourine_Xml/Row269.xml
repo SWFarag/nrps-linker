@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00271</id>
+            <name>anabaenopeptin T</name>
+            <family>anabaenopeptin</family>
+            <activities>
+                <activity>protease inhibitor</activity>
+            </activities>
+            <category>peptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>7</size>
+            <composition>Ile, NMe-Hty, Hty, Val, D-Lys, CO, Ile</composition>
+            <graph>Ile,NMe-Hty,Hty,Val,D-Lys,CO,Ile@1,4@0,2@1,3@2,4@0,3,5@4,6@5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>water bloom</name>
+                <taxonomy>
+                </taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Five new cyanobacterial peptides from water bloom materials of lake Teganuma (Japan)</title>
+                <year>1999</year>
+                <journal>FEMS Microbiology Letters</journal>
+                <location>September,Volume 178,Page 343</location>
+                <authors>
+                    <author>
+                        <name>Suzuki S</name>
+                    </author>
+                    <author>
+                        <name>Ishida K</name>
+                    </author>
+                    <author>
+                        <name>Murakami M</name>
+                    </author>
+                    <author>
+                        <name>Kodani S</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

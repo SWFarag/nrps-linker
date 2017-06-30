@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00219</id>
+            <name>[Ile2.4.7]surfactin</name>
+            <family>surfactin</family>
+            <activities>
+                <activity>surfactant</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <comment>This variant has increased surface properties compared with that of surfactin.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>8</size>
+            <composition>aC15:0-OH(3), Glu, Ile, D-Leu, Ile, Asp, D-Leu, Ile</composition>
+            <graph>aC15:0-OH(3),Glu,Ile,D-Leu,Ile,Asp,D-Leu,Ile@1,7@0,2@1,3@2,4@3,5@4,6@5,7@0,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Bacillus subtilis</name>
+                <taxonomy>cellular organisms, Bacteria, Firmicutes, Bacilli, Bacillales, Bacillaceae, Bacillus</taxonomy>
+                <gram>positive</gram>
+                <synonym>Bacillus uniflagellatus,Bacillus natto,Bacillus globigii,Vibrio subtilis</synonym>
+                <taxid>1423</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Lipopeptides with improved properties: structure by NMR, purification by HPLC and structure-activity relationships of new isoleucyl-rich surfactins</title>
+                <year>1997</year>
+                <journal>Journal of peptide science</journal>
+                <location>Mar-Apr,3(2):145-54.</location>
+                <pmid>9230480</pmid>
+                <authors>
+                    <author>
+                        <name>Grangemard I</name>
+                    </author>
+                    <author>
+                        <name>Peypoux F</name>
+                    </author>
+                    <author>
+                        <name>Wallach J</name>
+                    </author>
+                    <author>
+                        <name>Das BC</name>
+                    </author>
+                    <author>
+                        <name>Labbe H</name>
+                    </author>
+                    <author>
+                        <name>Caille A</name>
+                    </author>
+                    <author>
+                        <name>Genest M</name>
+                    </author>
+                    <author>
+                        <name>Maget-Dana R</name>
+                    </author>
+                    <author>
+                        <name>Ptak M</name>
+                    </author>
+                    <author>
+                        <name>Bonmatin JM</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00801</id>
+            <name>mycosubtilin 3</name>
+            <family>iturin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>surfactant</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <formula>C55H86N14O16</formula>
+            <mw>1199.3556</mw>
+            <comment>The major components of mycosubtilin are iso C16 (29 %) and anteisoC17 (54 %) with  small amounts of nC16  (6 %) and isoCl7 (7 %) beta-amino acids.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>8</size>
+            <composition>iC17:0-NH2(3), Asn, D-Tyr, D-Asn, Gln, Pro, D-Ser, Asn</composition>
+            <graph>iC17:0-NH2(3),Asn,D-Tyr,D-Asn,Gln,Pro,D-Ser,Asn@1,7@0,2@1,3@2,4@3,5@4,6@5,7@0,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Bacillus subtilis</name>
+                <taxonomy>cellular organisms, Bacteria, Firmicutes, Bacilli, Bacillales, Bacillaceae, Bacillus</taxonomy>
+                <gram>positive</gram>
+                <synonym>Bacillus uniflagellatus,Bacillus natto,Bacillus globigii,Vibrio subtilis</synonym>
+                <taxid>1423</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The mycosubtilin synthetase of Bacillus subtilis ATCC6633: a multifunctional hybrid between a peptide synthetase, an amino transferase, and a fatty acid synthase</title>
+                <year>1999</year>
+                <journal>Proceedings of the National Academy of Sciences of the United States of America</journal>
+                <location>Nov 9,96(23):13294-9.</location>
+                <pmid>10557314</pmid>
+                <authors>
+                    <author>
+                        <name>Duitman EH</name>
+                    </author>
+                    <author>
+                        <name>Hamoen LW</name>
+                    </author>
+                    <author>
+                        <name>Rembold M</name>
+                    </author>
+                    <author>
+                        <name>Venema G</name>
+                    </author>
+                    <author>
+                        <name>Seitz H</name>
+                    </author>
+                    <author>
+                        <name>Saenger W</name>
+                    </author>
+                    <author>
+                        <name>Bernhard F</name>
+                    </author>
+                    <author>
+                        <name>Reinhardt R</name>
+                    </author>
+                    <author>
+                        <name>Schmidt M</name>
+                    </author>
+                    <author>
+                        <name>Ullrich C</name>
+                    </author>
+                    <author>
+                        <name>Stein T</name>
+                    </author>
+                    <author>
+                        <name>Leenders F</name>
+                    </author>
+                    <author>
+                        <name>Vater J</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>Q9R9J1</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q9R9J0</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q9R9I9</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

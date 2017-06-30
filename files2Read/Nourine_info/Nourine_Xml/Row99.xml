@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00100</id>
+            <name>enniatin C</name>
+            <family>enniatin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C36H63N3O9</formula>
+            <mw>681.9001</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>6</size>
+            <composition>D-Hiv, NMe-Leu, D-Hiv, NMe-Leu, D-Hiv, NMe-Leu</composition>
+            <graph>D-Hiv,NMe-Leu,D-Hiv,NMe-Leu,D-Hiv,NMe-Leu@1,5@0,2@1,3@2,4@3,5@0,4</graph>
+            <smiles>CC(C)CC1C(=O)OC(C(C)C)C(=O)N(C)C(CC(C)C)C(=O)OC(C(C)C)C(=O)N(C)C(CC(C)C)C(=O)OC(C(C)C)C(=O)N1(C)</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Fusarium</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Dikarya, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, mitosporic Hypocreales</taxonomy>
+                <taxid>5506</taxid>
+            </organism>
+            <organism>
+                <name>Verticillium hemipterigenum</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Unusual enniatins produced by the insect pathogenic fungus Verticillium hemipterigenum: Isolation and studies on precursor-directed biosynthesis</title>
+                <year>2003</year>
+                <journal>Tetrahedron</journal>
+                <location>59 (7), pp. 1015-1020</location>
+                <authors>
+                    <author>
+                        <name>Isaka M</name>
+                    </author>
+                    <author>
+                        <name>Thebtaranonth Y</name>
+                    </author>
+                    <author>
+                        <name>Nilanonta C</name>
+                    </author>
+                    <author>
+                        <name>Chanphen R</name>
+                    </author>
+                    <author>
+                        <name>Thong-orn N</name>
+                    </author>
+                    <author>
+                        <name>Tanticharoen M</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>Q00869</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q00868</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>3010888</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

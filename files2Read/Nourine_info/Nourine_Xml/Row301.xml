@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00304</id>
+            <name>HC-toxin</name>
+            <family>HC-toxin</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C21H32N4O6</formula>
+            <mw>436.50198</mw>
+            <comment>HC-toxin is required for pathogenicity of the filamentous fungus Cochliobolus carbonum on maize.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>4</size>
+            <composition>D-Pro, Ala, D-Ala, C10:0-NH2(2)-Ep(9)-oxo(8)</composition>
+            <graph>D-Pro,Ala,D-Ala,C10:0-NH2(2)-Ep(9)-oxo(8)@1,3@0,2@1,3@0,2</graph>
+            <smiles>CC2NC(=O)C(C)NC(=O)C3CCCN3(C(=O)C(CCCCCC(=O)C1CO1)NC2(=O))</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Cochliobolus carbonum</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Dothideomycetes, Pleosporales, Pleosporaceae, Cochliobolus</taxonomy>
+                <taxid>5017</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>A putative branched-chain-amino-acid transaminase gene required for HC-toxin biosynthesis and pathogenicity in Cochliobolus carbonum</title>
+                <year>1999</year>
+                <journal>Microbiology</journal>
+                <location>Dec,145 ( Pt 12):3539-46.</location>
+                <pmid>10627051</pmid>
+                <authors>
+                    <author>
+                        <name>Cheng YQ</name>
+                    </author>
+                    <author>
+                        <name>Ahn JH</name>
+                    </author>
+                    <author>
+                        <name>Walton JD</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>The cyclic peptide synthetase catalyzing HC-toxin production in the filamentous fungus Cochliobolus carbonum is encoded by a 15.7-kilobase open reading frame</title>
+                <year>1992</year>
+                <journal>The Journal of biological chemistry</journal>
+                <location>Dec 25,267(36):26044-9.</location>
+                <pmid>1281482</pmid>
+                <authors>
+                    <author>
+                        <name>Walton JD</name>
+                    </author>
+                    <author>
+                        <name>Scott-Craig JS</name>
+                    </author>
+                    <author>
+                        <name>Panaccione DG</name>
+                    </author>
+                    <author>
+                        <name>Pocard JA</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>107864</acc>
+                <name_db>PubChem</name_db>
+            </link>
+            <link>
+                <acc>Q01886</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

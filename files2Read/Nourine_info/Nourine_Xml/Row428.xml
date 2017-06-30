@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00436</id>
+            <name>guineamide C</name>
+            <family>guineamide</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C35H53N4O7</formula>
+            <mw>641.81793</mw>
+            <comment>Guineamide is a putative NRPS product (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>5</size>
+            <composition>Hmp, NMe-OMe-Tyr, Val, NMe-Ala, C8:0:1(7)-Me(2)-NH2(3)</composition>
+            <graph>Hmp,NMe-OMe-Tyr,Val,NMe-Ala,C8:0:1(7)-Me(2)-NH2(3)@1,4@0,2@1,3@2,4@0,3</graph>
+            <smiles>C#CCCCC2NC(=O)C(C)N(C)C(=O)C(NC(=O)C(Cc1ccc(cc1)OC)N(C)C(=O)C(OC(=O)C2(C))C(C)CC)C(C)C</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Lyngbya majuscula</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Oscillatoriales, Lyngbya</taxonomy>
+                <gram>negative</gram>
+                <taxid>158786</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The guineamides, novel cyclic depsipeptides from a Papua New Guinea collection of the marine cyanobacterium Lyngbya majuscula</title>
+                <year>2003</year>
+                <journal>Journal of natural products</journal>
+                <location>Jun,66(6):764-71.</location>
+                <pmid>12828459</pmid>
+                <authors>
+                    <author>
+                        <name>Gerwick WH</name>
+                    </author>
+                    <author>
+                        <name>Tan LT</name>
+                    </author>
+                    <author>
+                        <name>Sitachitta N</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

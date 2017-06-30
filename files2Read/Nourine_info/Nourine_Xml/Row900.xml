@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00910</id>
+            <name>pyoverdin Thai</name>
+            <family>pyoverdin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <category>chromopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>7</size>
+            <composition>ChrP, Ser, Dab, Thr, Ser, Ac-OH-Orn, OH-cOrn</composition>
+            <graph>ChrP,Ser,Dab,Thr,Ser,Ac-OH-Orn,OH-cOrn@1@0,2,2@1,1,3@2,4@3,5@4,6@5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas putida</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas putida group</taxonomy>
+                <gram>negative</gram>
+                <synonym>Pseudomonas ovalis,Pseudomonas arvilla,Arthrobacter siderocapsulatus,Pseudomonas striata,Pseudomonas rugosa,Pseudomonas incognita,Pseudomonas convexa,Pseudomonas eisenbergii,Bacillus putidus</synonym>
+                <taxid>303</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structure proposal for a new pyoverdin from a Thai Pseudomonas putida strain</title>
+                <year>2004</year>
+                <journal>SPECTROSCOPY</journal>
+                <location>VOL 18, PART 3, pages 453-458</location>
+                <authors>
+                    <author>
+                        <name>Budzikiewicz H</name>
+                    </author>
+                    <author>
+                        <name>Schafer M</name>
+                    </author>
+                    <author>
+                        <name>Ruangviriyachai C</name>
+                    </author>
+                    <author>
+                        <name>Fernandez DU</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

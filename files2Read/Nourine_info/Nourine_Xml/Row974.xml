@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00984</id>
+            <name>emerimicin IIB</name>
+            <family>emerimicin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptaibol</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>16</size>
+            <composition>Ac-Trp, Ile, Gln, Ival, Ile, Thr, Aib, Leu, Aib, 4OH-Pro, Gln, Aib, 4OH-Pro, Aib, Pro, Pheol</composition>
+            <graph>Ac-Trp,Ile,Gln,Ival,Ile,Thr,Aib,Leu,Aib,4OH-Pro,Gln,Aib,4OH-Pro,Aib,Pro,Pheol@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@11,13@12,14@13,15@14</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Emericellopsis microspora</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Dikarya, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Hypocreales incertae sedis, Emericellopsis</taxonomy>
+                <taxid>282062</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Emerimicins II, 3 and IV, antibiotics produced by Emericellopsis microspora in media supplemented with trans-4-n-propyl-L-proline</title>
+                <year>1974</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Apr,27(4):274-82.</location>
+                <pmid>4851844</pmid>
+                <authors>
+                    <author>
+                        <name>Argoudelis AD</name>
+                    </author>
+                    <author>
+                        <name>Johnson LE</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>16132327</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

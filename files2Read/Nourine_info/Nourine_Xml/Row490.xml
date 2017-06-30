@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00498</id>
+            <name>theonellapeptolide Id</name>
+            <family>theonellapeptolide</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C70H125N13O16</formula>
+            <mw>1404.819</mw>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>13</size>
+            <composition>NOMe-Ac-Val, D-NMe-Leu, Thr, bAla, D-Leu, NMe-Ile, bAla, D-aIle, NMe-Val, NMe-Ala, bAla, D-Leu, D-NMe-aIle</composition>
+            <graph>NOMe-Ac-Val,D-NMe-Leu,Thr,bAla,D-Leu,NMe-Ile,bAla,D-aIle,NMe-Val,NMe-Ala,bAla,D-Leu,D-NMe-aIle@1@0,2@1,3,12@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@2,11</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Theonella swinhoei</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Tetractinomorpha, Lithistida, Triaenosina, Theonellidae, Theonella</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The highly solvated structure of theonellapeptolide Id, a tridecapeptide lactone from the Okinawa marine sponge Theonella swinhoei</title>
+                <year>1999</year>
+                <journal>Acta Crystallographica Section C: Crystal Structure Communications</journal>
+                <location>55 (5), pp. 796-798</location>
+                <authors>
+                    <author>
+                        <name>Doi M</name>
+                    </author>
+                    <author>
+                        <name>Ishida T</name>
+                    </author>
+                    <author>
+                        <name>Kobayashi M</name>
+                    </author>
+                    <author>
+                        <name>Deschamps JR</name>
+                    </author>
+                    <author>
+                        <name>Flippen-Anderson JL</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

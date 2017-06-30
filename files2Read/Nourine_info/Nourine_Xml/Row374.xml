@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00382</id>
+            <name>didemnin X</name>
+            <family>didemnin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>antitumor</activity>
+                <activity>immunomodulating</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C82H131N13O23</formula>
+            <mw>1666.9908</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>13</size>
+            <composition>Ist, Hip, Leu, Pro, NMe-OMe-Tyr, Thr, D-NMe-Leu, Pro, Lac, Gln, Gln, Gln, C10:0-OH(3)</composition>
+            <graph>Ist,Hip,Leu,Pro,NMe-OMe-Tyr,Thr,D-NMe-Leu,Pro,Lac,Gln,Gln,Gln,C10:0-OH(3)@1,5@0,2@1,3@2,4@3,5@0,4,6@5,7@6,8@7,9@8,10@9,11@10,12@11</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Trididemnum solidum</name>
+                <taxonomy>caribbean tunicate</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Seven new didemnins from the marine tunicate Trididemnum solidum</title>
+                <year>1995</year>
+                <journal>Journal of the American Chemical Society</journal>
+                <location>117 (13), pp. 3734-3748</location>
+                <authors>
+                    <author>
+                        <name>Rinehart KL</name>
+                    </author>
+                    <author>
+                        <name>Sakai R</name>
+                    </author>
+                    <author>
+                        <name>Stroh JG</name>
+                    </author>
+                    <author>
+                        <name>Sullins DW</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

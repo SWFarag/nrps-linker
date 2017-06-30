@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00095</id>
+            <name>enniatin B1</name>
+            <family>enniatin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>6</size>
+            <composition>D-Hiv, NMe-Val, D-Hiv, NMe-Val, D-Hiv, NMe-Ile</composition>
+            <graph>D-Hiv,NMe-Val,D-Hiv,NMe-Val,D-Hiv,NMe-Ile@1,5@0,2@1,3@2,4@3,5@0,4</graph>
+            <smiles>CCC(C)C1C(=O)OC(C(C)C)C(=O)N(C)C(C(C)C)C(=O)OC(C(C)C)C(=O)N(C)C(C(C)C)C(=O)OC(C(C)C)C(=O)N1(C)</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Fusarium oxysporum</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, mitosporic Hypocreales, Fusarium, Fusarium oxysporum complex</taxonomy>
+                <taxid>5507</taxid>
+            </organism>
+            <organism>
+                <name>Beauveria</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Clavicipitaceae, mitosporic Clavicipitaceae</taxonomy>
+                <taxid>5581</taxid>
+            </organism>
+            <organism>
+                <name>Halosarpheia</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Halosphaeriales, Halosphaeriaceae</taxonomy>
+                <taxid>45846</taxid>
+            </organism>
+            <organism>
+                <name>Polyporus</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Basidiomycota, Hymenomycetes, Homobasidiomycetes, Aphyllophorales, Polyporaceae</taxonomy>
+                <taxid>5637</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Beauvericin and enniatins A, A1, B and B1 in Norwegian grain: a survey</title>
+                <year>2006</year>
+                <journal>Food Chemistry United Kingdom</journal>
+                <location>Volume 94, Issue 2, January 2006, Pages 193-201</location>
+                <authors>
+                    <author>
+                        <name>Uhlig S</name>
+                    </author>
+                    <author>
+                        <name>Torp M</name>
+                    </author>
+                    <author>
+                        <name>Heier BT</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>Q00869</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q00868</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

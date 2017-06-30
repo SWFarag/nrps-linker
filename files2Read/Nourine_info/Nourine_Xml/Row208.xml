@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00210</id>
+            <name>chrysobactin</name>
+            <family>chrysobactin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C16H23N3O7</formula>
+            <mw>369.36972</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>3</size>
+            <composition>diOH-Bz, D-Lys, Ser</composition>
+            <graph>diOH-Bz,D-Lys,Ser@1@0,2@1</graph>
+            <smiles>NCCCCC(NC(=O)c1cccc(O)c1(O))C(=O)NC(CO)C(=O)O</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Erwinia chrysanthemi</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Enterobacteriales, Enterobacteriaceae, Dickeya</taxonomy>
+                <gram>negative</gram>
+                <synonym>Pectobacterium parthenii,Pectobacterium chrysanthemi,Dickeya chrysanthemi,Pectobacterium parthenii var. dianthicola</synonym>
+                <taxid>556</taxid>
+            </organism>
+            <organism>
+                <name>Erwinia carotovora carotovora</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Enterobacteriales, Enterobacteriaceae, Pectobacterium, Pectobacterium carotovorum</taxonomy>
+                <gram>negative</gram>
+                <synonym>Pectobacterium carotovorum subsp. carotovorum, Erwinia carotovora subsp. carotovora</synonym>
+                <taxid>555</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Isolation, characterization, and synthesis of chrysobactin, a compound with siderophore activity from Erwinia chrysanthemi</title>
+                <year>1989</year>
+                <journal>The Journal of biological chemistry</journal>
+                <location>Feb 25,264(6):3187-93.</location>
+                <pmid>2914949</pmid>
+                <authors>
+                    <author>
+                        <name>Persmark M</name>
+                    </author>
+                    <author>
+                        <name>Expert D</name>
+                    </author>
+                    <author>
+                        <name>Neilands JB</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Chrysobactin-dependent iron acquisition in Erwinia chrysanthemi. Functional study of a homolog of the Escherichia coli ferric enterobactin esterase</title>
+                <year>2002</year>
+                <journal>The Journal of biological chemistry</journal>
+                <location>25,277(4):2385-95.</location>
+                <pmid>11694506</pmid>
+                <authors>
+                    <author>
+                        <name>Expert D</name>
+                    </author>
+                    <author>
+                        <name>Rauscher L</name>
+                    </author>
+                    <author>
+                        <name>Matzanke BF</name>
+                    </author>
+                    <author>
+                        <name>Trautwein AX</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>129039</acc>
+                <name_db>PubChem</name_db>
+            </link>
+            <link>
+                <acc>Q8VUE5</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

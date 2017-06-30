@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00621</id>
+            <name>majusculamide C</name>
+            <family>majusculamide</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>antitumor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C50H80N8O12</formula>
+            <mw>985.2166</mw>
+            <comment>Majusculamide C is a putative NRPS product (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>9</size>
+            <composition>Map, Ala, Ibu, NMe-OMe-Tyr, NMe-Val, Gly, NMe-Ile, Gly, Hmp</composition>
+            <graph>Map,Ala,Ibu,NMe-OMe-Tyr,NMe-Val,Gly,NMe-Ile,Gly,Hmp@1,8@0,2@1,3@2,4@3,5@4,6@5,7@6,8@0,7</graph>
+            <smiles>CCC(C)C2OC(=O)C(C)C(CC)NC(=O)C(C)NC(=O)C(C)(C)C(=O)C(C)NC(=O)C(Cc1ccc(cc1)OC)N(C)C(=O)C(C(C)C)N(C)C(=O)CNC(=O)C(C(C)CC)N(C)C(=O)CNC2(=O)</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Lyngbya majuscula</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Oscillatoriales, Lyngbya</taxonomy>
+                <gram>negative</gram>
+                <taxid>158786</taxid>
+            </organism>
+            <organism>
+                <name>Dolabella auricularia</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Eumetazoa, Bilateria, Coelomata, Protostomia, Mollusca, Gastropoda, Orthogastropoda, Apogastropoda, Heterobranchia, Euthyneura, Opisthobranchia, Anaspidea, Aplysioidea, Aplysiidae, Dolabella</taxonomy>
+                <taxid>6511</taxid>
+            </organism>
+            <organism>
+                <name>Ptilocaulis trachys</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Halichondrida, Axinellidae, Ptilocaulis</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The isolation of Majusculamide C from the sponge Ptilocaulis trachys collected in Enewetak and determination of the absolute configuration of the 2-methyl-3-aminopentanoic acid residue </title>
+                <year>1993</year>
+                <journal>Journal of natural products</journal>
+                <location>56 (4), pp. 545-551</location>
+                <authors>
+                    <author>
+                        <name>Williams DE</name>
+                    </author>
+                    <author>
+                        <name>Andersen RJ</name>
+                    </author>
+                    <author>
+                        <name>Allen TM</name>
+                    </author>
+                    <author>
+                        <name>Burgoyne DL</name>
+                    </author>
+                    <author>
+                        <name>Rettig SJ</name>
+                    </author>
+                    <author>
+                        <name>Fathi-Afshar ZR</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

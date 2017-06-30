@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00526</id>
+            <name>phakellistatin 4</name>
+            <family>phakellistatin</family>
+            <activities>
+                <activity>antitumor</activity>
+            </activities>
+            <category>peptide</category>
+            <comment>Phakellistatins are putative NRPS products (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>7</size>
+            <composition>Pro, Phe, Ile, Phe, Ser, Pro, Thr</composition>
+            <graph>Pro,Phe,Ile,Phe,Ser,Pro,Thr@1,6@0,2@1,3@2,4@3,5@4,6@0,5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Phakellia sp.</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Halichondrida, Axinellidae, Phakellia</taxonomy>
+                <taxid>85814</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>What are the structures of phakellistatin 2 and phakellistatin 4? </title>
+                <year>1997</year>
+                <journal>Letters in Peptide Science</journal>
+                <location>4 (1), pp. 21-28</location>
+                <authors>
+                    <author>
+                        <name>Mechnich O</name>
+                    </author>
+                    <author>
+                        <name>Kassler H</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

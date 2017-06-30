@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00362</id>
+            <name>putisolvin II</name>
+            <family>putisolvin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>surfactant</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <comment>The stereoisomers (D or L form) of the amino acids are not identified. Putisolvin I and putisolvin II influence the development of the biofilm and can inhibit the formation of Pseudomonas biofilms on polyvinyl chloride.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>13</size>
+            <composition>C6:0, Leu, Glu, Leu, Ile, Gln, Ser, Val, Ile, Ser, Leu, Leu, Ser</composition>
+            <graph>C6:0,Leu,Glu,Leu,Ile,Gln,Ser,Val,Ile,Ser,Leu,Leu,Ser@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10,12@9,11@10,12@9,11</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas putida</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas putida group</taxonomy>
+                <gram>negative</gram>
+                <synonym>Pseudomonas ovalis,Pseudomonas arvilla,Arthrobacter siderocapsulatus,Pseudomonas striata,Pseudomonas rugosa,Pseudomonas incognita,Pseudomonas convexa,Pseudomonas eisenbergii,Bacillus putidus</synonym>
+                <taxid>303</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Characterization of two Pseudomonas putida lipopeptide biosurfactants, putisolvin I and II, which inhibit biofilm formation and break down existing biofilms</title>
+                <year>2004</year>
+                <journal>Molecular microbiology</journal>
+                <location>Jan,51(1):97-113.</location>
+                <pmid>14651614</pmid>
+                <authors>
+                    <author>
+                        <name>Kuiper I</name>
+                    </author>
+                    <author>
+                        <name>Lagendijk EL</name>
+                    </author>
+                    <author>
+                        <name>Pickford R</name>
+                    </author>
+                    <author>
+                        <name>Derrick JP</name>
+                    </author>
+                    <author>
+                        <name>Lamers GE</name>
+                    </author>
+                    <author>
+                        <name>Thomas-Oates JE</name>
+                    </author>
+                    <author>
+                        <name>Lugtenberg BJ</name>
+                    </author>
+                    <author>
+                        <name>Bloemberg GV</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Genetic and functional characterization of the gene cluster directing the biosynthesis of putisolvin I and II in Pseudomonas putida strain PCL1445</title>
+                <year>2008</year>
+                <journal>Microbiology</journal>
+                <location>Jul,154(Pt 7):2070-83.</location>
+                <pmid>18599835</pmid>
+                <authors>
+                    <author>
+                        <name>Bloemberg GV</name>
+                    </author>
+                    <author>
+                        <name>Dubern JF</name>
+                    </author>
+                    <author>
+                        <name>Coppoolse ER</name>
+                    </author>
+                    <author>
+                        <name>Stiekema WJ</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>A8MN36</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>A8MN37</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>A8MN38</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

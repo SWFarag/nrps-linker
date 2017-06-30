@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+
+{% block heading %} {{super()}} {% endblock %}
+
+
+{% block content %}
+
+<div id="tutorial" class="container-fluid">
+    <h2>Tutorials</h2>
+
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Parser</a></li>
+    <li><a data-toggle="tab" href="#menu1">IMLs Database</a></li>
+    <li><a data-toggle="tab" href="#menu2">NRPS Design</a></li>
+    <li><a data-toggle="tab" href="#menu3">General work-flow</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+        <br>
+        <div class="row">
+           <div class = "col-lg-12" >
+               <p>Everyday, new bacteria are being sequenced and added to the genomic database.
+               Some of them might have novel and unique inter-modular linkers (IMLs).
+               Thus <a href="{{ url_for('doParse') }}"> NRPS Parser </a> will help users to identify and extract all new IMLs and
+               in turn this will help us expanding and updating our IMLs database.</p>
+           </div>
+      </div>
+        <br>
+        <iframe width="420" height="345" src="https://www.youtube.com/embed/IdZs2HhMPV4" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <div class="row">
+                <div class = "col-lg-12" >
+                    <h4> IMLs Database</h4>
+                    <p>
+                       IMLs database consist of two Libraries:
+                        <ol>
+                            <li><strong>MIBiG IMLs library:</strong> which contains 586 inter-modular linkers retrieved from 408 non-ribosomal peptide BGCs.</li>
+                            <li><strong>NCBI IMLs library:</strong> which contains 17454 inter-modular linkers retrieved from 51810 non-ribosomal peptide BGCs.</li>
+                        </ol>
+                        Both libraries share the following columns:
+                        <ul>
+                            <li><b>A1:</b> The adenylation substrate of module one.</li>
+                            <li> <b>Linker:</b> The inter-modular linker between two successive modules</li>
+                            <li><b>A2:</b> The adenylation substrate of module two</li>
+                            <li><b>Length:</b> The length of the linker</li>
+                            <li><b>Organism_name:</b> The name of the organism the BGC belongs to.</li>
+                        </ul>
+                        Both libraries are <strong>searchable</strong> and the data can be <strong>sorted</strong> in multiple ways. Moreover, if users are interested in a particular section of the table, they get
+                        to export that section as a CSV file.
+                    </p>
+                </div>
+            </div>
+        <br>
+        <iframe width="420" height="345" src="https://www.youtube.com/embed/eBhP1U2Xs9Y" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+       <br>
+      <div class="row">
+           <div class = "col-lg-12" >
+               <p><a href="{{ url_for('setPeptidebasedDesignPage') }}"> NRPS Design </a> is an algorithm, that guides users to design novel NRPSs enzymes using the IMLs database.
+                   Moreover, based on the desired design, the bacterial genome will be re-programmed accordingly and novel
+                   non-ribosomal peptide biosynthetic gene clusters will be engineered, leading to novel non-ribosomal peptides.</p>
+           </div>
+      </div>
+       <br>
+     <iframe width="420" height="345" src="https://www.youtube.com/embed/5NmxsDbjnIA" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+        <br>
+         <div class="row">
+             <div class = "col-lg-12" >
+                <div class="row">
+                    <div class = "col-lg-12" >
+                        <h3>NRPS-Linker Workflow:</h3>
+                        <ol>
+                            <li>
+                                <p>Download all known NRP biosynthetic gene clusters from <a href="https://mibig.secondarymetabolites.org" target="_blank"> the MIBiG repository. </a></p>
+                            </li>
+                            <li>
+                                <p>Download the whole <a href="ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/bacteria/" target="_blank"> NCBI RefSeq Bacterial genomes.</a></font><sup><font color="red"> Till Jan. 2017</font></sup> </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Each database was scanned for NRP gene clusters using <a href="https://antismash.secondarymetabolites.org/#!/start" target="_blank"> the AntiSMASH tool</a>, that
+                                    allows rapid genome-wide identification, annotation and analysis of
+                                    secondary metabolite biosynthesis gene clusters in bacterial and fungal genomes.
+                                </p>
+                            </li>
+                            <li>
+                                <p> Run <a href="{{ url_for('doParse') }}"> NRPS Parser </a> on all identified NRP gene clusters, extract all possible IMLs and update our IMLs database</p>
+                                 <div class="row">
+                                     <div class = "col-lg-10" align="center" >
+                                         <img src="/static/images/IML_AIMS_1.png" class="img-rounded" alt="network" height="600" width="1200" >
+                                     </div>
+                                 </div>
+                            </li>
+                             <li>
+                                <p> Analyze all extracted IMLs for selectivity, sgnificance, and determine their level of conservation within and across species.</p>
+                            </li>
+                             <li>
+                                <p> After extracting, analyzing and establishing the first IMLs database. Run <a href="{{ url_for('setPeptidebasedDesignPage') }}"> NRPS Design </a>,
+                                    which uses linkers from IMLs database to guide designing and re-enineering of novel non-ribosomal peptides.</p>
+                                 <div class="row">
+                                     <div class = "col-lg-8" >
+                                         <img src="/static/images/impact.png" class="img-rounded" alt="impact"  style="width: 1000px">
+                                         <br><br>
+                                         <figcaption style="font-size: medium"> <b>Fig.3</b> - Impact of IMLs Database.</figcaption>
+                                     </div>
+                                 </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}
+
+
+
+{% block footer %} {{super()}} {% endblock %}
+
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00599</id>
+            <name>cyclocinamide A</name>
+            <family>cyclocinamide</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C29H33BrClN9O8</formula>
+            <mw>750.9848</mw>
+            <comment>Cyclocinamide is a putative NRPS product (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>6</size>
+            <composition>MCP, Gly, Dpr, Asn, Iser, Br-Trp</composition>
+            <graph>MCP,Gly,Dpr,Asn,Iser,Br-Trp@1@0,2@1,3,5@2,4@3,5@2,4</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Psammocinia</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera Demospongiae, Ceractinomorpha, Dictyoceratida, Thorectidae</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Cyclocinamide A. An unusual cytotoxic halogenated hexapeptide from the marine sponge Psammocinia</title>
+                <year>1997</year>
+                <journal>Journal of the American Chemical Society</journal>
+                <location>119 (39), pp. 9285-9286</location>
+                <authors>
+                    <author>
+                        <name>Crews P</name>
+                    </author>
+                    <author>
+                        <name>Clark WD</name>
+                    </author>
+                    <author>
+                        <name>Corbett T</name>
+                    </author>
+                    <author>
+                        <name>Valeriote F</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

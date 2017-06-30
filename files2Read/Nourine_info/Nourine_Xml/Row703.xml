@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00712</id>
+            <name>beauvericin B</name>
+            <family>beauvericin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>6</size>
+            <composition>NMe-Phe, D-Hmp, NMe-Phe, D-Hmp, NMe-Phe, D-Hiv</composition>
+            <graph>NMe-Phe,D-Hmp,NMe-Phe,D-Hmp,NMe-Phe,D-Hiv@1,5@0,2@1,3@2,4@3,5@0,4</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Paecilomyces tenuipes</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Dikarya, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Cordycipitaceae, mitosporic Cordycipitaceae, Isaria</taxonomy>
+                <synonym>Isaria tenuipes</synonym>
+                <taxid>45847</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Precursor-directed biosynthesis of beauvericin analogs by the insect pathogenic fungus Paecilomyces tenuipes BCC 1614</title>
+                <year>2002</year>
+                <journal>Tetrahedron</journal>
+                <location>April 2002 , pp. 3355-3360(6)</location>
+                <authors>
+                    <author>
+                        <name>Isaka M</name>
+                    </author>
+                    <author>
+                        <name>Kittakoop P</name>
+                    </author>
+                    <author>
+                        <name>Thebtaranonth Y</name>
+                    </author>
+                    <author>
+                        <name>Nilanonta C</name>
+                    </author>
+                    <author>
+                        <name>Tanticharoen M</name>
+                    </author>
+                    <author>
+                        <name>Trakulnaleamsai S</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

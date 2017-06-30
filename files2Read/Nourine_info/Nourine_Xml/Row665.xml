@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00674</id>
+            <name>neoviridogrisein II</name>
+            <family>neoviridogrisein</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptide</category>
+            <comment>Neoviridogriseins are putative NRPS products (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>8</size>
+            <composition>Hpa, Thr, NMe-Ph-Gly, Ala, NMe-bMe-Leu, NMe-Gly, D-Pro, D-Leu</composition>
+            <graph>Hpa,Thr,NMe-Ph-Gly,Ala,NMe-bMe-Leu,NMe-Gly,D-Pro,D-Leu@1@0,2,7@1,3@2,4@3,5@4,6@5,7@1,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae</taxonomy>
+                <gram>positive</gram>
+                <synonym>Chainia</synonym>
+                <taxid>1883</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Controlled biosynthesis of neoviridogriseins, new homologues of viridogrisein. IV. In vitro synergism between neoviridogrisein II and the antibiotics of the mikamycin A group</title>
+                <year>1979</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Nov,32(11):1130-6.</location>
+                <pmid>118957</pmid>
+                <authors>
+                    <author>
+                        <name>Okumura Y</name>
+                    </author>
+                    <author>
+                        <name>Sakamoto M</name>
+                    </author>
+                    <author>
+                        <name>Takei T</name>
+                    </author>
+                    <author>
+                        <name>Ishikura T</name>
+                    </author>
+                    <author>
+                        <name>Fukagawa Y</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

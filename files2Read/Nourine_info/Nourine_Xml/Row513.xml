@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00521</id>
+            <name>axinellin B</name>
+            <family>axinellin</family>
+            <activities>
+                <activity>antitumor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C50H67N9O9</formula>
+            <mw>938.12195</mw>
+            <comment>axinellin is a putative NRPS product (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>8</size>
+            <composition>Pro, Phe, Pro, Thr, Leu, Val, Pro, Trp</composition>
+            <graph>Pro,Phe,Pro,Thr,Leu,Val,Pro,Trp@1,7@0,2@1,3@2,4@3,5@4,6@5,7@0,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Axinella carteri</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Halichondrida, Axinellidae, Axinella</taxonomy>
+                <taxid>85779</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Axinellins A and B: New proline-containing antiproliferative cyclopeptides from the vanuatu sponge Axinella carteri </title>
+                <year>1998</year>
+                <journal>European Journal of Organic Chemistry</journal>
+                <location>(11), pp. 2659-2665</location>
+                <authors>
+                    <author>
+                        <name>Gomez-Paloma L</name>
+                    </author>
+                    <author>
+                        <name>Pucci P</name>
+                    </author>
+                    <author>
+                        <name>Debitus C</name>
+                    </author>
+                    <author>
+                        <name>Roussakis C</name>
+                    </author>
+                    <author>
+                        <name>Randazzo A</name>
+                    </author>
+                    <author>
+                        <name>Dal Piaz F</name>
+                    </author>
+                    <author>
+                        <name>Orru S</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

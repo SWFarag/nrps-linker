@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01001</id>
+            <name>heptaibin</name>
+            <family>heptaibin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptaibol</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>15</size>
+            <composition>Ac-Phe, Aib, Aib, Aib, Val, Gly, Leu, Aib, Aib, 4OH-Pro, Gln, Aib, 4OH-Pro, Aib, Pheol</composition>
+            <graph>Ac-Phe,Aib,Aib,Aib,Val,Gly,Leu,Aib,Aib,4OH-Pro,Gln,Aib,4OH-Pro,Aib,Pheol@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@11,13@12,14@13</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Emericellopsis</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Dikarya, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Hypocreales incertae sedis</taxonomy>
+                <taxid>45244</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Heptaibin, a novel antifungal peptaibol antibiotic from Emericellopsis sp. BAUA8289</title>
+                <year>2000</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Jul,53(7):728-32.</location>
+                <pmid>10994817</pmid>
+                <authors>
+                    <author>
+                        <name>Ishiyama D</name>
+                    </author>
+                    <author>
+                        <name>Satou T</name>
+                    </author>
+                    <author>
+                        <name>Senda H</name>
+                    </author>
+                    <author>
+                        <name>Fujimaki T</name>
+                    </author>
+                    <author>
+                        <name>Honda R</name>
+                    </author>
+                    <author>
+                        <name>Kanazawa S</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

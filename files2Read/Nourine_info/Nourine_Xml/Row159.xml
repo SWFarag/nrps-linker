@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00161</id>
+            <name>pyoverdin 9AW</name>
+            <family>pyoverdin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <category>chromopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>7</size>
+            <composition>ChrP, D-Ser, Lys, OH-His, D-aThr, Ser, OH-cOrn</composition>
+            <graph>ChrP,D-Ser,Lys,OH-His,D-aThr,Ser,OH-cOrn@1@0,2@1,3@2,4@3,5@4,6@5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas fluorescens</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas</taxonomy>
+                <gram>negative</gram>
+                <taxid>136843</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>A fast screening method for the identification of siderophores from fluorescent Pseudomonas spp. by liquid chromatography/electrospray mass spectrometry</title>
+                <year>1999</year>
+                <journal>Journal of mass spectrometry : JMS</journal>
+                <location>Apr,34(4):281-90.</location>
+                <pmid>10226359</pmid>
+                <authors>
+                    <author>
+                        <name>Budzikiewicz H</name>
+                    </author>
+                    <author>
+                        <name>Fuchs R</name>
+                    </author>
+                    <author>
+                        <name>Kilz S</name>
+                    </author>
+                    <author>
+                        <name>Lenz C</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Siderotyping of fluorescent pseudomonads: characterization of pyoverdines of Pseudomonas fluorescens and Pseudomonas putida strains from Antarctica</title>
+                <year>1998</year>
+                <journal>Microbiology</journal>
+                <location>Nov,144 ( Pt 11):3119-26.</location>
+                <pmid>9846748</pmid>
+                <authors>
+                    <author>
+                        <name>Meyer JM</name>
+                    </author>
+                    <author>
+                        <name>Stintzi A</name>
+                    </author>
+                    <author>
+                        <name>Coulanges V</name>
+                    </author>
+                    <author>
+                        <name>Shivaji S</name>
+                    </author>
+                    <author>
+                        <name>Voss JA</name>
+                    </author>
+                    <author>
+                        <name>Taraz K</name>
+                    </author>
+                    <author>
+                        <name>Budzikiewicz H</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

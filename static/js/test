@@ -1,0 +1,48 @@
+ <script type=text/javascript>
+        $(document).ready(
+        function() {
+        var table = $('.table').DataTable( {
+        select: true
+    } );
+        function btn_click(peptide) {
+        var count = table.rows( { selected: true } ).data().toArray();
+        $.post( "/postmethod", {javascript_data: JSON.stringify(count), peptideName:JSON.stringify(peptide)});
+    };
+} );
+    </script>
+
+   <script>
+    function myFunc(orginalPep) {
+     $(document).ready(
+    $.post( "/postmethod", { peptideName:JSON.stringify(orginalPep)})
+     );}
+
+    </script>
+
+    <script>
+    $("#chico1").click(function() {
+    myFunc(orginalPep);
+});
+    </script>
+
+
+
+        <script type=text/javascript>
+        $(document).ready(
+        function() {
+        var table = $('.table').DataTable( {
+        dom: 'Bftrip',
+        select: true,
+        buttons: [
+            {
+                text: 'Get selected data',
+                action: function () {
+                    var count = table.rows( { selected: true } ).data().toArray();
+                 $.post( "/postmethod", {javascript_data: JSON.stringify(count)});
+
+                }
+            }
+        ]
+    } );
+} );
+    </script>

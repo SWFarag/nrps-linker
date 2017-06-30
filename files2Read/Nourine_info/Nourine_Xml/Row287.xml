@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00289</id>
+            <name>PF1022A</name>
+            <family>PF1022</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptide</category>
+            <comment>It possesses strong anthelmintic properties.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>8</size>
+            <composition>D-Ph-Lac, NMe-Leu, D-Lac, NMe-Leu, D-Ph-Lac, NMe-Leu, D-Lac, NMe-Leu</composition>
+            <graph>D-Ph-Lac,NMe-Leu,D-Lac,NMe-Leu,D-Ph-Lac,NMe-Leu,D-Lac,NMe-Leu@1,7@0,2@1,3@2,4@3,5@4,6@5,7@0,6</graph>
+            <smiles>CC(C)CC3C(=O)OC(Cc1ccccc1)C(=O)N(C)C(CC(C)C)C(=O)OC(C)C(=O)N(C)C(CC(C)C)C(=O)OC(Cc2ccccc2)C(=O)N(C)C(CC(C)C)C(=O)OC(C)C(=O)N3(C)</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Rosellinia sp. PF1022</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Sordariomycetes, Xylariomycetidae, Xylariales, Xylariaceae, Rosellinia</taxonomy>
+                <taxid>241238</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>PF1022A and related cyclodepsipeptides: a novel class of anthelmintics</title>
+                <year>2002</year>
+                <journal>Current topics in medicinal chemistry</journal>
+                <location>Jul,2(7):759-77.</location>
+                <pmid>12052189</pmid>
+                <authors>
+                    <author>
+                        <name>Scherkenbeck J</name>
+                    </author>
+                    <author>
+                        <name>Jeschke P</name>
+                    </author>
+                    <author>
+                        <name>Harder A</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Biosynthesis of PF1022A and related cyclooctadepsipeptides</title>
+                <year>2000</year>
+                <journal>The Journal of biological chemistry</journal>
+                <location>Jun 9,275(23):17909-15.</location>
+                <pmid>10751395</pmid>
+                <authors>
+                    <author>
+                        <name>Zocher R</name>
+                    </author>
+                    <author>
+                        <name>Weckwerth W</name>
+                    </author>
+                    <author>
+                        <name>Miyamoto K</name>
+                    </author>
+                    <author>
+                        <name>Iinuma K</name>
+                    </author>
+                    <author>
+                        <name>Krause M</name>
+                    </author>
+                    <author>
+                        <name>Glinski M</name>
+                    </author>
+                    <author>
+                        <name>Storm T</name>
+                    </author>
+                    <author>
+                        <name>Bonse G</name>
+                    </author>
+                    <author>
+                        <name>Kleinkauf H</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>159590</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

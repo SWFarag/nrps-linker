@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01142</id>
+            <name>scytalidamide A</name>
+            <family>scytalidamide </family>
+            <activities>
+                <activity>antitumor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C50H67N7O7</formula>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>7</size>
+            <composition>Phe, NMe-Phe, Phe, Aib, NMe-Leu, Pro, Leu</composition>
+            <graph>Phe,NMe-Phe,Phe,Aib,NMe-Leu,Pro,Leu@1,6@0,2@1,3@2,4@3,5@4,6@5,0</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Scytalidium</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi/Metazoa group, Fungi, Dikarya, Ascomycota, mitosporic Ascomycota</taxonomy>
+                <taxid>5538</taxid>
+            </organism>
+        </organisms>
+        <references>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

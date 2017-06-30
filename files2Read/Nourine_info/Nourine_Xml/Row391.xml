@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00399</id>
+            <name>kahalalide K</name>
+            <family>kahalalide</family>
+            <activities>
+                <activity>unknown</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C46H66N7O11</formula>
+            <mw>893.0565</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>7</size>
+            <composition>iC11:0-OH(3), D-Phe, 4OH-Pro, D-Ala, Val, D-Asn, Tyr</composition>
+            <graph>iC11:0-OH(3),D-Phe,4OH-Pro,D-Ala,Val,D-Asn,Tyr@1,6@0,2@1,3@2,4@3,5@4,6@0,5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Bryopsis pennata</name>
+                <taxonomy>cellular organisms, Eukaryota, Viridiplantae, Chlorophyta, Ulvophyceae, Bryopsidales, Bryopsidaceae, Bryopsis</taxonomy>
+                <taxid>381411</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Kahalalide K: A new cyclic depsipeptide from the hawaiian green alga bryopsis species</title>
+                <year>1999</year>
+                <journal>Journal of natural products</journal>
+                <location>Aug,62(8):1169-72.</location>
+                <pmid>10479330</pmid>
+                <authors>
+                    <author>
+                        <name>Nagai H</name>
+                    </author>
+                    <author>
+                        <name>Kan Y</name>
+                    </author>
+                    <author>
+                        <name>Fujita T</name>
+                    </author>
+                    <author>
+                        <name>Sakamoto B</name>
+                    </author>
+                    <author>
+                        <name>Hokama Y</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

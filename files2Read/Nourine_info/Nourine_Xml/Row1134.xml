@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01144</id>
+            <name>somamide A</name>
+            <family>somamide</family>
+            <activities>
+                <activity>unknown</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C48H66N7O11S</formula>
+            <mw>948.4587</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>8</size>
+            <composition>Val, NMe-Tyr, Phe, Ahp, Abu, Thr, O-Met, C6:0</composition>
+            <graph>Val,NMe-Tyr,Phe,Ahp,Abu,Thr,O-Met,C6:0@1,5@0,2@1,3@2,4@3,5@4,0,6@5,7@6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Schizothrix</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Oscillatoriales</taxonomy>
+                <synonym>Dictyothrix</synonym>
+                <taxid>240294</taxid>
+            </organism>
+        </organisms>
+        <references>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

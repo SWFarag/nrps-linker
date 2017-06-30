@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Marlene Chollet</name>
+            <affiliations>
+                <affiliation>Institut Charles Viollette</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01264</id>
+            <name>kurstakin iC12</name>
+            <family>Kurstakin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>8</size>
+            <composition>D-Thr,Gly,Ala,Ser,His,D-Gln,Gln,iC12:0</composition>
+            <graph>D-Thr,Gly,Ala,Ser,His,D-Gln,Gln,iC12:0@1,7@0,2@1,3@2,4,6@3,5@4,6@3,5@0</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Bacillus thuringiensis serovar kurstaki HD-1</name>
+                <taxonomy>Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group; Bacillus thuringiensis; Bacillus thuringiensis serovar kurstaki</taxonomy>
+                <gram>positive</gram>
+                <taxid>1261129</taxid>
+            </organism>
+            <organism>
+                <name>Bacillus thuringiensis serovar berliner 1715</name>
+                <taxonomy>Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group; Bacillus thuringiensis; Bacillus thuringiensis serovar berliner</taxonomy>
+                <gram>positive</gram>
+                <taxid>527031</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structure, biosynthesis and properties of kurstakins nonribosomal lipoppeptides from Bacillus spp.</title>
+                <year>2012</year>
+                <journal>Appl. Microbiol. Biotechnol.</journal>
+                <location>95:593-600</location>
+                <pmid>22688024</pmid>
+                <authors>
+                    <author>
+                        <name>M. BECHET</name>
+                    </author>
+                    <author>
+                        <name>T. CARADEC</name>
+                    </author>
+                    <author>
+                        <name>W. HUSSEIN</name>
+                    </author>
+                    <author>
+                        <name>A. ABDERRAHMANI</name>
+                    </author>
+                    <author>
+                        <name>M. CHOLLET</name>
+                    </author>
+                    <author>
+                        <name>V. LECLERE</name>
+                    </author>
+                    <author>
+                        <name>T. DUBOIS</name>
+                    </author>
+                    <author>
+                        <name>D. LERECLUS</name>
+                    </author>
+                    <author>
+                        <name>M. PUPIN</name>
+                    </author>
+                    <author>
+                        <name>P. JACQUES</name>
+                    </author>
+                </authors>
+                <doi>10.1007/s00253-012-4181-2</doi>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>C3GUG5</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>C3GUG9</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>C3GUG7</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>C3GUG6</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

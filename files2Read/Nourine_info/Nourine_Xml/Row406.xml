@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00414</id>
+            <name>corrugatin</name>
+            <family>corrugatin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>9</size>
+            <composition>C8:0, OH-His, Dab, Dab, Ser, D-Ser, OH-Asp, Dab, OH-Asp</composition>
+            <graph>C8:0,OH-His,Dab,Dab,Ser,D-Ser,OH-Asp,Dab,OH-Asp@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas corrugata</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas fluorescens group</taxonomy>
+                <gram>negative</gram>
+                <taxid>47879</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>CORRUGATIN, A LIPOPEPTIDE SIDEROPHORE FROM PSEUDOMONAS CORRUGATA</title>
+                <year>1998</year>
+                <journal>Zeitschrift für Naturforschung. C. A journal of biosciences</journal>
+                <location>vol.53,5-6,pp.295-304</location>
+                <authors>
+                    <author>
+                        <name>Taraz K</name>
+                    </author>
+                    <author>
+                        <name>Budzikiewicz H</name>
+                    </author>
+                    <author>
+                        <name>Beiderbeck H</name>
+                    </author>
+                    <author>
+                        <name>Risse D</name>
+                    </author>
+                    <author>
+                        <name>Gustine�D</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00206</id>
+            <name>pyoverdin BTP16</name>
+            <family>pyoverdin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <category>chromopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>branched</type>
+            <size>10</size>
+            <composition>ChrP, Asp, D-OH-Orn, {, C4:0-OH(3), }, D-Dab, Thr, Gly, Ser, Ser, OH-Asp, aThr</composition>
+            <graph>ChrP,Asp,D-OH-Orn,C4:0-OH(3),D-Dab,Thr,Gly,Ser,Ser,OH-Asp,aThr@1@0,2@1,3,4@2@2,5@4,6@5,7@6,8@7,9@8,10@9</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas putida</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas putida group</taxonomy>
+                <gram>negative</gram>
+                <synonym>Pseudomonas ovalis,Pseudomonas arvilla,Arthrobacter siderocapsulatus,Pseudomonas striata,Pseudomonas rugosa,Pseudomonas incognita,Pseudomonas convexa,Pseudomonas eisenbergii,Bacillus putidus</synonym>
+                <taxid>303</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>A fast screening method for the identification of siderophores from fluorescent Pseudomonas spp. by liquid chromatography/electrospray mass spectrometry</title>
+                <year>1999</year>
+                <journal>Journal of mass spectrometry : JMS</journal>
+                <location>Apr,34(4):281-90.</location>
+                <pmid>10226359</pmid>
+                <authors>
+                    <author>
+                        <name>Budzikiewicz H</name>
+                    </author>
+                    <author>
+                        <name>Fuchs R</name>
+                    </author>
+                    <author>
+                        <name>Kilz S</name>
+                    </author>
+                    <author>
+                        <name>Lenz C</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Structural analysis of two pyoverdins by electrospray and FAB mass spectrometry</title>
+                <year>1998</year>
+                <journal>Journal of the Mass Spectrometry Society of Japan</journal>
+                <location>46:53:00</location>
+                <authors>
+                    <author>
+                        <name>Budzikiewicz H</name>
+                    </author>
+                    <author>
+                        <name>Jacques P</name>
+                    </author>
+                    <author>
+                        <name>Ongena M</name>
+                    </author>
+                    <author>
+                        <name>Thonart P</name>
+                    </author>
+                    <author>
+                        <name>van Vyncht G</name>
+                    </author>
+                    <author>
+                        <name>Charlier P</name>
+                    </author>
+                    <author>
+                        <name>de Pauw E </name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

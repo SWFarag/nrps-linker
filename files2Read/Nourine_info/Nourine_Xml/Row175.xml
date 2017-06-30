@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00177</id>
+            <name>pyoverdin 3b</name>
+            <family>pyoverdin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <category>chromopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>10</size>
+            <composition>ChrP, Asp, Ac-OH-Orn, Dab, Thr, D-Ala, Thr, Thr, D-Gln, OH-cOrn</composition>
+            <graph>ChrP,Asp,Ac-OH-Orn,Dab,Thr,D-Ala,Thr,Thr,D-Gln,OH-cOrn@1@0,2@1,3,3@2,2,4@3,5@4,6@5,7@6,8@7,9@8</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas syringae pv. aptata</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas syringae group, Pseudomonas syringae group genomosp. 1, Pseudomonas syringae</taxonomy>
+                <gram>negative</gram>
+                <taxid>83167</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>A fast screening method for the identification of siderophores from fluorescent Pseudomonas spp. by liquid chromatography/electrospray mass spectrometry</title>
+                <year>1999</year>
+                <journal>Journal of mass spectrometry : JMS</journal>
+                <location>Apr,34(4):281-90.</location>
+                <pmid>10226359</pmid>
+                <authors>
+                    <author>
+                        <name>Budzikiewicz H</name>
+                    </author>
+                    <author>
+                        <name>Fuchs R</name>
+                    </author>
+                    <author>
+                        <name>Kilz S</name>
+                    </author>
+                    <author>
+                        <name>Lenz C</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Ferribactin 3b, ein siderophor von Pseudomonas aptata 3b</title>
+                <year>1991</year>
+                <journal>Diplomarbeit</journal>
+                <location>Universitat zu koln</location>
+                <authors>
+                    <author>
+                        <name>Tappe R</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

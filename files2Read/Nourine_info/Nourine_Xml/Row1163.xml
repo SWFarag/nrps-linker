@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01173</id>
+            <name>kempopeptin A</name>
+            <family>kempopeptin</family>
+            <activities>
+                <activity>protease inhibitor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C50H70N8O13</formula>
+            <mw>990.5165</mw>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>8</size>
+            <composition>Ac-Pro, Thr, Thr, Val, NMe-Tyr, Phe, Ahp, Leu</composition>
+            <graph>Ac-Pro,Thr,Thr,Val,NMe-Tyr,Phe,Ahp,Leu@1@2,0@3,7,1@2,4@3,5@4,6@5,7@6,2</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Lyngbya</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Oscillatoriales</taxonomy>
+                <taxid>28073</taxid>
+            </organism>
+        </organisms>
+        <references>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

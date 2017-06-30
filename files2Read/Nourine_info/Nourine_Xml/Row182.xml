@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00184</id>
+            <name>pyoverdin 51W</name>
+            <family>pyoverdin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <category>chromopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>12</size>
+            <composition>ChrP, D-Ala, D-Lys, Gly, Gly, D-OH-Asp, D-Gln, D-Ser, Ala, Gly, D-aThr, OH-cOrn</composition>
+            <graph>ChrP,D-Ala,D-Lys,Gly,Gly,D-OH-Asp,D-Gln,D-Ser,Ala,Gly,D-aThr,OH-cOrn@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas fluorescens</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas</taxonomy>
+                <gram>negative</gram>
+                <taxid>136843</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>A pyoverdin from the Antarctica strain 51W of Pseudomonas florescens</title>
+                <year>1999</year>
+                <journal>Zeitschrift fur Naturforschung. Section C: Biosciences</journal>
+                <location>54c: 156</location>
+                <authors>
+                    <author>
+                        <name>Voss JA</name>
+                    </author>
+                    <author>
+                        <name>Taraz K</name>
+                    </author>
+                    <author>
+                        <name>Budzikiewicz H</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

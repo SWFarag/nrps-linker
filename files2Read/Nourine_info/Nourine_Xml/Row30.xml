@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00031</id>
+            <name>CDA2fa</name>
+            <family>Calcium dependent antibiotic</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <formula>C67H79N14O28FP</formula>
+            <mw>1578.3934</mw>
+            <comment>CDA shares a similar structure and possibly a related mode of action to other acidic lipopeptide antibiotics, including daptomycin, friulimicins, and amphomycins.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>12</size>
+            <composition>C6:0-Ep(2), Ser, Thr, D-Trp, Asp, Asp, D-F-ph-Gly, Asp, Gly, D-PO-Asn, 3Me-Glu, dh-Trp</composition>
+            <graph>C6:0-Ep(2),Ser,Thr,D-Trp,Asp,Asp,D-F-ph-Gly,Asp,Gly,D-PO-Asn,3Me-Glu,dh-Trp@1@0,2@1,3,11@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@2,10</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces roseosporus</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria, Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <synonym>Streptomyces filamentosus,Streptomyces venezuelae subsp. roseospori,Streptomyces roseisporus</synonym>
+                <taxid>67294</taxid>
+            </organism>
+            <organism>
+                <name>Brassica napus</name>
+                <taxonomy>cellular organisms, Eukaryota, Viridiplantae, Streptophyta, Streptophytina, Embryophyta, Tracheophyta, Euphyllophyta, Spermatophyta, Magnoliophyta, eudicotyledons, core eudicotyledons, rosids, eurosids II, Brassicales, Brassicaceae, Brassica</taxonomy>
+                <taxid>3708</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structure, biosynthetic origin, and engineered biosynthesis of calcium-dependent antibiotics from Streptomyces coelicolor</title>
+                <year>2002</year>
+                <journal>Chemistry and biology</journal>
+                <location>Nov,9(11):1175-87.</location>
+                <pmid>12445768</pmid>
+                <authors>
+                    <author>
+                        <name>Hojati Z</name>
+                    </author>
+                    <author>
+                        <name>Milne C</name>
+                    </author>
+                    <author>
+                        <name>Harvey B</name>
+                    </author>
+                    <author>
+                        <name>Gordon L</name>
+                    </author>
+                    <author>
+                        <name>Borg M</name>
+                    </author>
+                    <author>
+                        <name>Flett F</name>
+                    </author>
+                    <author>
+                        <name>Wilkinson B</name>
+                    </author>
+                    <author>
+                        <name>Sidebottom PJ</name>
+                    </author>
+                    <author>
+                        <name>Rudd BA</name>
+                    </author>
+                    <author>
+                        <name>Hayes MA</name>
+                    </author>
+                    <author>
+                        <name>Smith CP</name>
+                    </author>
+                    <author>
+                        <name>Micklefield J</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

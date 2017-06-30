@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00663</id>
+            <name>nocardicin A</name>
+            <family>nocardicin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C23H24N4O9</formula>
+            <mw>500.45804</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>4</size>
+            <composition>Hse, OH-dHpg, Ser, Hpg</composition>
+            <graph>Hse,OH-dHpg,Ser,Hpg@1@0,2@1,3,3@2,2</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Nocardia uniformis subsp. tsuyamanensis</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Corynebacterineae, Nocardiaceae, Nocardia, Nocardia uniformis</taxonomy>
+                <gram>positive</gram>
+                <taxid>96045</taxid>
+            </organism>
+            <organism>
+                <name>Actinosynnema mirum</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Pseudonocardineae, Actinosynnemataceae, Actinosynnema</taxonomy>
+                <gram>positive</gram>
+                <taxid>40567</taxid>
+            </organism>
+            <organism>
+                <name>Microtetraspora caesia</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptosporangineae, Streptosporangiaceae, Microtetraspora</taxonomy>
+                <gram>positive</gram>
+            </organism>
+            <organism>
+                <name>Nocardiopsis atra</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptosporangineae, Streptosporangiaceae, Nocardiopsaceae, Nocardiopsis</taxonomy>
+                <gram>positive</gram>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The biosynthetic gene cluster for a monocyclic beta-lactam antibiotic, nocardicin A</title>
+                <year>2004</year>
+                <journal>Chemistry and biology</journal>
+                <location>Jul,11(7):927-38.</location>
+                <pmid>15271351</pmid>
+                <authors>
+                    <author>
+                        <name>Ravel J</name>
+                    </author>
+                    <author>
+                        <name>Gunsior M</name>
+                    </author>
+                    <author>
+                        <name>Breazeale SD</name>
+                    </author>
+                    <author>
+                        <name>Lind AJ</name>
+                    </author>
+                    <author>
+                        <name>Janc JW</name>
+                    </author>
+                    <author>
+                        <name>Townsend CA</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>Q5J1Q7</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q5J1Q6</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>6400657</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

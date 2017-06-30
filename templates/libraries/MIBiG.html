@@ -1,5 +1,46 @@
 {% extends "base.html" %}
 
+ {% block javascript %}
+
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/dataTables.bootstrap.min.css">
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='../static/css/home.css') }}">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+
+        <script src="https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap.min.js"></script>
+
+               {########## Add export table based on http://demos.w3lessons.info/jquery-table-export #############}
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/tableExport.js"></script>
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/jquery.base64.js"></script>
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/html2canvas.js"></script>
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/jspdf/jspdf.js"></script>
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/jspdf/libs/base64.js"></script>
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/jspdf/libs/sprintf.js"></script>
+
+        <script>
+            $(document).ready(function() {
+            // Setup - add a text input to each footer cell
+            $('#mibig tfoot th').each( function () {
+            var title = $(this).text();
+            $(this).html( '<input type="text" placeholder="'+title+'" />' );
+            } );
+
+            // DataTable
+            var table = $('#mibig').DataTable({});
+
+            // Apply the search
+            table.columns().every( function () {
+            var that = this;
+
+            $( 'input', this.footer() ).on( 'keyup change', function () {
+                if ( that.search() !== this.value ) {that.search( this.value ).draw();}
+            } );
+            } );
+            } );
+        </script>
+ {% endblock %}
+
 {% block heading %} {{super()}} {% endblock %}
 
 
@@ -26,31 +67,6 @@
         </div>
     </div>
 </div>
-{#<div class="row">
-    <div class="col-md-12">
-        <div colspan="7" class="ts-pager form-horizontal tablesorter-pager" data-column="0">
-				<button type="button" class="btn first disabled" tabindex="0" aria-disabled="true"><i class="icon-step-backward glyphicon glyphicon-step-backward"></i></button>
-				<button type="button" class="btn prev disabled" tabindex="0" aria-disabled="true"><i class="icon-arrow-left glyphicon glyphicon-backward"></i></button>
-				<span class="pagedisplay">1 - 10 / 50 (50)</span> <!-- this can be any element, including an input -->
-				<button type="button" class="btn next" tabindex="0" aria-disabled="false"><i class="icon-arrow-right glyphicon glyphicon-forward"></i></button>
-				<button type="button" class="btn last" tabindex="0" aria-disabled="false"><i class="icon-step-forward glyphicon glyphicon-step-forward"></i></button>
-				<select class="pagesize input-mini" title="Select page size" aria-disabled="false">
-					<option value="10">10</option>
-					<option value="20">20</option>
-					<option value="30">30</option>
-					<option value="40">40</option>
-				</select>
-				<select class="pagenum input-mini" title="Select page number" aria-disabled="false"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select>
-        </div>
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm-12">
-        <div class="bootstrap_buttons">
-		Reset filter : <button type="button" class="reset btn btn-primary" data-column="0" data-filter=""><i class="icon-white icon-refresh glyphicon glyphicon-refresh"></i> Reset filters</button>
-	    </div>
-    </div>
- </div><br>    #}
 
 {% endblock %}
 

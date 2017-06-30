@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00262</id>
+            <name>anabaenopeptin B</name>
+            <family>anabaenopeptin</family>
+            <activities>
+                <activity>protease inhibitor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C41H60N10O9</formula>
+            <mw>836.97675</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>7</size>
+            <composition>Phe, NMe-Ala, Hty, Val, D-Lys, CO, Arg</composition>
+            <graph>Phe,NMe-Ala,Hty,Val,D-Lys,CO,Arg@1,4@0,2@1,3@2,4@0,3,5@4,6@5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Anabaena flos-aquae</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Nostocales, Nostocaceae, Anabaena</taxonomy>
+                <gram>negative</gram>
+                <taxid>1166</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Rapid identification of the new anabaenopeptin G from Planktothrix agardhii HUB 011 using matrix-assisted laser desorption/ionization time-of-flight mass spectrometry</title>
+                <year>1999</year>
+                <journal>Rapid communications in mass spectrometry : RCM</journal>
+                <location>13(5):337-43.</location>
+                <pmid>10209871</pmid>
+                <authors>
+                    <author>
+                        <name>von Dohren H</name>
+                    </author>
+                    <author>
+                        <name>Erhard M</name>
+                    </author>
+                    <author>
+                        <name>Jungblut PR</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

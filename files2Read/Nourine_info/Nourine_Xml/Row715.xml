@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00724</id>
+            <name>amphibactin G</name>
+            <family>amphibactin</family>
+            <activities>
+                <activity>siderophore</activity>
+                <activity>surfactant</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <comment>Amphibactins are cell-associated siderophores. This cell association is likely  an important defense against siderophore diffusion in the  oceanic environment.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>5</size>
+            <composition>C18:1(9)-OH(3), Ac-OH-Orn, D-Ac-OH-Orn, Ser, D-Ac-OH-Orn</composition>
+            <graph>C18:1(9)-OH(3),Ac-OH-Orn,D-Ac-OH-Orn,Ser,D-Ac-OH-Orn@1@0,2@1,3@2,4@3</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Vibrio sp. R10</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Vibrionales, Vibrionaceae, Vibrio</taxonomy>
+                <gram>negative</gram>
+                <taxid>223965</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structure and membrane affinity of a suite of amphiphilic siderophores produced by a marine bacterium</title>
+                <year>2003</year>
+                <journal>Proceedings of the National Academy of Sciences of the United States of America</journal>
+                <location>Apr 1,100(7):3754-9. Epub 2003 Mar 21.</location>
+                <pmid>12651947</pmid>
+                <authors>
+                    <author>
+                        <name>Martinez JS</name>
+                    </author>
+                    <author>
+                        <name>Butler A</name>
+                    </author>
+                    <author>
+                        <name>Carter-Franklin JN</name>
+                    </author>
+                    <author>
+                        <name>Mann EL</name>
+                    </author>
+                    <author>
+                        <name>Martin JD</name>
+                    </author>
+                    <author>
+                        <name>Haygood MG</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

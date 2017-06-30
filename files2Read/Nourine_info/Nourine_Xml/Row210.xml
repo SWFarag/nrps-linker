@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00212</id>
+            <name>[Gln1]surfactin</name>
+            <family>surfactin</family>
+            <activities>
+                <activity>antitumor</activity>
+                <activity>surfactant</activity>
+            </activities>
+            <synonyms>holobacillin</synonyms>
+            <category>lipopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>8</size>
+            <composition>C15:0-OH(3), Gln, Leu, D-Leu, Val, Asp, D-Leu, Ile</composition>
+            <graph>C15:0-OH(3),Gln,Leu,D-Leu,Val,Asp,D-Leu,Ile@1,7@0,2@1,3@2,4@3,5@4,6@5,7@0,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Bacillus subtilis</name>
+                <taxonomy>cellular organisms, Bacteria, Firmicutes, Bacilli, Bacillales, Bacillaceae, Bacillus</taxonomy>
+                <gram>positive</gram>
+                <synonym>Bacillus uniflagellatus,Bacillus natto,Bacillus globigii,Vibrio subtilis</synonym>
+                <taxid>1423</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Halobacillin: a cytotoxic acylpeptide of the iturin class produced by marine Bacillus</title>
+                <year>1994</year>
+                <journal>Tetrahedron letters</journal>
+                <location>35,5571-5574.</location>
+                <authors>
+                    <author>
+                        <name>Trischman JA</name>
+                    </author>
+                    <author>
+                        <name>Jensen PR</name>
+                    </author>
+                    <author>
+                        <name>Fenical W</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

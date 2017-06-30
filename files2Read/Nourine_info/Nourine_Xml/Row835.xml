@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00845</id>
+            <name>ramoplanin A3</name>
+            <family>ramoplanin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <formula>C120H156ClN21O40</formula>
+            <mw>2568.092</mw>
+            <comment>Ramoplanin factors A1, A2, and A3 were isolated in 12, 72,  and 16% yields, respectively, from purification of the  culture broth of Actinoplanes strain ATCC 33076.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>20</size>
+            <composition>iC10:2(2.t4), Asn, OH-Asn, D-Hpg, D-Orn, D-aThr, Hpg, D-Hpg, aThr, Phe, D-Orn, Hpg, {, D-Man, D-Man, }, D-aThr, Hpg, Gly, Leu, D-Ala, Cl-Hpg</composition>
+            <graph>iC10:2(2.t4),Asn,OH-Asn,D-Hpg,D-Orn,D-aThr,Hpg,D-Hpg,aThr,Phe,D-Orn,Hpg,D-Man,D-Man,D-aThr,Hpg,Gly,Leu,D-Ala,Cl-Hpg@1@0,2@1,3,19@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12,14@11,13@12@11,15@14,16@15,17@16,18@17,19@2,18</graph>
+            <smiles>CC(C)CCC=CC=CC(=O)NC(CC(N)=O)C(=O)NC%10C(=O)NC(c1ccc(O)cc1)C(=O)NC(CCCN)C(=O)NC(C(C)O)C(=O)NC(c2ccc(O)cc2)C(=O)NC(c3ccc(O)cc3)C(=O)NC(C(C)O)C(=O)NC(Cc4ccccc4)C(=O)NC(CCCN)C(=O)NC(c5ccc(cc5)OC7OC(CO)C(O)C(O)C7(OC6OC(CO)C(O)C(O)C6(O)))C(=O)NC(C(C)O)C(=O)NC(c8ccc(O)cc8)C(=O)NCC(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(c9ccc(O)c(c9)Cl)C(=O)OC%10(C(N)=O)</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Actinoplanes sp.</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Micromonosporineae, Micromonosporaceae, Actinoplanes</taxonomy>
+                <gram>positive</gram>
+                <synonym>Ampullariella sp.</synonym>
+                <taxid>1871</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Chemistry and biology of ramoplanin: a lipoglycodepsipeptide with potent antibiotic activity</title>
+                <year>2005</year>
+                <journal>Chemical reviews</journal>
+                <location>Feb,105(2):449-76.</location>
+                <pmid>15700952</pmid>
+                <authors>
+                    <author>
+                        <name>Walker S</name>
+                    </author>
+                    <author>
+                        <name>Chen L</name>
+                    </author>
+                    <author>
+                        <name>Hu Y</name>
+                    </author>
+                    <author>
+                        <name>Rew Y</name>
+                    </author>
+                    <author>
+                        <name>Shin D</name>
+                    </author>
+                    <author>
+                        <name>Boger DL</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Chemistry and biology of the ramoplanin family of peptide antibiotics</title>
+                <year>2002</year>
+                <journal>Biopolymers</journal>
+                <location>66(4):261-84.</location>
+                <pmid>12491539</pmid>
+                <authors>
+                    <author>
+                        <name>McCafferty DG</name>
+                    </author>
+                    <author>
+                        <name>Cudic P</name>
+                    </author>
+                    <author>
+                        <name>Frankel BA</name>
+                    </author>
+                    <author>
+                        <name>Barkallah S</name>
+                    </author>
+                    <author>
+                        <name>Kruger RG</name>
+                    </author>
+                    <author>
+                        <name>Li W</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>16132349</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

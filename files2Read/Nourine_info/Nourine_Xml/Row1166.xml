@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Yoann Dufresne</name>
+            <affiliations>
+                <affiliation>CRIStAL (UMR CNRS 9189), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01253</id>
+            <name>malformin B5</name>
+            <family>malformin</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <comment>The two cysteins have a disulfide bridge between them.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>other</type>
+            <size>5</size>
+            <composition>D-Cys,D-Cys,Val,D-Val,Ile</composition>
+            <graph>D-Cys,D-Cys,Val,D-Val,Ile@1,1,4@0,0,2@1,3@2,4@0,3</graph>
+            <smiles>CCC(C)C1C(=O)NC2CSSCC(C(=O)NC(C(=O)NC(C(=O)N1)C(C)C)C(C)C)NC2=O</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Aspergillus niger</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Eurotiomycetes, Eurotiales, Trichocomaceae, mitosporic Trichocomaceae, Aspergillus</taxonomy>
+                <taxid>5061</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structure of malformin B, a phytotoxic metabolite produced by Aspergillus niger</title>
+                <year>1993</year>
+                <journal>Bioscience, biotechnology, and biochemistry</journal>
+                <location>May,57(5):787-91.</location>
+                <pmid>7763777</pmid>
+                <authors>
+                    <author>
+                        <name>Sugawara F</name>
+                    </author>
+                    <author>
+                        <name>Kim KW</name>
+                    </author>
+                    <author>
+                        <name>Yoshida S</name>
+                    </author>
+                    <author>
+                        <name>Takahashi N</name>
+                    </author>
+                    <author>
+                        <name>Curtis RW</name>
+                    </author>
+                    <author>
+                        <name>Murofushi N</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

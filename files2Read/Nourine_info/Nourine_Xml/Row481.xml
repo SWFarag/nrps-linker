@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00489</id>
+            <name>nazumamide A</name>
+            <family>nazumamide</family>
+            <activities>
+                <activity>antithrombotic</activity>
+            </activities>
+            <category>peptide</category>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>5</size>
+            <composition>diOH-Bz, Arg, Pro, Ile, Abu</composition>
+            <graph>diOH-Bz,Arg,Pro,Ile,Abu@1@0,2@1,3@2,4@3</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Theonella sp.</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Tetractinomorpha, Lithistida, Triaenosina, Theonellidae, Theonella</taxonomy>
+                <taxid>73791</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Nazumamide A, a thrombin-inhibitory tetrapeptide, from a marine sponge, Theonella sp.</title>
+                <year>1991</year>
+                <journal>Tetrahedron Letters</journal>
+                <location>32 (48), pp. 7073-7074</location>
+                <authors>
+                    <author>
+                        <name>Nakao Y</name>
+                    </author>
+                    <author>
+                        <name>Matsunaga S</name>
+                    </author>
+                    <author>
+                        <name>Fusetani N</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

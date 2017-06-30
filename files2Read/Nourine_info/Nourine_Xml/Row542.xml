@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00550</id>
+            <name>wainunuamide</name>
+            <family>wainunuamide</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C38H51N9O7</formula>
+            <mw>745.8677</mw>
+            <comment>Wainunuamide is a putative NRPS product (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>7</size>
+            <composition>Pro, His, Pro, Pro, Gly, Leu, Phe</composition>
+            <graph>Pro,His,Pro,Pro,Gly,Leu,Phe@1,6@0,2@1,3@2,4@3,5@4,6@0,5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Stylotella aurantium</name>
+                <taxonomy>marine sponge</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Wainunuamide, a histidine-containing proline-rich cyclic heptapeptide isolated from the Fijian marine sponge Stylotella aurantium</title>
+                <year>2001</year>
+                <journal>Tetrahedron Letters</journal>
+                <location>42 (52), pp. 9273-9276</location>
+                <authors>
+                    <author>
+                        <name>Tabudravu JN</name>
+                    </author>
+                    <author>
+                        <name>Morris LA</name>
+                    </author>
+                    <author>
+                        <name>Kettenes-van den Bosch JJ</name>
+                    </author>
+                    <author>
+                        <name>Jaspars M</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

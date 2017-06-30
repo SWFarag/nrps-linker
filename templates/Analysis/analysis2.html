@@ -1,0 +1,104 @@
+
+{% extends 'base.html' %}
+
+{% block heading %} {{super()}} {% endblock %}
+
+
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <h3>How selective IMLs are toward pairs of modules</h3>
+            <ul>
+                <li>
+                    <p>
+                        Here we are trying to explore whether linkers tend to bind multiple pairs of
+                        modules (universal linkers) or every unique linker binds a specific pair of modules.
+                        Clustering of the ~38k extracted inter-modular linkers (IMLs) using the UCLUST clustering
+                        algorithm (<a href="https://www.ncbi.nlm.nih.gov/pubmed/20709691" target="_blank">Edgar RC.</a>),
+                        have shown that the data comprise of precisely 10079 unique linkers (centroids/clusters).
+                        9844 out of 10079 linkers were found to be associated with only a single pair of modules,
+                        while the remaining 235 linkers tend to bind multiple distinct pairs of modules
+                        (ranging between 2 and up to 13 unique pairs).
+                    </p>
+                </li>
+            </ul>
+            <br>
+            <div class="row">
+                <div class = "col-lg-10">
+                    <figure>
+                        <img src="/static/images/universality2.png" class="img-rounded" alt="selectivity" height="450" width="450" >
+                        <br>
+                        <figcaption style="width: 47%"><b>Fig1. - Linkers universality:</b> Only 2% of all extracted inter-modular linkers (IMLs) tend to bind to multiple pairs of modules, while each of the remaining 98% binds specifically to just a single pair of modules. Revealing the high selectivity nature of linkers towards pairs of modules.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <ul>
+                <li>
+                    <p>
+                        In order to establish a more rigorous case about our previous analysis,
+                        we decided to create a graph with the 993 Inter-modular linkers extracted from
+                        the species Mycobacterium Abscessus. The nodes of the graph represent the linkers
+                        and edges are constructed between nodes, who only share at least 80% similarity.
+                        After building the graph, we applied Louvain community detection algorithm on it (<a href="https://arxiv.org/abs/0803.0476" target="_blank">Vincent D. Blondel et.al</a>).
+                        The algorithm was able to detect 8 distinct communities. Each community consists
+                        of linkers that bind specifically to a single pair of modules. For simplicity purposes,
+                        a pair of modules will be represented by their activated substrates (e.g. Ser-Linker-Ala --> Ser-Ala).
+                    </p>
+                </li>
+            </ul>
+            <br>
+            <div class="row">
+                <div class = "col-lg-10">
+                    <figure>
+                        <img src="/static/images/with_legend.png" class="img-rounded" alt="selectivity" height="500" width="700" >
+                        <br>
+                        <figcaption style="width: 72%"><b>Fig2. - A community network graph of all linkers present within the species Mycobacterium Abscessus.</b> Nodes: are the linkers. Edges: an edge is constructed between two linkers, if their relative pairwise sequence alignment score is higher than 80%. The graph represents 8 distinct communities; every community comprises of all the linkers that bind a specific pair of amino acid. For instance, the orange community refers to all linkers that bind Phenylalanine and Tyrosine.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        </br>
+        <p>
+        <h4>Conclusion:</h4> From the aboved mentioned analyses we concluded, that Linkers are highly selective towards pairs of modules and they do not link them randomly.
+        </p>
+        <div class="row">
+            <h3>How conserved are IMLs within and across species:</h3>
+            <p>
+                Here we are trying to investigate, how truly conserved are linkers linking the same pair of modules
+                across and within species. As an example, we took all linkers linking Thr-Val across all species.
+                First we created a graph with the linkers, where nodes refer to linkers and edges are constructed
+                between nodes who only share at least 80% similarity. Then, we applied Louvain community detection algorithm on the graph,
+                while coloring the nodes by the species from which they were extracted.
+                If linkers are globally conserved across species, we would expect
+                to have one large community with multi-colored nodes, referring to the various species.
+                If linkers are conserved only within species, then one would expect multiple communities to be detected,
+                where nodes within each community will have the same color. Based on the figure below,
+                the latter assumption was proven to be the case. It is also worth mentioning, that the same behavior was detected
+                not only for a specific set of pairs but across all unique pairs within our data (398)
+            </p>
+
+            <br>
+           <div class="row">
+                <div class = "col-lg-10">
+                    <figure>
+                        <img src="/static/images/Thr_Val_legend.png" class="img-rounded" alt="conservation" height="550" width="700" >
+                        <figcaption style="width: 72%"><b>Fig3. - A community network graph of all linkers linkning Thr-Val pair</b>. The graph shows that linkers belong to various communities, despite the fact they are all linking the same pair of modules (Thr-Val). The coloring of the graph refers to the species from which linkers were extracted. The labels of the nodes refer to the species taxId from which linkers were extracted.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <br>
+        <p>
+        <h4>Conclusion:</h4> Linkers of the same pair of modules across all species belong to various communities and hence, they are not globally conserved. Moreover, each species tends to dictate its own set of linkers for each pair of modules.
+        </p>
+    </div>
+{% endblock %}
+
+
+{% block footer %} {{super()}} {% endblock %}
+
+

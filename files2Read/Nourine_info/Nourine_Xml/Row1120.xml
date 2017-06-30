@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01130</id>
+            <name>triostin C</name>
+            <family>triostin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>antitumor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C54H70N12O12S2</formula>
+            <mw>1143.3368</mw>
+            <comment>Quinomycins contain a thioacetal cross bridge. In the tiostin analogues, a disulfide bond replaces the thioacetal cross-link.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>10</size>
+            <graph>COOH-Qui,D-Ser,Ala,NMe-Cys,diMe-aIle,D-Ser,COOH-Qui,Ala,NMe-Cys,diMe-aIle@1@0,2,9@1,3@2,4,8@3,5@4,6,7@5@5,8@3,7,9@1,8</graph>
+            <smiles>CC(C)C(C)C3C(=O)OCC(NC(=O)c1cnc2ccccc2(n1))C(=O)NC(C)C(=O)N(C)C4CSSCC(C(=O)N3(C))N(C)C(=O)C(C)NC(=O)C(COC(=O)C(C(C)C(C)C)N(C)C4(=O))NC(=O)c5cnc6ccccc6(n5)</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces sp.</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <taxid>1931</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structure confirmation of triostin a by 1H and 13C magnetic resonance</title>
+                <year>1976</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Jan,29(1):107-10.</location>
+                <pmid>931789</pmid>
+                <authors>
+                    <author>
+                        <name>Shoji J</name>
+                    </author>
+                    <author>
+                        <name>Otsuka H</name>
+                    </author>
+                    <author>
+                        <name>Kawano K</name>
+                    </author>
+                    <author>
+                        <name>Kyogoku Y</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>159284</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

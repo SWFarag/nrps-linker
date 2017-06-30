@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00968</id>
+            <name>boletusin</name>
+            <family>boletusin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptaibol</category>
+            <comment>This peptide showed antimicrobial activity against several Gram-positive bacteria.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>19</size>
+            <composition>Ac-Phe, Aib, Ala, Aib, Ival, Leu, Gln, Gly, Aib, Aib, Ala, Ala, Aib, Pro, Aib, Aib, Aib, Gln, Trpol</composition>
+            <graph>Ac-Phe,Aib,Ala,Aib,Ival,Leu,Gln,Gly,Aib,Aib,Ala,Ala,Aib,Pro,Aib,Aib,Aib,Gln,Trpol@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@11,13@12,14@13,15@14,16@15,17@16,18@17</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Boletus</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Dikarya, Basidiomycota, Agaricomycotina, Agaricomycetes, Agaricomycetidae, Boletales, Boletineae, Boletaceae</taxonomy>
+                <taxid>5369</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Isolation and sequence analysis of new peptaibol, boletusin, from Boletus spp</title>
+                <year>1999</year>
+                <journal>Journal of peptide science</journal>
+                <location>Aug,5(8):374-8.</location>
+                <pmid>10507687</pmid>
+                <authors>
+                    <author>
+                        <name>Yun BS</name>
+                    </author>
+                    <author>
+                        <name>Lee SJ</name>
+                    </author>
+                    <author>
+                        <name>Yoo ID</name>
+                    </author>
+                    <author>
+                        <name>Yeo WH</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

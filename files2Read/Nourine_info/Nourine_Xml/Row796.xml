@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00805</id>
+            <name>kahalalide W</name>
+            <family>kahalalide</family>
+            <activities>
+                <activity>unknown</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C31H45N7O6</formula>
+            <mw>611.7323</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>4</size>
+            <composition>iC9:0-OH(3), D-Trp, 4OH-Pro, Arg</composition>
+            <graph>iC9:0-OH(3),D-Trp,4OH-Pro,Arg@1,3@0,2@1,3@0,2</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Elysia rufescens</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Eumetazoa, Bilateria, Coelomata, Protostomia, Mollusca, Gastropoda, Orthogastropoda, Apogastropoda, Heterobranchia, Euthyneura, Opisthobranchia, Sacoglossa, Placobranchoidea, Placobranchidae, Elysia</taxonomy>
+                <taxid>380559</taxid>
+            </organism>
+            <organism>
+                <name>Bryopsis pennata</name>
+                <taxonomy>cellular organisms, Eukaryota, Viridiplantae, Chlorophyta, Ulvophyceae, Bryopsidales, Bryopsidaceae, Bryopsis</taxonomy>
+                <taxid>381411</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Kahalalides V-Y isolated from a Hawaiian collection of the sacoglossan mollusk Elysia rufescens</title>
+                <year>2008</year>
+                <journal>Journal of natural products</journal>
+                <location>May,71(5):772-8.</location>
+                <pmid>18407693</pmid>
+                <authors>
+                    <author>
+                        <name>Rao KV</name>
+                    </author>
+                    <author>
+                        <name>Hamann MT</name>
+                    </author>
+                    <author>
+                        <name>Na MK</name>
+                    </author>
+                    <author>
+                        <name>Cook JC</name>
+                    </author>
+                    <author>
+                        <name>Peng J</name>
+                    </author>
+                    <author>
+                        <name>Matsumoto R</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

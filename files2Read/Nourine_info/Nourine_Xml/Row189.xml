@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00191</id>
+            <name>pyoverdin 95-275</name>
+            <family>pyoverdin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <synonyms>pyoverdin BTP7</synonyms>
+            <category>chromopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>10</size>
+            <composition>ChrP, D-Ser, Ser, Fo-OH-Orn, Ser, Ser, Lys, Fo-OH-Orn, Lys, Ser</composition>
+            <graph>ChrP,D-Ser,Ser,Fo-OH-Orn,Ser,Ser,Lys,Fo-OH-Orn,Lys,Ser@1@0,2@1,3@2,4@3,5@4,6@5,7,9@6,8@7,9@6,8</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas sp. CFML 95-275</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas</taxonomy>
+                <gram>negative</gram>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>A pyoverdin from Pseudomonas sp. CFML 95-275</title>
+                <year>2000</year>
+                <journal>Zeitschrift fur Naturforschung. Section C: Biosciences</journal>
+                <location>Nov-Dec,55(11-12):857-65.</location>
+                <pmid>11204185</pmid>
+                <authors>
+                    <author>
+                        <name>Meyer JM</name>
+                    </author>
+                    <author>
+                        <name>Budzikiewicz H</name>
+                    </author>
+                    <author>
+                        <name>Geoffroy V</name>
+                    </author>
+                    <author>
+                        <name>Fuchs R</name>
+                    </author>
+                    <author>
+                        <name>Sultana R</name>
+                    </author>
+                    <author>
+                        <name>Siddiqui BS</name>
+                    </author>
+                    <author>
+                        <name>Schlegel K</name>
+                    </author>
+                    <author>
+                        <name>Schmickler H</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

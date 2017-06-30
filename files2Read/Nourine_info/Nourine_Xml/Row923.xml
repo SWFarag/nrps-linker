@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00933</id>
+            <name>galacardin A</name>
+            <family>galacardin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>glycopeptide</category>
+            <formula>C101H121Cl2N9O46</formula>
+            <mw>2267.98</mw>
+            <comment>They showed strong antimicrobial activity against Gram-positive bacteria and also showed excellent in vivo protective activity against Staphylococcus aureus infection in mice. Two bonds of the central Hpg are due to oxydative ring closure reactions.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>other</type>
+            <size>14</size>
+            <graph>NMe-Hpg,D-Gal,Rha,bOH-Tyr,D-Man,Hpg,Cl-Hpg,D-Gal,bOH-Cl-Tyr,Dhpg,Hpg,Ria,Ria,D-Glc@3,1@0,2@1@5,6,4,0@3@3,6,8,10,11@3,5,7@6@5,10,9,12@10,8@5,8,9@5,13@8@11</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Saccharothrix</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Pseudonocardineae, Actinosynnemataceae</taxonomy>
+                <gram>positive</gram>
+                <taxid>2071</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Galacardins A and B, new glycopeptide antibiotics</title>
+                <year>1992</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Mar,45(3):297-305.</location>
+                <pmid>1577657</pmid>
+                <authors>
+                    <author>
+                        <name>Nakamura T</name>
+                    </author>
+                    <author>
+                        <name>Inukai M</name>
+                    </author>
+                    <author>
+                        <name>Katayama T</name>
+                    </author>
+                    <author>
+                        <name>Takahashi S</name>
+                    </author>
+                    <author>
+                        <name>Takeuchi M</name>
+                    </author>
+                    <author>
+                        <name>Enokita R</name>
+                    </author>
+                    <author>
+                        <name>Sakaida Y</name>
+                    </author>
+                    <author>
+                        <name>Haruyama H</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>16131393</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

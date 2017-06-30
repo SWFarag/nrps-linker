@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00460</id>
+            <name>criamide A</name>
+            <family>hemiasterlin</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C35H57N8O5</formula>
+            <mw>669.8777</mw>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>4</size>
+            <composition>bbMe-NMe-Trp, t-Leu, NMe-hv-Val, Arg</composition>
+            <graph>bbMe-NMe-Trp,t-Leu,NMe-hv-Val,Arg@1@0,2@1,3@2</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Cymbastela</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Halichondrida, Axinellidae</taxonomy>
+                <taxid>85785</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Cytotoxic peptides from the marine sponge Cymbastela sp. </title>
+                <year>1995</year>
+                <journal>Tetrahedron</journal>
+                <location>51 (39), pp. 10653-10662</location>
+                <authors>
+                    <author>
+                        <name>Andersen RJ</name>
+                    </author>
+                    <author>
+                        <name>Coleman JE</name>
+                    </author>
+                    <author>
+                        <name>De Silva ED</name>
+                    </author>
+                    <author>
+                        <name>Allen TM</name>
+                    </author>
+                    <author>
+                        <name>Kong F</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

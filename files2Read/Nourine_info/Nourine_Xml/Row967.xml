@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00977</id>
+            <name>cervinin 1</name>
+            <family>cervinin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptaibol</category>
+            <formula>C59H102N12O13</formula>
+            <mw>1187.5138</mw>
+            <comment>They exhibited weak antibacterial as well as cytotoxic activities. They are the first secondary metabolites described from M. cervina.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>12</size>
+            <composition>NAc-Leu, Aib, Pro, Aib, Leu, Aib, Pro, Ala, Aib, Pro, Val, Leuol</composition>
+            <graph>NAc-Leu,Aib,Pro,Aib,Leu,Aib,Pro,Ala,Aib,Pro,Val,Leuol@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Hypomyces cervinigenus</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi,  Dikarya, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Hypocreaceae, Hypomyces</taxonomy>
+                <synonym>Mycogone cervina</synonym>
+                <taxid>100997</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>New peptaibols from Mycogone cervina</title>
+                <year>2004</year>
+                <journal>Journal of natural products</journal>
+                <location>Mar,67(3):466-8.</location>
+                <pmid>15043434</pmid>
+                <authors>
+                    <author>
+                        <name>Wilhelm C</name>
+                    </author>
+                    <author>
+                        <name>Anke H</name>
+                    </author>
+                    <author>
+                        <name>Flores Y</name>
+                    </author>
+                    <author>
+                        <name>Sterner O</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

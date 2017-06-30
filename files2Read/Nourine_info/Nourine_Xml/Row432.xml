@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00440</id>
+            <name>obyanamide</name>
+            <family>obyanamide</family>
+            <activities>
+                <activity>antitumor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C30H41N5O6S</formula>
+            <mw>599.74146</mw>
+            <comment>Obyanamide is a putative NRPS product (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>5</size>
+            <composition>Lac, NMe-Val, NMe-Phe, Ala-Thz, C5:0-NH2(3)</composition>
+            <graph>Lac,NMe-Val,NMe-Phe,Ala-Thz,C5:0-NH2(3)@1,4@0,2@1,3@2,4@0,3</graph>
+            <smiles>CCC3CC(=O)OC(C)C(=O)N(C)C(C(C)C)C(=O)N(C)C(Cc1ccccc1)C(=O)NC(C)c2nc(cs2)C(=O)N3</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Lyngbya confervoides</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Oscillatoriales, Lyngbya</taxonomy>
+                <taxid>207921</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Isolation and structure determination of obyanamide, a novel cytotoxic cyclic depsipeptide from the marine cyanobacterium Lyngbya confervoides</title>
+                <year>2002</year>
+                <journal>Journal of natural products</journal>
+                <location>Jan,65(1):29-31.</location>
+                <pmid>11809060</pmid>
+                <authors>
+                    <author>
+                        <name>Moore RE</name>
+                    </author>
+                    <author>
+                        <name>Paul VJ</name>
+                    </author>
+                    <author>
+                        <name>Williams PG</name>
+                    </author>
+                    <author>
+                        <name>Yoshida WY</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Total synthesis and reassignment of stereochemistry of obyanamide</title>
+                <year>2006</year>
+                <journal>Tetrahedron</journal>
+                <location>Volume 62, Issue 42, 16 October 2006, Pages 9966-9972</location>
+                <authors>
+                    <author>
+                        <name>Zhanga W</name>
+                    </author>
+                    <author>
+                        <name>Maa ZH</name>
+                    </author>
+                    <author>
+                        <name>Meia D</name>
+                    </author>
+                    <author>
+                        <name>Lia CX</name>
+                    </author>
+                    <author>
+                        <name>Zhanga XL</name>
+                    </author>
+                    <author>
+                        <name>Li YX</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>636989</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

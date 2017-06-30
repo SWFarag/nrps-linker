@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00427</id>
+            <name>aurilide</name>
+            <family>aurilide</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C44H75N5O10</formula>
+            <mw>834.0939</mw>
+            <comment>Aurilide is a putative NRPS,PKS product (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>7</size>
+            <composition>C11:2(t2.t8)-Me(2.6.8)-OH(5.7), D-Hmp, Val, D-NMe-Leu, NMe-Gly, Val, NMe-Ala</composition>
+            <graph>C11:2(t2.t8)-Me(2.6.8)-OH(5.7),D-Hmp,Val,D-NMe-Leu,NMe-Gly,Val,NMe-Ala@1,6@0,2@1,3@2,4@3,5@4,6@0,5</graph>
+            <smiles>CCC=C(C)C1OC(=O)C(C)N(C)C(=O)C(NC(=O)CN(C)C(=O)C(CC(C)C)N(C)C(=O)C(NC(=O)C(OC(=O)C(C)=CCC(O)C1(C))C(C)CC)C(C)C)C(C)C</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Dolabella auricularia</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Eumetazoa, Bilateria, Coelomata, Protostomia, Mollusca, Gastropoda, Orthogastropoda, Apogastropoda, Heterobranchia, Euthyneura, Opisthobranchia, Anaspidea, Aplysioidea, Aplysiidae, Dolabella</taxonomy>
+                <taxid>6511</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Aurilide, a cytotoxic depsipeptide from the sea hare Dolabella auricularia: Isolation, structure determination, synthesis, and biological activity</title>
+                <year>2004</year>
+                <journal>Tetrahedron</journal>
+                <location>60 (38), pp. 8509-8527</location>
+                <authors>
+                    <author>
+                        <name>Fujita T</name>
+                    </author>
+                    <author>
+                        <name>Suenaga K</name>
+                    </author>
+                    <author>
+                        <name>Mutou T</name>
+                    </author>
+                    <author>
+                        <name>Shibata T</name>
+                    </author>
+                    <author>
+                        <name>Itoh T</name>
+                    </author>
+                    <author>
+                        <name>Takada N</name>
+                    </author>
+                    <author>
+                        <name>Hayamizu K</name>
+                    </author>
+                    <author>
+                        <name>Yamada K</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

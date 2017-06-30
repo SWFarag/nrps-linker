@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00411</id>
+            <name>apramide G</name>
+            <family>apramide</family>
+            <activities>
+                <activity>antitumor</activity>
+                <activity>toxin</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <formula>C44H74N7O6S</formula>
+            <mw>829.1667</mw>
+            <comment>Apramides are putative NRPS products (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>8</size>
+            <composition>C8:0:1(7)-Me(2), NMe-Ala, NMe-Val, NMe-Val, NMe-Val, NMe-Val, NMe-Val, Pro-Thz</composition>
+            <graph>C8:0:1(7)-Me(2),NMe-Ala,NMe-Val,NMe-Val,NMe-Val,NMe-Val,NMe-Val,Pro-Thz@1@0,2@1,3@2,4@3,5@4,6@5,7@6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Lyngbya majuscula</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Oscillatoriales, Lyngbya</taxonomy>
+                <gram>negative</gram>
+                <taxid>158786</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Apramides A-G, novel lipopeptides from the marine cyanobacterium Lyngbya majuscula</title>
+                <year>2000</year>
+                <journal>Journal of natural products</journal>
+                <location>Aug,63(8):1106-12.</location>
+                <pmid>10978206</pmid>
+                <authors>
+                    <author>
+                        <name>Luesch H</name>
+                    </author>
+                    <author>
+                        <name>Moore RE</name>
+                    </author>
+                    <author>
+                        <name>Paul VJ</name>
+                    </author>
+                    <author>
+                        <name>Yoshida WY</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

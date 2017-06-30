@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00371</id>
+            <name>dolastatin 11</name>
+            <family>dolastatin</family>
+            <activities>
+                <activity>antitumor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C50H80N8O12</formula>
+            <mw>985.2166</mw>
+            <comment>Dolastatin 11 and dolastatin 12 inhibit growth of the murine P388 lymphocytic leukemia.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>9</size>
+            <composition>Gly, NMe-Val, NMe-OMe-Tyr, Ibu, Ala, Map, Hmp, Gly, NMe-Leu</composition>
+            <graph>Gly,NMe-Val,NMe-OMe-Tyr,Ibu,Ala,Map,Hmp,Gly,NMe-Leu@1,8@0,2@1,3@2,4@3,5@4,6@5,7@6,8@0,7</graph>
+            <smiles>CCC(C)C2OC(=O)C(C)C(CC)NC(=O)C(C)NC(=O)C(C)(C)C(=O)C(C)NC(=O)C(Cc1ccc(cc1)OC)N(C)C(=O)C(C(C)C)N(C)C(=O)CNC(=O)C(CC(C)C)N(C)C(=O)CNC2(=O)</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Dolabella auricularia</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Eumetazoa, Bilateria, Coelomata, Protostomia, Mollusca, Gastropoda, Orthogastropoda, Apogastropoda, Heterobranchia, Euthyneura, Opisthobranchia, Anaspidea, Aplysioidea, Aplysiidae, Dolabella</taxonomy>
+                <taxid>6511</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Dolastatins. 26. Synthesis and stereochemistry of dolastatin 11</title>
+                <year>1997</year>
+                <journal>Journal of the American Chemical Society</journal>
+                <location>119 (9), pp. 2111-2113</location>
+                <authors>
+                    <author>
+                        <name>Bates RB</name>
+                    </author>
+                    <author>
+                        <name>Brusoe KG</name>
+                    </author>
+                    <author>
+                        <name>Burns JJ</name>
+                    </author>
+                    <author>
+                        <name>Caldera S</name>
+                    </author>
+                    <author>
+                        <name>Cui W</name>
+                    </author>
+                    <author>
+                        <name>Gangwar S</name>
+                    </author>
+                    <author>
+                        <name>Gramme MR</name>
+                    </author>
+                    <author>
+                        <name>Bontems R</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>354399</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

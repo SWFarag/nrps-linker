@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00656</id>
+            <name>cereulide</name>
+            <family>cereulide</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>12</size>
+            <composition>D-Hmp, D-Ala, Hiv, Val, D-Hmp, D-Ala, Hiv, Val, D-Hmp, D-Ala, Hiv, Val</composition>
+            <graph>D-Hmp,D-Ala,Hiv,Val,D-Hmp,D-Ala,Hiv,Val,D-Hmp,D-Ala,Hiv,Val@1,11@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@0,10</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Bacillus cereus</name>
+                <taxonomy>cellular organisms, Bacteria, Firmicutes, Bacilli, Bacillales, Bacillaceae, Bacillus, Bacillus cereus group</taxonomy>
+                <gram>positive</gram>
+                <synonym>Bacillus medusa,Bacillus endorhythmos</synonym>
+                <taxid>1396</taxid>
+            </organism>
+            <organism>
+                <name>Bacillus weihenstephanensis</name>
+                <taxonomy>cellular organisms, Bacteria, Firmicutes, Bacilli, Bacillales, Bacillaceae, Bacillus, Bacillus cereus group</taxonomy>
+                <gram>positive</gram>
+                <taxid>86662</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Cereulide synthetase gene cluster from emetic Bacillus cereus: structure and location on a mega virulence plasmid related to Bacillus anthracis toxin plasmid pXO1</title>
+                <year>2006</year>
+                <journal>BMC microbiology</journal>
+                <location>Mar 2,6:20.</location>
+                <pmid>16512902</pmid>
+                <authors>
+                    <author>
+                        <name>Ehling-Schulz M</name>
+                    </author>
+                    <author>
+                        <name>Fricker M</name>
+                    </author>
+                    <author>
+                        <name>Grallert H</name>
+                    </author>
+                    <author>
+                        <name>Rieck P</name>
+                    </author>
+                    <author>
+                        <name>Wagner M</name>
+                    </author>
+                    <author>
+                        <name>Scherer S</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Characterization of emetic Bacillus weihenstephanensis, a new cereulide-producing bacterium</title>
+                <year>2006</year>
+                <journal>Applied and environmental microbiology</journal>
+                <location>Jul,72(7):5118-21.</location>
+                <pmid>16820519</pmid>
+                <authors>
+                    <author>
+                        <name>Thorsen L</name>
+                    </author>
+                    <author>
+                        <name> Hansen BM</name>
+                    </author>
+                    <author>
+                        <name> Nielsen KF</name>
+                    </author>
+                    <author>
+                        <name> Hendriksen NB</name>
+                    </author>
+                    <author>
+                        <name> Phipps RK</name>
+                    </author>
+                    <author>
+                        <name> Budde BB</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>A1BYG8</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q20CI8</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

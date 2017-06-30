@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00373</id>
+            <name>dehydrodidemnin B</name>
+            <family>didemnin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>antitumor</activity>
+                <activity>immunomodulating</activity>
+            </activities>
+            <synonyms>aplidine</synonyms>
+            <category>peptide</category>
+            <formula>C57H87N7O15</formula>
+            <mw>1110.3386</mw>
+            <comment>Aplidine is a compound found in tunicates which shows promise in shrinking tumors in pancreatic, stomach, bladder, and prostate cancers.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>9</size>
+            <composition>Ist, Hip, Leu, Pro, NMe-OMe-Tyr, Thr, D-NMe-Leu, Pro, Pya</composition>
+            <graph>Ist,Hip,Leu,Pro,NMe-OMe-Tyr,Thr,D-NMe-Leu,Pro,Pya@1,5@0,2@1,3@2,4@3,5@0,4,6@5,7@6,8@7</graph>
+            <smiles>CCC(C)C3NC(=O)C(NC(=O)C(CC(C)C)N(C)C(=O)C1CCCN1(C(=O)C(C)=O))C(C)OC(=O)C(Cc2ccc(cc2)OC)N(C)C(=O)C4CCCN4(C(=O)C(CC(C)C)NC(=O)C(C)C(=O)C(OC(=O)CC3(O))C(C)C)</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Aplidium albicans </name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Eumetazoa, Bilateria, Coelomata, Deuterostomia, Chordata, Urochordata, Ascidiacea, Enterogona, Aplousobranchia, Polyclinidae, Aplidium</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Analysis of conformational equilibria in aplidine using selective excitation 2D NMR spectroscopy and molecular mechanics/dynamics calculations</title>
+                <year>2003</year>
+                <journal>The Journal of organic chemistry</journal>
+                <location>Dec 12,68(25):9554-62.</location>
+                <pmid>14656079</pmid>
+                <authors>
+                    <author>
+                        <name>Cardenas F</name>
+                    </author>
+                    <author>
+                        <name>Caba JM</name>
+                    </author>
+                    <author>
+                        <name>Feliz M</name>
+                    </author>
+                    <author>
+                        <name>Lloyd-Williams P</name>
+                    </author>
+                    <author>
+                        <name>Giralt E</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Natural products as probes of cell biology: 20 years of didemnin research</title>
+                <year>2002</year>
+                <journal>Medicinal research reviews</journal>
+                <location>Mar,22(2):102-45.</location>
+                <pmid>11857636</pmid>
+                <authors>
+                    <author>
+                        <name>Vera MD</name>
+                    </author>
+                    <author>
+                        <name>Joullie MM</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>5459174</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

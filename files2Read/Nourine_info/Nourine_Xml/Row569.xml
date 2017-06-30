@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00577</id>
+            <name>haligramide B</name>
+            <family>haligramide</family>
+            <activities>
+                <activity>antitumor</activity>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C37H49N7O7S3</formula>
+            <mw>800.02264</mw>
+            <comment>haligramides are putative NRPS products (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>6</size>
+            <composition>O-Met, Phe-Thz, Pro, Met, Pro, Pro</composition>
+            <graph>O-Met,Phe-Thz,Pro,Met,Pro,Pro@1,5@0,2@1,3@2,4@3,5@0,4</graph>
+            <smiles>CSCCC3NC(=O)C6CCCN6(C(=O)C5CCCN5(C(=O)C(CCS(C)=O)NC(=O)c1csc(n1)C(Cc2ccccc2)NC(=O)C4CCCN4(C3(=O))))</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Haliclona nigra</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Haplosclerida, Chalinidae, Haliclona</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Haligramides A and B, two new cytotoxic hexapeptides from the marine sponge Haliclona nigra</title>
+                <year>2000</year>
+                <journal>Journal of natural products</journal>
+                <location>Jul,63(7):956-9.</location>
+                <pmid>10924173</pmid>
+                <authors>
+                    <author>
+                        <name>Rashid MA</name>
+                    </author>
+                    <author>
+                        <name>Gustafson KR</name>
+                    </author>
+                    <author>
+                        <name>Boyd MR</name>
+                    </author>
+                    <author>
+                        <name>Boswell JL</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

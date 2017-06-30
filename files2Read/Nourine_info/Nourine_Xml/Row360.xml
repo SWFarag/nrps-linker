@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00364</id>
+            <name>lichenysin A iC12</name>
+            <family>lichenysin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>surfactant</activity>
+            </activities>
+            <synonyms>lichenysin D</synonyms>
+            <category>lipopeptide</category>
+            <comment>This variant represents 0,3 % of the total amount of beta-hydroxy fatty acids found in lychenysin.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>8</size>
+            <composition>iC12:0-OH(3), Gln, Leu, D-Leu, Val, Asp, D-Leu, Ile</composition>
+            <graph>iC12:0-OH(3),Gln,Leu,D-Leu,Val,Asp,D-Leu,Ile@1,7@0,2@1,3@2,4@3,5@4,6@5,7@0,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Bacillus licheniformis</name>
+                <taxonomy>cellular organisms, Bacteria, Firmicutes, Bacilli, Bacillales, Bacillaceae, Bacillus</taxonomy>
+                <gram>positive</gram>
+                <synonym>Denitrobacillus licheniformis,Clostridium licheniforme</synonym>
+                <taxid>1402</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Molecular and biochemical characterization of the protein template controlling biosynthesis of the lipopeptide lichenysin</title>
+                <year>1999</year>
+                <journal>Journal of bacteriology</journal>
+                <location>Jan,181(1):133-40.</location>
+                <pmid>9864322</pmid>
+                <authors>
+                    <author>
+                        <name>Marahiel MA</name>
+                    </author>
+                    <author>
+                        <name>Konz D</name>
+                    </author>
+                    <author>
+                        <name>Doekel S</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>A putative lichenysin A synthetase operon in Bacillus licheniformis: initial characterization</title>
+                <year>1998</year>
+                <journal>Biochimica et biophysica acta</journal>
+                <location>Aug 20,1399(2-3):141-53.</location>
+                <pmid>9765590</pmid>
+                <authors>
+                    <author>
+                        <name>Yakimov MM</name>
+                    </author>
+                    <author>
+                        <name>Kroger A</name>
+                    </author>
+                    <author>
+                        <name>Slepak TN</name>
+                    </author>
+                    <author>
+                        <name>Giuliano L</name>
+                    </author>
+                    <author>
+                        <name>Timmis KN</name>
+                    </author>
+                    <author>
+                        <name>Golyshin PN</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>O66069</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>O66070</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>O66071</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>O66072</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q65NK5</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q65NK4</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q65NK3</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>O69248</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

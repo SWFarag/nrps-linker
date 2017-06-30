@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00518</id>
+            <name>axinastatin 4</name>
+            <family>axinastatin</family>
+            <activities>
+                <activity>antitumor</activity>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <comment>axinastatin is a putative NRPS product (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>7</size>
+            <composition>Pro, Leu, Thr, Pro, Leu, Trp, Val</composition>
+            <graph>Pro,Leu,Thr,Pro,Leu,Trp,Val@1,6@0,2@1,3@2,4@3,5@4,6@0,5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Axinella</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Halichondrida, Axinellidae</taxonomy>
+                <taxid>12958</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Synthesis and Stereochemistry of Axinastatin 4</title>
+                <year>1998</year>
+                <journal>Journal of natural products</journal>
+                <location>Mar 27,61(3):405.</location>
+                <pmid>9548884</pmid>
+                <authors>
+                    <author>
+                        <name>Bates RB</name>
+                    </author>
+                    <author>
+                        <name>Caldera S</name>
+                    </author>
+                    <author>
+                        <name>Ruane MD</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

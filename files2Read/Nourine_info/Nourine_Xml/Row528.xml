@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00536</id>
+            <name>phakellistatin 14</name>
+            <family>phakellistatin</family>
+            <activities>
+                <activity>antitumor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C36H53N7O10S</formula>
+            <mw>775.9119</mw>
+            <comment>Phakellistatins are putative NRPS products (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>7</size>
+            <composition>Phe, bOMe-Asp, Ala, O-Met, Ala, Ile, Pro</composition>
+            <graph>Phe,bOMe-Asp,Ala,O-Met,Ala,Ile,Pro@1,6@0,2@1,3@2,4@3,5@4,6@0,5</graph>
+            <smiles>CCC(C)C2NC(=O)C(C)NC(=O)C(CCS(C)=O)NC(=O)C(C)NC(=O)C(CC(=O)OC)NC(=O)C(Cc1ccccc1)NC(=O)C3CCCN3(C2(=O))</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Phakellia sp.</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Halichondrida, Axinellidae, Phakellia</taxonomy>
+                <taxid>85814</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Isolation and structure of phakellistatin 14 from the Western Pacific marine sponge Phakellia sp</title>
+                <year>2005</year>
+                <journal>Journal of natural products</journal>
+                <location>Jan,68(1):60-3.</location>
+                <pmid>15679318</pmid>
+                <authors>
+                    <author>
+                        <name>Pettit GR</name>
+                    </author>
+                    <author>
+                        <name>Tan R</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

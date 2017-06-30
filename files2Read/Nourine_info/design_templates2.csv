@@ -1,0 +1,8 @@
+ids,Antibiotic,xml_file_name,BGC,Status,family,organism,Composition,A_Domain,#Monomers,Species,Species_taxid,Cluster_file
+NOR00001,daptomycin,Row0,BGC0000336,Partial,NRP,Streptomyces roseosporus NRRL 11379,"-, nrp, asn, asp, thr, gly, -, nrp, asp, ala, asp, gly, ser, -, nrp, nrp, -","-, A, A, A, A, A, -, A, A, A, A, A, A, -, A, A, -",13,STREPTOMYCES_ROSEOSPORUS,67294,NZ_ABYX02000001.1.cluster009.gbk
+NOR00330,bacillibactin,Row327,BGC0000309,Partial,NRP,Bacillus subtilis subsp. subtilis str. 168,"gly, thr, -, -, dhb, -","A, A, -, -, A, -",3,BACILLUS_SUBTILIS,1423,NC_000964.3.cluster002.gbk
+NOR00331,viscosin,Row328,BGC0001312,Partial,NRP,Pseudomonas fluorescens SBW25,"thr, val, leu, ser, -, leu, ser, ile, -","A, A, A, A, -, A, A, A, -",7,PSEUDOMONAS_FLUORESCENS,294,NC_012660.1.cluster004.gbk
+NOR00633,viomycin,Row625,BGC0000458,Partial,NRP,Streptomyces vinaceus,"ser, ser, -, nrp, -, nrp, -, -, -, nrp, -","A, A, -, A, -, A, -, -, -, A, -",5,STREPTOMYCES_VINACEUS,1960,NZ_JNYP01000001.1.cluster003.gbk
+NOR00656,cereulide,Row648,BGC0000320,Full,NRP,Bacillus cereus,"-, nrp, nrp, -, nrp, val, -","-, A, A, -, A, A, -",4,BACILLUS_CEREUS,1396,NZ_JYCM01000001.1.cluster004.gbk
+NOR00681,vancomycin,Row672,BGC0000455,Partial,NRP,Amycolatopsis orientalis HCCB10007,"nrp, bht, asn, -, hpg, hpg, bht, -, hpg, -, tyr, -","A, A, A, -, A, A, A, -, A, -, A, -",8,AMYCOLATOPSIS_ORIENTALIS,31958,NC_021252.1.cluster001.gbk
+NOR01141,coelichelin,Row1131,BGC0000325,Partial,NRP,Streptomyces coelicolor A3(2,"orn, thr, orn, -","A, A, A, -",3,STREPTOMYCES_COELICOLOR,1902,NC_003888.3.cluster002.gbk

@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+
+{% block heading %} {{super()}} {% endblock %}
+
+
+{% block content %}
+
+    <div class="row">
+        <div class="col-sm-12 header">
+            <label for="peptideSeq"><h1 class="text-center text-warning">Template general info:</h1></label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="list-group">
+                 <a href="#" class="list-group-item active">
+                      <h4 class="list-group-item-heading">Nourine ID</h4>
+                      <p class="list-group-item-text">{{ id }}</p>
+                 </a>
+                 <a href="#" class="list-group-item active">
+                      <h4 class="list-group-item-heading">Peptide name</h4>
+                      <p class="list-group-item-text">{{ npeptide }}</p>
+                 </a>
+                 <a href="#" class="list-group-item active">
+                      <h4 class="list-group-item-heading">Organism</h4>
+                      <p class="list-group-item-text">{{ organism }}</p>
+                 </a>
+                 <a href="#" class="list-group-item active">
+                     <h4 class="list-group-item-heading">Category</h4>
+                     <p class="list-group-item-text">{{ category}}</p>
+                 </a>
+                 <a href="#" class="list-group-item active">
+                     <h4 class="list-group-item-heading">Activities</h4>
+                     <p class="list-group-item-text">{{ activities }}</p>
+                 </a>
+                 <a href="#" class="list-group-item active">
+                     <h4 class="list-group-item-heading">Size</h4>
+                     <p class="list-group-item-text">{{size}}</p>
+                 </a>
+                 <a href="#" class="list-group-item active">
+                     <h4 class="list-group-item-heading">Composition</h4>
+                     <p class="list-group-item-text">{{composition}}</p>
+                 </a>
+                 <a href="{{ link }}" class="list-group-item active">
+                     <h4 class="list-group-item-heading">For more details please refer to the following link</h4>
+                     <p class="list-group-item-text">{{ id ~"_" ~ npeptide }}</p>
+                 </a>
+          </div>
+        </div>
+        <div class="col-sm-8">
+            <img src="{{ graph }}" class="img-rounded" alt="{{ npeptide ~ " graph" }}">
+        </div>
+    </div>
+    <div class="row container-fluid">
+        <div class="col-sm-6">
+            <label for="peptideSeq"><h2 class="text-center text-warning">Template core peptide sequence:</h2></label>
+            <div class="panel panel-success">
+                <div class="panel-heading">NRPS composition:</div>
+                <div class="panel-body">{{ nrp_comp }}</div>
+            </div>
+            <div class="panel panel-info">
+                <div class="panel-heading">Number of NRPSs:</div>
+                <div class="panel-body">{{ nrps_counter }}</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <label for="peptideSeq"><h2 class="text-center text-warning">Re-programing of NRPS sequence:</h2></label>
+            <form role="form" name="form7"  method='post' action={{url_for('getNewPeptide')}}>
+                <a href="http://bioinfo.lifl.fr/norine/listAmino.jsp" target="_blank"> <h5>A comprehensive list of all monomers</h5></a>
+                {% if error1 %}
+                    <div id="peptiteError1" class="alert alert-danger">
+                        <strong>Info!</strong> {{error1}}
+                    </div>
+                {% endif %}
+                {% if error2 %}
+                    <div id="peptiteError2" class="alert alert-danger">
+                        <strong>Info!</strong> {{error2}}
+                    </div>
+                {% endif %}
+
+                {% if error3 %}
+                    <div id="peptiteError3" class="alert alert-warning">
+                        <strong>Info!</strong> {{error3}}
+                    </div>
+                {% endif %}
+
+                {% if error4 %}
+                    <div id="peptiteError3" class="alert alert-danger">
+                        <strong>Info!</strong> {{error4}}
+                    </div>
+                {% endif %}
+
+                {% if no_linkers %}
+                <div id="pairsError" class="alert alert-danger">
+                    <strong>Info!</strong>{{ " No linkers available for the following pair(s):" }}
+                    <br>
+                    {% for l in no_linkers%}
+                        {{l[0]~"_" ~l[1]}}
+                        <br>
+                    {% endfor %}
+                </div>
+            {% endif %}
+                <textarea required name="peptideSeq" rows="3" cols="90" placeholder="{{nrp_comp}}" ></textarea>
+                <div class="checkbox">
+                    <label for="np2"><input required name="np2" type="checkbox" value="{{npeptide}}">Template name </label>
+                    <label for="np3"><input required name="np3" type="checkbox" value="{{nrp_comp}}"> NRPS composition</label>
+                    <label for="np4"><input required name="np4" type="checkbox" value="{{nrps_counter}}"> Number of NRPSs</label>
+                </div>
+                <div><button type="submit" class="btn btn-success btn-md">Submit</button></div>
+            </form>
+        </div>
+    </div>
+
+{% endblock %}
+
+
+{% block footer %} {{super()}} {% endblock %}

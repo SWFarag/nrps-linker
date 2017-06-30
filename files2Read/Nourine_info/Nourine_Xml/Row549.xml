@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00557</id>
+            <name>microsclerodermin G</name>
+            <family>microsclerodermin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>antitumor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C45H54N8O12</formula>
+            <mw>898.95667</mw>
+            <comment>Microsclerodermins are putative NRPS products (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>6</size>
+            <composition>C12:3(7.9.11)-Me(6.10)-OH(2.4.5)-NH2(3)-Ph(12), Pyr, NMe-Gly, D-Trp, Gly, OH-4Abu</composition>
+            <graph>C12:3(7.9.11)-Me(6.10)-OH(2.4.5)-NH2(3)-Ph(12),Pyr,NMe-Gly,D-Trp,Gly,OH-4Abu@1,5@0,2@1,3@2,4@3,5@0,4</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Microscleroderma sp.</name>
+                <taxonomy>marine sponge</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Microsclerodermins F-I, antitumor and antifungal cyclic peptides from the lithistid sponge Microscleroderma sp.</title>
+                <year>2000</year>
+                <journal>Tetrahedron</journal>
+                <location>56 (23), pp. 3679-3685</location>
+                <authors>
+                    <author>
+                        <name>Faulkner DJ</name>
+                    </author>
+                    <author>
+                        <name>Qureshi A</name>
+                    </author>
+                    <author>
+                        <name>Colin PL</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

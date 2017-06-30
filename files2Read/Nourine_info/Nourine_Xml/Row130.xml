@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00132</id>
+            <name>[D-Asp3.Dha7]microcystin-RR</name>
+            <family>microcystin</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>PK-NRP</category>
+            <formula>C47H71N13O12</formula>
+            <mw>1010.14655</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>7</size>
+            <composition>D-Ala, Arg, D-Asp, Arg, Adda, D-Glu, dh-Ala</composition>
+            <graph>D-Ala,Arg,D-Asp,Arg,Adda,D-Glu,dh-Ala@1,6@0,2@1,3@2,4@3,5@4,6@0,5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Anabaena</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Nostocales, Nostocaceae</taxonomy>
+                <gram>negative</gram>
+                <taxid>1163</taxid>
+            </organism>
+            <organism>
+                <name>Microcystis aeruginosa</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Chroococcales, Microcystis</taxonomy>
+                <taxid>1126</taxid>
+            </organism>
+            <organism>
+                <name>Oscillatoria agardhii</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Oscillatoriales, Planktothrix</taxonomy>
+                <gram>negative</gram>
+                <synonym>Planktothrix agardhii</synonym>
+                <taxid>1160</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structural characterization of toxic cyclic peptides from blue-green algae by tandem mass spectrometry</title>
+                <year>1989</year>
+                <journal>Proceedings of the National Academy of Sciences of the United States of America</journal>
+                <location>Feb,86(3):770-4.</location>
+                <pmid>2492662</pmid>
+                <authors>
+                    <author>
+                        <name>Carmichael WW</name>
+                    </author>
+                    <author>
+                        <name>Skulberg OM</name>
+                    </author>
+                    <author>
+                        <name>Krishnamurthy T</name>
+                    </author>
+                    <author>
+                        <name>Szafraniec L</name>
+                    </author>
+                    <author>
+                        <name>Hunt DF</name>
+                    </author>
+                    <author>
+                        <name>Shabanowitz J</name>
+                    </author>
+                    <author>
+                        <name>Yates JR 3rd</name>
+                    </author>
+                    <author>
+                        <name>Hauer CR</name>
+                    </author>
+                    <author>
+                        <name>Codd GA</name>
+                    </author>
+                    <author>
+                        <name>Missler S</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Isolation and characterization of a variety of microcystins from seven strains of the cyanobacterial genus Anabaena</title>
+                <year>1992</year>
+                <journal>Applied and environmental microbiology</journal>
+                <location>Aug,58(8):2495-500.</location>
+                <pmid>1514796</pmid>
+                <authors>
+                    <author>
+                        <name>Sivonen K</name>
+                    </author>
+                    <author>
+                        <name>Namikoshi M</name>
+                    </author>
+                    <author>
+                        <name>Evans WR</name>
+                    </author>
+                    <author>
+                        <name>Carmichael WW</name>
+                    </author>
+                    <author>
+                        <name>Sun F</name>
+                    </author>
+                    <author>
+                        <name>Rouhiainen L</name>
+                    </author>
+                    <author>
+                        <name>Luukkainen R</name>
+                    </author>
+                    <author>
+                        <name>Rinehart KL</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>Q9RNB1</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q9RNB0</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q9RNA9</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q9RNB3</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q9RNB5</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q7WRX9</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q7WRQ4</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q7WRJ5</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q7WRI6</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q7WRJ0</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q8G983</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q8G982</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q8G981</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q8G986</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q8G985</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

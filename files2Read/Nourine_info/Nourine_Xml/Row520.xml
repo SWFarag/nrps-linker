@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00528</id>
+            <name>phakellistatin 6</name>
+            <family>phakellistatin</family>
+            <activities>
+                <activity>antitumor</activity>
+            </activities>
+            <category>peptide</category>
+            <comment>Phakellistatins are putative NRPS products (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>7</size>
+            <composition>Pro, Phe, Pro, Trp, Leu, Pro, Ile</composition>
+            <graph>Pro,Phe,Pro,Trp,Leu,Pro,Ile@1,6@0,2@1,3@2,4@3,5@4,6@0,5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Phakellia sp.</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Halichondrida, Axinellidae, Phakellia</taxonomy>
+                <taxid>85814</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Antineoplastic agents 323. Isolation and structure of phakellistatin 6 from a chuuk archipelago marine sponge</title>
+                <year>1994</year>
+                <journal>Bioorganic and Medicinal Chemistry Letters</journal>
+                <location>4 (22), pp. 2677-2682</location>
+                <authors>
+                    <author>
+                        <name>Pettit GR</name>
+                    </author>
+                    <author>
+                        <name>Cerny RL</name>
+                    </author>
+                    <author>
+                        <name>Chapuis JC</name>
+                    </author>
+                    <author>
+                        <name>Cichacz Z</name>
+                    </author>
+                    <author>
+                        <name>Williams MD</name>
+                    </author>
+                    <author>
+                        <name>Xu JP</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

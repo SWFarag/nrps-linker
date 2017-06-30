@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00338</id>
+            <name>pseudophomin A</name>
+            <family>viscosin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>surfactant</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <formula>C55H97N9O16</formula>
+            <mw>1140.4093</mw>
+            <comment>Pseudophomin A is a diastereoisomer of massetolide A.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>10</size>
+            <composition>C10:0-OH(3), Leu, D-Glu, D-aThr, D-Ile, D-Leu, D-Ser, Leu, D-Ser, Ile</composition>
+            <graph>C10:0-OH(3),Leu,D-Glu,D-aThr,D-Ile,D-Leu,D-Ser,Leu,D-Ser,Ile@1@0,2@1,3@2,4,9@3,5@4,6@5,7@6,8@7,9@3,8</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas fluorescens</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas</taxonomy>
+                <gram>negative</gram>
+                <taxid>136843</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Pseudophomins A and B, a class of cyclic lipodepsipeptides isolated from a Pseudomonas species</title>
+                <year>2002</year>
+                <journal>Acta crystallographica. Section C, Crystal structure communications</journal>
+                <location>May,58(Pt 5):o268-71. Epub 2002 Apr 11.</location>
+                <pmid>11983987</pmid>
+                <authors>
+                    <author>
+                        <name>Pedras MS</name>
+                    </author>
+                    <author>
+                        <name>Quail JW</name>
+                    </author>
+                    <author>
+                        <name>Ismail N</name>
+                    </author>
+                    <author>
+                        <name>Boyetchko SM</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Structure, chemistry, and biological activity of pseudophomins A and B, new cyclic lipodepsipeptides isolated from the biocontrol bacterium Pseudomonas fluorescens</title>
+                <year>2003</year>
+                <journal>Phytochemistry</journal>
+                <location>Apr,62(7):1105-14.</location>
+                <pmid>12591264</pmid>
+                <authors>
+                    <author>
+                        <name>Pedras MS</name>
+                    </author>
+                    <author>
+                        <name>Quail JW</name>
+                    </author>
+                    <author>
+                        <name>Ismail N</name>
+                    </author>
+                    <author>
+                        <name>Boyetchko SM</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01022</id>
+            <name>LP237 F7</name>
+            <family>LP237</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptaibol</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>12</size>
+            <composition>C10:0, Aib, Pro, Phe, Aib, Gln, Gln, Aib, Aib, Gln, Ala, Leuol</composition>
+            <graph>C10:0,Aib,Pro,Phe,Aib,Gln,Gln,Aib,Aib,Gln,Ala,Leuol@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Tolypocladium geodes</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Dikarya, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Clavicipitaceae, mitosporic Clavicipitaceae, Tolypocladium</taxonomy>
+                <synonym>Beauveria geodes</synonym>
+                <taxid>38000</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structural Assignment of the Peptide Antibiotic LP237-F8, a Metabolite of Tolypocladium geodes</title>
+                <year>1996</year>
+                <journal>The Journal of organic chemistry</journal>
+                <location>61 (6), 2118 -2121 jo951837t</location>
+                <authors>
+                    <author>
+                        <name>Tsantrizos YS</name>
+                    </author>
+                    <author>
+                        <name>Pischos S</name>
+                    </author>
+                    <author>
+                        <name>Sauriol F</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

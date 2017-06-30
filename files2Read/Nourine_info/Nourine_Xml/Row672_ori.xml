@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00681</id>
+            <name>vancomycin</name>
+            <family>vancomycin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <synonyms>K288, vancin, vancled</synonyms>
+            <category>glycopeptide</category>
+            <formula>C66H75Cl2N9O24</formula>
+            <mw>1449.2537</mw>
+            <comment>Vancomycin is a glycopeptide antibiotic used in the prophylaxis and treatment of infections caused by Gram-positive bacteria. It has traditionally been reserved as a drug of "last resort", used only after treatment with other antibiotics had failed, although the emergence of vancomycin-resistant organisms means that it is increasingly being displaced from this role by linezolid and the carbapenems. Two bonds of the central Hpg are due to oxydative ring closure reactions.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>other</type>
+            <size>9</size>
+            <graph>Asn,bOH-Cl-Tyr,NMe-Leu,Hpg,D-Glc,Van,bOH-Cl-Tyr,Dhpg,Hpg@1,3@0,2,3@1@1,0,4,6,8@3,5@4@3,7,8@6,8@3,7,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Nocardia orientalis</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Pseudonocardineae, Pseudonocardiaceae, Amycolatopsis</taxonomy>
+                <gram>positive</gram>
+                <synonym>Amycolatopsis orientalis,Streptomyces orientalis,Amycolatopsis orientalis orientalis</synonym>
+                <taxid>31958</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Vancomycin assembly: nature s way</title>
+                <year>2003</year>
+                <journal>Angewandte Chemie</journal>
+                <location>Feb 17,42(7):730-65.</location>
+                <pmid>12596194</pmid>
+                <authors>
+                    <author>
+                        <name>Walsh CT</name>
+                    </author>
+                    <author>
+                        <name>Hubbard BK</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>6426898</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

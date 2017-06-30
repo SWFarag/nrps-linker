@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00873</id>
+            <name>syringopeptin 508A</name>
+            <family>syringopeptin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>toxin</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <comment>The amino acid stereochemistry has not been identified.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>23</size>
+            <composition>C12:0-OH(3), dhAbu, Pro, Val, Leu, Ala, Ala, Leu, Val, Ala, Ala, Val, Ala, Ala, dhAbu, aThr, Ser, Ala, dhAbu, Ala, Dab, Dab, Tyr</composition>
+            <graph>C12:0-OH(3),dhAbu,Pro,Val,Leu,Ala,Ala,Leu,Val,Ala,Ala,Val,Ala,Ala,dhAbu,aThr,Ser,Ala,dhAbu,Ala,Dab,Dab,Tyr@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@11,13@12,14@13,15@14,16,22@15,17@16,18@17,19@18,20@19,21@20,22@15,21</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas syringae pv. lachrymans</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas syringae group, Pseudomonas syringae group genomosp. 2, Pseudomonas amygdali</taxonomy>
+                <gram>negative</gram>
+                <taxid>53707</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Novel cyclic lipodepsipeptide from Pseudomonas syringae pv. lachrymans strain 508 and syringopeptin antimicrobial activities</title>
+                <year>2005</year>
+                <journal>Antimicrobial agents and chemotherapy</journal>
+                <location>Dec,49(12):5037-45.</location>
+                <pmid>16304170</pmid>
+                <authors>
+                    <author>
+                        <name>Grgurina I</name>
+                    </author>
+                    <author>
+                        <name>Fogliano V</name>
+                    </author>
+                    <author>
+                        <name>Mannina L</name>
+                    </author>
+                    <author>
+                        <name>Takemoto JY</name>
+                    </author>
+                    <author>
+                        <name>Sorensen KN</name>
+                    </author>
+                    <author>
+                        <name>Cruciani O</name>
+                    </author>
+                    <author>
+                        <name>Fiore A</name>
+                    </author>
+                    <author>
+                        <name>Bensaci M</name>
+                    </author>
+                    <author>
+                        <name>Pocsfalvi G</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

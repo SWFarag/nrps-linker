@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00232</id>
+            <name>actinomycin V</name>
+            <family>actinomycin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <synonyms>actinomycin X2</synonyms>
+            <category>chromopeptide</category>
+            <formula>C62H84N12O17</formula>
+            <mw>1269.4006</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>double cyclic</type>
+            <size>11</size>
+            <composition>D-Val, 4oxo-Pro, NMe-Gly, NMe-Val, Thr, ChrAct, Thr, D-Val, Pro, NMe-Gly, NMe-Val</composition>
+            <graph>Thr,D-Val,4oxo-Pro,NMe-Gly,NMe-Val,ChrAct,Thr,D-Val,Pro,NMe-Gly,NMe-Val@1,4,5@0,2@1,3@2,4@3,0@0,6@5,7,10@6,8@7,9@8,10@6,9</graph>
+            <smiles>CC(C)C6NC(=O)C(NC(=O)c3ccc(C)c4OC5=C(C)C(=O)C(N)=C(C(=O)NC1C(C)OC(=O)C(C(C)C)N(C)C(=O)CN(C)C(=O)C2CC(=O)CN2(C(=O)C(NC1(=O))C(C)C))C5(=Nc34))C(C)OC(=O)C(C(C)C)N(C)C(=O)CN(C)C(=O)C7CCCN7(C6(=O))</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces antibioticus</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <synonym>Actinomyces antibioticus</synonym>
+                <taxid>1890</taxid>
+            </organism>
+            <organism>
+                <name>Streptomyces sp.</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <taxid>1931</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Isolation and identification of oxoproline in actinomycin X2. (V). Hydrolysates</title>
+                <year>1969</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Feb,22(2):85-7.</location>
+                <pmid>4181575</pmid>
+                <authors>
+                    <author>
+                        <name>Diegelmann R</name>
+                    </author>
+                    <author>
+                        <name>Mauger A</name>
+                    </author>
+                    <author>
+                        <name>Katz E</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>159855</acc>
+                <name_db>PubChem</name_db>
+            </link>
+            <link>
+                <acc>1qfi</acc>
+                <name_db>PDB</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

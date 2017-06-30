@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00012</id>
+            <name>[Aib6.Glu19] alamethicin F30</name>
+            <family>alamethicin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptaibol</category>
+            <formula>C93H151N21O26</formula>
+            <mw>1979.3191</mw>
+            <comment>The natural alpha-helical peptide antibiotic alamethicin forms voltage-gated ion channels in lipid membranes.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>20</size>
+            <composition>Ac-Aib, Pro, Aib, Ala, Aib, Aib, Gln, Aib, Val, Aib, Gly, Leu, Aib, Pro, Val, Aib, Aib, Glu, Glu, Pheol</composition>
+            <graph>Ac-Aib,Pro,Aib,Ala,Aib,Aib,Gln,Aib,Val,Aib,Gly,Leu,Aib,Pro,Val,Aib,Aib,Glu,Glu,Pheol@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@11,13@12,14@13,15@14,16@15,17@16,18@17,19@18</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Trichoderma viride</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, mitosporicHypocreales, Trichoderma, Tricoderma viride species complex</taxonomy>
+                <synonym>Trichoderma lignorum</synonym>
+                <taxid>5547</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Analysis of the lipophilic peptaibol alamethicin by nonaqueous capillary electrophoresis-electrospray ionization-mass spectrometry</title>
+                <year>2005</year>
+                <journal>Electrophoresis</journal>
+                <location>Nov,26(22):4368-78.</location>
+                <pmid>16287177</pmid>
+                <authors>
+                    <author>
+                        <name>Psurek A</name>
+                    </author>
+                    <author>
+                        <name>Neususs C</name>
+                    </author>
+                    <author>
+                        <name>Pelzing M</name>
+                    </author>
+                    <author>
+                        <name>Scriba GK</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

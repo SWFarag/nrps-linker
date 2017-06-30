@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00979</id>
+            <name>chrysospermin A</name>
+            <family>chrysospermin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptaibol</category>
+            <comment>The chrysospermins display antibacterial and antifungal activity, and induce pigment formation by the fungus Phoma destructiva.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>19</size>
+            <composition>Ac-Phe, Aib, Ser, Aib, Aib, Leu, Gln, Gly, Aib, Aib, Ala, Ala, Aib, Pro, Aib, Aib, Aib, Gln, Trpol</composition>
+            <graph>Ac-Phe,Aib,Ser,Aib,Aib,Leu,Gln,Gly,Aib,Aib,Ala,Ala,Aib,Pro,Aib,Aib,Aib,Gln,Trpol@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@11,13@12,14@13,15@14,16@15,17@16,18@17</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Hypomyces chrysospermus</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Dikarya, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Hypocreaceae, Hypomyces</taxonomy>
+                <synonym>Apiocrea chrysosperma,Sepedonium chrysospermum</synonym>
+                <taxid>5131</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Chrysospermins, new peptaibol antibiotics from Apiocrea chrysosperma Ap101</title>
+                <year>1995</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Sep,48(9):977-89.</location>
+                <pmid>7592066</pmid>
+                <authors>
+                    <author>
+                        <name>Ritzau M</name>
+                    </author>
+                    <author>
+                        <name>Dornberger K</name>
+                    </author>
+                    <author>
+                        <name>Schlegel B</name>
+                    </author>
+                    <author>
+                        <name>Grafe U</name>
+                    </author>
+                    <author>
+                        <name>Ihn W</name>
+                    </author>
+                    <author>
+                        <name>Fleck WF</name>
+                    </author>
+                    <author>
+                        <name>Metzger JW</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

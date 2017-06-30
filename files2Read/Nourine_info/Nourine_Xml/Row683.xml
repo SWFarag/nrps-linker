@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00692</id>
+            <name>decaplanin</name>
+            <family>decaplanin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <synonyms>M86-1410, 126985-51-1128441-18-9</synonyms>
+            <category>glycopeptide</category>
+            <formula>C72H86ClN9O28</formula>
+            <mw>1560.9498</mw>
+            <comment>Two bonds of the central Hpg are due to oxydative ring closure.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>other</type>
+            <size>10</size>
+            <graph>Asn,bOH-Cl-Tyr,NMe-Leu,Hpg,D-Glc,Rha,bOH-Tyr,Ere,Dhpg,Hpg@1,3@0,2,3@1@1,0,4,6,9@3,5@4@3,8,7,9@6@6,9@8,3,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Nocardia orientalis</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Pseudonocardineae, Pseudonocardiaceae, Amycolatopsis</taxonomy>
+                <gram>positive</gram>
+                <synonym>Amycolatopsis orientalis,Streptomyces orientalis,Amycolatopsis orientalis orientalis</synonym>
+                <taxid>31958</taxid>
+            </organism>
+            <organism>
+                <name>Kibdellosporangium deccaensis</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Pseudonocardineae, Pseudonocardiaceae, Kibdelosporangium</taxonomy>
+                <gram>positive</gram>
+                <synonym>Kibdelosporangium deccaensis</synonym>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>In vitro activity of decaplanin (M86-1410), a new glycopeptide antibiotic</title>
+                <year>1992</year>
+                <journal>Antimicrobial agents and chemotherapy</journal>
+                <location>Apr,36(4):873-5.</location>
+                <pmid>1386973</pmid>
+                <authors>
+                    <author>
+                        <name>Sanchez ML</name>
+                    </author>
+                    <author>
+                        <name>Wenzel RP</name>
+                    </author>
+                    <author>
+                        <name>Jones RN</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>195570</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

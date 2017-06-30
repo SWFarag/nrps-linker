@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00744</id>
+            <name>callipeltin J</name>
+            <family>callipeltin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>toxin</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <formula>C31H58N8O11</formula>
+            <mw>718.8392</mw>
+            <comment>Callipeltin is a putative NRPS product (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>5</size>
+            <composition>iC8:0-Me(2.4)-OH(3), D-Ala, Agdha, D-bMe-Gln, D-aThr</composition>
+            <graph>iC8:0-Me(2.4)-OH(3),D-Ala,Agdha,D-bMe-Gln,D-aThr@1@0,2@1,3@2,4@3</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Latrunculia sp.</name>
+                <taxonomy>marine sponges collected in the Vanuatu Islands</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Isolation and structural elucidation of callipeltins JM: antifungal peptides from the marine sponge Latrunculia sp.</title>
+                <year>2007</year>
+                <journal>Tetrahedron</journal>
+                <location>Volume 63, Issue 1, Pages 131-140</location>
+                <authors>
+                    <author>
+                        <name>D Auria MV</name>
+                    </author>
+                    <author>
+                        <name>Zampella A</name>
+                    </author>
+                    <author>
+                        <name>Debitus C</name>
+                    </author>
+                    <author>
+                        <name>SEPE V</name>
+                    </author>
+                    <author>
+                        <name>D ORSI R</name>
+                    </author>
+                    <author>
+                        <name>Bellotta F</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

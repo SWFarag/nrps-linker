@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00649</id>
+            <name>isaridin B</name>
+            <family>isaridin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptide</category>
+            <comment>Isaridins are putative NRPS products (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>6</size>
+            <composition>bAla, 3OH-Leu, 3Me-Pro, Phe, NMe-Val, NMe-Phe</composition>
+            <graph>bAla,3OH-Leu,3Me-Pro,Phe,NMe-Val,NMe-Phe@1,5@0,2@1,3@2,4@3,5@0,4</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Isaria</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Clavicipitaceae, mitosporic Clavicipitaceae</taxonomy>
+                <taxid>72232</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Two Novel Hexadepsipeptides with Several Modified Amino Acid Residues Isolated from the Fungus Isaria</title>
+                <year>2004</year>
+                <journal>CHEMISTRY and BIODIVERSITY</journal>
+                <location>vol.1</location>
+                <authors>
+                    <author>
+                        <name>Ravindra G</name>
+                    </author>
+                    <author>
+                        <name>Ranganayaki RS</name>
+                    </author>
+                    <author>
+                        <name>Raghothama S</name>
+                    </author>
+                    <author>
+                        <name>Srinivasan MC</name>
+                    </author>
+                    <author>
+                        <name>Gilardi RD</name>
+                    </author>
+                    <author>
+                        <name>Karle IL</name>
+                    </author>
+                    <author>
+                        <name>Balaram P</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

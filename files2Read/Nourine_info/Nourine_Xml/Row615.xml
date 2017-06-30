@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00623</id>
+            <name>chlamydocin</name>
+            <family>chlamydocin</family>
+            <activities>
+                <activity>antitumor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C28H38N4O6</formula>
+            <mw>526.6245</mw>
+            <comment>Chlamydocin is a putative NRPS product (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>4</size>
+            <composition>Aib, Phe, D-Pro, C10:0-NH2(2)-Ep(9)-oxo(8)</composition>
+            <graph>Aib,Phe,D-Pro,C10:0-NH2(2)-Ep(9)-oxo(8)@1,3@0,2@1,3@0,2</graph>
+            <smiles>CC3(C)(NC(=O)C(CCCCCC(=O)C1CO1)NC(=O)C4CCCN4(C(=O)C(Cc2ccccc2)NC3(=O)))</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pochonia chlamydosporia</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Clavicipitaceae, mitosporic Clavicipitaceae, Pochonia</taxonomy>
+                <synonym>Verticillium chlamydosporium,Diheterospora chlamydosporia</synonym>
+                <taxid>280753</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Isolation and structural clarification of chlamydocin</title>
+                <year>1974</year>
+                <journal>Helvetica chimica acta</journal>
+                <location>Apr 27,57(3):533-45.</location>
+                <pmid>4857466</pmid>
+                <authors>
+                    <author>
+                        <name>Closse A</name>
+                    </author>
+                    <author>
+                        <name>Huguenin R</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>124134</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

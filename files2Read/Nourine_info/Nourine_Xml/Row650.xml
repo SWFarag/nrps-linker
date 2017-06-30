@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00658</id>
+            <name>valinomycin</name>
+            <family>valinomycin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C54H90N6O18</formula>
+            <mw>1111.3219</mw>
+            <comment>Valinomycin is a potassium selective ionophore and is commonly used as a tool in biochemical studies.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>12</size>
+            <composition>D-Val, Lac, Val, D-Hiv, D-Val, Lac, Val, D-Hiv, D-Val, Lac, Val, D-Hiv</composition>
+            <graph>D-Val,Lac,Val,D-Hiv,D-Val,Lac,Val,D-Hiv,D-Val,Lac,Val,D-Hiv@1,11@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@0,10</graph>
+            <smiles>CC(C)C1NC(=O)C(C)OC(=O)C(NC(=O)C(OC(=O)C(NC(=O)C(C)OC(=O)C(NC(=O)C(OC(=O)C(NC(=O)C(C)OC(=O)C(NC(=O)C(OC1(=O))C(C)C)C(C)C)C(C)C)C(C)C)C(C)C)C(C)C)C(C)C)C(C)C</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae</taxonomy>
+                <gram>positive</gram>
+                <synonym>Chainia</synonym>
+                <taxid>1883</taxid>
+            </organism>
+            <organism>
+                <name>Streptomyces fulvissimus</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <synonym>Actinomyces fulvissimus</synonym>
+                <taxid>68202</taxid>
+            </organism>
+            <organism>
+                <name>Streptomyces tsusimaensis</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <taxid>285482</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Deciphering the biosynthetic codes for the potent anti-SARS-CoV cyclodepsipeptide valinomycin in Streptomyces tsusimaensis ATCC 15141</title>
+                <year>2006</year>
+                <journal>Chembiochem : a European journal of chemical biology</journal>
+                <location>Mar,7(3):471-7.</location>
+                <pmid>16511823</pmid>
+                <authors>
+                    <author>
+                        <name>Cheng YQ</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>3000706</acc>
+                <name_db>PubChem</name_db>
+            </link>
+            <link>
+                <acc>Q1PSF4</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q1PSF3</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

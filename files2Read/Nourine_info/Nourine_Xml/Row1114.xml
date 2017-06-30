@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01124</id>
+            <name>arylomycin B6</name>
+            <family>arylomycin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <formula>C44H63N7O13</formula>
+            <mw>898.01013</mw>
+            <comment>Arylomycins represent the first examples of biaryl-bridged lipopeptides.</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>7</size>
+            <composition>iC14:0, D-NMe-Ser, D-Ala, Gly, NMe-Hpg, Ala, 3NO2-Tyr</composition>
+            <graph>iC14:0,D-NMe-Ser,D-Ala,Gly,NMe-Hpg,Ala,3NO2-Tyr@1@0,2@1,3@2,4@3,5,6@4,6@4,5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces sp. Tu 6075</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Arylomycins A and B, new biaryl-bridged lipopeptide antibiotics produced by Streptomyces sp. Tu 6075. II. Structure elucidation</title>
+                <year>2002</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Jun,55(6):571-7.</location>
+                <pmid>12195963</pmid>
+                <authors>
+                    <author>
+                        <name>Jung G</name>
+                    </author>
+                    <author>
+                        <name>Holtzel A</name>
+                    </author>
+                    <author>
+                        <name>Schmid DG</name>
+                    </author>
+                    <author>
+                        <name>Nicholson GJ</name>
+                    </author>
+                    <author>
+                        <name>Stevanovic S</name>
+                    </author>
+                    <author>
+                        <name>Schimana J</name>
+                    </author>
+                    <author>
+                        <name>Gebhardt K</name>
+                    </author>
+                    <author>
+                        <name>Fiedler HP</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

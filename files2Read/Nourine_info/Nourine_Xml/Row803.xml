@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00812</id>
+            <name>marinobactin C</name>
+            <family>marinobactin</family>
+            <activities>
+                <activity>siderophore</activity>
+                <activity>surfactant</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>7</size>
+            <composition>C14:0, D-OH-Asp, Dab, D-Ser, D-Ac-OH-Orn, Ser, Ac-OH-Orn</composition>
+            <graph>C14:0,D-OH-Asp,Dab,D-Ser,D-Ac-OH-Orn,Ser,Ac-OH-Orn@1@0,2,2@1,1,3@2,4@3,5@4,6@5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Marinobacter sp.</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Alteromonadales, Alteromonadaceae, Marinobacter</taxonomy>
+                <gram>negative</gram>
+                <taxid>50741</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Membrane affinity of the amphiphilic marinobactin siderophores</title>
+                <year>2002</year>
+                <journal>Journal of the American Chemical Society</journal>
+                <location>Nov 13,124(45):13408-15.</location>
+                <pmid>12418892</pmid>
+                <authors>
+                    <author>
+                        <name>Xu G</name>
+                    </author>
+                    <author>
+                        <name>Martinez JS</name>
+                    </author>
+                    <author>
+                        <name>Groves JT</name>
+                    </author>
+                    <author>
+                        <name>Butler A</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

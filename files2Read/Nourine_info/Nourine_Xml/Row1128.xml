@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01138</id>
+            <name>microginin FR5</name>
+            <family>microginin</family>
+            <activities>
+                <activity>protease inhibitor</activity>
+            </activities>
+            <category>PK-NRP</category>
+            <mw>725.41</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>5</size>
+            <composition>Adda, Val, Pro, Tyr, Tyr</composition>
+            <graph>Adda,Val,Pro,Tyr,Tyr@1@0,2@1,3@2,4@3</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Microcystis</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Chroococcales</taxonomy>
+                <gram>negative</gram>
+                <taxid>1125</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Detection and identification of oligopeptides in Microcystis (cyanobacteria) colonies: toward an understanding of metabolic diversity</title>
+                <year>2006</year>
+                <journal>Peptides</journal>
+                <location>vol. 27,no. 9,pp. 2090-2103</location>
+                <pmid>16678305</pmid>
+                <authors>
+                    <author>
+                        <name>Martin</name>
+                    </author>
+                    <author>
+                        <name>Welker</name>
+                    </author>
+                    <author>
+                        <name>Blahoslav</name>
+                    </author>
+                    <author>
+                        <name>Mars√°lek</name>
+                    </author>
+                    <author>
+                        <name>Lenka</name>
+                    </author>
+                    <author>
+                        <name>Sejnohov√°</name>
+                    </author>
+                    <author>
+                        <name>Hans</name>
+                    </author>
+                    <author>
+                        <name>von</name>
+                    </author>
+                    <author>
+                        <name>D√∂hren</name>
+                    </author>
+                </authors>
+                <doi>10.1016/j.peptides.2006.03.014</doi>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00180</id>
+            <name>pyoverdin 1.2</name>
+            <family>pyoverdin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <synonyms>Gwose</synonyms>
+            <category>chromopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>11</size>
+            <composition>ChrP, Ser, Thr, D-Ser, Orn, OH-Asp, D-Gln, Dab, Ser, D-aThr, OH-cOrn</composition>
+            <graph>ChrP,Ser,Thr,D-Ser,Orn,OH-Asp,D-Gln,Dab,Ser,D-aThr,OH-cOrn@1@0,2@1,3@2,4@3,5@4,6@5,7,7@6,6,8@7,9@8,10@9</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas putida</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas putida group</taxonomy>
+                <gram>negative</gram>
+                <synonym>Pseudomonas ovalis,Pseudomonas arvilla,Arthrobacter siderocapsulatus,Pseudomonas striata,Pseudomonas rugosa,Pseudomonas incognita,Pseudomonas convexa,Pseudomonas eisenbergii,Bacillus putidus</synonym>
+                <taxid>303</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>A fast screening method for the identification of siderophores from fluorescent Pseudomonas spp. by liquid chromatography/electrospray mass spectrometry</title>
+                <year>1999</year>
+                <journal>Journal of mass spectrometry : JMS</journal>
+                <location>Apr,34(4):281-90.</location>
+                <pmid>10226359</pmid>
+                <authors>
+                    <author>
+                        <name>Budzikiewicz H</name>
+                    </author>
+                    <author>
+                        <name>Fuchs R</name>
+                    </author>
+                    <author>
+                        <name>Kilz S</name>
+                    </author>
+                    <author>
+                        <name>Lenz C</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Pyoverdins from Pseudomonas putida</title>
+                <year>1992</year>
+                <journal>Zeitschrift fur Naturforschung. Section C: Biosciences</journal>
+                <location>Jul-Aug,47(7-8):487-502.</location>
+                <pmid>1388514</pmid>
+                <authors>
+                    <author>
+                        <name>Taraz K</name>
+                    </author>
+                    <author>
+                        <name>Gwose I</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

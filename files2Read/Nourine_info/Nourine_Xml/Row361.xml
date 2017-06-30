@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00369</id>
+            <name>dolastatin 10</name>
+            <family>dolastatin</family>
+            <activities>
+                <activity>antitumor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C42H68N6O6S</formula>
+            <mw>785.09094</mw>
+            <comment>dolastatin 10 is an anticancer natural product, microtubule destabilizing agent</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>5</size>
+            <composition>Dov, Val, Dil, Dap, Doe</composition>
+            <graph>Dov,Val,Dil,Dap,Doe@1@0,2@1,3@2,4@3</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Dolabella auricularia</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Eumetazoa, Bilateria, Coelomata, Protostomia, Mollusca, Gastropoda, Orthogastropoda, Apogastropoda, Heterobranchia, Euthyneura, Opisthobranchia, Anaspidea, Aplysioidea, Aplysiidae, Dolabella</taxonomy>
+                <taxid>6511</taxid>
+            </organism>
+            <organism>
+                <name>Symploca sp. VP642</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Oscillatoriales, Symploca</taxonomy>
+                <gram>negative</gram>
+                <taxid>162626</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Isolation of dolastatin 10 from the marine cyanobacterium Symploca species VP642 and total stereochemistry and biological evaluation of its analogue symplostatin 1</title>
+                <year>2001</year>
+                <journal>Journal of natural products</journal>
+                <location>Jul,64(7):907-10.</location>
+                <pmid>11473421</pmid>
+                <authors>
+                    <author>
+                        <name>Luesch H</name>
+                    </author>
+                    <author>
+                        <name>Moore RE</name>
+                    </author>
+                    <author>
+                        <name>Paul VJ</name>
+                    </author>
+                    <author>
+                        <name>Mooberry SL</name>
+                    </author>
+                    <author>
+                        <name>Corbett TH</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>100208</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

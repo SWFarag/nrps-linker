@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00579</id>
+            <name>konbamide</name>
+            <family>konbamide</family>
+            <activities>
+                <activity>calmodulin antagonist</activity>
+            </activities>
+            <category>peptide</category>
+            <comment>Konbamide is a putative NRPS product (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>7</size>
+            <composition>Leu, CO, Lys, Ala, Leu, NMe-Leu, Br-OH-Trp</composition>
+            <graph>Leu,CO,Lys,Ala,Leu,NMe-Leu,Br-OH-Trp@1@0,2@1,3,6@2,4@3,5@4,6@2,5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Theonella sp.</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Tetractinomorpha, Lithistida, Triaenosina, Theonellidae, Theonella</taxonomy>
+                <taxid>73791</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Konbamide, a novel peptide with calmodulin antagonistic activity from the Okinawan marine sponge theonella sp</title>
+                <year>1991</year>
+                <journal>Journal of the Chemical Society</journal>
+                <location>(15), pp. 1050-1052</location>
+                <authors>
+                    <author>
+                        <name>Kobayashi JI</name>
+                    </author>
+                    <author>
+                        <name>Sato M</name>
+                    </author>
+                    <author>
+                        <name>Murayama T</name>
+                    </author>
+                    <author>
+                        <name>Ishibashi M</name>
+                    </author>
+                    <author>
+                        <name>Walchi MR</name>
+                    </author>
+                    <author>
+                        <name>Kanai M</name>
+                    </author>
+                    <author>
+                        <name>Shoji J</name>
+                    </author>
+                    <author>
+                        <name>Ohizumi Y</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00251</id>
+            <name>enterobactin</name>
+            <family>enterobactin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <synonyms>enterochelin</synonyms>
+            <category>peptide</category>
+            <formula>C30H27N3O15</formula>
+            <mw>669.54645</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>6</size>
+            <composition>diOH-Bz, Ser, Ser, {, diOH-Bz, }, Ser, diOH-Bz</composition>
+            <graph>diOH-Bz,Ser,Ser,diOH-Bz,Ser,diOH-Bz@1@0,2,4@1,3,4@2@1,2,5@4</graph>
+            <smiles>Oc4cccc(C(=O)NC1COC(=O)C(COC(=O)C(COC1(=O))NC(=O)c2cccc(O)c2(O))NC(=O)c3cccc(O)c3(O))c4(O)</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Escherichia coli</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Enterobacteriales, Enterobacteriaceae, Escherichia</taxonomy>
+                <gram>negative</gram>
+                <synonym>Bacterium coli,Bacillus coli</synonym>
+                <taxid>562</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Reconstitution and characterization of the Escherichia coli enterobactin synthetase from EntB, EntE, and EntF</title>
+                <year>1998</year>
+                <journal>Biochemistry</journal>
+                <location>Feb 24,37(8):2648-59.</location>
+                <pmid>9485415</pmid>
+                <authors>
+                    <author>
+                        <name>Walsh CT</name>
+                    </author>
+                    <author>
+                        <name>Gehring AM</name>
+                    </author>
+                    <author>
+                        <name>Mori I</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>34231</acc>
+                <name_db>PubChem</name_db>
+            </link>
+            <link>
+                <acc>Q1REW8</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q1REX6</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

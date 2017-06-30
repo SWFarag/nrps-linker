@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00727</id>
+            <name>moiramide B</name>
+            <family>andrimid</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>PK-NRP</category>
+            <comment>The pseudopeptide pyrrolidinedione natural products moiramide B and andrimid represent a new class of antibiotics that target bacterial fatty acid biosynthesis.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>4</size>
+            <composition>C6:2(t2.t4), D-bPhe, Val, Me-Suc</composition>
+            <graph>C6:2(t2.t4),D-bPhe,Val,Me-Suc@1@0,2@1,3@2</graph>
+            <smiles>CC=CC=CC(=O)NC(CC(=O)NC(C(C)C)C(=O)C1C(=O)NC(=O)C1(C))c2ccccc2</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae</taxonomy>
+                <gram>negative</gram>
+                <taxid>286</taxid>
+            </organism>
+            <organism>
+                <name>Enterobacter</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Enterobacteriales, Enterobacteriaceae</taxonomy>
+                <synonym>Aerobacter,Cloaca</synonym>
+                <taxid>547</taxid>
+            </organism>
+            <organism>
+                <name>Vibrio</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Vibrionales, Vibrionaceae</taxonomy>
+                <synonym>Microspira,Pacinia</synonym>
+                <taxid>662</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>A biosynthetic gene cluster for the acetyl-CoA carboxylase inhibitor andrimid</title>
+                <year>2006</year>
+                <journal>Journal of the American Chemical Society</journal>
+                <location>Aug 23,128(33):10660-1.</location>
+                <pmid>16910643</pmid>
+                <authors>
+                    <author>
+                        <name>Jin M</name>
+                    </author>
+                    <author>
+                        <name>Fischbach MA</name>
+                    </author>
+                    <author>
+                        <name>Clardy J</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Pyrrolidinedione derivatives as antibacterial agents with a novel mode of action</title>
+                <year>2005</year>
+                <journal>Bioorganic and medicinal chemistry letters</journal>
+                <location>15,15(4):1189-92.</location>
+                <pmid>15686939</pmid>
+                <authors>
+                    <author>
+                        <name>Pohlmann J</name>
+                    </author>
+                    <author>
+                        <name> Lampe T</name>
+                    </author>
+                    <author>
+                        <name> Shimada M</name>
+                    </author>
+                    <author>
+                        <name> Nell PG</name>
+                    </author>
+                    <author>
+                        <name> Pernerstorfer J</name>
+                    </author>
+                    <author>
+                        <name> Svenstrup N</name>
+                    </author>
+                    <author>
+                        <name> Brunner NA</name>
+                    </author>
+                    <author>
+                        <name> Schiffer G</name>
+                    </author>
+                    <author>
+                        <name> Freiberg C</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

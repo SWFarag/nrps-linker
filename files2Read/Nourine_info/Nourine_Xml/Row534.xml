@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00542</id>
+            <name>hymenamide F</name>
+            <family>hymenamide</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <comment>Hymenamides are putative NRPS products (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>7</size>
+            <composition>Pro, Ala, Val, Met, Leu, Arg, Pro</composition>
+            <graph>Pro,Ala,Val,Met,Leu,Arg,Pro@1,6@0,2@1,3@2,4@3,5@4,6@0,5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Hymeniacidon sp.</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Halichondrida, Hymeniacidonidae, Hymeniacidon</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Hymenamide F, new cyclic heptapeptide from marine sponge Hymeniacidon sp</title>
+                <year>1996</year>
+                <journal>Tetrahedron</journal>
+                <location>52 (18), pp. 6355-6360</location>
+                <authors>
+                    <author>
+                        <name>Kobayashi JI</name>
+                    </author>
+                    <author>
+                        <name>Tsuda M</name>
+                    </author>
+                    <author>
+                        <name>Nakamura T</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

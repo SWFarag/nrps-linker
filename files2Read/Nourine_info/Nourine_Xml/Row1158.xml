@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01168</id>
+            <name>HM B2</name>
+            <family>hypomurocin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptaibol</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>18</size>
+            <composition>Ac-Aib, Ser, Ala, Leu, Aib, Gln, Aib, Val, Aib, Gly, Aib, Aib, Pro, Leu, Aib, Aib, Gln, Leuol</composition>
+            <graph>Ac-Aib,Ser,Ala,Leu,Aib,Gln,Aib,Val,Aib,Gly,Aib,Aib,Pro,Leu,Aib,Aib,Gln,Leuol@1@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@8,10@9,11@10,12@11,13@12,14@13,15@14,16@15,17@16</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Hypocrea muroiana</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Dikarya, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Hypocreaceae, Hypocrea</taxonomy>
+                <taxid>78397</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The first total synthesis of the peptaibol hypomurocin A1 and its conformation analysis: an application of the azirine/oxazolone method</title>
+                <year>2005</year>
+                <journal>Chemistry \&amp; Biodiversity</journal>
+                <location>vol. 2,no. 9,pp. 1127-1152</location>
+                <pmid>17193196</pmid>
+                <authors>
+                    <author>
+                        <name>Nicolas</name>
+                    </author>
+                    <author>
+                        <name>Pradeille</name>
+                    </author>
+                    <author>
+                        <name>Oliver</name>
+                    </author>
+                    <author>
+                        <name>Zerbe</name>
+                    </author>
+                    <author>
+                        <name>Kerstin</name>
+                    </author>
+                    <author>
+                        <name>M√∂hle</name>
+                    </author>
+                    <author>
+                        <name>Anthony</name>
+                    </author>
+                    <author>
+                        <name>Linden</name>
+                    </author>
+                    <author>
+                        <name>Heinz</name>
+                    </author>
+                    <author>
+                        <name>Heimgartner</name>
+                    </author>
+                </authors>
+                <doi>10.1002/cbdv.200590084</doi>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

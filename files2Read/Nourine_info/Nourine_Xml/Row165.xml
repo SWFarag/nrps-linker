@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00167</id>
+            <name>pyoverdin 2908</name>
+            <family>pyoverdin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <category>chromopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>8</size>
+            <composition>ChrP, D-Ser, Orn, OH-Asp, Ser, Ser, D-Ser, OH-cOrn</composition>
+            <graph>ChrP,D-Ser,Orn,OH-Asp,Ser,Ser,D-Ser,OH-cOrn@1@0,2@1,3@2,4@3,5@4,6@5,7@6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas sp. 2908</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas</taxonomy>
+                <gram>negative</gram>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structure of the pyoverdin PVD 2908:a new pyoverdin from Pseudomonas sp. 2908</title>
+                <year>1999</year>
+                <journal>Biometals</journal>
+                <location>Dec,12(4):323-9.</location>
+                <pmid>10816732</pmid>
+                <authors>
+                    <author>
+                        <name>Taraz K</name>
+                    </author>
+                    <author>
+                        <name>Vossen W</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

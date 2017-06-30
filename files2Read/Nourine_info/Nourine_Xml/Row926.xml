@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00936</id>
+            <name>helvecardin B</name>
+            <family>helvecardin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>glycopeptide</category>
+            <formula>C84H93Cl2N9O31</formula>
+            <mw>1795.585</mw>
+            <comment>Helvecardins were strongly active against aerobic and anaerobic Gram-positive bacteria including methicillin-resistant Staphylococcus aureus, but they were inactive against Gram-negative bacteria and fungi. Two bonds of the central Hpg are due to oxydative ring closure reactions.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>other</type>
+            <size>11</size>
+            <graph>NMe-Hpg,bOH-Tyr,Hpg,Cl-Hpg,bOH-Cl-Tyr,Dhpg,Hpg,Ria,Ria,D-Glc,2OMe-Rha@1,10@2,3,0@1,3,4,6,7@1,2@2,6,5,8@6,4@2,4,5@2,9@4@7@0</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudonocardia compacta</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Pseudonocardineae, Pseudonocardiaceae, Pseudonocardia</taxonomy>
+                <gram>positive</gram>
+                <taxid>33911</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Helvecardins A and B, novel glycopeptide antibiotics. III. Biological properties</title>
+                <year>1991</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Mar,44(3):278-81.</location>
+                <pmid>2026552</pmid>
+                <authors>
+                    <author>
+                        <name>Inukai M</name>
+                    </author>
+                    <author>
+                        <name>Katayama T</name>
+                    </author>
+                    <author>
+                        <name>Takeuchi M</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>16131169</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

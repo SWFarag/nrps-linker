@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00270</id>
+            <name>anabaenopeptin J</name>
+            <family>anabaenopeptin</family>
+            <activities>
+                <activity>protease inhibitor</activity>
+            </activities>
+            <category>peptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>7</size>
+            <composition>Phe, NMe-Ala, Hty, Val, D-Lys, CO, Ile</composition>
+            <graph>Phe,NMe-Ala,Hty,Val,D-Lys,CO,Ile@1,4@0,2@1,3@2,4@0,3,5@4,6@5</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Aphanizomenon flos-aquae NIES-81</name>
+                <taxonomy>cellular organisms, Bacteria, Cyanobacteria, Nostocales, Nostocaceae, Aphanizomenon, Aphanizomenon flos-aquae</taxonomy>
+                <gram>negative</gram>
+                <synonym>Aphanizomenon flos-aquae f. gracile NIES-81</synonym>
+                <taxid>284502</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>New anabaenopeptins, potent carboxypeptidase-A inhibitors from the cyanobacterium Aphanizomenon flos-aquae</title>
+                <year>2000</year>
+                <journal>Journal of natural products</journal>
+                <location>Sep,63(9):1280-2.</location>
+                <pmid>11000037</pmid>
+                <authors>
+                    <author>
+                        <name>Itou Y</name>
+                    </author>
+                    <author>
+                        <name>Suzuki S</name>
+                    </author>
+                    <author>
+                        <name>Ishida K</name>
+                    </author>
+                    <author>
+                        <name>Murakami M</name>
+                    </author>
+                    <author>
+                        <name>Kodani S</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00887</id>
+            <name>massetolide L</name>
+            <family>viscosin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>surfactant</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>10</size>
+            <composition>C10:0-OH(3), Leu, D-Glu, D-aThr, D-aIle, Leu, D-Ser, Leu, D-Ser, Val</composition>
+            <graph>C10:0-OH(3),Leu,D-Glu,D-aThr,D-aIle,Leu,D-Ser,Leu,D-Ser,Val@1@0,2@1,3@2,4,9@3,5@4,6@5,7@6,8@7,9@3,8</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas fluorescens</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas</taxonomy>
+                <gram>negative</gram>
+                <taxid>136843</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Massetolide A biosynthesis in Pseudomonas fluorescens</title>
+                <year>2008</year>
+                <journal>Journal of bacteriology</journal>
+                <location>Apr,190(8):2777-89.</location>
+                <pmid>2008</pmid>
+                <authors>
+                    <author>
+                        <name>de Bruijn I</name>
+                    </author>
+                    <author>
+                        <name>de Kock MJ</name>
+                    </author>
+                    <author>
+                        <name>de Waard P</name>
+                    </author>
+                    <author>
+                        <name>van Beek TA</name>
+                    </author>
+                    <author>
+                        <name>Raaijmakers JM</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>Q0PH94</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q0PH95</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q0PH96</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

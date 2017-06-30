@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00198</id>
+            <name>PaB</name>
+            <family>pyoverdin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <category>chromopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>8</size>
+            <composition>ChrP, Lys, D-OH-Asp, Thr, Thr, Gly, D-OH-Asp, Ser</composition>
+            <graph>ChrP,Lys,D-OH-Asp,Thr,Thr,Gly,D-OH-Asp,Ser@1@0,2@1,3@2,4@3,5,7@4,6@5,7@4,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas cichorii</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas syringae group</taxonomy>
+                <gram>negative</gram>
+                <synonym>Pseudomonas papaveris,Chlorobacter cichorii,Bacterium formosanum,Pseudomonas endiviae,Phytomonas cichorii,Bacterium cichorii</synonym>
+                <taxid>36746</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>High-performance liquid chromatography analyses of pyoverdin siderophores differentiate among phytopathogenic fluorescent Pseudomonas Species</title>
+                <year>2003</year>
+                <journal>Applied and environmental microbiology</journal>
+                <location>Feb,69(2):1143-53.</location>
+                <pmid>12571041</pmid>
+                <authors>
+                    <author>
+                        <name>Bultreys A</name>
+                    </author>
+                    <author>
+                        <name>Gheysen I</name>
+                    </author>
+                    <author>
+                        <name>Wathelet B</name>
+                    </author>
+                    <author>
+                        <name>Maraite H</name>
+                    </author>
+                    <author>
+                        <name>de Hoffmann E.</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

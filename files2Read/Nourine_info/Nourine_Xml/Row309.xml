@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00312</id>
+            <name>beauverolide Ca</name>
+            <family>beauverolide</family>
+            <activities>
+                <activity>unknown</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <formula>C35H49N3O5</formula>
+            <mw>591.78064</mw>
+            <comment>Recent studies have indicated that beauverolides could potentially serve as new drugs for the treatment of atherosclerosis.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>4</size>
+            <composition>C10:0-Me(4)-OH(3), Phe, Phe, D-aIle</composition>
+            <graph>C10:0-Me(4)-OH(3),Phe,Phe,D-aIle@1,3@0,2@1,3@0,2</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Beauveria vermiconia</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Clavicipitaceae, mitosporic Clavicipitaceae, Beauveria</taxonomy>
+                <taxid>37996</taxid>
+            </organism>
+            <organism>
+                <name>Paecilomyces fumosoroseus</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Clavicipitaceae, mitosporic Clavicipitaceae, Paecilomyces</taxonomy>
+                <taxid>114497</taxid>
+            </organism>
+            <organism>
+                <name>Beauveria bassiana</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Clavicipitaceae, Cordyceps</taxonomy>
+                <synonym>Cordyceps bassiana,Tritirachium shiotae</synonym>
+                <taxid>176275</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Sequencing of new beauverolides by high-performance liquid chromatography and mass spectrometry</title>
+                <year>2001</year>
+                <journal>Journal of mass spectrometry</journal>
+                <location>Oct,36(10):1108-15.</location>
+                <pmid>11747104</pmid>
+                <authors>
+                    <author>
+                        <name>Kuzma M</name>
+                    </author>
+                    <author>
+                        <name>Jegorov A</name>
+                    </author>
+                    <author>
+                        <name>Kacer P</name>
+                    </author>
+                    <author>
+                        <name>Havlicek V</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Extraribosomal cyclic tetradepsipeptides beauverolides: profiling and modeling the fragmentation pathways</title>
+                <year>2004</year>
+                <journal>Journal of mass spectrometry</journal>
+                <location>Aug,39(8):949-60.</location>
+                <pmid>15329847</pmid>
+                <authors>
+                    <author>
+                        <name>Kuzma M</name>
+                    </author>
+                    <author>
+                        <name>Jegorov A</name>
+                    </author>
+                    <author>
+                        <name>Havlicek V</name>
+                    </author>
+                    <author>
+                        <name>Paizs B</name>
+                    </author>
+                    <author>
+                        <name>Zabka M</name>
+                    </author>
+                    <author>
+                        <name>Landa Z</name>
+                    </author>
+                    <author>
+                        <name>Sulc M</name>
+                    </author>
+                    <author>
+                        <name>Barrow MP</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

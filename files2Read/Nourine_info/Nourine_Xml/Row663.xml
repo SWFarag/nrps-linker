@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00672</id>
+            <name>viridogrisein</name>
+            <family>neoviridogrisein</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <synonyms>neoviridogrisein IV, etamycin</synonyms>
+            <category>peptide</category>
+            <formula>C44H62N8O11</formula>
+            <mw>879.01013</mw>
+            <comment>Etamycin is a putative NRPS product (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>8</size>
+            <composition>Hpa, Thr, NMe-Ph-Gly, Ala, NMe-bMe-Leu, NMe-Gly, D-4OH-Pro, D-Leu</composition>
+            <graph>Hpa,Thr,NMe-Ph-Gly,Ala,NMe-bMe-Leu,NMe-Gly,D-4OH-Pro,D-Leu@1@0,2,7@1,3@2,4@3,5@4,6@5,7@1,6</graph>
+            <smiles>CC(C)CC3NC(=O)C(NC(=O)c1ncccc1(O))C(C)OC(=O)C(c2ccccc2)N(C)C(=O)C(C)NC(=O)C(C(C)C(C)C)N(C)C(=O)CN(C)C(=O)C4CC(O)CN4(C3(=O))</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae</taxonomy>
+                <gram>positive</gram>
+                <synonym>Chainia</synonym>
+                <taxid>1883</taxid>
+            </organism>
+            <organism>
+                <name>Streptomyces griseus</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <synonym>Actinomyces griseus</synonym>
+                <taxid>1911</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Purification and initial characterization of proline 4-hydroxylase from Streptomyces griseoviridus P8648: a 2-oxoacid, ferrous-dependent dioxygenase involved in etamycin biosynthesis</title>
+                <year>1996</year>
+                <journal>The Biochemical journal</journal>
+                <location>Jan 1,313 ( Pt 1):185-91.</location>
+                <pmid>8546682</pmid>
+                <authors>
+                    <author>
+                        <name>Baldwin JE</name>
+                    </author>
+                    <author>
+                        <name>Sobey WJ</name>
+                    </author>
+                    <author>
+                        <name>Schofield CJ</name>
+                    </author>
+                    <author>
+                        <name>Lawrence CC</name>
+                    </author>
+                    <author>
+                        <name>Field RA</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>196972</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

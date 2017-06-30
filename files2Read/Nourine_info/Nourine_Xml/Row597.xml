@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00605</id>
+            <name>geodiamolide C</name>
+            <family>geodiamolide</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C28H40N3O6Cl</formula>
+            <mw>550.08673</mw>
+            <comment>Geodiamolides are putative NRPS products (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>4</size>
+            <composition>C9:1(4)-Me(2.4.6)-OH(8), Ala, D-Cl-NMe-Tyr, Ala</composition>
+            <graph>C9:1(4)-Me(2.4.6)-OH(8),Ala,D-Cl-NMe-Tyr,Ala@1,3@0,2@1,3@0,2</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Cymbastela</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Halichondrida, Axinellidae</taxonomy>
+                <taxid>85785</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Geodiamolides C to F, new cytotoxic cyclodepsipeptides from the marine sponge Pseudaxinylsa sp.</title>
+                <year>1990</year>
+                <journal>Tetrahedron Letters</journal>
+                <location>31 (4), pp. 489-492</location>
+                <authors>
+                    <author>
+                        <name>Andersen RJ</name>
+                    </author>
+                    <author>
+                        <name>De Silva ED</name>
+                    </author>
+                    <author>
+                        <name>Allen TM</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

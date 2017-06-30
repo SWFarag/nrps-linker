@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00407</id>
+            <name>petrosifungin B</name>
+            <family>petrosifungin</family>
+            <activities>
+                <activity>unknown</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C33H45N5O8</formula>
+            <mw>639.73914</mw>
+            <comment>petrosifungins are putative NRPS products (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>6</size>
+            <composition>pOH-Bz, Thr, Hpr, Hpr, Pro, Val</composition>
+            <graph>pOH-Bz,Thr,Hpr,Hpr,Pro,Val@1@0,2,5@1,3@2,4@3,5@1,4</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Penicillium brevicompactum</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Eurotiomycetes, Eurotiales, Trichocomaceae, mitosporic Trichocomaceae, Penicillium</taxonomy>
+                <taxid>5074</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Petrosifungins A and B, novel cyclodepsipeptides from a sponge-derived strain of Penicillium brevicompactum</title>
+                <year>2004</year>
+                <journal>Journal of natural products</journal>
+                <location>Mar,67(3):311-5.</location>
+                <pmid>15043401</pmid>
+                <authors>
+                    <author>
+                        <name>Bringmann G</name>
+                    </author>
+                    <author>
+                        <name>Lang G</name>
+                    </author>
+                    <author>
+                        <name>Steffens S</name>
+                    </author>
+                    <author>
+                        <name>Schaumann K</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

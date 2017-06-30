@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00090</id>
+            <name>destruxin E2 chlorohydrin</name>
+            <family>destruxin</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C28H46ClN5O8</formula>
+            <mw>616.14655</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>6</size>
+            <composition>Pro, Val, NMe-Val, NMe-Ala, bAla, C4:0-OH(2.3)-Cl(4)</composition>
+            <graph>Pro,Val,NMe-Val,NMe-Ala,bAla,C4:0-OH(2.3)-Cl(4)@1,5@0,2@1,3@2,4@3,5@0,4</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Metarhizium anisopliae</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi, Ascomycota, Pezizomycotina, Sordariomycetes, Hypocreomycetidae, Hypocreales, Clavicipitaceae, mitosporic Clavicipitaceae, Metarhizium</taxonomy>
+                <taxid>5530</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The destruxins: synthesis, biosynthesis, biotransformation, and biological activity</title>
+                <year>2002</year>
+                <journal>Phytochemistry</journal>
+                <location>Mar,59(6):579-96.</location>
+                <pmid>11867090</pmid>
+                <authors>
+                    <author>
+                        <name>Pedras MS</name>
+                    </author>
+                    <author>
+                        <name>Irina Zaharia L</name>
+                    </author>
+                    <author>
+                        <name>Ward DE</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

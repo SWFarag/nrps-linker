@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00515</id>
+            <name>axinastatin 1</name>
+            <family>axinastatin</family>
+            <activities>
+                <activity>antitumor</activity>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C38H56N8O8</formula>
+            <mw>752.9</mw>
+            <comment>axinastatin is a putative NRPS product (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>7</size>
+            <composition>Pro, Phe, Val, Val, Pro, Val, Asn</composition>
+            <graph>Pro,Phe,Val,Val,Pro,Val,Asn@1,6@0,2@1,3@2,4@3,5@4,6@0,5</graph>
+            <smiles>CC(C)C2NC(=O)C(Cc1ccccc1)NC(=O)C4CCCN4(C(=O)C(CC(N)=O)NC(=O)C(NC(=O)C3CCCN3(C(=O)C(NC2(=O))C(C)C))C(C)C)</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Axinella</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Halichondrida, Axinellidae</taxonomy>
+                <taxid>12958</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Axinastatin 1 - A new cyclohexapeptide cell growth inhibitor </title>
+                <year>1993</year>
+                <journal>Current Opinion in Therapeutic Patents</journal>
+                <location>3 (6), pp. 797-798</location>
+                <authors>
+                    <author>
+                        <name>No author name available</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>160026</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

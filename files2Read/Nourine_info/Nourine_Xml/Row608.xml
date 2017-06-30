@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00616</id>
+            <name>geodiamolide TA</name>
+            <family>geodiamolide</family>
+            <activities>
+                <activity>antitumor</activity>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <comment>Geodiamolides are putative NRPS products (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>4</size>
+            <composition>C9:1(4)-Me(2.4.6)-OH(8), Ala, D-Cl-NMe-Tyr, Val</composition>
+            <graph>C9:1(4)-Me(2.4.6)-OH(8),Ala,D-Cl-NMe-Tyr,Val@1,3@0,2@1,3@0,2</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>hemiasterella minor</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Tetractinomorpha, Hadromerida, Hemiasterellidae, Hemiasterella</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Hemiasterlin and geodiamolide TA: two new cytotoxic peptides from the marine sponge hemiasterella minor</title>
+                <year>1994</year>
+                <journal>Tetrahedron Letters</journal>
+                <location>35 (25), pp. 4453-4456</location>
+                <authors>
+                    <author>
+                        <name>Pannell LK</name>
+                    </author>
+                    <author>
+                        <name>Benayahu Y</name>
+                    </author>
+                    <author>
+                        <name>Kashman Y</name>
+                    </author>
+                    <author>
+                        <name>Schleyer M</name>
+                    </author>
+                    <author>
+                        <name>Talpir R</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

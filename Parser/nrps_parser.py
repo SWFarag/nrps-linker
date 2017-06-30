@@ -32,14 +32,14 @@ class NRPS_Parser:
                    # Load an html page with a link to each uploaded file
                else:
                    filename = secure_filename(file.filename)
-                   bad_filenames_dic[filename]="wrong-extension"
+                   bad_filenames_dic[filename] = "wrong-extension"
             else:filenames_dic
         return filenames_dic, bad_filenames_dic
 
     def extract_atca_linkers(self, path):
         self.atca_parser.startExecution(path)
         r = self.atca_parser.results
-        cols = ["A1", "Linker", "A2", "Description", "Accession", "Length", "Cluster"]
+        cols = ["A1", "Linker", "A2", "Description", "Accession", "Length", "Cluster", "A1_pos", "A2_pos", "t_pos", "c_pos", "trans", "gene_loc", "gene_strand"]
         extracted_data = pd.DataFrame(r[1], columns=cols)
         temp = self.atca_parser.filesNoNRPS(r[0])
         num_filesNoATCA = temp[0]
@@ -53,7 +53,6 @@ class NRPS_Parser:
         
     def deleteUploadedFiles(self, path):
         folder = path
-        print type(os.listdir(folder))
         for the_file in os.listdir(folder):
             file_path = os.path.join(folder, the_file)
             try:
@@ -61,4 +60,3 @@ class NRPS_Parser:
                     os.unlink(file_path)
             except Exception as e:
                 print(e)
-        print "Files Deleted"    

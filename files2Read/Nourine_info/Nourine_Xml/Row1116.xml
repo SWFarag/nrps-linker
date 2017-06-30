@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR01126</id>
+            <name>echinomycin</name>
+            <family>quinomycin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>antitumor</activity>
+            </activities>
+            <synonyms>levomycin, quinomycin A</synonyms>
+            <category>peptide</category>
+            <formula>C51H64N12O12S2</formula>
+            <mw>1101.2571</mw>
+            <comment>Echinomycin binds to DNA and inhibits RNA synthesis. Quinomycins contain a thioacetal cross bridge. In the tiostin analogues, a disulfide bond replaces the thioacetal cross-link.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>10</size>
+            <graph>COOH-Qui,D-Ser,Ala,diMe-Cys,NMe-Val,D-Ser,COOH-Qui,Ala,NMe-Cys,NMe-Val@1@0,2,9@1,3@2,4,8@3,5@4,6,7@5@5,8@3,7,9@1,8</graph>
+            <smiles>CC(C)C6C(=O)OCC(NC(=O)c1cnc2ccccc2(n1))C(=O)NC(C)C(=O)N(C)C5C(=O)N(C)C(C(C)C)C(=O)OCC(NC(=O)c3cnc4ccccc4(n3))C(=O)NC(C)C(=O)N(C)C(CSC5SC)C(=O)N6(C)</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces echinatus</name>
+                <taxonomy>    cellular organisms; Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <taxid>67293</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Diversification of echinomycin molecular structure by way of chemoenzymatic synthesis and heterologous expression of the engineered echinomycin biosynthetic pathway</title>
+                <year>2009</year>
+                <journal>Current opinion in chemical biology</journal>
+                <location>Apr,13(2):189-96.</location>
+                <pmid>19278894</pmid>
+                <authors>
+                    <author>
+                        <name>Watanabe K</name>
+                    </author>
+                    <author>
+                        <name>Oguri H</name>
+                    </author>
+                    <author>
+                        <name>Oikawa H</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>1xvn</acc>
+                <name_db>PDB</name_db>
+            </link>
+            <link>
+                <acc>1pfe</acc>
+                <name_db>PDB</name_db>
+            </link>
+            <link>
+                <acc>1xvk</acc>
+                <name_db>PDB</name_db>
+            </link>
+            <link>
+                <acc>1xvr</acc>
+                <name_db>PDB</name_db>
+            </link>
+            <link>
+                <acc>3go3</acc>
+                <name_db>PDB</name_db>
+            </link>
+            <link>
+                <acc>2adw</acc>
+                <name_db>PDB</name_db>
+            </link>
+            <link>
+                <acc>3197</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

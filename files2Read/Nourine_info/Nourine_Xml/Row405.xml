@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00413</id>
+            <name>callynormine A</name>
+            <family>callynormine</family>
+            <activities>
+                <activity>unknown</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C61H93N11O13</formula>
+            <mw>1188.457</mw>
+            <comment>Callynormine is a putative NRPS product (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>11</size>
+            <composition>Ile, 4OH-Pro, Val, Leu, Pro, Pro, Leu, aFo-Gly, Pro, Phe, Leu</composition>
+            <graph>Ile,4OH-Pro,Val,Leu,Pro,Pro,Leu,aFo-Gly,Pro,Phe,Leu@1,7@0,2@1,3@2,4@3,5@4,6@5,7@0,6,8@7,9@8,10@9</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Callyspongia abnormis</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Haplosclerida, Callyspongiidae, Callyspongia</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Callynormine A, a new marine cyclic peptide of a novel class</title>
+                <year>2004</year>
+                <journal>Organic letters</journal>
+                <location>Jul 22,6(15):2543-5.</location>
+                <pmid>15255686</pmid>
+                <authors>
+                    <author>
+                        <name>Berer N</name>
+                    </author>
+                    <author>
+                        <name>Rudi A</name>
+                    </author>
+                    <author>
+                        <name>Goldberg I</name>
+                    </author>
+                    <author>
+                        <name>Benayahu Y</name>
+                    </author>
+                    <author>
+                        <name>Kashman Y</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

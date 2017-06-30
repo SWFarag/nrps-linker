@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00531</id>
+            <name>phakellistatin 9</name>
+            <family>phakellistatin</family>
+            <activities>
+                <activity>antitumor</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C60H86N10O11</formula>
+            <mw>1123.3853</mw>
+            <comment>Phakellistatins are putative NRPS products (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>10</size>
+            <composition>Pro, Tyr, Val, Pro, Pro, Ile, Phe, Val, Leu, Pro</composition>
+            <graph>Pro,Tyr,Val,Pro,Pro,Ile,Phe,Val,Leu,Pro@1,9@0,2@1,3@2,4@3,5@4,6@5,7@6,8@7,9@0,8</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Phakellia sp.</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Ceractinomorpha, Halichondrida, Axinellidae, Phakellia</taxonomy>
+                <taxid>85814</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Isolation and structure of the human cancer cell growth inhibitory cyclic decapeptides phakellistatins 7,8 and 9</title>
+                <year>1995</year>
+                <journal>Bioorganic and Medicinal Chemistry Letters</journal>
+                <location>5 (13), pp. 1339-1344</location>
+                <authors>
+                    <author>
+                        <name>Pettit GR</name>
+                    </author>
+                    <author>
+                        <name>Boyd MR</name>
+                    </author>
+                    <author>
+                        <name>Cerny RL</name>
+                    </author>
+                    <author>
+                        <name>Dorsaz AC</name>
+                    </author>
+                    <author>
+                        <name>Williams MD</name>
+                    </author>
+                    <author>
+                        <name>Xu JP</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

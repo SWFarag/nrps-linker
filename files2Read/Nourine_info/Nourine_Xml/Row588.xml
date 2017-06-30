@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00596</id>
+            <name>discobahamin A</name>
+            <family>discobahamin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C47H65N9O11</formula>
+            <mw>932.07275</mw>
+            <comment>Discobahamins are putative NRPS products (no synthetase genes identified)</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>8</size>
+            <composition>Abu, Hmp, Nva, Orn, Pro, k-Leu, PALOA, OH-Trp</composition>
+            <graph>Abu,Hmp,Nva,Orn,Pro,k-Leu,PALOA,OH-Trp@1@0,2@1,3@2,4,7@3,5@4,6@5,7@3,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Discodermia sp.</name>
+                <taxonomy>cellular organisms, Eukaryota, Metazoa, Porifera, Demospongiae, Tetractinomorpha, Lithistida, Triaenosina, Theonellidae, Discodermia</taxonomy>
+                <taxid>73796</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Discobahamins A and B, new peptides from the Bahamian deep water marine sponge Discodermia sp.</title>
+                <year>1994</year>
+                <journal>Journal of natural products</journal>
+                <location>Jan,57(1):79-83.</location>
+                <pmid>8158168</pmid>
+                <authors>
+                    <author>
+                        <name>Gunasekera SP</name>
+                    </author>
+                    <author>
+                        <name>Pomponi SA</name>
+                    </author>
+                    <author>
+                        <name>McCarthy PJ</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>6443505</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

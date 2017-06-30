@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00931</id>
+            <name>chloropolysporin C</name>
+            <family>chloropolysporin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>glycopeptide</category>
+            <formula>C77H79Cl3N8O30</formula>
+            <mw>1702.8458</mw>
+            <comment>Two bonds of the central Hpg are due to oxydative ring closure.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>other</type>
+            <size>10</size>
+            <graph>NMe-Hpg,Cl-Tyr,D-Man,Cl-Hpg,Hpg,D-Glc,bOH-Cl-Tyr,Ria,Dhpg,Hpg@1@0,2,4,3@1@4,1@1,3,5,6,9@4@4,8,9,7@6@9,6@4,8,6</graph>
+            <smiles>CNC(c1ccc(O)cc1)C(=O)NC%13C(=O)NC(c2ccc(O)c(c2)Cl)C(=O)NC5c%10cc(Oc3ccc(cc3Cl)C(OC4CC(N)C(O)C(C)O4)C7NC(=O)C(NC5(=O))c6ccc(O)c(c6)c8c(O)cc(O)cc8(C(NC7(=O))C(=O)O))c(OC9OC(CO)C(O)C(O)C9(O))c(c%10)Oc%11ccc(cc%11Cl)C%13(OC%12OC(CO)C(O)C(O)C%12(O))</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Faenia interjecta</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Pseudonocardineae, Pseudonocardiaceae, Saccharopolyspora</taxonomy>
+                <gram>positive</gram>
+                <synonym>Saccharopolyspora</synonym>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Chloropolysporins A, B and C, novel glycopeptide antibiotics from Faenia interjecta sp. nov. V. Comparative studies of the biological properties</title>
+                <year>1987</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Jul,40(7):946-52.</location>
+                <pmid>3624073</pmid>
+                <authors>
+                    <author>
+                        <name>Katayama T</name>
+                    </author>
+                    <author>
+                        <name>Takatsu T</name>
+                    </author>
+                    <author>
+                        <name>Nakajima M</name>
+                    </author>
+                    <author>
+                        <name>Takahashi S</name>
+                    </author>
+                    <author>
+                        <name>Haneishi T</name>
+                    </author>
+                    <author>
+                        <name>Magaribuchi T</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>16131160</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

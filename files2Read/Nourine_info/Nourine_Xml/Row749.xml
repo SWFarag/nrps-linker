@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00758</id>
+            <name>A21978C2</name>
+            <family>daptomycin</family>
+            <activities>
+                <activity>antibiotic</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <comment>A21978C is a complex of lipopeptides which differ on their fatty acid moiety. It is used to treat complicated skin infections.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>14</size>
+            <composition>iC12:0, Trp, D-Asn, Asp, Thr, Gly, Orn, Asp, D-Ala, Asp, Gly, D-Ser, 3Me-Glu, Kyn</composition>
+            <graph>iC12:0,Trp,D-Asn,Asp,Thr,Gly,Orn,Asp,D-Ala,Asp,Gly,D-Ser,3Me-Glu,Kyn@1@0,2@1,3@2,4@3,5,13@4,6@5,7@6,8@7,9@8,10@9,11@10,12@11,13@4,12</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces roseosporus</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria, Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <synonym>Streptomyces filamentosus,Streptomyces venezuelae subsp. roseospori,Streptomyces roseisporus</synonym>
+                <taxid>67294</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>A21978C, a complex of new acidic peptide antibiotics: isolation, chemistry, and mass spectral structure elucidation</title>
+                <year>1987</year>
+                <journal>The Journal of antibiotics</journal>
+                <location>Jun,40(6):761-77.</location>
+                <pmid>3610833</pmid>
+                <authors>
+                    <author>
+                        <name>Debono M</name>
+                    </author>
+                    <author>
+                        <name>Barnhart M</name>
+                    </author>
+                    <author>
+                        <name>Carrell CB</name>
+                    </author>
+                    <author>
+                        <name>Hoffmann JA</name>
+                    </author>
+                    <author>
+                        <name>Occolowitz JL</name>
+                    </author>
+                    <author>
+                        <name>Abbott BJ</name>
+                    </author>
+                    <author>
+                        <name>Fukuda DS</name>
+                    </author>
+                    <author>
+                        <name>Hamill RL</name>
+                    </author>
+                    <author>
+                        <name>Biemann K</name>
+                    </author>
+                    <author>
+                        <name>Herlihy WC</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Daptomycin biosynthesis in Streptomyces roseosporus: cloning and analysis of the gene cluster and revision of peptide stereochemistry</title>
+                <year>2005</year>
+                <journal>Microbiology</journal>
+                <location>May,151(Pt 5):1507-23.</location>
+                <pmid>15870461</pmid>
+                <authors>
+                    <author>
+                        <name>Miao V</name>
+                    </author>
+                    <author>
+                        <name>Coeffet-Legal MF</name>
+                    </author>
+                    <author>
+                        <name>Brian P</name>
+                    </author>
+                    <author>
+                        <name>Brost R</name>
+                    </author>
+                    <author>
+                        <name>Penn J</name>
+                    </author>
+                    <author>
+                        <name>Whiting A</name>
+                    </author>
+                    <author>
+                        <name>Martin S</name>
+                    </author>
+                    <author>
+                        <name>Ford R</name>
+                    </author>
+                    <author>
+                        <name>Parr I</name>
+                    </author>
+                    <author>
+                        <name>Bouchard M</name>
+                    </author>
+                    <author>
+                        <name>Silva CJ</name>
+                    </author>
+                    <author>
+                        <name>Wrigley SK</name>
+                    </author>
+                    <author>
+                        <name>Baltz RH</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Biosynthesis and genetic engineering of lipopeptide antibiotics related to daptomycin</title>
+                <year>2008</year>
+                <journal>Current topics in medicinal chemistry</journal>
+                <location>8(8):618-38</location>
+                <pmid>18473888</pmid>
+                <authors>
+                    <author>
+                        <name>Baltz RH</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>Q50E74</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q50E73</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q50EC8</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

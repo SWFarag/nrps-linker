@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00752</id>
+            <name>N-coronafacoyl-L-threonine</name>
+            <family>coronatine</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>PK-NRP</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>2</size>
+            <composition>Thr, CFA</composition>
+            <graph>Thr,CFA@1@0</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas syringae pv. tomato</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas syringae group, Pseudomonas syringae group genomosp. 3</taxonomy>
+                <gram>negative</gram>
+                <taxid>323</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Chlorosis-inducing products from Pseudomonas syringae pathovars: new N-coronafacoyl compounds</title>
+                <year>1998</year>
+                <journal>Phytochemistry</journal>
+                <location>Nov 20,49(6):1579-1583.</location>
+                <pmid>11711068</pmid>
+                <authors>
+                    <author>
+                        <name>MITCHELL RE</name>
+                    </author>
+                    <author>
+                        <name>Ford KL</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

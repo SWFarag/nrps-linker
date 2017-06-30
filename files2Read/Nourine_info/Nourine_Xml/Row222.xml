@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00224</id>
+            <name>bacillomycin F-6</name>
+            <family>iturin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>surfactant</activity>
+            </activities>
+            <category>lipopeptide</category>
+            <formula>C52H82N12O14</formula>
+            <mw>1099.2794</mw>
+            <comment>The lipid moiety consists of minor isoCI5, anteisoC15 beta-amino acids and major isoC16, isoC17 and anteisoC17 beta-amino acids.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>8</size>
+            <composition>aC17:0-NH2(3), Asn, D-Tyr, D-Asn, Gln, Pro, D-Asn, Thr</composition>
+            <graph>aC17:0-NH2(3),Asn,D-Tyr,D-Asn,Gln,Pro,D-Asn,Thr@1,7@0,2@1,3@2,4@3,5@4,6@5,7@0,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Bacillus subtilis</name>
+                <taxonomy>cellular organisms, Bacteria, Firmicutes, Bacilli, Bacillales, Bacillaceae, Bacillus</taxonomy>
+                <gram>positive</gram>
+                <synonym>Bacillus uniflagellatus,Bacillus natto,Bacillus globigii,Vibrio subtilis</synonym>
+                <taxid>1423</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Structure of bacillomycin F, a new peptidolipid antibiotic of the iturin group</title>
+                <year>1985</year>
+                <journal>European journal of biochemistry / FEBS</journal>
+                <location>Dec 2,153(2):335-40.</location>
+                <pmid>4076181</pmid>
+                <authors>
+                    <author>
+                        <name>Peypoux F</name>
+                    </author>
+                    <author>
+                        <name>Das BC</name>
+                    </author>
+                    <author>
+                        <name>Maget-Dana R</name>
+                    </author>
+                    <author>
+                        <name>Ptak M</name>
+                    </author>
+                    <author>
+                        <name>Michel G</name>
+                    </author>
+                    <author>
+                        <name>Marion D</name>
+                    </author>
+                </authors>
+            </reference>
+            <reference>
+                <title>Purification and structural characterization of bacillomycin F produced by a bacterial honey isolate active against Byssochlamys fulva H25</title>
+                <year>2008</year>
+                <journal>Journal of applied microbiology</journal>
+                <location>Apr 4.</location>
+                <pmid>18397260</pmid>
+                <authors>
+                    <author>
+                        <name>Lee H</name>
+                    </author>
+                    <author>
+                        <name>Churey JJ</name>
+                    </author>
+                    <author>
+                        <name>Worobo RW</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>3086138</acc>
+                <name_db>PubChem</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

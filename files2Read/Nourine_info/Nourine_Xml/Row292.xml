@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00294</id>
+            <name>coronatine</name>
+            <family>coronatine</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>PK-NRP</category>
+            <formula>C18H25NO4</formula>
+            <mw>319.3954</mw>
+            <comment>Coronatine contributes to virulence in several host-pathogen interactions and elicits diffuse chlorosis in a wide variety of plant species and also induces hypertrophy, inhibits root elongation, and stimulates ethylene production.</comment>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>2</size>
+            <composition>CMA, CFA</composition>
+            <graph>CMA,CFA@1@0</graph>
+            <smiles>CCC2CC1C(=O)CCC1C(=C2)C(=O)NC3(CC3(CC))(C(=O)O)</smiles>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas syringae pv. atropurpurea</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas syringae group, Pseudomonas coronafaciens</taxonomy>
+                <gram>negative</gram>
+                <taxid>129135</taxid>
+            </organism>
+            <organism>
+                <name>Pseudomonas syringae pv. maculicola</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas syringae group, Pseudomonas syringae group genomosp. 3</taxonomy>
+                <gram>negative</gram>
+                <taxid>59511</taxid>
+            </organism>
+            <organism>
+                <name>Pseudomonas syringae pv. glycinea</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas syringae group, Pseudomonas syringae group genomosp. 2, Pseudomonas savastanoi</taxonomy>
+                <gram>negative</gram>
+                <synonym>Pseudomonas savastanoi pv. Glycinea,Pseudomonas syringae glycinea</synonym>
+                <taxid>318</taxid>
+            </organism>
+            <organism>
+                <name>Pseudomonas syringae pv. morsprunorum</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas syringae group, Pseudomonas syringae group genomosp. 2, Pseudomonas amygdali</taxonomy>
+                <gram>negative</gram>
+                <taxid>129138</taxid>
+            </organism>
+            <organism>
+                <name>Pseudomonas syringae pv. tomato</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas syringae group, Pseudomonas syringae group genomosp. 3</taxonomy>
+                <gram>negative</gram>
+                <taxid>323</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Characterization of CmaA, an adenylation-thiolation didomain enzyme involved in the biosynthesis of coronatine</title>
+                <year>2004</year>
+                <journal>Journal of bacteriology</journal>
+                <location>Jan,186(1):35-42.</location>
+                <pmid>14679222</pmid>
+                <authors>
+                    <author>
+                        <name>Walsh CT</name>
+                    </author>
+                    <author>
+                        <name>Couch R</name>
+                    </author>
+                    <author>
+                        <name>O Connor SE</name>
+                    </author>
+                    <author>
+                        <name>Seidle H</name>
+                    </author>
+                    <author>
+                        <name>Parry R</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>91681</acc>
+                <name_db>PubChem</name_db>
+            </link>
+            <link>
+                <acc>Q6TNA5</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

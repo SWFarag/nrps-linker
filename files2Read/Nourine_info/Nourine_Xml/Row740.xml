@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00749</id>
+            <name>N-coronafacoyl-L-isoleucine</name>
+            <family>coronatine</family>
+            <activities>
+                <activity>toxin</activity>
+            </activities>
+            <category>PK-NRP</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>linear</type>
+            <size>2</size>
+            <composition>Ile, CFA</composition>
+            <graph>Ile,CFA@1@0</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas syringae pv. glycinea</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas, Pseudomonas syringae group, Pseudomonas syringae group genomosp. 2, Pseudomonas savastanoi</taxonomy>
+                <gram>negative</gram>
+                <synonym>Pseudomonas savastanoi pv. Glycinea,Pseudomonas syringae glycinea</synonym>
+                <taxid>318</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Physical and functional characterization of the gene cluster encoding the polyketide phytotoxin coronatine in Pseudomonas syringae pv. glycinea</title>
+                <year>1992</year>
+                <journal>Journal of bacteriology</journal>
+                <location>Mar,174(6):1837-43.</location>
+                <pmid>1548231</pmid>
+                <authors>
+                    <author>
+                        <name>MITCHELL RE</name>
+                    </author>
+                    <author>
+                        <name>Young SA</name>
+                    </author>
+                    <author>
+                        <name>Park SK</name>
+                    </author>
+                    <author>
+                        <name>Rodgers C</name>
+                    </author>
+                    <author>
+                        <name>Bender CL</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

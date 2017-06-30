@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00188</id>
+            <name>pyoverdin 96-312</name>
+            <family>pyoverdin</family>
+            <activities>
+                <activity>siderophore</activity>
+            </activities>
+            <category>chromopeptide</category>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>partial cyclic</type>
+            <size>8</size>
+            <composition>ChrP, D-Ser, Ser, Fo-OH-Orn, Lys, Fo-OH-Orn, Lys, Ser</composition>
+            <graph>ChrP,D-Ser,Ser,Fo-OH-Orn,Lys,Fo-OH-Orn,Lys,Ser@1@0,2@1,3@2,4@3,5,7@4,6@5,7@4,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Pseudomonas sp. 96-312</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas</taxonomy>
+                <gram>negative</gram>
+            </organism>
+            <organism>
+                <name>Pseudomonas sp. 96-318</name>
+                <taxonomy>cellular organisms, Bacteria, Proteobacteria, Gammaproteobacteria, Pseudomonadales, Pseudomonadaceae, Pseudomonas</taxonomy>
+                <gram>negative</gram>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>The pyoverdins of Pseudomonas sp. 96-312 and 96-318</title>
+                <year>2001</year>
+                <journal>Zeitschrift fur Naturforschung. Section C: Biosciences</journal>
+                <location>Sep-Oct,56(9-10):680-6.</location>
+                <pmid>11724368</pmid>
+                <authors>
+                    <author>
+                        <name>Meyer JM</name>
+                    </author>
+                    <author>
+                        <name>Taraz K</name>
+                    </author>
+                    <author>
+                        <name>Budzikiewicz H</name>
+                    </author>
+                    <author>
+                        <name>Geoffroy V</name>
+                    </author>
+                    <author>
+                        <name>Schafer M</name>
+                    </author>
+                    <author>
+                        <name>Fuchs R</name>
+                    </author>
+                    <author>
+                        <name>Schlegel K</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>

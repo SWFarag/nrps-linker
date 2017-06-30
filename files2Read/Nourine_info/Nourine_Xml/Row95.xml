@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00096</id>
+            <name>enniatin L</name>
+            <family>enniatin</family>
+            <activities>
+                <activity>antibiotic</activity>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C34H59N3O10</formula>
+            <mw>669.8463</mw>
+            <status>curated</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>6</size>
+            <composition>aC6:0-OH(2.3), NMe-Val, D-Hiv, NMe-Val, D-Hiv, NMe-Val</composition>
+            <graph>aC6:0-OH(2.3),NMe-Val,D-Hiv,NMe-Val,D-Hiv,NMe-Val@1,5@0,2@1,3@2,4@3,5@0,4</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>BCC 2629</name>
+                <taxonomy>cellular organisms, Eukaryota, Fungi</taxonomy>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Isolation and structure elucidation of enniatins L, M1, M 2, and N: Novel hydroxy analogs</title>
+                <year>2004</year>
+                <journal>Helvetica Chimica Acta</journal>
+                <location>87 (8), pp. 2066-2073</location>
+                <authors>
+                    <author>
+                        <name>Vongvilai P</name>
+                    </author>
+                    <author>
+                        <name>Isaka M</name>
+                    </author>
+                    <author>
+                        <name>Kittakoop P</name>
+                    </author>
+                    <author>
+                        <name>Srikitikulchai P</name>
+                    </author>
+                    <author>
+                        <name>Kongsaeree P</name>
+                    </author>
+                    <author>
+                        <name>Prabpai S</name>
+                    </author>
+                    <author>
+                        <name>Thebtaranonth Y</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+            <link>
+                <acc>Q00869</acc>
+                <name_db>UniProt</name_db>
+            </link>
+            <link>
+                <acc>Q00868</acc>
+                <name_db>UniProt</name_db>
+            </link>
+        </links>
+    </peptide>
+</norine>

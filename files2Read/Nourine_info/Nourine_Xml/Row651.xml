@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<norine>
+    <peptide>
+        <contributor>
+            <name>Norine team</name>
+            <affiliations>
+                <affiliation>ProBioGEM (UPRES EA 1026 USTL), France</affiliation>
+                <affiliation>LIFL (UMR CNRS 8022 / Univ. Lille1), France</affiliation>
+            </affiliations>
+        </contributor>
+        <cite>Please cite Norine: a database of nonribosomal peptide, Caboche et Al., Nucleic Acids Research 2008; 36:D326-D331</cite>
+        <general>
+            <id>NOR00659</id>
+            <name>montanastatin</name>
+            <family>montanastatin</family>
+            <activities>
+                <activity>antitumor</activity>
+                <activity>toxin</activity>
+            </activities>
+            <category>peptide</category>
+            <formula>C36H60N4O12</formula>
+            <mw>740.88116</mw>
+            <comment>Montanastatin is a putative NRPS product (no synthetase genes identified).</comment>
+            <status>putative</status>
+        </general>
+        <structure>
+            <type>cyclic</type>
+            <size>8</size>
+            <composition>D-Hiv, D-Val, Lac, Val, D-Hiv, D-Val, Lac, Val</composition>
+            <graph>D-Hiv,D-Val,Lac,Val,D-Hiv,D-Val,Lac,Val@1,7@0,2@1,3@2,4@3,5@4,6@5,7@0,6</graph>
+        </structure>
+        <organisms>
+            <organism>
+                <name>Streptomyces chrysomallus</name>
+                <taxonomy>cellular organisms, Bacteria, Actinobacteria, Actinobacteria (class), Actinobacteridae, Actinomycetales, Streptomycineae, Streptomycetaceae, Streptomyces</taxonomy>
+                <gram>positive</gram>
+                <synonym>Streptomyces anulatus,Streptomyces fluorescens,Streptomyces citreofluorescens,Actinomyces fluorescens,Actinomyces citreofluorescens,Actinomyces annulatus,Actinomyces Streptothrix annulatus</synonym>
+                <taxid>1892</taxid>
+            </organism>
+        </organisms>
+        <references>
+            <reference>
+                <title>Antineoplastic agents. Part 409: Isolation and structure of montanastatin from a terrestrial actinomycete.</title>
+                <year>1999</year>
+                <journal>Bioorganic and medicinal chemistry</journal>
+                <location>May,7(5):895-9.</location>
+                <pmid>10400343</pmid>
+                <authors>
+                    <author>
+                        <name>Pettit GR</name>
+                    </author>
+                    <author>
+                        <name>Doubek DL</name>
+                    </author>
+                    <author>
+                        <name>Schmidt JM</name>
+                    </author>
+                    <author>
+                        <name>Herald DL</name>
+                    </author>
+                    <author>
+                        <name>Tan R</name>
+                    </author>
+                    <author>
+                        <name>Melody N</name>
+                    </author>
+                    <author>
+                        <name>Kielty JM</name>
+                    </author>
+                    <author>
+                        <name>Pettit RK</name>
+                    </author>
+                    <author>
+                        <name>Tucker BE</name>
+                    </author>
+                    <author>
+                        <name>Mallavia LP</name>
+                    </author>
+                </authors>
+            </reference>
+        </references>
+        <links>
+        </links>
+    </peptide>
+</norine>
