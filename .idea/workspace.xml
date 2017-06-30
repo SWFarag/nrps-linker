@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52d09430-5019-43af-ab25-84edf5051244" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/designedGraphs/Bacitracin A1.png" afterPath="$PROJECT_DIR$/static/designedGraphs/Bacitracin A1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/nrps3.iml" afterPath="$PROJECT_DIR$/.idea/nrps3.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nrps_db_launcher.py" afterPath="$PROJECT_DIR$/nrps_db_launcher.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Design/nrps_design.py" afterPath="$PROJECT_DIR$/Design/nrps_design.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/params/super_params_x.txt" afterPath="$PROJECT_DIR$/params/super_params_x.txt" />
     </list>
     <ignored path="nrps3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,7 +18,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/nrps-linker-v3$NRPS_analyst3.coverage" NAME="NRPS_analyst3 Coverage Results" MODIFIED="1489257383097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/nrps-linker-db-dev$wsgi.coverage" NAME="wsgi Coverage Results" MODIFIED="1498860299214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nrps-linker-db-dev$wsgi.coverage" NAME="wsgi Coverage Results" MODIFIED="1498863940909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/nrps-linker-v3$nrps3.coverage" NAME="nrps3 Coverage Results" MODIFIED="1489439372924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ultimate-nrps-linker-db-dev$nrps_db_launcher.coverage" NAME="nrps_db_launcher Coverage Results" MODIFIED="1490039045811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ultimate-nrps-linker-db$wsgi.coverage" NAME="wsgi Coverage Results" MODIFIED="1489697617344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -40,8 +38,65 @@
       <file leaf-file-name="nrps_db_launcher.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nrps_db_launcher.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="19" column="61" selection-start-line="14" selection-start-column="2" selection-end-line="19" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nrps_design.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Design/nrps_design.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="40" column="68" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
+              <folding>
+                <element signature="e#391#565#0" expanded="false" />
+                <element signature="e#640#1658#0" expanded="false" />
+                <element signature="e#1737#9309#0" expanded="false" />
+                <element signature="e#9358#9856#0" expanded="false" />
+                <element signature="e#9908#10243#0" expanded="false" />
+                <element signature="e#10335#15005#0" expanded="false" />
+                <element signature="e#15073#15837#0" expanded="false" />
+                <element signature="e#15920#18424#0" expanded="false" />
+                <element signature="e#18505#19839#0" expanded="false" />
+                <element signature="e#19910#20712#0" expanded="false" />
+                <element signature="e#20755#20900#0" expanded="false" />
+                <element signature="e#20956#21341#0" expanded="false" />
+                <element signature="e#21405#21728#0" expanded="false" />
+                <element signature="e#21901#23336#0" expanded="false" />
+                <element signature="e#23427#23805#0" expanded="false" />
+                <element signature="e#23897#24300#0" expanded="false" />
+                <element signature="e#24344#24383#0" expanded="false" />
+                <element signature="e#24478#24894#0" expanded="false" />
+                <element signature="e#24980#35203#0" expanded="false" />
+                <element signature="e#35345#36860#0" expanded="false" />
+                <element signature="e#36914#37282#0" expanded="false" />
+                <element signature="e#37386#38218#0" expanded="false" />
+                <element signature="e#38323#40295#0" expanded="false" />
+                <element signature="e#40371#42378#0" expanded="false" />
+                <element signature="e#42451#42611#0" expanded="false" />
+                <element signature="e#42697#43185#0" expanded="false" />
+                <element signature="e#43243#43410#0" expanded="false" />
+                <element signature="e#43493#46952#0" expanded="false" />
+                <element signature="e#46994#47177#0" expanded="false" />
+                <element signature="e#47222#47462#0" expanded="false" />
+                <element signature="e#47527#49162#0" expanded="false" />
+                <element signature="e#49228#49665#0" expanded="false" />
+                <element signature="e#49703#49773#0" expanded="false" />
+                <element signature="e#50715#50785#0" expanded="false" />
+                <element signature="e#50859#52261#0" expanded="false" />
+                <element signature="e#52308#52742#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="super_params_x.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/params/super_params_x.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="37" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -52,16 +107,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/home.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,6 +160,7 @@
         <option value="$PROJECT_DIR$/templates/Navbar/upload_example.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/static/css/home.css" />
+        <option value="$PROJECT_DIR$/Design/nrps_design.py" />
         <option value="$PROJECT_DIR$/nrps_db_launcher.py" />
       </list>
     </option>
@@ -172,6 +218,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="nrps-linker-db-dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nrps-linker-db-dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nrps-linker-db-dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="params" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -512,13 +572,13 @@
     <frame x="0" y="23" width="1280" height="734" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17528272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19063005" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2990654" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -549,19 +609,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NRPS_analyst3.py" />
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2016.2/python_stubs/1831523265/__builtin__.py" />
     <entry file="file://$PROJECT_DIR$/../nrps3/nrps2env/lib/python2.7/site-packages/Bio/SeqIO/__init__.py" />
     <entry file="file://$PROJECT_DIR$/NRPS_analyst2.py" />
@@ -765,10 +817,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/params/super_params_x.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="37" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design/nrps_design.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="40" column="68" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
+          <folding>
+            <element signature="e#391#565#0" expanded="false" />
+            <element signature="e#640#1658#0" expanded="false" />
+            <element signature="e#1737#9309#0" expanded="false" />
+            <element signature="e#9358#9856#0" expanded="false" />
+            <element signature="e#9908#10243#0" expanded="false" />
+            <element signature="e#10335#15005#0" expanded="false" />
+            <element signature="e#15073#15837#0" expanded="false" />
+            <element signature="e#15920#18424#0" expanded="false" />
+            <element signature="e#18505#19839#0" expanded="false" />
+            <element signature="e#19910#20712#0" expanded="false" />
+            <element signature="e#20755#20900#0" expanded="false" />
+            <element signature="e#20956#21341#0" expanded="false" />
+            <element signature="e#21405#21728#0" expanded="false" />
+            <element signature="e#21901#23336#0" expanded="false" />
+            <element signature="e#23427#23805#0" expanded="false" />
+            <element signature="e#23897#24300#0" expanded="false" />
+            <element signature="e#24344#24383#0" expanded="false" />
+            <element signature="e#24478#24894#0" expanded="false" />
+            <element signature="e#24980#35203#0" expanded="false" />
+            <element signature="e#35345#36860#0" expanded="false" />
+            <element signature="e#36914#37282#0" expanded="false" />
+            <element signature="e#37386#38218#0" expanded="false" />
+            <element signature="e#38323#40295#0" expanded="false" />
+            <element signature="e#40371#42378#0" expanded="false" />
+            <element signature="e#42451#42611#0" expanded="false" />
+            <element signature="e#42697#43185#0" expanded="false" />
+            <element signature="e#43243#43410#0" expanded="false" />
+            <element signature="e#43493#46952#0" expanded="false" />
+            <element signature="e#46994#47177#0" expanded="false" />
+            <element signature="e#47222#47462#0" expanded="false" />
+            <element signature="e#47527#49162#0" expanded="false" />
+            <element signature="e#49228#49665#0" expanded="false" />
+            <element signature="e#49703#49773#0" expanded="false" />
+            <element signature="e#50715#50785#0" expanded="false" />
+            <element signature="e#50859#52261#0" expanded="false" />
+            <element signature="e#52308#52742#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nrps_db_launcher.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="19" column="61" selection-start-line="14" selection-start-column="2" selection-end-line="19" selection-end-column="61" />
           <folding />
         </state>
       </provider>

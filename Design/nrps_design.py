@@ -133,7 +133,8 @@ class NRP_Design:
                                     data_new, 'New Linkers Table:', "Old Linkers Table:", nrp_comp,
                                     seq, pairs, no_linkers, num_mod, t_origin[3]]
 
-                    the_filename = params+"super_params_x.txt"
+                    print "noussa", super_params_x[-4]
+                    the_filename = params+"super_params_"+str(super_params_x[-4])+".txt"
                     with open(the_filename, 'wb') as f:
                         pickle.dump(super_params_x, f)
                     return render_template('Design/novoPeptide11.html', graph1=graph1, id=id, orginalPep=originalPep,
@@ -1156,7 +1157,7 @@ class NRP_Design:
         the_filename = params + "super_params_x.txt"
         with open(the_filename, 'rb') as f:
             super_params = pickle.load(f)
-        print super_params
+        print super_params[2]
         changes = super_params[-1]
         changes_pure = [(change[1][0][-3:], change[1][1][-3:]) for change in changes]
         n = len(list_of_edits)
