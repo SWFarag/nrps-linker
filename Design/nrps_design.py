@@ -132,15 +132,15 @@ class NRP_Design:
                     super_params_x = [graph1, id, originalPep, graph2, data_old,
                                     data_new, 'New Linkers Table:', "Old Linkers Table:", nrp_comp,
                                     seq, pairs, no_linkers, num_mod, t_origin[3]]
-
-                    print "noussa", super_params_x[-4]
-                    the_filename = params+"super_params_"+str(super_params_x[-4])+".txt"
+                    temp_name="super_params_"+str(super_params_x[-4])+".txt"
+                    the_filename = params+temp_name
+                    print "the the_filename", the_filename
                     with open(the_filename, 'wb') as f:
                         pickle.dump(super_params_x, f)
                     return render_template('Design/novoPeptide11.html', graph1=graph1, id=id, orginalPep=originalPep,
                                            graph2=graph2, table_old=data_old, table_new=data_new,title_new='New Linkers Table:', title_old='Old Linkers Table:',
                                            old_seq=nrp_comp, new_seq=seq, pairs=pairs, no_linkers=no_linkers,
-                                           mod=num_mod, changes=t_origin[3], numberChanges=len(t_origin[3]))
+                                           mod=num_mod, changes=t_origin[3], numberChanges=len(t_origin[3]), the_filename=temp_name)
             else:
                 error3 = "No peptide modifications observed, please substitute at least a single residue!"
                 return render_template('Design/novoPeptide1.html', id=npeptideInfo[3], npeptide=originalPep,
@@ -1153,11 +1153,10 @@ class NRP_Design:
     def word(self, length):
         return ''.join(random.choice(string.lowercase) for i in range(length))
 
-    def check_list_of_edits(self, list_of_edits, params):
-        the_filename = params + "super_params_x.txt"
+    def check_list_of_edits(self, list_of_edits, params, tempName):
+        the_filename = params + tempName
         with open(the_filename, 'rb') as f:
             super_params = pickle.load(f)
-        print super_params[2]
         changes = super_params[-1]
         changes_pure = [(change[1][0][-3:], change[1][1][-3:]) for change in changes]
         n = len(list_of_edits)

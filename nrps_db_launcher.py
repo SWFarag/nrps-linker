@@ -12,19 +12,19 @@ path = app.root_path
 preloader = pre_loader.PreLoader(path)
 listOfEdits = []
 new_gene_list = []
-# app.config['UPLOAD_FOLDER'] = os.path.join(path, "uploaded/")
-# app.config['EXTRACTION_FOLDER'] = os.path.join(path, "extracted/")
-# app.config['CLUSTER_FOLDER'] = os.path.join(path, "new_clusters/")
-# app.config['DROPBOX_FOLDER_U'] = os.path.join(path, "dropbox_folder_u/")
-# app.config['DROPBOX_FOLDER_D'] = '/NRPS_clusters_NCBI_66K_2/'
-# app.config['PARAMS_FOLDER'] = os.path.join(path, "params/")
-
-app.config['UPLOAD_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "uploaded/")
-app.config['EXTRACTION_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "extracted/")
-app.config['CLUSTER_FOLDER']= os.path.join("/opt/app-root/src/uploads/", "new_clusters/")
-app.config['DROPBOX_FOLDER_U']= os.path.join("/opt/app-root/src/uploads/", "dropbox_folder_u/")
+app.config['UPLOAD_FOLDER'] = os.path.join(path, "uploaded/")
+app.config['EXTRACTION_FOLDER'] = os.path.join(path, "extracted/")
+app.config['CLUSTER_FOLDER'] = os.path.join(path, "new_clusters/")
+app.config['DROPBOX_FOLDER_U'] = os.path.join(path, "dropbox_folder_u/")
 app.config['DROPBOX_FOLDER_D'] = '/NRPS_clusters_NCBI_66K_2/'
-app.config['PARAMS_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "params/")
+app.config['PARAMS_FOLDER'] = os.path.join(path, "params/")
+
+# app.config['UPLOAD_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "uploaded/")
+# app.config['EXTRACTION_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "extracted/")
+# app.config['CLUSTER_FOLDER']= os.path.join("/opt/app-root/src/uploads/", "new_clusters/")
+# app.config['DROPBOX_FOLDER_U']= os.path.join("/opt/app-root/src/uploads/", "dropbox_folder_u/")
+# app.config['DROPBOX_FOLDER_D'] = '/NRPS_clusters_NCBI_66K_2/'
+# app.config['PARAMS_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "params/")
 
 app.config['ALLOWED_EXTENSIONS'] = set(['gbk'])
 if not os.path.exists(app.config['UPLOAD_FOLDER']):os.makedirs(app.config['UPLOAD_FOLDER'])
@@ -230,16 +230,22 @@ def get_post_javascript_data():
     global new_gene_list
 
     postValues = request.form['np2']
+    print "length", len(postValues.split("/"))
+    print postValues
     peptideName = postValues.split("/")[0]
 
 
     changes = postValues.split("/")[1]
 
+    the_filename = postValues.split("/")[2]
+    print "1", the_filename
     dropbox_u = app.config['DROPBOX_FOLDER_U']
     dropbox_d = app.config['DROPBOX_FOLDER_D']
     changes = ast.literal_eval(changes)
+    #the_filename = ast.literal_eval(the_filename)
+    #print "2",  the_filename
 
-    rows_pass, super_params =preloader.nrps_design.check_list_of_edits(listOfEdits, app.config['PARAMS_FOLDER'])
+    rows_pass, super_params =preloader.nrps_design.check_list_of_edits(listOfEdits, app.config['PARAMS_FOLDER'], the_filename)
     if not rows_pass:
         error = "Please make sure to select the correct number of linkers" + " [" + str(len(super_params[13])) + " linkers] " +\
                 "and the right pairs of linkers, which are as follows:"
@@ -248,7 +254,7 @@ def get_post_javascript_data():
                                table_new=super_params[5], title_new=super_params[6],
                                title_old=super_params[7], old_seq=super_params[8],
                                new_seq=super_params[9], pairs=super_params[10], no_linkers=super_params[11],
-                               mod=super_params[12], changes=super_params[13], error=error)
+                               mod=super_params[12], changes=super_params[13], the_filename=super_params[14], error=error)
     else:
         print "@@@@@@@@@@@@@@@@@@@      Rows chosen by the User     @@@@@@@@@@@@@@@@@@@"
         print "Peptidname according to client request:", peptideName
@@ -261,6 +267,7 @@ def get_post_javascript_data():
 
         new_gene_list = preloader.nrps_design.creat2bEdited(listOfEdits, toEdit_cluster, toEdit_cluster_info,changes, bigTable, preloader, dropbox_u, dropbox_d)
         return preloader.nrps_design.settingNewCluster(preloader, new_gene_list, app)
+
 
 @app.route('/newGene/fasta_download', methods = ['POST', 'GET'])
 def download_new_gene_fasta2():
