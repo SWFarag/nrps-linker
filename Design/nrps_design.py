@@ -1155,10 +1155,12 @@ class NRP_Design:
 
     def check_list_of_edits(self, list_of_edits, params, tempName):
         the_filename = params + tempName
+        print "edilo", the_filename
         with open(the_filename, 'rb') as f:
             super_params = pickle.load(f)
         changes = super_params[-1]
         changes_pure = [(change[1][0][-3:], change[1][1][-3:]) for change in changes]
+        print "changes_pure", changes_pure
         n = len(list_of_edits)
 
         rows_pass = False
