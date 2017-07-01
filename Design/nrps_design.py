@@ -803,9 +803,9 @@ class NRP_Design:
         print
         nrps_action = self.find_right_edit_set1(genes_changes, changes, listOfEdits, bigTable, dropbox_d)
         print "**************************"
-        print "nrps_action", nrps_action
+        #print "nrps_action", nrps_action
         print "genes_changes values", len(genes_changes.values())
-        print "list of edits:", listOfEdits
+        #print "list of edits:", listOfEdits
         print "changes:", changes
         print "**************************"
         print

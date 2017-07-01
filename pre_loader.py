@@ -24,6 +24,8 @@ class PreLoader:
 		self.NCBI_DB4 = pd.read_csv(os.path.join(path, "files2Read/NCBI_linkers_with_domain_pos2.csv"))
 		self.MIBiG_DB5 = pd.read_csv(os.path.join(path, "files2Read/MIBiG_linkers_with_domain_pos3.csv"))
 
+		self.NCBI_HTML = os.path.join(path, "files2Read/NCBI_HTML.html")
+
 		#self.peptides_ids_xmlFileNames = pd.read_csv(os.path.join(path, "files2Read/Nourine_info/peptides_ids_xmlFileNames.csv"))
 		self.peptides_ids_graphs = pd.read_csv(os.path.join(path, "files2Read/Nourine_info/peptides_ids_graphs.csv"))
 		self.peptides_ids_xmlFileNames = pd.read_csv(os.path.join(path, "files2Read/Nourine_info/design_templates_live.csv"))

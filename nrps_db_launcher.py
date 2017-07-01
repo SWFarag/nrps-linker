@@ -12,19 +12,19 @@ path = app.root_path
 preloader = pre_loader.PreLoader(path)
 listOfEdits = []
 new_gene_list = []
-app.config['UPLOAD_FOLDER'] = os.path.join(path, "uploaded/")
-app.config['EXTRACTION_FOLDER'] = os.path.join(path, "extracted/")
-app.config['CLUSTER_FOLDER'] = os.path.join(path, "new_clusters/")
-app.config['DROPBOX_FOLDER_U'] = os.path.join(path, "dropbox_folder_u/")
-app.config['DROPBOX_FOLDER_D'] = '/NRPS_clusters_NCBI_66K_2/'
-app.config['PARAMS_FOLDER'] = os.path.join(path, "params/")
+#app.config['UPLOAD_FOLDER'] = os.path.join(path, "uploaded/")
+#app.config['EXTRACTION_FOLDER'] = os.path.join(path, "extracted/")
+#app.config['CLUSTER_FOLDER'] = os.path.join(path, "new_clusters/")
+#app.config['DROPBOX_FOLDER_U'] = os.path.join(path, "dropbox_folder_u/")
+#app.config['DROPBOX_FOLDER_D'] = '/NRPS_clusters_NCBI_66K_2/'
+#app.config['PARAMS_FOLDER'] = os.path.join(path, "params/")
 
-# app.config['UPLOAD_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "uploaded/")
-# app.config['EXTRACTION_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "extracted/")
-# app.config['CLUSTER_FOLDER']= os.path.join("/opt/app-root/src/uploads/", "new_clusters/")
-# app.config['DROPBOX_FOLDER_U']= os.path.join("/opt/app-root/src/uploads/", "dropbox_folder_u/")
-# app.config['DROPBOX_FOLDER_D'] = '/NRPS_clusters_NCBI_66K_2/'
-# app.config['PARAMS_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "params/")
+app.config['UPLOAD_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "uploaded/")
+app.config['EXTRACTION_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "extracted/")
+app.config['CLUSTER_FOLDER']= os.path.join("/opt/app-root/src/uploads/", "new_clusters/")
+app.config['DROPBOX_FOLDER_U']= os.path.join("/opt/app-root/src/uploads/", "dropbox_folder_u/")
+app.config['DROPBOX_FOLDER_D'] = '/NRPS_clusters_NCBI_66K_2/'
+app.config['PARAMS_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "params/")
 
 app.config['ALLOWED_EXTENSIONS'] = set(['gbk'])
 if not os.path.exists(app.config['UPLOAD_FOLDER']):os.makedirs(app.config['UPLOAD_FOLDER'])
@@ -88,10 +88,10 @@ def getMIBiGLinkers():
 
 @app.route('/Libraries/NCBI_db')
 def getNCBILinkers():
-    NCBI_db = preloader.NCBI_DB1
-    NCBI_db_short = NCBI_db[['A1', 'Linker', 'A2', 'Length', 'Organism_name', 'Genome_FTP_path']]
-    NCBI_db = preloader.tohtml_library_NCBI(NCBI_db_short, "ncbi", NCBI_db)
-    return render_template('libraries/NCBI.html', table=NCBI_db, title="NCBI RefSeq Database IMLs")
+    NCBI_db = preloader.NCBI_HTML
+    with open(NCBI_db, 'r') as myfile_html:
+        data_html = myfile_html.read().replace('\n', '')
+    return render_template('libraries/NCBI.html', table=data_html, title="NCBI RefSeq Database IMLs")
 
 
 ################################################### DeNovo Design #####################################################################
@@ -254,7 +254,7 @@ def get_post_javascript_data():
                                table_new=super_params[5], title_new=super_params[6],
                                title_old=super_params[7], old_seq=super_params[8],
                                new_seq=super_params[9], pairs=super_params[10], no_linkers=super_params[11],
-                               mod=super_params[12], changes=super_params[13], the_filename=super_params[14], error=error)
+                               mod=super_params[12], changes=super_params[13], the_filename=the_filename, error=error)
     else:
         print "@@@@@@@@@@@@@@@@@@@      Rows chosen by the User     @@@@@@@@@@@@@@@@@@@"
         print "Peptidname according to client request:", peptideName
