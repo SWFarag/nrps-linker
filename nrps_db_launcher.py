@@ -205,12 +205,12 @@ def getuploadExamples():
 
 @app.route('/Uploads_Examples/Daptomycin_BGC')
 def getDaptomycin():
-    return send_file(os.path.join(path,'files2Read/templates/daptomycin.gbk'),  attachment_filename="Daptomycin_BGC.gbk", as_attachment=True)
+    return send_file(os.path.join(path,'files2Read/templates/Daptomycin.gbk'),  attachment_filename="Daptomycin_BGC.gbk", as_attachment=True)
 
 
 @app.route('/Uploads_Examples/Vancomycin_BGC')
 def getVancomycin():
-    return send_file(os.path.join(path,'files2Read/templates/vancomycin.gbk'), attachment_filename="Vancomycin_BGC.gbk", as_attachment=True)
+    return send_file(os.path.join(path,'files2Read/templates/Vancomycin.gbk'), attachment_filename="Vancomycin_BGC.gbk", as_attachment=True)
 
 
 @app.route('/Tutorial')
