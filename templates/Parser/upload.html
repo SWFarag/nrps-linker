@@ -4,14 +4,15 @@
 
 {% block content %}
 
+
 {% if filenames_dic %}
     {% if bad_filenames_dic %}
         <div class="row">
             <div class="alert alert-warning col-sm-6">
                 <strong>Wrong file extension</strong> Please make sure to upload only genebank files (.gbk)
                 <div class="row">
-                    <div class="col-sm-5">
-                        This is a list of uploaded files with the wrong extension:
+                    <div class="col-sm-6">
+                        <h5>This is a list of uploaded files with the wrong extension:</h5>
                         <ul>
                             {% for key, value in bad_filenames_dic.iteritems() %}
                                 <li><a href="#">{{key}}</a></li>
@@ -24,7 +25,7 @@
         <div class="row">
             <div class="col-sm-12" >
                 <div class="header">
-                    <h2 class="text-muted">Upload AntiSMASH NRP Biosynthetic Gene Cluster Files[Genebank Files]:</h2>
+                    <h2 class="text-muted">Upload <b>AntiSMASH 3.0</b> NRP Biosynthetic Gene Cluster Files[Genebank Files]:</h2>
                     <h5 class="text-muted"> Please make sure the uploaded file(s) are genebank files with the following extension .gbk:</h5>
                     <h5 class="text-muted"> if not sure, please
                         <a href="{{ url_for('getuploadExamples') }}"> click here:</a>
@@ -33,7 +34,7 @@
                 <br>
             </div>
             <div class="col-sm-12">
-                <form style="font-size: large" action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data">
+                <form style="font-size: large" action="{{ url_for('uploadThree') }}" method="post" enctype="multipart/form-data">
                     <input type="file" multiple="" name="file[]" class="span3" /><br />
                     <input type="submit" value="Upload"  class="span2" onclick="loading22()">
                 </form>
@@ -41,84 +42,86 @@
         </div>
     {% else %}
         <div class="row">
-        <div class="header col-sm-6" > <h3 class="text-muted">Uploaded files</h3> </div>
-    </div>
+          <div class="header col-sm-6" > <h3 class="text-muted">Uploaded files</h3> </div>
+        </div>
         <div class="row">
             <div class="col-sm-5">
-            This is a list of the files you just uploaded
-            <ul>
-               {% for key, value in filenames_dic.iteritems() %}
-                <li><a href="#">{{key}}</a></li>
-                {% endfor %}
-            </ul>
-        </div>
+              This is a list of uploaded files
+              <ul>
+                 {% for key, value in filenames_dic.iteritems() %}
+                  <li><a href="#">{{key}}</a></li>
+                  {% endfor %}
+              </ul>
+            </div>
             <div class="col-sm-6">
-            <p><a class="btn btn-lg btn-success" href="{{ url_for('getNewLinker') }}" role="button" onclick="loading22()">Extract Linkers</a></p>
-        </div>
+              <p><a class="btn btn-lg btn-success" href="{{ url_for('getNewLinkerThree') }}" role="button" onclick="loading22()">Extract Linkers</a></p>
+            </div>
         </div>
     {% endif %}
 {% else %}
     {% if bad_filenames_dic %}
-        <div class="row">
-            <div class="alert alert-warning col-sm-6">
-                <strong>Wrong file extension</strong> Please make sure to upload only genebank files (.gbk)
-                <div class="row">
-                    <div class="col-sm-5">
-                        This is a list of uploaded files with the wrong extension:
-                        <ul>
-                            {% for key, value in bad_filenames_dic.iteritems() %}
-                                <li><a href="#">{{key}}</a></li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12" >
-                <div class="header">
-                    <h2 class="text-muted">Upload AntiSMASH NRP Biosynthetic Gene Cluster Files[Genebank Files]:</h2>
-                    <h5 class="text-muted"> Please make sure the uploaded file(s) are genebank files with the following extension .gbk:</h5>
-                </div>
-                <br>
-            </div>
-            <div class="col-sm-12">
-                <form style="font-size: large" action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data">
-                    <input type="file" multiple="" name="file[]" class="span3" /><br />
-                    <input type="submit" value="Upload"  class="span2" onclick="loading22()">
-                </form>
-            </div>
-        </div>
+      <div class="row">
+          <div class="alert alert-warning col-sm-6">
+              <strong>Wrong file extension</strong> Please make sure to upload only genebank files (.gbk)
+              <div class="row">
+                  <div class="col-sm-6">
+                      <h5>This is a list of uploaded files with the wrong extension:</h5>
+                      <ul>
+                          {% for key, value in bad_filenames_dic.iteritems() %}
+                              <li><a href="#">{{key}}</a></li>
+                          {% endfor %}
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-12" >
+              <div class="header">
+                  <h2 class="text-muted">Upload <b>AntiSMASH 3.0</b> NRP Biosynthetic Gene Cluster Files[Genebank Files]:</h2>
+                  <h5 class="text-muted"> Please make sure the uploaded file(s) are genebank files with the following extension .gbk:</h5>
+                  <h5 class="text-muted"> if not sure, please
+                      <a href="{{ url_for('getuploadExamples') }}"> click here:</a>
+                  </h5>
+              </div>
+              <br>
+          </div>
+          <div class="col-sm-12">
+              <form style="font-size: large" action="{{ url_for('uploadThree') }}" method="post" enctype="multipart/form-data">
+                  <input type="file" multiple="" name="file[]" class="span3" /><br />
+                  <input type="submit" value="Upload"  class="span2" onclick="loading22()">
+              </form>
+          </div>
+      </div>
     {% else %}
-        <div class="row">
-     <div class="alert alert-warning col-sm-4">
-        <strong>Nothing is uploaded:</strong> Please make sure to upload at least one genebank file (.gbk)
-    </div>
-    </div>
-        <div class="row">
-            <div class="col-sm-12" >
-                <div class="header">
-                    <h2 class="text-muted">Upload AntiSMASH NRP Biosynthetic Gene Cluster Files[Genebank Files]:</h2>
-                    <h5 class="text-muted"> Please make sure the uploaded file(s) are genebank files with the following extension .gbk:</h5>
-                    <h5 class="text-muted"> if not sure, please
-                        <a href="{{ url_for('getuploadExamples') }}"> click here:</a>
-                    </h5>
-                </div>
-                <br>
-            </div>
-
-            <div class="col-sm-12">
-                <form style="font-size: large" action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data">
-                    <input type="file" multiple="" name="file[]" class="span3" /><br />
-                    <input type="submit" value="Upload"  class="span2" onclick="loading22()">
-                </form>
-            </div>
-        </div>
+      <div class="row">
+         <div class="alert alert-warning col-sm-4">
+            <strong>Nothing is uploaded:</strong> Please make sure to upload at least one genebank file (.gbk)
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-12" >
+              <div class="header">
+                  <h2 class="text-muted">Upload <b>AntiSMASH 3.0</b> NRP Biosynthetic Gene Cluster Files[Genebank Files]:</h2>
+                  <h5 class="text-muted"> Please make sure the uploaded file(s) are genebank files with the following extension .gbk:</h5>
+                  <h5 class="text-muted"> if not sure, please
+                      <a href="{{ url_for('getuploadExamples') }}"> click here:</a>
+                  </h5>
+              </div>
+              <br>
+          </div>
+          <div class="col-sm-12">
+              <form style="font-size: large" action="{{ url_for('uploadThree') }}" method="post" enctype="multipart/form-data">
+                  <input type="file" multiple="" name="file[]" class="span3" /><br />
+                  <input type="submit" value="Upload"  class="span2" onclick="loading22()">
+              </form>
+          </div>
+      </div>
     {% endif %}
 {% endif %}
+
 
 {% endblock %}
 
 
 {% block footer %} {{super()}} {% endblock %}
-

@@ -10,13 +10,13 @@
     <div class="col-sm-5">
         <h2>Example of an Upload File</h2>
         <div class="list-group">
-            <a href="{{url_for('getDaptomycin') }}" class="list-group-item">
-      <h4 class="list-group-item-heading">Daptomycin Biosynthetic Gene Cluster</h4>
-      <p class="list-group-item-text" style="color:blue;">Daptomycin_BGC</p>
+            <a href="{{url_for('getAntiSMASH3_files') }}" class="list-group-item">
+      <h4 class="list-group-item-heading">Examples of antiSMASH3.0 Biosynthetic Gene Clusters</h4>
+      <p class="list-group-item-text" style="color:blue;">antiSMASH3.0_BGCs</p>
     </a>
-            <a href="{{url_for('getVancomycin') }}" class="list-group-item">
-                <h4 class="list-group-item-heading">Vancomycin Biosynthetic Gene Cluster</h4>
-                <p class="list-group-item-text" style="color:blue;">Vancomycin_BGC</p>
+            <a href="{{url_for('getAntiSMASH4_files') }}" class="list-group-item">
+                <h4 class="list-group-item-heading">Examples of antiSMASH4.0 Biosynthetic Gene Clusters</h4>
+                <p class="list-group-item-text" style="color:blue;">antiSMASH4.0_BGCs</p>
             </a>
         </div>
     </div>
@@ -28,5 +28,3 @@
 
 
 {% block footer %} {{super()}} {% endblock %}
-
-

@@ -1,5 +1,6 @@
 from werkzeug.utils import secure_filename
 import atca_parser_latest
+import atca_parser_latest_anti4
 import pandas as pd
 import os
 
@@ -7,6 +8,7 @@ class NRPS_Parser:
 
     def __init__(self):
         self.atca_parser = atca_parser_latest.NrpParser()
+        self.atca_parser_Four = atca_parser_latest_anti4.NrpParser()
 
     # For a given file, return whether it's an allowed type or not
     def allowed_file(self, filename, app):
@@ -36,7 +38,7 @@ class NRPS_Parser:
             else:filenames_dic
         return filenames_dic, bad_filenames_dic
 
-    def extract_atca_linkers(self, path):
+    def extract_atca_linkers_Three(self, path):
         self.atca_parser.startExecution(path)
         r = self.atca_parser.results
         cols = ["A1", "Linker", "A2", "Description", "Accession", "Length", "Cluster", "A1_pos", "A2_pos", "t_pos", "c_pos", "trans", "gene_loc", "gene_strand"]
@@ -48,9 +50,20 @@ class NRPS_Parser:
         results = [extracted_data, num_filesNoATCA, num_files, num_linkers]
         self.deleteUploadedFiles(path)
         return results
-        
-        
-        
+
+    def extract_atca_linkers_Four(self, path):
+        self.atca_parser_Four.startExecution(path)
+        r = self.atca_parser_Four.results
+        cols = ["A1", "Linker", "A2", "Description", "Accession", "Length", "Cluster", "A1_pos", "A2_pos", "t_pos", "c_pos", "trans", "gene_loc", "gene_strand"]
+        extracted_data = pd.DataFrame(r[1], columns=cols)
+        temp = self.atca_parser_Four.filesNoNRPS(r[0])
+        num_filesNoATCA = temp[0]
+        num_files = len(r[0])
+        num_linkers = len(r[1])
+        results = [extracted_data, num_filesNoATCA, num_files, num_linkers]
+        self.deleteUploadedFiles(path)
+        return results
+
     def deleteUploadedFiles(self, path):
         folder = path
         for the_file in os.listdir(folder):

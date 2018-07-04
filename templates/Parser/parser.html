@@ -4,11 +4,39 @@
 
 
 {% block content %}
-    <div id="atca_units" class="container-fluid">
+
+{% if wrongParser %}
+  <div class="row">
+      <div class="alert alert-warning col-sm-6">
+          <strong>Wrong file</strong> Please make sure to upload only <b>AntiSMASH3.0</b> genebank files
+      </div>
+
+
+  </div>
+  <div class="row">
+      <div class="col-sm-12" >
+          <div class="header">
+              <h2 class="text-muted">Upload <b>AntiSMASH 3.0</b> NRP Biosynthetic Gene Cluster Files[Genebank Files]:</h2>
+              <h5 class="text-muted"> Please make sure the uploaded file(s) are genebank files with the following extension .gbk:</h5>
+              <h5 class="text-muted"> if not sure, please
+                  <a href="{{ url_for('getuploadExamples') }}"> click here:</a>
+              </h5>
+          </div>
+          <br>
+      </div>
+      <div class="col-sm-12">
+          <form style="font-size: large" action="{{ url_for('uploadThree') }}" method="post" enctype="multipart/form-data">
+              <input type="file" multiple="" name="file[]" class="span3" /><br />
+              <input type="submit" value="Upload"  class="span2" onclick="loading22()">
+          </form>
+      </div>
+  </div>
+{% else %}
+  <div id="atca_units" class="container-fluid">
         <div class="row">
             <div class="col-sm-12" >
                 <div class="header">
-                    <h2 class="text-muted">Upload AntiSMASH NRP Biosynthetic Gene Cluster Files:</h2>
+                    <h2 class="text-muted">Upload <b>AntiSMASH 3.0</b> NRP Biosynthetic Gene Cluster Files:</h2>
                     <h5 class="text-muted"> Please make sure the uploaded file(s) are genebank files with the following extension .gbk:</h5>
                     <h5 class="text-muted"> if not sure, please
                         <a href="{{ url_for('getuploadExamples') }}"> click here:</a>
@@ -18,14 +46,14 @@
             </div>
 
             <div class="col-sm-12">
-                <form style="font-size: large" action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data">
+                <form style="font-size: large" action="{{ url_for('uploadThree') }}" method="post" enctype="multipart/form-data">
                     <input type="file" multiple="" name="file[]" class="span3" /><br />
                     <input type="submit" value="Upload"  class="span2" onclick="loading22()">
                 </form>
             </div>
         </div>
     </div>
-
+{% endif %}
 
 {% endblock %}
 

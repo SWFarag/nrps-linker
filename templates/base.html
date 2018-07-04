@@ -14,7 +14,7 @@
         <script>
             $(document).ready(function() {
                $('#NCBI_DB_all').click(function() {
-                   alert("'NCBI IMLs' is a much larger database. So please give it up to a minute or two [depending on your internet speed] to be completely downloaded.");});
+                   alert("'Putative NRPS IMLs' is a much larger database. So please give it up to a minute or two [depending on your internet speed] to be completely downloaded.");});
             } );
         </script>
 
@@ -39,7 +39,7 @@
                     </ul>
                   </div>
                 </nav>
-                <div class= container-fluid">
+                <div "class= container-fluid">
                     <div class="row">
                         <div class="col-lg-3">
                             <a href="{{ url_for('main') }}"><img src="/static/images/Logomakr_2uUc9P.png" style="width: 250px"></a>
@@ -48,7 +48,7 @@
                             <h1 id="title" >Inter-Modular Linkers</h1>
                             <h1 id="title" >Within Bacterial NRP Biosynthetic Pathways</h1>
                         </div>
-                       <div class="col-lg-3" align="right">
+                        <div class="col-lg-3" align="right">
                                 <a href="https://chembench.mml.unc.edu/" target="_blank"><img src="/static/images/Screenshot%202017-03-09%2022.24.02.png" style="width: 250px"></a>
                         </div>
                     </div>
@@ -57,15 +57,20 @@
                 <div class="container-fluid">
                   <ul class="nav nav-tabs nav-justified">
                     <li><a href="{{ url_for('main') }}" style="font-size: medium">Home</a></li>
-                    <li> <a href="{{ url_for('doParse') }}" style="font-size: medium">Parser</a></li>
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="font-size: medium"> IML Extractor<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href={{ url_for('doParseThree', wrongParser=0)}} style="font-size: medium">IML extractor based on AntiSMASH3.0</a></li>
+                        <li><a href={{ url_for('doParseFour', wrongParser=0)}} style="font-size: medium">IML extractor based on AntiSMASH4.0</a></li>
+                      </ul>
+                    </li>
                     <li class="dropdown">
                       <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="font-size: medium"> IMLs Database <span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                        <li><a href="{{ url_for('getMIBiGLinkers') }}" style="font-size: medium">MIBiG Inter-Modular Linkers</a></li>
-                        <li><a href="{{ url_for('getNCBILinkers') }}" style="font-size: medium" id="NCBI_DB_all">NCBI Bacteria RefSeq Inter-Modular Linkers</a></li>
+                        <li><a href="{{ url_for('getMIBiGLinkers') }}" style="font-size: medium">MIBiG  NRP clusters' Inter-Modular Linkers</a></li>
+                        <li><a href="{{ url_for('getNCBILinkers') }}" style="font-size: medium" id="NCBI_DB_all">Putative NRP clusters' Inter-Modular Linkers</a></li>
                       </ul>
                     </li>
-                    <li><a href="{{ url_for('setPeptidebasedDesignPage') }}" style="font-size: medium">NRPS Design</a></li>
                     <li> <a href="{{ url_for('getAnalysis')}}" style="font-size: medium">Analysis</a></li>
                     <li> <a href="{{ url_for('getDataSummary')}}" style="font-size: medium">Data Summary</a></li>
                   </ul>

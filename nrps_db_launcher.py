@@ -6,33 +6,25 @@ import pandas as pd
 import ast
 ############### App ##################3
 app = Flask(__name__)
-app.secret_key = 'some_secret'
 ###### Pre-loading files #####
 path = app.root_path
 preloader = pre_loader.PreLoader(path)
 listOfEdits = []
 new_gene_list = []
-#app.config['UPLOAD_FOLDER'] = os.path.join(path, "uploaded/")
-#app.config['EXTRACTION_FOLDER'] = os.path.join(path, "extracted/")
-#app.config['CLUSTER_FOLDER'] = os.path.join(path, "new_clusters/")
-#app.config['DROPBOX_FOLDER_U'] = os.path.join(path, "dropbox_folder_u/")
-#app.config['DROPBOX_FOLDER_D'] = '/NRPS_clusters_NCBI_66K_2/'
-#app.config['PARAMS_FOLDER'] = os.path.join(path, "params/")
-
-app.config['UPLOAD_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "uploaded/")
-app.config['EXTRACTION_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "extracted/")
-app.config['CLUSTER_FOLDER']= os.path.join("/opt/app-root/src/uploads/", "new_clusters/")
-app.config['DROPBOX_FOLDER_U']= os.path.join("/opt/app-root/src/uploads/", "dropbox_folder_u/")
+app.config['UPLOAD_FOLDER'] = os.path.join(path, "uploaded/")
+app.config['EXTRACTION_FOLDER'] = os.path.join(path, "extracted/")
 app.config['DROPBOX_FOLDER_D'] = '/NRPS_clusters_NCBI_66K_2/'
-app.config['PARAMS_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "params/")
+
+# app.config['UPLOAD_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "uploaded/")
+# app.config['EXTRACTION_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "extracted/")
+# app.config['CLUSTER_FOLDER']= os.path.join("/opt/app-root/src/uploads/", "new_clusters/")
+# app.config['DROPBOX_FOLDER_U']= os.path.join("/opt/app-root/src/uploads/", "dropbox_folder_u/")
+# app.config['DROPBOX_FOLDER_D'] = '/NRPS_clusters_NCBI_66K_2/'
+# app.config['PARAMS_FOLDER'] = os.path.join("/opt/app-root/src/uploads/", "params/")
 
 app.config['ALLOWED_EXTENSIONS'] = set(['gbk'])
 if not os.path.exists(app.config['UPLOAD_FOLDER']):os.makedirs(app.config['UPLOAD_FOLDER'])
 if not os.path.exists(app.config['EXTRACTION_FOLDER']):os.makedirs(app.config['EXTRACTION_FOLDER'])
-if not os.path.exists(app.config['CLUSTER_FOLDER']):os.makedirs(app.config['CLUSTER_FOLDER'])
-if not os.path.exists(app.config['DROPBOX_FOLDER_U']):os.makedirs(app.config['DROPBOX_FOLDER_U'])
-if not os.path.exists(app.config['PARAMS_FOLDER']):os.makedirs(app.config['PARAMS_FOLDER'])
-
 ############################################################# HOME ###########################################################################
 @app.route('/')
 def main():
@@ -40,25 +32,59 @@ def main():
 
 ############################################################  PARSER ##########################################################################
 
-@app.route('/Parser')
-def doParse():
+@app.route('/Parser3/<int:wrongParser>/')
+def doParseThree(wrongParser):
     preloader.nrps_parser.deleteUploadedFiles(app.config['UPLOAD_FOLDER'])
     preloader.nrps_parser.deleteUploadedFiles(app.config['EXTRACTION_FOLDER'])
-    return render_template('Parser/parser.html')
+    return render_template('Parser/parser.html', wrongParser=wrongParser)
 
-@app.route('/Parser/Upload', methods=['POST'])
-def upload():
+@app.route('/Parser4/<int:wrongParser>/')
+def doParseFour(wrongParser):
+    preloader.nrps_parser.deleteUploadedFiles(app.config['UPLOAD_FOLDER'])
+    preloader.nrps_parser.deleteUploadedFiles(app.config['EXTRACTION_FOLDER'])
+    return render_template('Parser/parserFour.html', wrongParser=wrongParser)
+
+@app.route('/Parser/Upload3', methods=['POST'])
+def uploadThree():
     uploaded_files = request.files.getlist("file[]")
     filenames_dic, bad_filenames_dic = preloader.nrps_parser.uploadFiles(uploaded_files=uploaded_files, app=app)
     return render_template('Parser/upload.html', filenames_dic=filenames_dic, bad_filenames_dic=bad_filenames_dic)
 
+@app.route('/Parser/Upload4', methods=['POST'])
+def uploadFour():
+    uploaded_files = request.files.getlist("file[]")
+    filenames_dic, bad_filenames_dic = preloader.nrps_parser.uploadFiles(uploaded_files=uploaded_files, app=app)
+    return render_template('Parser/uploadFour.html', filenames_dic=filenames_dic, bad_filenames_dic=bad_filenames_dic)
+
 ######## ATCA Extractor ################
 
-@app.route('/Parser/Upload/NewLinkers')
-def getNewLinker():
-    results = preloader.nrps_parser.extract_atca_linkers(path=app.config['UPLOAD_FOLDER'])
+@app.route('/Parser/Upload/NewLinkersAntiSMASH_3')
+def getNewLinkerThree():
+    wrongParser=False
+    try:
+        results = preloader.nrps_parser.extract_atca_linkers_Three(path=app.config['UPLOAD_FOLDER'])
+    except Exception as e:
+        wrongParser=True
+        return doParseThree(wrongParser)
+    ##results = preloader.nrps_parser.extract_atca_linkers_Three(path=app.config['UPLOAD_FOLDER'])
     extracted_linkers = results[0]
-    extracted_linkers.to_csv(os.path.join(app.config['EXTRACTION_FOLDER'], ".csv"), index=False)
+    extracted_linkers.to_csv(os.path.join(app.config['EXTRACTION_FOLDER'], "extracted.csv"), index=False)
+    extracted_linkers = extracted_linkers[['A1', 'Linker', 'A2', 'Length', 'Description', 'Cluster']]
+    extracted_linkers = preloader.tohtml_library_parser(extracted_linkers, "extracted_linkers")
+    return render_template('Parser/newTable.html', table=extracted_linkers,
+                           title='Newly extracted linkers', num_filesNoATCA=results[1], num_files=results[2], num_linkers=results[3])
+
+@app.route('/Parser/Upload/NewLinkersAntiSMASH_4')
+def getNewLinkerFour():
+    wrongParser=False
+    try:
+        results = preloader.nrps_parser.extract_atca_linkers_Four(path=app.config['UPLOAD_FOLDER'])
+    except Exception as e:
+        wrongParser=True
+        return doParseFour(wrongParser)
+    #results = preloader.nrps_parser.extract_atca_linkers_Four(path=app.config['UPLOAD_FOLDER'])
+    extracted_linkers = results[0]
+    extracted_linkers.to_csv(os.path.join(app.config['EXTRACTION_FOLDER'], "extracted.csv"), index=False)
     extracted_linkers = extracted_linkers[['A1', 'Linker', 'A2', 'Length', 'Description', 'Cluster']]
     extracted_linkers = preloader.tohtml_library_parser(extracted_linkers, "extracted_linkers")
     return render_template('Parser/newTable.html', table=extracted_linkers,
@@ -66,7 +92,7 @@ def getNewLinker():
 
 @app.route('/Parser/Upload/NewLinkers/Download')
 def download_tab():
-    extracted_linkers = pd.read_csv(os.path.join(app.config['EXTRACTION_FOLDER'], ".csv"))
+    extracted_linkers = pd.read_csv(os.path.join(app.config['EXTRACTION_FOLDER'], "extracted.csv"))
     db = extracted_linkers
     s = StringIO.StringIO()
     db.to_csv(s, index=False)
@@ -83,31 +109,16 @@ def download_tab():
 def getMIBiGLinkers():
     MIBiG_db = preloader.MIBiG_DB1
     MIBiG_db_short = MIBiG_db[['A1', 'Linker', 'A2', 'Length', 'MIBiG_ID',"Product", 'Organism']]
-    MIBiG_db = preloader.tohtml_library_MIBiG(MIBiG_db_short, "mibig")
-    return render_template('libraries/MIBiG.html', table=MIBiG_db, title='MIBiG Database IMLs')
+    MIBiG_db = preloader.tohtml_library_MIBiG2(MIBiG_db_short, "mibig")
+    return render_template('libraries/MIBiG.html', table=MIBiG_db, title='MIBiG IMLs')
 
 @app.route('/Libraries/NCBI_db')
 def getNCBILinkers():
     NCBI_db = preloader.NCBI_HTML
     with open(NCBI_db, 'r') as myfile_html:
-        data_html = myfile_html.read().replace('\n', '')
-    return render_template('libraries/NCBI.html', table=data_html, title="NCBI RefSeq Database IMLs")
-
-
-################################################### DeNovo Design #####################################################################
-
-@app.route('/DenovoDesign/peptide_based')
-def setPeptidebasedDesignPage():
-    return preloader.nrps_design.setNourinebasedDesignPage(preloader=preloader)
-
-@app.route('/DenovoDesign/peptide_based/newPeptide', methods=['POST'])
-def getPeptideInfo():
-    npeptide = request.form['Npeptide']
-    return preloader.nrps_design.getNourineBasedPeptide(npeptide=npeptide, preloader=preloader, path=path)
-
-@app.route('/DenovoDesign/peptide_based/newPeptide/result', methods=['POST'])
-def getNewPeptide():
-    return preloader.nrps_design.getNourineBasedPeptideResult(preloader=preloader, path=path, params=app.config['PARAMS_FOLDER'])
+        #data_html = myfile_html.read().replace('\n', '')
+        data_html = myfile_html.read()
+    return render_template('libraries/NCBI.html', table=data_html, title="Putative NRPS IMLs")
 
 ############################################################# DOWNLOAD ###########################################################################
 @app.route('/Downloads/')
@@ -191,7 +202,7 @@ def getDataSummary():
 
 @app.route('/Analysis/')
 def getAnalysis():
-    return render_template('Analysis/analysis2.html')
+    return render_template('Analysis/analysis.html')
 
 
 ################### Nav-Bar ###########
@@ -203,80 +214,22 @@ def getinfo():
 def getuploadExamples():
     return render_template("Navbar/upload_example.html")
 
-@app.route('/Uploads_Examples/Daptomycin_BGC')
-def getDaptomycin():
-    return send_file(os.path.join(path,'files2Read/templates/Daptomycin.gbk'),  attachment_filename="Daptomycin_BGC.gbk", as_attachment=True)
+@app.route('/Uploads_Examples/AntiSMASH3.0_files/')
+def getAntiSMASH3_files():
+    filename = "antiSMASH3.0_BGC_cluster_files.zip"
+    path_zip = os.path.join(path,"files2Read/templates/clusters_files_3.zip")
+    return send_file(filename_or_fp=path_zip, attachment_filename=filename, as_attachment=True, mimetype='application/zip')
 
-
-@app.route('/Uploads_Examples/Vancomycin_BGC')
-def getVancomycin():
-    return send_file(os.path.join(path,'files2Read/templates/Vancomycin.gbk'), attachment_filename="Vancomycin_BGC.gbk", as_attachment=True)
+@app.route('/Uploads_Examples/AntiSMASH4.0_files/')
+def getAntiSMASH4_files():
+    filename = "antiSMASH4.0_BGC_cluster_files_4.zip"
+    path_zip = os.path.join(path,"files2Read/templates/clusters_files_4.zip")
+    return send_file(filename_or_fp=path_zip, attachment_filename=filename, as_attachment=True, mimetype='application/zip')
 
 
 @app.route('/Tutorial')
 def getTutorial():
-    return render_template("Navbar/tutorial2.html")
-
-@app.route('/postmethod_3', methods = ['POST', 'GET'])
-def get_post_javascript_data3():
-    global listOfEdits
-    listOfEdits = request.form['javascript_data']
-    listOfEdits = ast.literal_eval(listOfEdits)
-    return "Done"
-
-@app.route('/postmethod', methods = ['POST', 'GET'])
-def get_post_javascript_data():
-    global listOfEdits
-    global new_gene_list
-
-    postValues = request.form['np2']
-    print "length", len(postValues.split("/"))
-    print postValues
-    peptideName = postValues.split("/")[0]
-
-
-    changes = postValues.split("/")[1]
-
-    the_filename = postValues.split("/")[2]
-    print "1", the_filename
-    dropbox_u = app.config['DROPBOX_FOLDER_U']
-    dropbox_d = app.config['DROPBOX_FOLDER_D']
-    changes = ast.literal_eval(changes)
-    #the_filename = ast.literal_eval(the_filename)
-    #print "2",  the_filename
-
-    rows_pass, super_params =preloader.nrps_design.check_list_of_edits(listOfEdits, app.config['PARAMS_FOLDER'], the_filename)
-    if not rows_pass:
-        error = "Please make sure to select the correct number of linkers" + " [" + str(len(super_params[13])) + " linkers] " +\
-                "and the right pairs of linkers, which are as follows:"
-        return render_template('Design/novoPeptide11.html', graph1=super_params[0], id=super_params[1],
-                               orginalPep=super_params[2], graph2=super_params[3], table_old=super_params[4],
-                               table_new=super_params[5], title_new=super_params[6],
-                               title_old=super_params[7], old_seq=super_params[8],
-                               new_seq=super_params[9], pairs=super_params[10], no_linkers=super_params[11],
-                               mod=super_params[12], changes=super_params[13], the_filename=the_filename, error=error)
-    else:
-        print "@@@@@@@@@@@@@@@@@@@      Rows chosen by the User     @@@@@@@@@@@@@@@@@@@"
-        print "Peptidname according to client request:", peptideName
-        print "changes according to client request:", changes
-        print "______________________________________________________________________"
-        bigTable = preloader.NCBI_DB4
-
-        toEdit_cluster_info = pd.read_csv(path + "/original_linkers/" + peptideName + ".csv")
-        toEdit_cluster = os.path.join(path, "files2Read/templates/"+peptideName+".gbk")
-
-        new_gene_list = preloader.nrps_design.creat2bEdited(listOfEdits, toEdit_cluster, toEdit_cluster_info,changes, bigTable, preloader, dropbox_u, dropbox_d)
-        return preloader.nrps_design.settingNewCluster(preloader, new_gene_list, app)
-
-
-@app.route('/newGene/fasta_download', methods = ['POST', 'GET'])
-def download_new_gene_fasta2():
-    id = request.form['np2']
-    print app.config['CLUSTER_FOLDER']
-    filePath = os.path.join(app.config['CLUSTER_FOLDER'], id)
-    filename = "new_cluster_"+id+".fasta"
-    return send_file(filename_or_fp=filePath, attachment_filename=filename, as_attachment=True, mimetype='application/fasta')
+    return render_template("Navbar/tutorial.html")
 
 if __name__ == '__main__':
     app.run(threaded=True, host='0.0.0.0')
-

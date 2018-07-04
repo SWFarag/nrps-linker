@@ -6,289 +6,109 @@
 
 
 {% block content %}
-{# ############# This is the upper Part ##############}
-<div class="row">
+    <div class="container-fluid">
+        <div class="row">
+            <h2>General Workflow</h2>
+            <div class="row">
+                <div class = "col-lg-12" align="center" >
+                    <img src="/static/images/GraphicalAbstract.png" class="img-rounded" alt="network" height="900" width="1100" >
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h3>How selective IMLs are toward pairs of modules</h3>
+            <ul>
+                <li>
+                    <p>
+                        Here we are trying to explore whether linkers tend to bind multiple pairs of
+                        modules (universal linkers) or every unique linker binds a specific pair of modules.
+                        Clustering of the ~38k extracted inter-modular linkers (IMLs) using the UCLUST clustering
+                        algorithm (<a href="https://www.ncbi.nlm.nih.gov/pubmed/20709691" target="_blank">Edgar RC.</a>),
+                        have shown that the data comprise of 3,916 unique linkers (centroids/clusters).
+                        3,616 IMLs were found to be associated with only a single pair of modules,
+                        while the remaining 300 linkers tend to bind multiple distinct pairs of modules
+                        (ranging between 2 and up to 13 unique pairs) (<b>Fig. 1</b>).
+                    </p>
+                </li>
+            </ul>
+            <br>
+            <div class="row">
+                <div class = "col-lg-12">
+                    <figure>
+                        <img src="/static/images/selec_part1.png" class="img-rounded" alt="selectivity" height="350" width="500" >
+                        <img src="/static/images/selecPart2.png" class="img-rounded" alt="selectivity" height="300" width="400" >
 
-{#             ######### The left panel ##############}
-
-   <div class="col-sm-6 header">
-        <h2 class="text-muted">1) Compare linkers within a single spieces</h2>
-        <form name="form1"  method='post' action={{ url_for('getNet1') }}>
-            <label for="db">Choose your database:</label>
-            <select required  name="db">
-                <option value="">none</option>
-                    {% for l in db_a %}
-                        <option value={{ l }}>{{l}}</option>
-                    {% endfor %}
-            </select>
-            <label for="species">Choose spieces:</label>
-            <select required name="species">
-                <option value="">none</option>
-                    {% for sp in species_a %}
-                        <option value={{ sp }}>{{sp}}</option>
-                    {% endfor %}
-            </select>
-            <div align="left"><input type="submit" onclick="loading22()"/></div>
-        </form>
+                        <br>
+                        <br>
+                        <figcaption style="width: 70%"><b>Fig. 1 - Linkers universality:</b> Only 8% of all extracted inter-modular linkers (IMLs) tend to bridge multiple pairs of modules, while the remaining 92% binds specifically to just a single pair of modules. Revealing the high selectivity nature of linkers towards pairs of modules.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
         <br>
-        <div class="warningsBlock"> {% block warning1 %} {% endblock %} </div>
+        <div class="row">
+            <ul>
+                <li>
+                    <p>
+                        In order to establish a more rigorous case about our previous analysis,
+                        we decided to create a graph with 993 Inter-modular linkers extracted from
+                        the species Mycobacterium Abscessus. The nodes of the graph represent the linkers
+                        and edges are constructed between nodes, that share at least 80% pairwise sequence similarity.
+                        After constructing the graph, we applied Louvain community detection algorithm(<a href="https://arxiv.org/abs/0803.0476" target="_blank">Vincent D. Blondel et.al</a>).
+                        The algorithm was able to detect 9 distinct communities. Each community consists
+                        of linkers that links specifically a single pair of modules. For simplicity purposes,
+                        a pair of modules are represented by their activated substrates (e.g. Ser-Linker-Ala --> Ser-Ala) (<b>Fig. 2</b>).
+                    </p>
+                </li>
+            </ul>
+            <br>
+            <div class="row">
+                <div class = "col-lg-10">
+                    <figure>
+                        <img src="/static/images/selectivity_network.png" class="img-rounded" alt="selectivity" height="450" width="650" >
+                        <br>
+                    </figure>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class = "col-lg-10">
+                    <figure>
+                        <img src="/static/images/community.png" class="img-rounded" alt="selectivity" height="250" width="450" style="margin-right: -1000px">
+                        <br>
+                        <br>
+                        <figcaption style="width: 72%"><b>Fig. 2 - Mycobacterium Abscessus module-specific IMLs:</b> (A) Community network, where nodes refer to linkers, and edges are constructed between two linkers, if they share 80% sequence similarity. The graph depicts nine distinct communities. Each community represents all the linkers that bind a specific pair of modules. For instance, the orange community refers to all linkers that bind the pair of modules that activate phenylalanine and tyrosine, respectively. (B) Metadata of the community network, showing: The size of each community, number of unique and redundant BGCs from which the IMLs were extracted. For instance, the orange community refers to all linkers that bind Phenylalanine and Tyrosine.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        </br>
+        <p>
+        <h4>Conclusion:</h4> From the aboved mentioned analyses we concluded, that Linkers are highly selective towards pairs of modules and they do not link them randomly.
+        </p>
+        <div class="row">
+            <h3>How conserved are IMLs within and across species:</h3>
+            <p>
+                Our analysis so far indicates that IMLs are very selective towards module pairs. Here, we ask whether pairs of modules tend to be linked by the same linker regardless of the bacterial species they were obtained from. We conducted an all-by-all comparison of module pairs vs. genera (computing the degree of conservation of IMLs linking a specific module pair both within and across genera) and then built a community network to visualize the phylogenetic distributions of IMLs that link the same module pair. We then constructed a community network visualization to illustrate the phylogenetic specificity of IMLs.  We took all of the Thr-Val IMLs obtained across all species and created a graph where again the nodes represent IMLs and edges are drawn only between nodes that share at least 80% sequence similarity (Figure 8). After applying the Louvain community detection algorithm to this data, the nodes were colored based on the bacterial species they were obtained from. If IMLs were globally conserved across many bacterial species, we would have expected to obtain a single large community network with multi-colored nodes. If instead IMLs were conserved within a single bacterial species, we would expect multiple distinct communities to be detected, where nodes within each community had the same color. The data indicate that the latter is the case, and that there is some phylogenetic specificity to IMLs (<b>Fig. 3</b>)
+            </p>
+
+            <br>
+           <div class="row">
+                <div class = "col-lg-10">
+                    <figure>
+                        <img src="/static/images/thr-val.png" class="img-rounded" alt="conservation" height="550" width="800" >
+                        <figcaption style="width: 72%"><b>Fig. 3 - (Thr- Val) IMLs community network:</b> A network of all the linkers that bridge pair of modules (Thr-Val). These linkers belong to various distinct communities, despite the fact that they are all linking the same pair of modules. The coloring of the graph refers to the species from which linkers were extracted.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <br>
+        <p>
+        <h4>Conclusion:</h4> Linkers of the same pair of modules across all species belong to various communities. These findings indicate that module-specific IMLs tend to be more conserved within bacterial genera, whereas multiple distinct IMLs exist that link the same module pair across different genera
+        </p>
     </div>
-{#             ######### The right panel ##############}
-
-     <div class="col-sm-6 header" >
-        <h2 class="text-muted">2) Compare linkers across >= 2 spieces</h2>
-        <form name="form2"  method='post' action={{ url_for('getNet2') }}>
-            <label for="db2">Choose your database:</label>
-            <select required name="db2">
-                <option value="">none</option>
-                    {% for l in db_a %}
-                        <option value={{ l }}>{{l}}</option>
-                    {% endfor %}
-            </select>
-            <label for="species2">Choose spieces:</label>
-            <select required multiple name="species2">
-                    {% for sp in species_a %}
-                        <option value={{ sp }}>{{sp}}</option>
-                    {% endfor %}
-            </select>
-            <div align="left"><input type="submit" onclick="loading22()"/></div>
-        </form>
-        <div class="warningsBlock"> {% block warning2 %} {% endblock %} </div>
-    </div>
-
-</div>
-    <hr>
-    <hr>
-{# ############# This is the bottom Part ##############}
-<div class="row">
-
-{#             ######### The left panel ##############}
-
-     <div class="col-sm-6 header" >
-        <h2 class="text-muted">3) Compare a single linker across >= 2 spieces</h2>
-        <form name="form3"  method='post' action={{ url_for('getNet3') }}>
-            <label for="db3">Choose your database:</label>
-            <select required  name="db3">
-                <option value="">none</option>
-                    {% for l in db_a %}
-                        <option value={{ l }}>{{l}}</option>
-                    {% endfor %}
-            </select>
-
-            <label for="a1">Choose A1:</label>
-            <select required  name="a1">
-                <option value="">none</option>
-                    {% for a in a1 %}
-                        <option value={{ a }}>{{a}}</option>
-                    {% endfor %}
-            </select>
-
-            <label for="a2">Choose A2:</label>
-            <select required  name="a2">
-                <option value="">none</option>
-                    {% for a in a2 %}
-                        <option value={{ a }}>{{a}}</option>
-                    {% endfor %}
-            </select>
-
-            <label for="species3">Choose spieces:</label>
-            <select multiple required name="species3">
-                    {% for sp in species_a %}
-                        <option value={{ sp }}>{{sp}}</option>
-                    {% endfor %}
-            </select>
-            <div align="left"><input type="submit" onclick="loading22()"/></div>
-        </form>
-         <div class="warningsBlock">
-                {% block warning3 %} {% endblock %}
-         </div>
-    </div>
-{#             ######### The right panel ##############}
-
-    <div class="col-sm-6 header" >
-        <h2 class="text-muted">4) Compare >=2 linkers across >= 2 spieces</h2>
-        <form name="form4"  method='post' action={{ url_for('getNet4') }}>
-            <label for="db4">Choose your database:</label>
-            <select required  name="db4">
-                <option value="">none</option>
-                    {% for l in db_a %}
-                        <option value={{ l }}>{{l}}</option>
-                    {% endfor %}
-            </select>
-
-            <label for="a1">Choose A1:</label>
-            <select multiple required  name="a1">
-                <option value="">none</option>
-                    {% for a in a1_a %}
-                        <option value={{ a }}>{{a}}</option>
-                    {% endfor %}
-            </select>
-
-            <label for="a2">Choose A2:</label>
-            <select multiple required  name="a2">
-                <option value="">none</option>
-                    {% for a in a2_a %}
-                        <option value={{ a }}>{{a}}</option>
-                    {% endfor %}
-            </select>
-
-            <label for="species4">Choose spieces:</label>
-            <select multiple required name="species4">
-                    {% for sp in species_a %}
-                        <option value={{ sp }}>{{sp}}</option>
-                    {% endfor %}
-            </select>
-            <div align="left"><input type="submit" onclick="loading22()"/></div>
-        </form>
-         <div class="warningsBlock">
-                {% block warning4 %} {% endblock %}
-         </div>
-    </div>
-</div>
 {% endblock %}
-
-{# ####################################################################### ALternative ################################################################}
-
-{#{% block content %}
-
-     #}{# ######### Panel 1 ##############}{#
-<div class="row">
-    <div class="col-sm-12 header">
-        <h2 class="text-muted">1) Compare linkers within a single spieces</h2>
-        <form name="form1"  method='post' action={{ url_for('getNet1') }}>
-            <label for="db">Choose your database:</label>
-            <select required  name="db">
-                <option value="">none</option>
-                    {% for l in db_a %}
-                        <option value={{ l }}>{{l}}</option>
-                    {% endfor %}
-            </select>
-            <label for="species">Choose spieces:</label>
-            <select required name="species">
-                <option value="">none</option>
-                    {% for sp in species_a %}
-                        <option value={{ sp }}>{{sp}}</option>
-                    {% endfor %}
-            </select>
-            <div align="left"><input type="submit"/></div>
-        </form>
-        <br>
-        <div class="warningsBlock"> {% block warning1 %} {% endblock %} </div>
-    </div>
-</div>
- <hr>
-    #}{# ######### Panel 2 ##############}{#
-<div class="row">
-    <div class="col-sm-12 header" >
-        <h2 class="text-muted">2) Compare linkers across >= 2 spieces</h2>
-        <form name="form2"  method='post' action={{ url_for('getNet2') }}>
-            <label for="db2">Choose your database:</label>
-            <select required name="db2">
-                <option value="">none</option>
-                    {% for l in db_a %}
-                        <option value={{ l }}>{{l}}</option>
-                    {% endfor %}
-            </select>
-            <label for="species2">Choose spieces:</label>
-            <select required multiple name="species2">
-                    {% for sp in species_a %}
-                        <option value={{ sp }}>{{sp}}</option>
-                    {% endfor %}
-            </select>
-            <div align="left"><input type="submit"/></div>
-        </form>
-        <div class="warningsBlock"> {% block warning2 %} {% endblock %} </div>
-    </div>
-</div>
-<hr>
-#}{# ######### Panel 3 ##############}{#
-<div class="row">
-    <div class="col-sm-12 header" >
-        <h2 class="text-muted">3) Compare a single linker across >= 2 spieces</h2>
-        <form name="form3"  method='post' action={{ url_for('getNet3') }}>
-            <label for="db3">Choose your database:</label>
-            <select required  name="db3">
-                <option value="">none</option>
-                    {% for l in db_a %}
-                        <option value={{ l }}>{{l}}</option>
-                    {% endfor %}
-            </select>
-
-            <label for="a1">Choose A1:</label>
-            <select required  name="a1">
-                <option value="">none</option>
-                    {% for a in a1 %}
-                        <option value={{ a }}>{{a}}</option>
-                    {% endfor %}
-            </select>
-
-            <label for="a2">Choose A2:</label>
-            <select required  name="a2">
-                <option value="">none</option>
-                    {% for a in a2 %}
-                        <option value={{ a }}>{{a}}</option>
-                    {% endfor %}
-            </select>
-
-            <label for="species3">Choose spieces:</label>
-            <select multiple required name="species3">
-                    {% for sp in species_a %}
-                        <option value={{ sp }}>{{sp}}</option>
-                    {% endfor %}
-            </select>
-            <div align="left"><input type="submit"/></div>
-        </form>
-         <div class="warningsBlock">
-                {% block warning3 %} {% endblock %}
-         </div>
-    </div>
-</div>
- <hr>
-    #}{# ######### Panel 4 ##############}{#
-<div class="row">
-    <div class="col-sm-12 header" >
-        <h2 class="text-muted">4) Compare >=2 linkers across >= 2 spieces</h2>
-        <form name="form4"  method='post' action={{ url_for('getNet4') }}>
-            <label for="db4">Choose your database:</label>
-            <select required  name="db4">
-                <option value="">none</option>
-                    {% for l in db_a %}
-                        <option value={{ l }}>{{l}}</option>
-                    {% endfor %}
-            </select>
-
-            <label for="a1">Choose A1:</label>
-            <select multiple required  name="a1">
-                <option value="">none</option>
-                    {% for a in a1_a %}
-                        <option value={{ a }}>{{a}}</option>
-                    {% endfor %}
-            </select>
-
-            <label for="a2">Choose A2:</label>
-            <select multiple required  name="a2">
-                <option value="">none</option>
-                    {% for a in a2_a %}
-                        <option value={{ a }}>{{a}}</option>
-                    {% endfor %}
-            </select>
-
-            <label for="species4">Choose spieces:</label>
-            <select multiple required name="species4">
-                    {% for sp in species_a %}
-                        <option value={{ sp }}>{{sp}}</option>
-                    {% endfor %}
-            </select>
-            <div align="left"><input type="submit"/></div>
-        </form>
-         <div class="warningsBlock">
-                {% block warning4 %} {% endblock %}
-         </div>
-    </div>
-</div>
-{% endblock %}#}
 
 
 {% block footer %} {{super()}} {% endblock %}
-
-

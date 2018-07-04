@@ -17,15 +17,15 @@
             </tr>
             <tr>
                 <th>Number of Inter-Modular Linkers</th>
-                <td>586</td>
+                <td>586, 902<sup><font color="red">*</font></sup></td>
             </tr>
             <tr>
                 <th>Number of Unique Inter-Modular Linkers</th>
-                <td>557</td>
+                <td>556, 859<sup><font color="red">*</font></sup></td>
             </tr>
             <tr>
                 <th>Number of unique Adenylation Domain Substrate Pairs</th>
-                <td>185</td>
+                <td>182, 224<sup><font color="red">*</font></sup></td>
             </tr>
         </table>
         </div>
@@ -43,7 +43,7 @@
             <table class="table table-striped ">
                 <tr>
                     <th>Number of NCBI RefSeq Bacterial Genomes</th>
-                    <td>39205</td>
+                    <td>39232</td>
                 </tr>
                 <tr>
                     <th>Number of NRP Biosynthetic Gene Clusters</th>
@@ -51,17 +51,17 @@
                 </tr>
                 <tr>
                     <th>Number of Inter-Modular Linkers</th>
-                    <td>17454</td>
+                    <td>17445, 38902<sup><font color="red">*</font></sup></td>
                 </tr>
 
                 <tr>
                     <th>Number of Unique Inter-Modular Linkers</th>
-                    <td>8143</td>
+                    <td>8143, 12905<sup><font color="red">*</font></sup></td>
                 </tr>
 
                 <tr>
                     <th>Number of Unique Adenylation Domain Substrate Pairs</th>
-                    <td>352</td>
+                    <td>352, 398<sup><font color="red">*</font></sup></td>
                 </tr>
             </table>
          </div>
@@ -73,6 +73,21 @@
              </figure>
         </div>
     </div>
+    <br>
+    <br>
+    <div class="row">
+             <div class = "col-sm-12">
+                 <p>
+                     * Our tool processes non-ribosomal peptide biosynthetic gene clusters after being identified using the <a href="https://antismash.secondarymetabolites.org/#!/start">AntiSMASH tool</a>.
+                     In the process of scanning and identifying NRP BGCs, AntiSMASH uses three algorithms to predict the specificity of the NRPS adenylation domain
+                     (<a href="https://www.ncbi.nlm.nih.gov/pubmed/17400247">Minowa .et.al</a>, <a href="https://www.ncbi.nlm.nih.gov/pubmed/21558170" target="_blank">Roettig, M et.al</a>,
+                     <a href="https://www.ncbi.nlm.nih.gov/pubmed/10421756" target="_blank">Stachelhaus et.al</a>). If all three algorithms agree on the same predicted substrate then it will be used as the substrate of choice by AntiSMASH,
+                     otherwise, AntiSMASH uses the term 'nrp' for all unidentified NRPS substrates. Hence, some IMLs may look as follows (e.g Ala-linker-Ser), if both substrates are well identified, others will look like (nrp-linker-Ser)
+                     or even sometimes (nrp-linker-nrp), with one or two unidentified substrates. Thus under each Data (MIBiG and NCBI), there are two tables, one where all linkers are included (larger data) and the other one lacks all "nrp containing linkers" (smaller data).
+                 </p>
+             </div>
+        </div>
+    </div>
 </div>
 
 {% endblock %}
@@ -80,5 +95,3 @@
 
 
 {% block footer %} {{super()}} {% endblock %}
-
-

@@ -10,8 +10,8 @@
 
         <script src="https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap.min.js"></script>
 
-               {########## Add export table based on http://demos.w3lessons.info/jquery-table-export #############}
-        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/tableExport.js"></script>
+               <!-- {########## Add export table based on http://demos.w3lessons.info/jquery-table-export #############} -->
+        <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/tableExport_edited.js"></script>
         <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/jquery.base64.js"></script>
         <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/html2canvas.js"></script>
         <script type="text/javascript" src="../static/js/tableExport.jquery.plugin-master/jspdf/jspdf.js"></script>
@@ -52,12 +52,11 @@
 </div>
 <div class="row page">
     <div class="col-sm-12">
-       <h6>Export Data:
-       <a href="#" class="glyphicon-bullhorn" onclick="$('table').tableExport({type:'csv',escape:'false'});"><img src="https://demos.w3lessons.info/assets/images/icons/csv.png" width="24"> CSV</a>
-       <a href="#" class="glyphicon-bullhorn" onclick="$('table').tableExport({type:'json',escape:'false'});"><img src="https://demos.w3lessons.info/assets/images/icons/json.png" width="24"> JSON</a>
-       <a href="#" class="glyphicon-bullhorn" onclick="$('table').tableExport({type:'excel',escape:'false'});"><img src="https://demos.w3lessons.info/assets/images/icons/xls.png" width="24"> XLS</a>
-
-       </h6>
+       <h5>Export Data:
+         <a href="#" onclick="$('table').tableExport({type:'csv', escape:'false', tableName:'MIBigSubSet'});"><img src="/static/images/csv_logo.png" width="24"> CSV</a>
+         <!-- <a href="#" onclick="$('table').tableExport({type:'json',escape:'false'});"><img src="/static/images/json.png" width="24"> JSON</a> -->
+         <!-- <a href="#" onclick="$('table').tableExport({type:'excel',escape:'false'});"><img src="/static/images/xls.png" width="24"> XLS</a> -->
+       </h5>
     </div>
  </div><br>
 <div class="row">
