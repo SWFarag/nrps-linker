@@ -1,3 +1,12 @@
+__author__ = "Sherif Farag"
+__copyright__ = "Copyright 2017, The NRPS-Linker"
+__credits__ = ["Sherif Farag", "Iva Farag"]
+__license__ = "GPL"
+__version__ = "1.0.1"
+__maintainer__ = "Sherif Farag"
+__email__ = "farags@email.unc.edu"
+__status__ = "Production"
+
 from werkzeug.utils import secure_filename
 import atca_parser_latest
 import atca_parser_latest_anti4
