@@ -30,3 +30,7 @@ To run from the command-line, just do:
 ## Questions and Comments
 
 Feel free to direct any questions or comments to the Issues page of the repository.
+
+## License
+
+See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
