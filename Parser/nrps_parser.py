@@ -1,7 +1,7 @@
 __author__ = "Sherif Farag"
-__copyright__ = "Copyright 2017, The NRPS-Linker"
+__copyright__ = "Copyright 2017, Sherif Farag"
 __credits__ = ["Sherif Farag", "Iva Farag"]
-__license__ = "GPL"
+__license__ = "MIT"
 __version__ = "1.0.1"
 __maintainer__ = "Sherif Farag"
 __email__ = "farags@email.unc.edu"
