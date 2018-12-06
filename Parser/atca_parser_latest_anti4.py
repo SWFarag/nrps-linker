@@ -41,6 +41,14 @@ class NrpParser:
         res= aa.group()
         if res=="all": res="nrp"
         return res
+    
+    def purfiyA_domain_ks(self, A_domain):
+        print (A_domain)
+        searchObj = re.search('.{4}\(consensus\)', A_domain, re.M | re.I)
+        aa = re.search('\w{3}', searchObj.group(), re.M | re.I)
+        res= aa.group()
+        if res=="all": res="nrp"
+        return res
 
     def purfiyT_domain(self, T_domain):
         searchObj = re.search('-\d+', T_domain, re.M | re.I)
@@ -81,7 +89,7 @@ class NrpParser:
                 continue
 
             if ("PKS_AT" in domain):
-                aa = self.purfiyA_domain(domain)
+                aa = self.purfiyA_domain_ks(domain)
                 pos_as = self.purfiyPos(domain)
                 tu = (aa, pos_as)
                 chunk_list.append(tu)
@@ -140,7 +148,7 @@ class NrpParser:
                 continue
 
             if ("PKS_AT" in domain):
-                aa = self.purfiyA_domain(domain)
+                aa = self.purfiyA_domain_ks(domain)
                 chunk_list.append(aa)
                 continue
         return chunk_list
