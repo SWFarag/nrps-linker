@@ -24,7 +24,7 @@ Install the dependencies by entering:
 
 To run from the command-line, just do:
 
-    $ pyton wsgi.py
+    $ python wsgi.py
 
 
 ## Questions and Comments
